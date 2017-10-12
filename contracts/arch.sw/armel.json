@@ -1,0 +1,16 @@
+{
+  "slug": "armel",
+  "version": "1",
+  "type": "arch.sw",
+  "name": "ARM v6",
+  "requires": [
+    {
+      "or": [
+        { "type": "hw.device-type", "arch": "armel" },
+        { "type": "hw.device-type", "arch": "rpi" },
+        { "type": "hw.device-type", "arch": "armv7hf" },
+        { "type": "hw.device-type", "arch": "aarch64" }
+      ]
+    }
+  ]
+}

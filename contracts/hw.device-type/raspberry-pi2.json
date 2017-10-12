@@ -1,0 +1,13 @@
+{
+  "slug": "raspberry-pi2",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "Raspberry Pi 2",
+  "arch": "armv7hf",
+  "storage": {
+    "internal": false
+  },
+  "media": {
+    "installation": "sdcard"
+  }
+}

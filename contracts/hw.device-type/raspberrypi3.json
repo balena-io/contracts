@@ -1,0 +1,13 @@
+{
+  "slug": "raspberrypi3",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "Raspberry Pi 3",
+  "arch": "armv7hf",
+  "storage": {
+    "internal": false
+  },
+  "media": {
+    "installation": "sdcard"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "beaglebone-black",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "BeagleBone Black",
+  "arch": "armv7hf",
+  "storage": {
+    "internal": true
+  },
+  "media": {
+    "installation": "sdcard"
+  }
+}

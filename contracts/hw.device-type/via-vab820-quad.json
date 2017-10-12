@@ -1,0 +1,13 @@
+{
+  "slug": "via-vab820-quad",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "VIA vab820",
+  "arch": "armv7hf",
+  "storage": {
+    "internal": true
+  },
+  "media": {
+    "installation": "sdcard"
+  }
+}

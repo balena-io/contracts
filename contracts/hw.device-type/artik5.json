@@ -1,0 +1,13 @@
+{
+  "slug": "artik5",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "Samsung Artik 5",
+  "arch": "armv7hf",
+  "storage": {
+    "internal": false
+  },
+  "media": {
+    "installation": "sdcard"
+  }
+}

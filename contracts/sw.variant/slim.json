@@ -1,0 +1,23 @@
+{
+  "slug": "slim",
+  "version": "1",
+  "type": "sw.variant",
+  "name": "Slim",
+  "requires": [
+    {
+      "or": [
+        { "type": "sw.os", "slug": "fedora" },
+        { "type": "sw.os", "slug": "debian" },
+        { "type": "sw.os", "slug": "raspbian" },
+        { "type": "sw.os", "slug": "alpine" }
+      ]
+    },
+    {
+      "or": [
+        { "type": "sw.stack", "slug": "go" },
+        { "type": "sw.stack", "slug": "nodejs" },
+        { "type": "sw.stack", "slug": "python" }
+      ]
+    }
+  ]
+}

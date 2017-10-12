@@ -1,0 +1,14 @@
+{
+  "slug": "armv7hf",
+  "version": "1",
+  "type": "arch.sw",
+  "name": "ARM v7",
+  "requires": [
+    {
+      "or": [
+        { "type": "hw.device-type", "arch": "armv7hf" },
+        { "type": "hw.device-type", "arch": "aarch64" }
+      ]
+    }
+  ]
+}

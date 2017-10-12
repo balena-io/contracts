@@ -1,0 +1,20 @@
+{
+  "slug": "jdk",
+  "version": "1",
+  "type": "sw.variant",
+  "name": "JDK",
+  "requires": [
+    {
+      "or": [
+        { "type": "sw.os", "slug": "fedora" },
+        { "type": "sw.os", "slug": "debian" },
+        { "type": "sw.os", "slug": "raspbian" },
+        { "type": "sw.os", "slug": "alpine" }
+      ]
+    },
+    {
+      "type": "sw.stack",
+      "slug": "java"
+    }
+  ]
+}

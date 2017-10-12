@@ -1,0 +1,13 @@
+{
+  "slug": "apalis-imx6q",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "Toradex Apalis",
+  "arch": "armv7hf",
+  "storage": {
+    "internal": false
+  },
+  "media": {
+    "installation": "sdcard"
+  }
+}

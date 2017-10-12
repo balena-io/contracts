@@ -1,0 +1,13 @@
+{
+  "slug": "nitrogen6x",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "Nitrogen 6x",
+  "arch": "armv7hf",
+  "storage": {
+    "internal": false
+  },
+  "media": {
+    "installation": "sdcard"
+  }
+}

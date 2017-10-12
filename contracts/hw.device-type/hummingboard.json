@@ -1,0 +1,13 @@
+{
+  "slug": "hummingboard",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "Hummingboard",
+  "arch": "armv7hf",
+  "storage": {
+    "internal": false
+  },
+  "media": {
+    "installation": "sdcard"
+  }
+}

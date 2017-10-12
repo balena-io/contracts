@@ -1,0 +1,13 @@
+{
+  "slug": "cybertan-ze250",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "Cybertan ze250",
+  "arch": "i386",
+  "storage": {
+    "internal": false
+  },
+  "media": {
+    "installation": "usbkey"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "qemux86-64",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "QEMU x86-64",
+  "arch": "amd64",
+  "storage": {
+    "internal": false
+  },
+  "media": {
+    "installation": "image"
+  }
+}

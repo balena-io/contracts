@@ -1,0 +1,13 @@
+{
+  "slug": "intel-edison",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "Intel Edison",
+  "arch": "i386",
+  "storage": {
+    "internal": true
+  },
+  "media": {
+    "installation": "dfu"
+  }
+}

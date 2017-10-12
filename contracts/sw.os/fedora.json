@@ -1,0 +1,36 @@
+{
+  "slug": "fedora",
+  "type": "sw.os",
+  "libc": "glibc",
+  "name": "Fedora {{version}}",
+  "requires": [
+    { "type": "sw.blob", "slug": "tini" },
+    { "type": "sw.blob", "slug": "resin-xbuild" }
+  ],
+  "variants": [
+    {
+      "variants": [
+        { "version": "24" },
+        { "version": "25" }
+      ],
+      "requires": [
+        { "type": "sw.blob", "slug": "qemu" },
+        {
+          "or": [
+            { "type": "arch.sw", "slug": "armv7hf" },
+            { "type": "arch.sw", "slug": "aarch64" }
+          ]
+        }
+      ]
+    },
+    {
+      "variants": [
+        { "version": "24" },
+        { "version": "25" }
+      ],
+      "requires": [
+        { "type": "arch.sw", "slug": "amd64" }
+      ]
+    }
+  ]
+}

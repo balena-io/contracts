@@ -1,0 +1,14 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "description": "Resin.io Base Contracts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:resin-io/contracts.git"
+  },
+  "scripts": {
+    "test": "node scripts/check-contracts.js"
+  },
+  "author": "Resin Inc. <hello@resin.io>",
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "intel-nuc",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "Intel NUC",
+  "arch": "amd64",
+  "storage": {
+    "internal": true
+  },
+  "media": {
+    "installation": "usbkey"
+  }
+}

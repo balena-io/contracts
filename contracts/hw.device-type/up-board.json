@@ -1,0 +1,13 @@
+{
+  "slug": "up-board",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "UP Board",
+  "arch": "amd64",
+  "storage": {
+    "internal": false
+  },
+  "media": {
+    "installation": "usbkey"
+  }
+}
