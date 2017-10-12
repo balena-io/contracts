@@ -34,6 +34,6 @@ for (const contract of utils.readContracts()) {
   }
 }
 
-if (!success)  {
+if (!success) {
   process.exit(1)
 }

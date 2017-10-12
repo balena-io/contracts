@@ -1,6 +1,8 @@
 Resin.io Base Contracts
 =======================
 
+[![CircleCI](https://circleci.com/gh/resin-io/contracts/tree/master.svg?style=svg)](https://circleci.com/gh/resin-io/contracts/tree/master)
+
 The collection of contracts and partials across the resin.io system.
 
 Contracts
