@@ -4,6 +4,9 @@
   "type": "hw.device-type",
   "name": "ODroid XU4",
   "arch": "armv7hf",
+  "connectivity": {
+    "bluetooth": false
+  },
   "storage": {
     "internal": false
   },

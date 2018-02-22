@@ -4,6 +4,9 @@
   "type": "hw.device-type",
   "name": "Intel Edison",
   "arch": "i386",
+  "connectivity": {
+    "bluetooth": false
+  },
   "storage": {
     "internal": true
   },

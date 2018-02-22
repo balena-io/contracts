@@ -4,6 +4,9 @@
   "type": "hw.device-type",
   "name": "Toradex Colibri",
   "arch": "armv7hf",
+  "connectivity": {
+    "bluetooth": false
+  },
   "storage": {
     "internal": false
   },

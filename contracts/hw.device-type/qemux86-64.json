@@ -4,6 +4,9 @@
   "type": "hw.device-type",
   "name": "QEMU x86-64",
   "arch": "amd64",
+  "connectivity": {
+    "bluetooth": false
+  },
   "storage": {
     "internal": false
   },

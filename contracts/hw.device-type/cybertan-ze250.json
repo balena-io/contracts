@@ -4,6 +4,9 @@
   "type": "hw.device-type",
   "name": "Cybertan ze250",
   "arch": "i386",
+  "connectivity": {
+    "bluetooth": false
+  },
   "storage": {
     "internal": false
   },

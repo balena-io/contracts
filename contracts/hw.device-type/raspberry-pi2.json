@@ -4,6 +4,9 @@
   "type": "hw.device-type",
   "name": "Raspberry Pi 2",
   "arch": "armv7hf",
+  "connectivity": {
+    "bluetooth": false
+  },
   "storage": {
     "internal": false
   },

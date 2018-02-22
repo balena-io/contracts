@@ -4,6 +4,9 @@
   "type": "hw.device-type",
   "name": "QEMU x86",
   "arch": "i386",
+  "connectivity": {
+    "bluetooth": false
+  },
   "storage": {
     "internal": false
   },

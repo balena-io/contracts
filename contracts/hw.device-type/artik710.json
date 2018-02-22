@@ -4,6 +4,9 @@
   "type": "hw.device-type",
   "name": "Samsung Artik 710",
   "arch": "armv7hf",
+  "connectivity": {
+    "bluetooth": true
+  },
   "storage": {
     "internal": false
   },

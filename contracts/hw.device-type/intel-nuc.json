@@ -4,6 +4,9 @@
   "type": "hw.device-type",
   "name": "Intel NUC",
   "arch": "amd64",
+  "connectivity": {
+    "bluetooth": true
+  },
   "storage": {
     "internal": true
   },

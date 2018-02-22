@@ -4,6 +4,9 @@
   "type": "hw.device-type",
   "name": "CCON01",
   "arch": "armv7hf",
+  "connectivity": {
+    "bluetooth": false
+  },
   "storage": {
     "internal": false
   },

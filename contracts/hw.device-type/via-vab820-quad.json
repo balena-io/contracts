@@ -4,6 +4,9 @@
   "type": "hw.device-type",
   "name": "VIA vab820",
   "arch": "armv7hf",
+  "connectivity": {
+    "bluetooth": true
+  },
   "storage": {
     "internal": true
   },

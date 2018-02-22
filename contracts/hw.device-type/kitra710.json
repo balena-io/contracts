@@ -4,6 +4,9 @@
   "type": "hw.device-type",
   "name": "Kitra 710",
   "arch": "armv7hf",
+  "connectivity": {
+    "bluetooth": true
+  },
   "storage": {
     "internal": false
   },
