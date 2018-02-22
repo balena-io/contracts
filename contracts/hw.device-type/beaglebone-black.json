@@ -4,6 +4,7 @@
   "type": "hw.device-type",
   "name": "BeagleBone Black",
   "arch": "armv7hf",
+  "hdmi": true,
   "connectivity": {
     "bluetooth": false
   },

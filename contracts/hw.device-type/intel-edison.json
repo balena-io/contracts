@@ -4,6 +4,7 @@
   "type": "hw.device-type",
   "name": "Intel Edison",
   "arch": "i386",
+  "hdmi": false,
   "connectivity": {
     "bluetooth": false
   },

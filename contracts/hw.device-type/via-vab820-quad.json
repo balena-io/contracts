@@ -4,6 +4,7 @@
   "type": "hw.device-type",
   "name": "VIA vab820",
   "arch": "armv7hf",
+  "hdmi": true,
   "connectivity": {
     "bluetooth": true
   },

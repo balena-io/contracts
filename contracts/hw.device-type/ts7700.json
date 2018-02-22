@@ -4,6 +4,7 @@
   "type": "hw.device-type",
   "name": "Technologic TS-7700",
   "arch": "armel",
+  "hdmi": true,
   "connectivity": {
     "bluetooth": false
   },

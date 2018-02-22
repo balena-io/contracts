@@ -4,6 +4,7 @@
   "type": "hw.device-type",
   "name": "Cybertan ze250",
   "arch": "i386",
+  "hdmi": true,
   "connectivity": {
     "bluetooth": false
   },

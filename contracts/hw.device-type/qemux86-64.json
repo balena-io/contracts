@@ -4,6 +4,7 @@
   "type": "hw.device-type",
   "name": "QEMU x86-64",
   "arch": "amd64",
+  "hdmi": true,
   "connectivity": {
     "bluetooth": false
   },

@@ -4,6 +4,7 @@
   "type": "hw.device-type",
   "name": "Raspberry Pi (1, Zero, Zero W)",
   "arch": "rpi",
+  "hdmi": true,
   "connectivity": {
     "bluetooth": true
   },

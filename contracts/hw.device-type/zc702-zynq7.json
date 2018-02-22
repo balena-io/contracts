@@ -4,6 +4,7 @@
   "type": "hw.device-type",
   "name": "Zynq zc702",
   "arch": "armv7hf",
+  "hdmi": true,
   "connectivity": {
     "bluetooth": false
   },

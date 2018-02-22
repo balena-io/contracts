@@ -4,6 +4,7 @@
   "type": "hw.device-type",
   "name": "Dart",
   "arch": "armv7hf",
+  "hdmi": false,
   "connectivity": {
     "bluetooth": false
   },

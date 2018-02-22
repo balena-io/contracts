@@ -4,6 +4,7 @@
   "type": "hw.device-type",
   "name": "UP Board",
   "arch": "amd64",
+  "hdmi": true,
   "connectivity": {
     "bluetooth": false
   },
