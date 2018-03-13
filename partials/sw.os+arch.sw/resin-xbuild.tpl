@@ -1,5 +1,5 @@
 RUN curl -SLO "{{sw.blob.resin-xbuild.assets.bin.url}}" \
-  && echo "{{sw.blob.resin-xbuild.assets.bin.checksum}}" | sha256sum -c - \
+  && echo "{{sw.blob.resin-xbuild.assets.bin.checksum}}  {{sw.blob.resin-xbuild.assets.bin.name}}" | sha256sum -c - \
   && tar -xzf "{{sw.blob.resin-xbuild.assets.bin.name}}" \
   && rm "{{sw.blob.resin-xbuild.assets.bin.name}}" \
   && chmod +x {{sw.blob.resin-xbuild.assets.bin.main}} \
