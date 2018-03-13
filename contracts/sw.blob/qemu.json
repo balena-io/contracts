@@ -4,7 +4,8 @@
   "name": "QEMU v{{version}}",
   "assets": {
     "bin": {
-      "checksumType": "sha256"
+      "checksumType": "sha256",
+      "preInstall": true
     }
   },
   "variants": [
