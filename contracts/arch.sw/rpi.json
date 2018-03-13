@@ -2,7 +2,7 @@
   "slug": "rpi",
   "version": "1",
   "type": "arch.sw",
-  "name": "ARM v7",
+  "name": "ARM v6",
   "requires": [
     {
       "or": [
