@@ -1,0 +1,61 @@
+{
+  "slug": "entry",
+  "type": "sw.blob",
+  "name": "resin entry.sh script",
+  "version": "1.0.0",
+  "assets": {
+    "bin": {
+      "preInstall": true,
+      "main": "entry.sh"
+    }
+  },
+  "variants": [
+    {
+      "assets": {
+        "bin": {
+          "name": "entry-alpine.sh"
+        }
+      },
+      "requires": [
+        { "type": "sw.os", "slug": "alpine" }
+      ]
+    },
+    {
+      "assets": {
+        "bin": {
+          "name": "entry-no-systemd-debian.sh"
+        }
+      },
+      "requires": [
+        { "type": "sw.os", "slug": "debian", "version": "wheezy" }
+      ]
+    },
+    {
+      "assets": {
+        "bin": {
+          "name": "entry-systemd-debian.sh"
+        }
+      },
+      "requires": [
+        {
+          "or": [
+            { "type": "sw.os", "slug": "debian", "version": "jessie" },
+            { "type": "sw.os", "slug": "debian", "version": "sid" },
+            { "type": "sw.os", "slug": "debian", "version": "buster" },
+            { "type": "sw.os", "slug": "debian", "version": "stretch" }
+          ]
+        }
+      ]
+    },
+    {
+      "assets": {
+        "bin": {
+          "name": "entry-fedora.sh"
+        }
+      },
+      "requires": [
+        { "type": "sw.os", "slug": "fedora" }
+      ]
+    }
+  ]
+}

@@ -4,7 +4,8 @@
   "libc": "glibc",
   "requires": [
     { "type": "sw.blob", "slug": "tini" },
-    { "type": "sw.blob", "slug": "resin-xbuild" }
+    { "type": "sw.blob", "slug": "resin-xbuild" },
+    { "type": "sw.blob", "slug": "entry" }
   ],
   "variants": [
     {
