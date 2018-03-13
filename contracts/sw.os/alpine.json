@@ -11,17 +11,6 @@
     {
       "requires": [
         { "type": "sw.blob", "slug": "qemu" },
-        { "type": "arch.sw", "slug": "armhf" }
-      ],
-      "variants": [
-        { "version": "3.2" },
-        { "version": "3.3" },
-        { "version": "3.4" }
-      ]
-    },
-    {
-      "requires": [
-        { "type": "sw.blob", "slug": "qemu" },
         {
           "or": [
             { "type": "arch.sw", "slug": "armhf" },
@@ -30,8 +19,10 @@
         }
       ],
       "variants": [
+        { "version": "edge" },
         { "version": "3.5" },
-        { "version": "3.6" }
+        { "version": "3.6" },
+        { "version": "3.7" }
       ]
     },
     {
@@ -44,11 +35,10 @@
         }
       ],
       "variants": [
-        { "version": "3.2" },
-        { "version": "3.3" },
-        { "version": "3.4" },
+        { "version": "edge" },
         { "version": "3.5" },
-        { "version": "3.6" }
+        { "version": "3.6" },
+        { "version": "3.7" }
       ]
     }
   ]
