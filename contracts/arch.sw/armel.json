@@ -2,7 +2,7 @@
   "slug": "armel",
   "version": "1",
   "type": "arch.sw",
-  "name": "ARM v6",
+  "name": "ARM v5",
   "requires": [
     {
       "or": [
