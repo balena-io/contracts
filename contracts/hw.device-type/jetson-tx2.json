@@ -1,0 +1,7 @@
+{
+  "slug": "jetson-tx2",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "Nvidia Jetson TX2",
+  "arch": "aarch64"
+}

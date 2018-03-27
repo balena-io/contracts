@@ -1,0 +1,7 @@
+{
+  "slug": "generic-armv7ahf",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "Generic ARMV7AHF",
+  "arch": "armv7hf"
+}
