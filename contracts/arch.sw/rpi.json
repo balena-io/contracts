@@ -6,9 +6,7 @@
   "requires": [
     {
       "or": [
-        { "type": "hw.device-type", "arch": "rpi" },
-        { "type": "hw.device-type", "arch": "armv7hf" },
-        { "type": "hw.device-type", "arch": "aarch64" }
+        { "type": "hw.device-type", "arch": "rpi" }
       ]
     }
   ]
