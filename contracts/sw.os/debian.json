@@ -4,7 +4,8 @@
   "libc": "glibc",
   "requires": [
     { "type": "sw.blob", "slug": "tini" },
-    { "type": "sw.blob", "slug": "resin-xbuild" }
+    { "type": "sw.blob", "slug": "resin-xbuild" },
+    { "type": "sw.blob", "slug": "entry" }
   ],
   "variants": [
     {
@@ -34,6 +35,7 @@
       "variants": [
         { "version": "jessie", "name": "Debian Jessie" },
         { "version": "stretch", "name": "Debian Stretch" },
+        { "version": "buster", "name": "Debian Buster" },
         { "version": "sid", "name": "Debian Sid" }
       ]
     },
@@ -50,6 +52,7 @@
         { "version": "wheezy", "name": "Debian Wheezy" },
         { "version": "jessie", "name": "Debian Jessie" },
         { "version": "stretch", "name": "Debian Stretch" },
+        { "version": "buster", "name": "Debian Buster" },
         { "version": "sid", "name": "Debian Sid" }
       ]
     }
