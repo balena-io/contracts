@@ -5,6 +5,7 @@
   "name": "RushUp Kitra 520",
   "arch": "armv7hf",
   "hdmi": true,
+  "led": false,
   "connectivity": {
     "bluetooth": false
   },

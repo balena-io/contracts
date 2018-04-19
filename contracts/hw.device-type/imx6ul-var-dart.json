@@ -5,6 +5,7 @@
   "name": "Dart",
   "arch": "armv7hf",
   "hdmi": false,
+  "led": false,
   "connectivity": {
     "bluetooth": false
   },

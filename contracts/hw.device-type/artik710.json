@@ -5,6 +5,7 @@
   "name": "Samsung Artik 710",
   "arch": "armv7hf",
   "hdmi": true,
+  "led": true,
   "connectivity": {
     "bluetooth": true
   },

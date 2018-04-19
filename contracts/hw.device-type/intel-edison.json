@@ -5,6 +5,7 @@
   "name": "Intel Edison",
   "arch": "i386",
   "hdmi": false,
+  "led": false,
   "connectivity": {
     "bluetooth": false
   },

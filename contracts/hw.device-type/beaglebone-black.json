@@ -5,6 +5,7 @@
   "name": "BeagleBone Black",
   "arch": "armv7hf",
   "hdmi": true,
+  "led": true,
   "connectivity": {
     "bluetooth": false
   },

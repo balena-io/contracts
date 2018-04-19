@@ -5,6 +5,7 @@
   "name": "Samsung Artik 5",
   "arch": "armv7hf",
   "hdmi": true,
+  "led": false,
   "connectivity": {
     "bluetooth": true
   },

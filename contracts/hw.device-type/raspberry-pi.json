@@ -5,6 +5,7 @@
   "name": "Raspberry Pi (1, Zero, Zero W)",
   "arch": "rpi",
   "hdmi": true,
+  "led": true,
   "connectivity": {
     "bluetooth": true
   },
