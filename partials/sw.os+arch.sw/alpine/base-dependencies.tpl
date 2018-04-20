@@ -1,6 +1,7 @@
 RUN apk add --update \
   bash \
   ca-certificates \
+  curl \
   dbus \
   findutils \
   openrc \
