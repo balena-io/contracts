@@ -5,13 +5,15 @@
   "name": "Fedora {{version}}",
   "requires": [
     { "type": "sw.blob", "slug": "tini" },
-    { "type": "sw.blob", "slug": "resin-xbuild" }
+    { "type": "sw.blob", "slug": "resin-xbuild" },
+    { "type": "sw.blob", "slug": "entry" }
   ],
   "variants": [
     {
       "variants": [
         { "version": "24" },
-        { "version": "25" }
+        { "version": "25" },
+        { "version": "26" }
       ],
       "requires": [
         { "type": "sw.blob", "slug": "qemu" },
@@ -26,7 +28,8 @@
     {
       "variants": [
         { "version": "24" },
-        { "version": "25" }
+        { "version": "25" },
+        { "version": "26" }
       ],
       "requires": [
         { "type": "arch.sw", "slug": "amd64" }
