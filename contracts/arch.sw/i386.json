@@ -6,8 +6,7 @@
   "requires": [
     {
       "or": [
-        { "type": "hw.device-type", "arch": "i386" },
-        { "type": "hw.device-type", "arch": "amd64" }
+        { "type": "hw.device-type", "arch": "i386" }
       ]
     }
   ]
