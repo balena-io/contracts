@@ -13,7 +13,7 @@
       "assets": {
         "bin": {
           "name": "qemu-arm-static",
-          "url": "https://github.com/resin-io/qemu/releases/download/v2.9.0+resin1/qemu-{{version}}.tar.gz",
+          "url": "file://./assets/qemu-arm-static",
           "checksum": "b39d6a878c013abb24f4cccc7c3a79829546ae365069d5712142a4ad21bcb91b",
           "main": "qemu-arm-static"
         }
@@ -33,7 +33,7 @@
       "assets": {
         "bin": {
           "name": "qemu-aarch64-static",
-          "url": "https://github.com/resin-io/qemu/releases/download/v2.9.0+resin1/qemu-{{version}}.tar.gz",
+          "url": "file://./assets/qemu-aarch64-static",
           "checksum": "ebd9c4f4ab005f183b8d84b121b5b791c39c5a92013e590e00705e958c5b5c48",
           "main": "qemu-aarch64-static"
         }
