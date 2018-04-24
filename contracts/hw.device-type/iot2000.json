@@ -1,0 +1,17 @@
+{
+  "slug": "iot2000",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "Siemens IOT2000",
+  "arch": "i386",
+  "hdmi": true,
+  "connectivity": {
+    "bluetooth": false
+  },
+  "storage": {
+    "internal": false
+  },
+  "media": {
+    "installation": "sdcard"
+  }
+}
