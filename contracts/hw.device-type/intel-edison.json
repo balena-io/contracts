@@ -3,15 +3,19 @@
   "version": "1",
   "type": "hw.device-type",
   "name": "Intel Edison",
-  "arch": "i386",
-  "hdmi": false,
-  "connectivity": {
-    "bluetooth": false
+  "data": {
+    "arch": "i386",
+    "hdmi": false,
+    "connectivity": {
+      "bluetooth": false
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "installation": "dfu"
+    }
   },
-  "storage": {
-    "internal": true
-  },
-  "media": {
-    "installation": "dfu"
-  }
+  "requires": "",
+  "variants": ""
 }

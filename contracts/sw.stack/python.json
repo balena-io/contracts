@@ -2,6 +2,8 @@
   "slug": "python",
   "type": "sw.stack",
   "name": "Python {{version}}",
+  "version": "1",
+  "data": "",
   "requires": [
     {
       "or": [

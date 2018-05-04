@@ -3,6 +3,7 @@
   "version": "1",
   "type": "sw.variant",
   "name": "JRE",
+  "data": "",
   "requires": [
     {
       "or": [
@@ -16,5 +17,6 @@
       "type": "sw.stack",
       "slug": "java"
     }
-  ]
+  ],
+  "variants": ""
 }

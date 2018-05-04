@@ -3,15 +3,19 @@
   "version": "1",
   "type": "hw.device-type",
   "name": "Raspberry Pi (1, Zero, Zero W)",
-  "arch": "rpi",
-  "hdmi": true,
-  "connectivity": {
-    "bluetooth": true
+  "data": {
+    "arch": "rpi",
+    "hdmi": true,
+    "connectivity": {
+      "bluetooth": true
+    },
+    "storage": {
+      "internal": false
+    },
+    "media": {
+      "installation": "sdcard"
+    }
   },
-  "storage": {
-    "internal": false
-  },
-  "media": {
-    "installation": "sdcard"
-  }
+  "requires": "",
+  "variants": ""
 }

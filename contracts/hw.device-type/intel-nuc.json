@@ -3,15 +3,19 @@
   "version": "1",
   "type": "hw.device-type",
   "name": "Intel NUC",
-  "arch": "amd64",
-  "hdmi": true,
-  "connectivity": {
-    "bluetooth": true
+  "data": {
+    "arch": "amd64",
+    "hdmi": true,
+    "connectivity": {
+      "bluetooth": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "installation": "usbkey"
+    }
   },
-  "storage": {
-    "internal": true
-  },
-  "media": {
-    "installation": "usbkey"
-  }
+  "requires": "",
+  "variants": ""
 }

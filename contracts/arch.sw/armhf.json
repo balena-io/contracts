@@ -3,6 +3,7 @@
   "version": "1",
   "type": "arch.sw",
   "name": "ARM Hard Float",
+  "arch": "armhf",
   "requires": [
     {
       "or": [
@@ -10,5 +11,6 @@
         { "type": "hw.device-type", "arch": "rpi" }
       ]
     }
-  ]
+  ],
+  "variants": ""
 }

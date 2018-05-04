@@ -2,6 +2,8 @@
   "slug": "go",
   "type": "sw.stack",
   "name": "Go {{version}}",
+  "version": "1",
+  "data": "",
   "requires": [
     {
       "or": [

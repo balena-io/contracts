@@ -1,8 +1,10 @@
 {
   "slug": "tini",
   "type": "sw.blob",
+  "name": "tini",
   "version": "0.14.0",
-  "assets": {
+  "requires": "",
+  "data": {
     "bin": {
       "checksumType": "sha256",
       "main": "tini"
@@ -10,7 +12,7 @@
   },
   "variants": [
     {
-      "assets": {
+      "data": {
         "bin": {
           "name": "tini{{version}}.linux-armv7hf.tar.gz",
           "url": "http://resin-packages.s3.amazonaws.com/tini/v{{version}}/tini{{version}}.linux-armv7hf.tar.gz",
@@ -28,7 +30,7 @@
       ]
     },
     {
-      "assets": {
+      "data": {
         "bin": {
           "name": "tini{{version}}.linux-armel.tar.gz",
           "url": "http://resin-packages.s3.amazonaws.com/tini/v{{version}}/tini{{version}}.linux-armel.tar.gz",
@@ -41,7 +43,7 @@
       ]
     },
     {
-      "assets": {
+      "data": {
         "bin": {
           "name": "tini{{version}}.linux-aarch64.tar.gz",
           "url": "http://resin-packages.s3.amazonaws.com/tini/v{{version}}/tini{{version}}.linux-aarch64.tar.gz",
@@ -54,7 +56,7 @@
       ]
     },
     {
-      "assets": {
+      "data": {
         "bin": {
           "name": "tini{{version}}.linux-i386.tar.gz",
           "checksum": "9f4a0b536efdcbe92bc81c6e68dbf8dc1c5739e58f4e7e3a91f07094655149e8",
@@ -67,7 +69,7 @@
       ]
     },
     {
-      "assets": {
+      "data": {
         "bin": {
           "name": "tini{{version}}.linux-amd64.tar.gz",
           "checksum": "a662ee1594cb037909237c87d577b6e4dee9879f1c23279f1a829683e542e4a0",

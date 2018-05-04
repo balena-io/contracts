@@ -2,6 +2,8 @@
   "slug": "nodejs",
   "type": "sw.stack",
   "name": "Node.js {{version}}",
+  "version": "1",
+  "data": "",
   "requires": [
     {
       "or": [

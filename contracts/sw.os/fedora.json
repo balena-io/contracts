@@ -1,7 +1,8 @@
 {
   "slug": "fedora",
   "type": "sw.os",
-  "libc": "glibc",
+  "version": "1",
+  "data" : { "libc": "glibc" },
   "name": "Fedora {{version}}",
   "requires": [
     { "type": "sw.blob", "slug": "tini" },

@@ -1,7 +1,8 @@
 {
   "slug": "debian",
   "type": "sw.os",
-  "libc": "glibc",
+  "version": "1",
+  "data": { "libc": "glibc" },
   "requires": [
     { "type": "sw.blob", "slug": "tini" },
     { "type": "sw.blob", "slug": "resin-xbuild" },

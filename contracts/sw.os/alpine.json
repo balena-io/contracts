@@ -1,7 +1,8 @@
 {
   "slug": "alpine",
   "type": "sw.os",
-  "libc": "musl-libc",
+  "version": "1",
+  "data":{ "libc": "musl-libc" },
   "name": "Alpine Linux {{version}}",
   "requires": [
     { "type": "sw.blob", "slug": "tini" },

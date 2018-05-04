@@ -3,15 +3,19 @@
   "version": "1",
   "type": "hw.device-type",
   "name": "Nitrogen 6x",
-  "arch": "armv7hf",
-  "hdmi": true,
-  "connectivity": {
-    "bluetooth": false
+  "data": {
+    "arch": "armv7hf",
+    "hdmi": true,
+    "connectivity": {
+      "bluetooth": false
+    },
+    "storage": {
+      "internal": false
+    },
+    "media": {
+      "installation": "sdcard"
+    }
   },
-  "storage": {
-    "internal": false
-  },
-  "media": {
-    "installation": "sdcard"
-  }
+  "requires": "",
+  "variants": ""
 }

@@ -3,7 +3,7 @@
   "name": "ResinOS",
   "version": "2.3.0",
   "type": "sw.os",
-  "libc": "glibc",
+  "data": { "libc": "glibc" },
   "requires": [
     {
       "type": "arch.sw",
@@ -13,5 +13,6 @@
       "type": "sw.os-image",
       "slug": "resinos"
     }
-  ]
+  ],
+  "variants": ""
 }

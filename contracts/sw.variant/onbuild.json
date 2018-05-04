@@ -3,6 +3,7 @@
   "version": "1",
   "type": "sw.variant",
   "name": "On Build",
+  "data": "",
   "requires": [
     {
       "or": [
@@ -19,5 +20,6 @@
         { "type": "sw.stack", "slug": "python" }
       ]
     }
-  ]
+  ],
+  "variants": ""
 }

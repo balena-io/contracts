@@ -1,16 +1,18 @@
 {
   "slug": "qemu",
   "type": "sw.blob",
+  "version": "1",
   "name": "QEMU v{{version}}",
-  "assets": {
+  "data": {
     "bin": {
       "checksumType": "sha256"
     }
   },
+  "requires": "",
   "variants": [
     {
       "version": "2.9.0.resin1-arm",
-      "assets": {
+      "data": {
         "bin": {
           "name": "qemu-arm-static",
           "url": "file://./assets/qemu-arm-static",
@@ -30,7 +32,7 @@
     },
     {
       "version": "2.9.0.resin1-aarch64",
-      "assets": {
+      "data": {
         "bin": {
           "name": "qemu-aarch64-static",
           "url": "file://./assets/qemu-aarch64-static",

@@ -2,15 +2,16 @@
   "slug": "entry",
   "type": "sw.blob",
   "name": "resin entry.sh script",
-  "version": "1.0.0",
-  "assets": {
+  "version": "1",
+  "data": {
     "bin": {
       "main": "entry.sh"
     }
   },
+  "requires": "",  
   "variants": [
     {
-      "assets": {
+      "data": {
         "bin": {
           "name": "entry-alpine.sh",
           "url": "file://./assets/entry-alpine.sh",
@@ -22,7 +23,7 @@
       ]
     },
     {
-      "assets": {
+      "data": {
         "bin": {
           "name": "entry-no-systemd-debian.sh",
           "url": "file://./assets/entry-no-systemd-debian.sh",
@@ -34,7 +35,7 @@
       ]
     },
     {
-      "assets": {
+      "data": {
         "bin": {
           "name": "entry-systemd-debian.sh",
           "url": "file://./assets/entry-systemd-debian.sh",
@@ -53,7 +54,7 @@
       ]
     },
     {
-      "assets": {
+      "data": {
         "bin": {
           "name": "entry-fedora.sh",
           "url": "file://./assets/entry-fedora.sh",
