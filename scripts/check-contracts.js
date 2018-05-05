@@ -17,7 +17,9 @@
 'use strict'
 
 const utils = require('./utils')
+const _ = require('lodash')
 
+const requiredProps = ['slug', 'version', 'type', 'name', 'data', 'requires', 'variants']
 let success = true
 
 for (const contract of utils.readContracts()) {
@@ -31,6 +33,11 @@ for (const contract of utils.readContracts()) {
     success = false
     console.error(contract.path)
     console.error(`    The contract type is ${contract.source.type}, but it lives inside ${contract.type}`)
+  }
+  if ( ! _.every(requiredProps, _.partial(_.has, contract.source))) {
+    success = false
+    console.error(contract.path)
+    console.error(`    Mandatory properties missing!`)
   }
 }
 
