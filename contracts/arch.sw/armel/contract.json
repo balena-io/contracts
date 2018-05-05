@@ -3,13 +3,13 @@
   "version": "1",
   "type": "arch.sw",
   "name": "ARM v5",
-  "data": { "arch": "armel" },
+  "arch": "armel",
   "requires": [
     {
-      "type": "hw.device-type",
-      "data": {
-        "arch": "armel"
-      }
+      "or": [
+        { "type": "hw.device-type", "arch": "armel" }
+      ]
     }
-  ]
+  ],
+  "variants": ""
 }

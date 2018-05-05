@@ -3,13 +3,13 @@
   "version": "1",
   "type": "arch.sw",
   "name": "ARM v7",
-  "data": { "arch": "armv7hf" },
+  "arch": "armv7hf",
   "requires": [
     {
-      "type": "hw.device-type",
-      "data": {
-        "arch": "armv7hf"
-      }
+      "or": [
+        { "type": "hw.device-type", "arch": "armv7hf" }
+      ]
     }
-  ]
+  ],
+  "variants": ""
 }
