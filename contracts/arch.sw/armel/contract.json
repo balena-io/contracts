@@ -1,0 +1,15 @@
+{
+  "slug": "armel",
+  "version": "1",
+  "type": "arch.sw",
+  "name": "ARM v5",
+  "data": { "arch": "armel" },
+  "requires": [
+    {
+      "type": "hw.device-type",
+      "data": {
+        "arch": "armel"
+      }
+    }
+  ]
+}

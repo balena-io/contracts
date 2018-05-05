@@ -1,0 +1,19 @@
+{
+  "slug": "odroid-xu4",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "ODroid XU4",
+  "data": {
+    "arch": "armv7hf",
+    "hdmi": true,
+    "connectivity": {
+      "bluetooth": false
+    },
+    "storage": {
+      "internal": false
+    },
+    "media": {
+      "installation": "sdcard"
+    }
+  }
+}

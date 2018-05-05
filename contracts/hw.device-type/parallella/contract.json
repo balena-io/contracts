@@ -1,0 +1,19 @@
+{
+  "slug": "parallella",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "Parallella",
+  "data": {
+    "arch": "armv7hf",
+    "hdmi": true,
+    "connectivity": {
+      "bluetooth": false
+    },
+    "storage": {
+      "internal": false
+    },
+    "media": {
+      "installation": "sdcard"
+    }
+  }
+}

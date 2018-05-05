@@ -1,0 +1,19 @@
+{
+  "slug": "ccon-01",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "CCON01",
+  "data": {
+    "arch": "armv7hf",
+    "hdmi": false,
+    "connectivity": {
+      "bluetooth": false
+    },
+    "storage": {
+      "internal": false
+    },
+    "media": {
+      "installation": "sdcard"
+    }
+  }
+}

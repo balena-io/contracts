@@ -1,0 +1,19 @@
+{
+  "slug": "ts4900",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "Technologic TS-4900",
+  "data": {
+    "arch": "armv7hf",
+    "hdmi": true,
+    "connectivity": {
+      "bluetooth": false
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "installation": "sdcard"
+    }
+  }
+}
