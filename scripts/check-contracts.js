@@ -21,6 +21,7 @@ const _ = require('lodash')
 
 const requiredProps = ['slug', 'version', 'type', 'name', 'data', 'requires', 'variants']
 const requiredHwDeviceProps = ['hdmi', 'connectivity', 'storage', 'media']
+const requiredSwOsProps = ['libc']
 let success = true
 
 for (const contract of utils.readContracts()) {
@@ -49,6 +50,15 @@ for (const contract of utils.readContracts()) {
       success = false
       console.error(contract.path)
       console.error(`    Mandatory properties for hw.device-type contract missing!`)
+    }
+  }
+
+  // sw.os property check.
+  if (contract.source.type == 'sw.os') {
+    if ( ! _.every(requiredSwOsProps, _.partial(_.has, contract.source.data))) {
+      success = false
+      console.error(contract.path)
+      console.error(`    Mandatory properties for sw.os contract missing!`)
     }
   }
 }
