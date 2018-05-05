@@ -20,6 +20,7 @@ const utils = require('./utils')
 const _ = require('lodash')
 
 const requiredProps = ['slug', 'version', 'type', 'name', 'data', 'requires', 'variants']
+const requiredHwDeviceProps = ['hdmi', 'connectivity', 'storage', 'media']
 let success = true
 
 for (const contract of utils.readContracts()) {
@@ -34,10 +35,21 @@ for (const contract of utils.readContracts()) {
     console.error(contract.path)
     console.error(`    The contract type is ${contract.source.type}, but it lives inside ${contract.type}`)
   }
+
+  // Mandatory property check.
   if ( ! _.every(requiredProps, _.partial(_.has, contract.source))) {
     success = false
     console.error(contract.path)
     console.error(`    Mandatory properties missing!`)
+  }
+
+  // hw.device-type property check.
+  if (contract.source.type == 'hw.device-type') {
+    if ( ! _.every(requiredHwDeviceProps, _.partial(_.has, contract.source.data))) {
+      success = false
+      console.error(contract.path)
+      console.error(`    Mandatory properties for hw.device-type contract missing!`)
+    }
   }
 }
 
