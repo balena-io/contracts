@@ -3,13 +3,13 @@
   "version": "1",
   "type": "arch.sw",
   "name": "ARM v6",
-  "arch": "armv6hf",
+  "data": { "arch": "armv6hf" },
   "requires": [
     {
-      "or": [
-        { "type": "hw.device-type", "arch": "rpi" }
-      ]
+      "type": "hw.device-type",
+      "data": {
+        "arch": "rpi"
+      }
     }
-  ],
-  "variants": ""
+  ]
 }
