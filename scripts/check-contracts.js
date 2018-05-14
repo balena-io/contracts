@@ -16,20 +16,17 @@
 
 'use strict'
 
+const path = require('path')
 const utils = require('./utils')
 const _ = require('lodash')
 
+const CONTRACTS_PATH = path.join(__dirname, '..', 'contracts')
 const requiredProps = ['slug', 'version', 'type', 'name', 'data', 'requires', 'variants']
 const requiredHwDeviceProps = ['hdmi', 'connectivity', 'storage', 'media']
 const requiredSwOsProps = ['libc']
 let success = true
 
-for (const contract of utils.readContracts()) {
-  if (contract.source.slug !== contract.name) {
-    success = false
-    console.error(contract.path)
-    console.error(`    The contract slug is ${contract.source.slug}, but the file name is ${contract.name}`)
-  }
+for (const contract of utils.readContracts(CONTRACTS_PATH)) {
 
   if (contract.source.type !== contract.type) {
     success = false
