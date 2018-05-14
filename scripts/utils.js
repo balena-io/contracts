@@ -41,3 +41,12 @@ exports.readContracts = (dir) => {
   })
   return contracts
 }
+
+exports.readSchemas = (dir) => {
+  let schemas = {}
+
+  fs.readdirSync(dir).forEach((file) => {
+    schemas[path.basename(file, '.json')] = path.join(dir, file)
+  })
+  return schemas
+}

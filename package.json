@@ -13,6 +13,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "lodash": "^4.17.4",
+    "ajv": "^6.0.0"
   },
   "devDependencies": {
     "eslint": "^4.8.0",

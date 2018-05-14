@@ -1,0 +1,87 @@
+{
+  "$id": "arch.sw.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "properties": {
+    "slug": {
+      "$id": "/properties/slug",
+      "type": "string",
+      "title": "The Slug Schema ",
+      "default": "",
+      "examples": [
+        "aarch64"
+      ]
+    },
+    "version": {
+      "$id": "/properties/version",
+      "type": "string",
+      "title": "The Version Schema ",
+      "default": "",
+      "examples": [
+        "1"
+      ]
+    },
+    "type": {
+      "$id": "/properties/type",
+      "type": "string",
+      "title": "The Type Schema ",
+      "default": "",
+      "examples": [
+        "arch.sw"
+      ]
+    },
+    "name": {
+      "$id": "/properties/name",
+      "type": "string",
+      "title": "The Name Schema ",
+      "default": "",
+      "examples": [
+        "ARM v8"
+      ]
+    },
+    "data": {
+      "$id": "/properties/data",
+      "type": "object",
+      "properties": {
+        "arch": {
+          "$id": "/properties/data/properties/arch",
+          "type": "string",
+          "title": "The Arch Schema ",
+          "default": "",
+          "examples": [
+            "aarch64"
+          ]
+        }
+      }
+    },
+    "requires": {
+      "$id": "/properties/requires",
+      "type": "array",
+      "items": {
+        "$id": "/properties/requires/items",
+        "type": "object",
+        "properties": {
+          "type": {
+            "$id": "/properties/requires/items/properties/type",
+            "type": "string",
+            "title": "The Type Schema ",
+            "default": "",
+            "examples": [
+              "hw.device-type"
+            ]
+          },
+          "arch": {
+            "$id": "/properties/requires/items/properties/arch",
+            "type": "string",
+            "title": "The Arch Schema ",
+            "default": "",
+            "examples": [
+              "aarch64"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

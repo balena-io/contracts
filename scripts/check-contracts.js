@@ -19,11 +19,12 @@
 const path = require('path')
 const utils = require('./utils')
 const _ = require('lodash')
+const Ajv = require('ajv')
 
+const ajv = new Ajv({schemaId: 'auto'});
 const CONTRACTS_PATH = path.join(__dirname, '..', 'contracts')
-const requiredProps = ['slug', 'version', 'type', 'name', 'data', 'requires', 'variants']
-const requiredHwDeviceProps = ['hdmi', 'connectivity', 'storage', 'media']
-const requiredSwOsProps = ['libc']
+const SCHEMA_PATH = path.join(__dirname, '..', 'schema')
+const schemas = utils.readSchemas(SCHEMA_PATH)
 let success = true
 
 for (const contract of utils.readContracts(CONTRACTS_PATH)) {
@@ -34,28 +35,12 @@ for (const contract of utils.readContracts(CONTRACTS_PATH)) {
     console.error(`    The contract type is ${contract.source.type}, but it lives inside ${contract.type}`)
   }
 
-  // Mandatory property check.
-  if ( ! _.every(requiredProps, _.partial(_.has, contract.source))) {
-    success = false
-    console.error(contract.path)
-    console.error(`    Mandatory properties missing!`)
-  }
-
-  // hw.device-type property check.
-  if (contract.source.type == 'hw.device-type') {
-    if ( ! _.every(requiredHwDeviceProps, _.partial(_.has, contract.source.data))) {
+  if (contract.source.type in schemas) {
+    const valid = ajv.validate(require(schemas[contract.source.type]), contract.source)
+    if (!valid) {
       success = false
       console.error(contract.path)
-      console.error(`    Mandatory properties for hw.device-type contract missing!`)
-    }
-  }
-
-  // sw.os property check.
-  if (contract.source.type == 'sw.os') {
-    if ( ! _.every(requiredSwOsProps, _.partial(_.has, contract.source.data))) {
-      success = false
-      console.error(contract.path)
-      console.error(`    Mandatory properties for sw.os contract missing!`)
+      console.error(ajv.errorsText())
     }
   }
 }
