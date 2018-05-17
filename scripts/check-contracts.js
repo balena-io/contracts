@@ -27,6 +27,16 @@ const SCHEMA_PATH = path.join(__dirname, '..', 'schema')
 const schemas = utils.readSchemas(SCHEMA_PATH)
 let success = true
 
+function validateJsonSchema(schema, contract) {
+  const valid = ajv.validate(require(schema), contract.source)
+  if (!valid) {
+    console.error(contract.path)
+    console.error(ajv.errorsText())
+    return false
+  }
+  return true
+}
+
 for (const contract of utils.readContracts(CONTRACTS_PATH)) {
 
   if (contract.source.type !== contract.type) {
@@ -35,12 +45,11 @@ for (const contract of utils.readContracts(CONTRACTS_PATH)) {
     console.error(`    The contract type is ${contract.source.type}, but it lives inside ${contract.type}`)
   }
 
-  if (contract.source.type in schemas) {
-    const valid = ajv.validate(require(schemas[contract.source.type]), contract.source)
-    if (!valid) {
-      success = false
-      console.error(contract.path)
-      console.error(ajv.errorsText())
+  success = validateJsonSchema(schemas['contracts'], contract)
+
+  if (success) {
+    if (contract.source.type in schemas) {
+      success = validateJsonSchema(schemas[contract.source.type], contract)
     }
   }
 }

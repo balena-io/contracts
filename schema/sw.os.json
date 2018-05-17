@@ -1,144 +1,83 @@
 {
+  "$schema": "http://json-schema.org/draft-06/schema#",
   "$id": "sw.os.json",
   "type": "object",
-  "definitions": {},
-  "$schema": "http://json-schema.org/draft-06/schema#",
-  "properties": {
-    "slug": {
-      "$id": "/properties/slug",
-      "type": "string",
-      "title": "The Slug Schema ",
-      "default": "",
-      "examples": [
-        "debian"
-      ]
-    },
-    "type": {
-      "$id": "/properties/type",
-      "type": "string",
-      "title": "The Type Schema ",
-      "default": "",
-      "examples": [
-        "sw.os"
-      ]
-    },
-    "version": {
-      "$id": "/properties/version",
-      "type": "string",
-      "title": "The Version Schema ",
-      "default": "",
-      "examples": [
-        "1"
-      ]
-    },
-    "data": {
-      "$id": "/properties/data",
+
+  "definitions": {
+    "requireItem": {
+      "id": "#requireItem",
       "type": "object",
       "properties": {
-        "libc": {
-          "$id": "/properties/data/properties/libc",
+        "type": {
           "type": "string",
-          "title": "The Libc Schema ",
-          "default": "",
-          "examples": [
-            "glibc"
-          ]
+          "pattern": "^[a-z0-9-.]+$"
+        },
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
         }
       }
-    },
-    "requires": {
-      "$id": "/properties/requires",
-      "type": "array",
-      "items": {
-        "$id": "/properties/requires/items",
-        "type": "object",
-        "properties": {
-          "type": {
-            "$id": "/properties/requires/items/properties/type",
-            "type": "string",
-            "title": "The Type Schema ",
-            "default": "",
-            "examples": [
-              "sw.blob"
-            ]
-          },
-          "slug": {
-            "$id": "/properties/requires/items/properties/slug",
-            "type": "string",
-            "title": "The Slug Schema ",
-            "default": "",
-            "examples": [
-              "tini"
-            ]
+    }
+  },
+
+  "allOf": [
+    { "$ref": "contracts.json" },
+    {
+      "properties": {
+        "data": {
+          "type": "object",
+          "properties": {
+            "libc": {
+              "type": "string",
+              "minLength": 1
+            }
           }
-        }
-      }
-    },
-    "variants": {
-      "$id": "/properties/variants",
-      "type": "array",
-      "items": {
-        "$id": "/properties/variants/items",
-        "type": "object",
-        "properties": {
-          "version": {
-            "$id": "/properties/variants/items/properties/version",
-            "type": "string",
-            "title": "The Version Schema ",
-            "default": "",
-            "examples": [
-              "wheezy"
-            ]
-          },
-          "name": {
-            "$id": "/properties/variants/items/properties/name",
-            "type": "string",
-            "title": "The Name Schema ",
-            "default": "",
-            "examples": [
-              "Debian Wheezy"
-            ]
-          },
-          "requires": {
-            "$id": "/properties/variants/items/properties/requires",
-            "type": "array",
-            "items": {
-              "$id": "/properties/variants/items/properties/requires/items",
-              "type": "object",
-              "properties": {
-                "or": {
-                  "$id": "/properties/variants/items/properties/requires/items/properties/or",
-                  "type": "array",
-                  "items": {
-                    "$id": "/properties/variants/items/properties/requires/items/properties/or/items",
-                    "type": "object",
-                    "properties": {
-                      "type": {
-                        "$id": "/properties/variants/items/properties/requires/items/properties/or/items/properties/type",
-                        "type": "string",
-                        "title": "The Type Schema ",
-                        "default": "",
-                        "examples": [
-                          "arch.sw"
-                        ]
-                      },
-                      "slug": {
-                        "$id": "/properties/variants/items/properties/requires/items/properties/or/items/properties/slug",
-                        "type": "string",
-                        "title": "The Slug Schema ",
-                        "default": "",
-                        "examples": [
-                          "armel"
-                        ]
-                      }
+        },
+        "requires": {
+          "type": "array",
+          "items": {
+            "$ref": "#requireItem"
+          }
+        },
+        "variants": {
+          "type": "array",
+          "items": {
+            "allOf": [
+              { "$ref": "contracts.json#baseContract" },
+              {
+                "properties": {
+                  "requires": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "allOf": [
+                        { "$ref": "#requireItem" },
+                        {
+                          "properties": {
+                            "or": {
+                              "type": "array",
+                              "items": {
+                                "$ref": "#requireItem"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "variants": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "contracts.json#baseContract"
                     }
                   }
                 }
               }
-            }
+            ]
           }
         }
-      }
+      },
+      "required": [ "data", "requires" ]
     }
-  }
+  ]
 }
