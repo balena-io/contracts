@@ -1,0 +1,14 @@
+{
+  "slug": "supervisor",
+  "type": "sw.supervisor",
+  "name": "resin supervisor",
+  "version": "1",
+  "componentVersion": "7.5.6",
+  "assets": {
+    "bin": {
+      "url": "https://github.com/resin-io/resin-supervisor/archive/v{{componentVersion}}.tar.gz",
+      "checksum": "b562c7ff89e0de86003ee1cc14a1ee08ab5988a543b6e22235fe3773a48074a4",
+      "checksumType": "sha256"
+    }
+  }
+}
