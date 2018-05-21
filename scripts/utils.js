@@ -18,29 +18,26 @@
 
 const fs = require('fs')
 const path = require('path')
-const CONTRACTS_PATH = path.join(__dirname, '..', 'contracts')
-const TYPES = fs.readdirSync(CONTRACTS_PATH)
 
-exports.readContracts = () => {
-  return TYPES.reduce((accumulator, type) => {
-    const typeDirectory = path.join(CONTRACTS_PATH, type)
-    return accumulator.concat(fs.readdirSync(typeDirectory).map((fileName) => {
-      const contractPath = path.join(CONTRACTS_PATH, type, fileName)
+const getAllFiles = dir =>
+  fs.readdirSync(dir).reduce((files, file) => {
+    const name = path.join(dir, file);
+    const isDirectory = fs.statSync(name).isDirectory();
+    return isDirectory ? [...files, ...getAllFiles(name)] : [...files, name];
+  }, []);
 
-      let sourceObject = {}
-      try {
-        sourceObject = require(contractPath)
-      } catch (error) {
-        console.error(`Can't parse ${contractPath}`)
-        process.exit(1)
-      }
+exports.readContracts = (dir) => {
+  const allFiles = getAllFiles(dir)
+  let contracts = []
 
-      return {
-        type,
-        source: sourceObject,
-        path: contractPath,
-        name: path.basename(fileName, '.json')
-      }
-    }))
-  }, [])
+  allFiles.forEach((file) => {
+    if (path.extname(file) == '.json') {
+      contracts.push({
+        type: path.basename(path.dirname(path.dirname(file))),
+        source: require(file),
+        path: file,
+      })
+    }
+  })
+  return contracts
 }

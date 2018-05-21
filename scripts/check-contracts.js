@@ -16,16 +16,12 @@
 
 'use strict'
 
+const path = require('path')
 const utils = require('./utils')
-
+const CONTRACTS_PATH = path.join(__dirname, '..', 'contracts')
 let success = true
 
-for (const contract of utils.readContracts()) {
-  if (contract.source.slug !== contract.name) {
-    success = false
-    console.error(contract.path)
-    console.error(`    The contract slug is ${contract.source.slug}, but the file name is ${contract.name}`)
-  }
+for (const contract of utils.readContracts(CONTRACTS_PATH)) {
 
   if (contract.source.type !== contract.type) {
     success = false
