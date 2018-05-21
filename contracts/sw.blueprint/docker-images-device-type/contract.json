@@ -1,0 +1,26 @@
+{
+  "slug": "docker-images-device-type",
+  "type": "sw.blueprint",
+  "version": "1",
+  "componentVersion": "1",
+  "aliases": [],
+  "tags": [],
+
+  "data": {
+    "selector": {
+      "hw.device-type": "1",
+      "sw.docker-image.base": "1"
+    },
+    "output": {
+      "filename": "Dockerfile",
+      "type": "sw.docker-image.device-type",
+      "slug": "{{children.hw.device-type.slug}}-{{children.sw.docker-image.base.children.sw.os.slug}}:{{children.hw.device-type.version}}-{{children.sw.docker-image.base.children.sw.os.version}}",
+      "template": [
+        {
+          "name": "docker-images",
+          "data": "FROM resin/{{sw.docker-image.base.slug}}\nLABEL io.resin.device-type=\"{{hw.device-type.slug}}\"\n{{import partial=\"distro-config\" combination=\"sw.os+hw.device-type\"}}\n{{import partial=\"dependencies\" combination=\"sw.os+hw.device-type\"}}"
+        }
+      ]
+    }
+  }
+}
