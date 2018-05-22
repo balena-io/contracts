@@ -12,7 +12,18 @@
           "type": "object",
           "patternProperties": {
             "^.*$": {
-              "type": "string",
+              "anyOf": [
+                {
+                  "type": "string",
+                },
+                {
+                  "type": "array",
+                  "additionalItems": false,
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
             }
           }
         },
@@ -28,7 +39,8 @@
               "properties": {
                 "filename": {
                   "$id": "/properties/output/properties/filename",
-                  "type": "string"
+                  "type": "string",
+                  "pattern": "^(\\.\\.\/|[a-zA-Z0-9_/\\\\-])*\\.[a-zA-Z0-9]+$"
                 },
                 "template": {
                   "$id": "/properties/output/properties/template",
@@ -47,10 +59,12 @@
                         "$id": "/properties/output/properties/template/items/properties/data",
                         "type": "string"
                       }
-                    }
+                    },
+                    "required": [ "name", "data" ]
                   }
                 }
-              }
+              },
+              "required": [ "properties", "template" ]
             }
           ]
         }
