@@ -5,6 +5,7 @@
   "name": "Toradex Colibri",
   "arch": "armv7hf",
   "hdmi": true,
+  "led": false,
   "connectivity": {
     "bluetooth": false
   },

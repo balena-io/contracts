@@ -5,6 +5,7 @@
   "name": "Generic AARCH64",
   "arch": "aarch64",
   "hdmi": true,
+  "led": false,
   "connectivity": {
     "bluetooth": false
   },

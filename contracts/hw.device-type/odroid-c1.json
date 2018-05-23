@@ -5,6 +5,7 @@
   "name": "ODroid C1",
   "arch": "armv7hf",
   "hdmi": true,
+  "led": false,
   "connectivity": {
     "bluetooth": false
   },

@@ -5,6 +5,7 @@
   "name": "Intel NUC",
   "arch": "amd64",
   "hdmi": true,
+  "led": false,
   "connectivity": {
     "bluetooth": true
   },

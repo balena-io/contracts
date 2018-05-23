@@ -5,6 +5,7 @@
   "name": "UP Board",
   "arch": "amd64",
   "hdmi": true,
+  "led": false,
   "connectivity": {
     "bluetooth": false
   },

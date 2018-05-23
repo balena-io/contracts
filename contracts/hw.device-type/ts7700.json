@@ -5,6 +5,7 @@
   "name": "Technologic TS-7700",
   "arch": "armel",
   "hdmi": true,
+  "led": false,
   "connectivity": {
     "bluetooth": false
   },

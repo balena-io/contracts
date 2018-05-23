@@ -5,6 +5,7 @@
   "name": "BeagleBone Green Wifi",
   "arch": "armv7hf",
   "hdmi": false,
+  "led": true,
   "connectivity": {
     "bluetooth": true
   },

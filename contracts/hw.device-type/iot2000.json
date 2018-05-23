@@ -5,6 +5,7 @@
   "name": "Siemens IOT2000",
   "arch": "i386",
   "hdmi": true,
+  "led": false,
   "connectivity": {
     "bluetooth": false
   },

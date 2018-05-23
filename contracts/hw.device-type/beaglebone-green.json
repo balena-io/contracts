@@ -5,6 +5,7 @@
   "name": "BeagleBone Green",
   "arch": "armv7hf",
   "hdmi": false,
+  "led": true,
   "connectivity": {
     "bluetooth": true
   },

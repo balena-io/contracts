@@ -5,6 +5,7 @@
   "name": "Nvidia Jetson TX1",
   "arch": "aarch64",
   "hdmi": true,
+  "led": false,
   "connectivity": {
     "bluetooth": false
   },

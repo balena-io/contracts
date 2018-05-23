@@ -5,6 +5,7 @@
   "name": "QEMU x86",
   "arch": "i386",
   "hdmi": true,
+  "led": false,
   "connectivity": {
     "bluetooth": false
   },

@@ -5,6 +5,7 @@
   "name": "Raspberry Pi 2",
   "arch": "armv7hf",
   "hdmi": true,
+  "led": true,
   "connectivity": {
     "bluetooth": false
   },
