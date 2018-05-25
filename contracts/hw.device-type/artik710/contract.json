@@ -6,6 +6,7 @@
   "data": {
     "arch": "armv7hf",
     "hdmi": true,
+    "led": true,
     "connectivity": {
       "bluetooth": true
     },

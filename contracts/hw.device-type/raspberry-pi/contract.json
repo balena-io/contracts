@@ -6,6 +6,7 @@
   "data": {
     "arch": "rpi",
     "hdmi": true,
+    "led": true,
     "connectivity": {
       "bluetooth": true
     },

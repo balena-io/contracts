@@ -1,11 +1,11 @@
 {
-  "slug": "ccon-01",
+  "slug": "bananapi-m1-plus",
   "version": "1",
   "type": "hw.device-type",
-  "name": "CCON01",
+  "name": "BananaPi-M1+",
   "data": {
     "arch": "armv7hf",
-    "hdmi": false,
+    "hdmi": true,
     "led": false,
     "connectivity": {
       "bluetooth": false
