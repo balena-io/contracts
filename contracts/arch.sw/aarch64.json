@@ -1,9 +1,0 @@
-{
-  "slug": "aarch64",
-  "version": "1",
-  "type": "arch.sw",
-  "name": "ARM v8",
-  "requires": [
-    { "type": "hw.device-type", "arch": "aarch64" }
-  ]
-}
