@@ -1,0 +1,33 @@
+{
+  "slug": "docker-images-base",
+  "type": "sw.blueprint",
+  "version": "1",
+  "componentVersion": "1",
+  "aliases": [],
+  "tags": [],
+
+  "data": {
+    "selector": {
+      "sw.os": "1",
+      "sw.arch": "1",
+      "sw.blob": "1+"
+    },
+    "output": {
+      "filename": "Dockerfile",
+      "type": "sw.docker-image.base",
+      "slug": "{{children.sw.arch.slug}}-{{children.sw.os.slug}}:{{children.sw.os.version}}",
+      "requires": [
+        {
+          "type": "hw.device-type",
+          "arch": "{{children.sw.arch.slug}}"
+        }
+      ],
+      "template": [
+        {
+          "name": "docker-images",
+          "data": "{{import partial=\"from\" combination=\"sw.os+sw.arch\"}}\nLABEL io.resin.architecture=\"{{sw.arch.slug}}\"\n{{import partial=\"os-config\" combination=\"sw.os+sw.arch\"}}\n{{#sw.blob.qemu}} {{import partial=\"qemu\" combination=\"sw.os+sw.arch\"}} {{/sw.blob.qemu}}\n{{import partial=\"base-dependencies\" combination=\"sw.os+sw.arch\"}}\nCOPY {{sw.blob.resin-xbuild.assets.bin.main}} /usr/bin/\nRUN ln -s {{sw.blob.resin-xbuild.assets.bin.main}} /usr/bin/cross-build-start \\\n  && ln -s {{sw.blob.resin-xbuild.assets.bin.main}} /usr/bin/cross-build-end\n\nENV TINI_VERSION {{sw.blob.tini.version}}\nRUN chmod +x {{sw.blob.tini.assets.bin.main}} \\\n  && mv {{sw.blob.tini.assets.bin.main}} /sbin/tini\n\n{{import partial=\"init-system\" combination=\"sw.os+sw.arch\"}}"
+        }
+      ]
+    }
+  }
+}

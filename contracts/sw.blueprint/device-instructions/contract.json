@@ -1,0 +1,28 @@
+{
+  "slug": "device-instructions",
+  "type": "sw.blueprint",
+  "version": "1",
+  "componentVersion": "1",
+  "aliases": [],
+  "tags": [],
+
+  "data": {
+    "selector": {
+      "sw.os": "1",
+      "sw.image-writer": "1",
+      "hw.device-type": "1",
+      "sw.platform": "1"
+    },
+    "output": {
+      "filename": "README.txt",
+      "type": "doc.instructions.device",
+      "slug": "{{children.sw.platform.slug}}-{{children.hw.device-type.slug}}:{{children.sw.os.slug}}-{{children.sw.os.version}}:{{children.sw.image-writer.slug}}",
+      "template": [
+        {
+          "name": "instructions",
+          "data": "1. {{import partial=\"download\" combination=\"sw.os\"}} 2. {{import partial=\"download\" combination=\"sw.image-writer\"}}. {{import partial=\"flash\" combination=\"sw.image-writer+hw.device-type\"}}. 3. {{import partial=\"insert-install-media\" combination=\"hw.device-type\"}}. {{import partial=\"prepare-network\" combination=\"hw.device-type\"}}. {{import partial=\"boot-external\" combination=\"hw.device-type\"}} {{#hw.device-type.storage.internal}} 4. The device should appear on you dashboard in a configuring state. {{import partial=\"description-of-internal-process\" combination=\"sw.image-writer\"}}. {{import partial=\"visual-appearance-when-off\" combination=\"hw.device-type\"}} 5. {{import partial=\"remove-install-media\" combination=\"hw.device-type\"}}. {{import partial=\"boot-internal\" combination=\"hw.device-type\"}} {{/hw.device-type.storage.internal}} 6. Your device should appear here in the IDLE state in 30 seconds or so. Have fun! **Troubleshooting:** If, upon boot, the device LED is blinking in groups of four, it is an indication that the device cannot connect to the internet. Please ensure the network adapter is functional. {{#compare hw.device-type.media.installation \"!==\" \"dfu\"}} **Pro tip:** You can repeat the initialisation steps for any amount of {{hw.device-type.name}}'s you have available, using the same {{hw.device-type.media.installation}}. {{/compare}}"
+        }
+      ]
+    }
+  }
+}
