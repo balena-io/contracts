@@ -1,6 +1,6 @@
 {
   "slug": "etcher",
-  "type": "sw.blob.image-writer",
+  "type": "sw.blob",
   "name": "Etcher for macOS",
   "version": "1",
   "componentVersion": "1.1.2",
