@@ -4,7 +4,7 @@
   "type": "hw.device-type",
   "name": "Technologic TS-7700",
   "data": {
-    "arch": "armel",
+    "arch": "armv5e",
     "hdmi": true,
     "led": false,
     "connectivity": {

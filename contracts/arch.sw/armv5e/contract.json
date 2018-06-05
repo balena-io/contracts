@@ -1,14 +1,14 @@
 {
-  "slug": "armel",
+  "slug": "armv5e",
   "version": "1",
   "type": "arch.sw",
   "name": "ARM v5",
-  "data": { "arch": "armel" },
+  "data": { "arch": "armv5e" },
   "requires": [
     {
       "type": "hw.device-type",
       "data": {
-        "arch": "armel"
+        "arch": "armv5e"
       }
     }
   ]

@@ -16,7 +16,7 @@
       "requires": [
         {
           "or": [
-            { "type": "arch.sw", "slug": "armel" },
+            { "type": "arch.sw", "slug": "armv5e" },
             { "type": "arch.sw", "slug": "armv7hf" }
           ]
         },
@@ -27,7 +27,7 @@
       "requires": [
         {
           "or": [
-            { "type": "arch.sw", "slug": "armel" },
+            { "type": "arch.sw", "slug": "armv5e" },
             { "type": "arch.sw", "slug": "armv7hf" },
             { "type": "arch.sw", "slug": "aarch64" }
           ]
