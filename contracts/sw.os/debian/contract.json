@@ -46,6 +46,7 @@
         {
           "or": [
             { "type": "arch.sw", "slug": "i386" },
+            { "type": "arch.sw", "slug": "i386-nlp" },
             { "type": "arch.sw", "slug": "amd64" }
           ]
         }

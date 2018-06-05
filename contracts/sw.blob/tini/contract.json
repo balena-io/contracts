@@ -64,7 +64,12 @@
       },
       "name": "TINI for i386 v{{version}}",
       "requires": [
-        { "type": "arch.sw", "slug": "i386" }
+        {
+          "or": [
+            { "type": "arch.sw", "slug": "i386" },
+            { "type": "arch.sw", "slug": "i386-nlp" }
+          ]
+        }
       ]
     },
     {
