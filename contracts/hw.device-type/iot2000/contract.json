@@ -4,7 +4,7 @@
   "type": "hw.device-type",
   "name": "Siemens IOT2000",
   "data": {
-    "arch": "i386",
+    "arch": "i386-nlp",
     "hdmi": true,
     "led": false,
     "connectivity": {
