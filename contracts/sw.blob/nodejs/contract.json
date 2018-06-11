@@ -72,7 +72,7 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "armel" }
+                { "type": "arch.sw", "slug": "armv5e" }
               ]
             },
             {
