@@ -1,0 +1,11 @@
+{
+  "slug": "buildpack-deps",
+  "version": "1",
+  "type": "sw.stack",
+  "name": "A collection of common build dependencies",
+  "variants": [
+    { "version": "curl" },
+    { "version": "scm" },
+    { "version": "buildpack" }
+  ]
+}
