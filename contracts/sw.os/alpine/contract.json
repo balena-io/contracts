@@ -15,7 +15,8 @@
         { "type": "sw.blob", "slug": "qemu" },
         {
           "or": [
-            { "type": "arch.sw", "slug": "armhf" },
+            { "type": "arch.sw", "slug": "armv7hf" },
+            { "type": "arch.sw", "slug": "rpi" },
             { "type": "arch.sw", "slug": "aarch64" }
           ]
         }
