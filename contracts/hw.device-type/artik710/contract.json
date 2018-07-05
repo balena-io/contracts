@@ -4,7 +4,7 @@
   "type": "hw.device-type",
   "name": "Samsung Artik 710",
   "data": {
-    "arch": "armv7hf",
+    "arch": "aarch64",
     "hdmi": true,
     "led": true,
     "connectivity": {
