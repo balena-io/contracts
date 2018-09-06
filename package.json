@@ -6,6 +6,7 @@
     "type": "git",
     "url": "git@github.com:resin-io/contracts.git"
   },
+  "private": true,
   "scripts": {
     "test": "eslint scripts && node scripts/check-contracts.js"
   },
