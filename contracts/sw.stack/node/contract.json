@@ -1,0 +1,582 @@
+{
+  "slug": "node",
+  "type": "sw.stack",
+  "name": "Node.js $NODE_VERSION",
+  "version": "1",
+  "assets": {
+    "yarn": {
+      "version": "1.6.0"
+    }
+  },
+  "requires": [
+    {
+      "or": [
+        { "type": "sw.stack-variant", "slug": "build" },
+        { "type": "sw.stack-variant", "slug": "run" }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "version": "10.10.0",
+      "variants": [
+        {
+          "data": { "libc": "musl-libc" },
+          "requires": [
+            { "type": "sw.os", "slug": "alpine" }
+          ],
+          "variants": [
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "06871848c58578f456dd2a56dd92179850cf8c49fecf2dd93ccda6e6389b914b",
+                  "name": "node-v$NODE_VERSION-linux-alpine-armhf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{assets.bin.name}}"
+                  
+                }
+              },
+              "requires": [
+                {
+                  "or": [
+                    { "type": "arch.sw", "slug": "rpi" },
+                    { "type": "arch.sw", "slug": "armv7hf" }
+                  ]
+                }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "c5593f4681957ac6a6b62189df9b3c518954def24be9ea74a6a90d2e43691249",
+                  "name": "node-v$NODE_VERSION-linux-alpine-amd64.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "amd64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "412772dcaf0c17cb495d39d9b43428f6c0acbce7d2bcc3178999bc8ba71a6caa",
+                  "name": "node-v$NODE_VERSION-linux-alpine-i386.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "i386" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "60106d4934d5af9a122ae3a6a15e1c8e3ca7e832a6c16ef5b21a9addcc340f95",
+                  "name": "node-v$NODE_VERSION-linux-alpine-aarch64.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "aarch64" }
+              ]
+            }
+          ]
+        },
+        {
+          "data": { "libc": "glibc" },
+          "requires": [
+            {
+              "or": [
+                { "type": "sw.os", "slug": "debian" },
+                { "type": "sw.os", "slug": "ubuntu" },
+                { "type": "sw.os", "slug": "fedora" }
+              ]
+            }
+          ],
+          "variants": [
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "716a66abd62e04dcd0f5c95dec3561e354712da7268e550a06bca1abc02710ea",
+                  "name": "node-v$NODE_VERSION-linux-armv6l.tar.gz",
+                  "url": "http://nodejs.org/dist/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "rpi" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "4e916c2fec8afbe3a99da059616bd52efb9d2d17da44768583896063e1967ec8",
+                  "name": "node-v$NODE_VERSION-linux-armv7hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "armv7hf" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "789994b9ad5d2b274e949c268480a197d2af8861cb00911fc1d2ce4a01631e0d",
+                  "name": "node-v$NODE_VERSION-linux-x64.tar.gz",
+                  "url": "http://nodejs.org/dist/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "amd64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "0b83a3e427d076947b1deca943a48fba0258772f9c037de19d8b1261632d1385",
+                  "name": "node-v$NODE_VERSION-linux-arm64.tar.gz",
+                  "url": "http://nodejs.org/dist/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "aarch64" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "9.11.2",
+      "variants": [
+        {
+          "data": { "libc": "musl-libc" },
+          "requires": [
+            { "type": "sw.os", "slug": "alpine" }
+          ],
+          "variants": [
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "1c59484912033ea8e398ebde62af22e4a4c8688e1b91a3ec8323e201c1aa1cf7",
+                  "name": "node-v$NODE_VERSION-linux-alpine-armhf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                {
+                  "or": [
+                    { "type": "arch.sw", "slug": "rpi" },
+                    { "type": "arch.sw", "slug": "armv7hf" }
+                  ]
+                }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "272cbc10d4a7cc13dd64d7594299862505119bd197b812b4fb29241c2c834ed3",
+                  "name": "node-v$NODE_VERSION-linux-alpine-amd64.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "amd64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "d9e515f19c59c80a1ea16554dd04ffff5f8a9f4027ba976e026341a18e7b706e",
+                  "name": "node-v$NODE_VERSION-linux-alpine-i386.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "i386" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "16123488fcb07a35c9197b3ad9edde0c007d2f585bb80221f900e66c0958723b",
+                  "name": "node-v$NODE_VERSION-linux-alpine-aarch64.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "aarch64" }
+              ]
+            }
+          ]
+        },
+        {
+          "data": { "libc": "glibc" },
+          "requires": [
+            {
+              "or": [
+                { "type": "sw.os", "slug": "debian" },
+                { "type": "sw.os", "slug": "ubuntu" },
+                { "type": "sw.os", "slug": "fedora" }
+              ]
+            }
+          ],
+          "variants": [
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "d784e5c862c1e34ce241c57ceaac4dc8242ec038b0d315d26a89fd620b82be06",
+                  "name": "node-v$NODE_VERSION-linux-armv6l.tar.gz",
+                  "url": "http://nodejs.org/dist/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "rpi" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "b94f8935568f746da0cbb89ec97508039c2cad2fc1750ab04150b098614b9241",
+                  "name": "node-v$NODE_VERSION-linux-armv7hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "armv7hf" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "bbb46f86c64abe96ee98faa733424fc76f20a38d12f59bdcd60057efa5f1ce89",
+                  "name": "node-v$NODE_VERSION-linux-x64.tar.gz",
+                  "url": "http://nodejs.org/dist/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "amd64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "78f600a8690ae34aac8079142c77bb0f0f09c6ddea2272b9a135285610ad71d1",
+                  "name": "node-v$NODE_VERSION-linux-arm64.tar.gz",
+                  "url": "http://nodejs.org/dist/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "aarch64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "166cc28bd9c8217c533b2921edd5e980b14f1d670d828e9d40c1d5b37f51496d",
+                  "name": "node-v$NODE_VERSION-linux-x86.tar.gz",
+                  "url": "http://nodejs.org/dist/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "i386" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "8.11.4",
+      "variants": [
+        {
+          "data": { "libc": "musl-libc" },
+          "requires": [
+            { "type": "sw.os", "slug": "alpine" }
+          ],
+          "variants": [
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "d692cf1af76a075799c5900729e12fa70e5bb27b3e3d0389c9a4cee6cd26bce4",
+                  "name": "node-v$NODE_VERSION-linux-alpine-armhf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                {
+                  "or": [
+                    { "type": "arch.sw", "slug": "rpi" },
+                    { "type": "arch.sw", "slug": "armv7hf" }
+                  ]
+                }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "ed7bf60f4235066aaae3a961f1dacfeaa13209e03ce8f34cc3b3c0f38e4050a1",
+                  "name": "node-v$NODE_VERSION-linux-alpine-amd64.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "amd64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "698f807e6659b006afe3972b5eef7f118f79cd2c07faa6246f7ef2ad73b326ab",
+                  "name": "node-v$NODE_VERSION-linux-alpine-i386.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "i386" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "992a2a3645eddf63628522eb62fe11f5c3efff2859520bfe822834f6f5ba24f6",
+                  "name": "node-v$NODE_VERSION-linux-alpine-aarch64.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "aarch64" }
+              ]
+            }
+          ]
+        },
+        {
+          "data": { "libc": "glibc" },
+          "requires": [
+            {
+              "or": [
+                { "type": "sw.os", "slug": "debian" },
+                { "type": "sw.os", "slug": "ubuntu" },
+                { "type": "sw.os", "slug": "fedora" }
+              ]
+            }
+          ],
+          "variants": [
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "0173429e03d6c9a1b055468361782a923b40269e040be9e1ed5f5879e8b7ccff",
+                  "name": "node-v$NODE_VERSION-linux-armv6l.tar.gz",
+                  "url": "http://nodejs.org/dist/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "rpi" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "b4bb1a5c07c0a066151d2f1fc0911ed0fb69c6c6fe7ef4f13c932bb265d0ae41",
+                  "name": "node-v$NODE_VERSION-linux-armv7hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "armv7hf" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "c69abe770f002a7415bd00f7ea13b086650c1dd925ef0c3bf8de90eabecc8790",
+                  "name": "node-v$NODE_VERSION-linux-x64.tar.gz",
+                  "url": "http://nodejs.org/dist/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "amd64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "667b9935e9aab43cd0eab492ec15a0330797cb261ab2df4e18e5a9548817a1c6",
+                  "name": "node-v$NODE_VERSION-linux-arm64.tar.gz",
+                  "url": "http://nodejs.org/dist/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "aarch64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "e9e6efc1fdcaa7283dc6e2428f8dc88260060ee46fb9e4683a09715c7e3354bf",
+                  "name": "node-v$NODE_VERSION-linux-x86.tar.gz",
+                  "url": "http://nodejs.org/dist/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "i386" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "6.14.4",
+      "variants": [
+        {
+          "data": { "libc": "musl-libc" },
+          "requires": [
+            { "type": "sw.os", "slug": "alpine" }
+          ],
+          "variants": [
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "831806243ab017e89e3283ef7f0d64fac43e6a8700ebb24b0107f71d6a8d43d4",
+                  "name": "node-v$NODE_VERSION-linux-alpine-armhf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                {
+                  "or": [
+                    { "type": "arch.sw", "slug": "rpi" },
+                    { "type": "arch.sw", "slug": "armv7hf" }
+                  ]
+                }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "bfde9eeb35cd2691c0d23142dc384c7d086750bc19cf8c3166156c04e7cb6ef5",
+                  "name": "node-v$NODE_VERSION-linux-alpine-amd64.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "amd64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "1c5e387ca445b6aa88cee8673583c844905981cac3fbbb3dfbd00d0e76cf8dd8",
+                  "name": "node-v$NODE_VERSION-linux-alpine-i386.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "i386" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "0187d3c9b845e88cfcba244e8db0a27e13c021c7b939ef724feef3fef7b4df84",
+                  "name": "node-v$NODE_VERSION-linux-alpine-aarch64.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "aarch64" }
+              ]
+            }
+          ]
+        },
+        {
+          "data": { "libc": "glibc" },
+          "requires": [
+            {
+              "or": [
+                { "type": "sw.os", "slug": "debian" },
+                { "type": "sw.os", "slug": "ubuntu" },
+                { "type": "sw.os", "slug": "fedora" }
+              ]
+            }
+          ],
+          "variants": [
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "63a5b6b2da949f2c45c2b2615e17c757c86080470da425477adc6291252aaf8c",
+                  "name": "node-v$NODE_VERSION-linux-armv6l.tar.gz",
+                  "url": "http://nodejs.org/dist/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "rpi" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "64b70fcef873ebb7a39cbc8b926a5e7f788e1b89fdf089476a61067a06dbb0f6",
+                  "name": "node-v$NODE_VERSION-linux-armv7hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "armv7hf" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "1b80ddc7847e85ae31c5eb515ee76230fed1e2e70303a7db9891404a830128ba",
+                  "name": "node-v$NODE_VERSION-linux-x64.tar.gz",
+                  "url": "http://nodejs.org/dist/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "amd64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "08d5af19fb0abe879ee9a62a1243cb027acbedae1b4fa5498a6183cc458773ee",
+                  "name": "node-v$NODE_VERSION-linux-arm64.tar.gz",
+                  "url": "http://nodejs.org/dist/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "aarch64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "d394ea61a51ba3c070838f8696a38f9e47be55af6978e7a074addb742ba0cddc",
+                  "name": "node-v$NODE_VERSION-linux-x86.tar.gz",
+                  "url": "http://nodejs.org/dist/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "i386" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "d87631cd94991adae64defa30e653f4ea1e0a35bc4ef8746d9c637dac64fac29",
+                  "name": "node-v$NODE_VERSION-linux-i386.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "i386-nlp" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

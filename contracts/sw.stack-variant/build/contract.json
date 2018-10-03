@@ -1,0 +1,11 @@
+{
+  "slug": "build",
+  "version": "1",
+  "type": "sw.stack-variant",
+  "name": "Language stack build variant",
+  "requires": [
+    {
+      "type": "sw.stack"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "run",
+  "version": "1",
+  "type": "sw.stack-variant",
+  "name": "Language stack run variant",
+  "requires": [
+    {
+      "type": "sw.stack"
+    }
+  ]
+}
