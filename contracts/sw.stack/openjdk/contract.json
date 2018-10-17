@@ -1,0 +1,143 @@
+{
+  "slug": "openjdk",
+  "type": "sw.stack",
+  "name": "OpenJDK {{version}}",
+  "version": "1",
+  "data": {
+    "latest": "7-jdk"
+  },
+  "requires": [
+    {
+      "or": [
+        { "type": "arch.sw", "slug": "armv5e" },
+        { "type": "arch.sw", "slug": "rpi" },
+        { "type": "arch.sw", "slug": "armv7hf" },
+        { "type": "arch.sw", "slug": "i386" },
+        { "type": "arch.sw", "slug": "aarch64" },
+        { "type": "arch.sw", "slug": "amd64" }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "version": "7-jdk",
+      "requires": [
+        {
+          "or": [
+            { "type": "sw.os", "slug": "debian", "version": "jessie" },
+            { "type": "sw.os", "slug": "alpine" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "trusty" }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "7-jre",
+      "requires": [
+        {
+          "or": [
+            { "type": "sw.os", "slug": "debian", "version": "jessie" },
+            { "type": "sw.os", "slug": "alpine" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "trusty" }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "8-jdk",
+      "requires": [
+        {
+          "or": [
+            { "type": "sw.os", "slug": "debian", "version": "stretch" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "xenial" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "artful" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "bionic" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "cosmic" },
+            { "type": "sw.os", "slug": "alpine" },
+            { "type": "sw.os", "slug": "fedora" }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "8-jre",
+      "requires": [
+        {
+          "or": [
+            { "type": "sw.os", "slug": "debian", "version": "stretch" },
+            { "type": "sw.os", "slug": "alpine" },
+            { "type": "sw.os", "slug": "fedora" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "xenial" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "artful" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "bionic" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "cosmic" }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "10-jdk",
+      "requires": [
+        {
+          "or": [
+            { "type": "sw.os", "slug": "debian", "version": "sid" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "xenial" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "artful" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "bionic" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "cosmic" },
+            { "type": "sw.os", "slug": "fedora", "version": "27" },
+            { "type": "sw.os", "slug": "fedora", "version": "28" }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "10-jre",
+      "requires": [
+        {
+          "or": [
+            { "type": "sw.os", "slug": "debian", "version": "sid" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "xenial" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "artful" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "bionic" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "cosmic" },
+            { "type": "sw.os", "slug": "fedora", "version": "27" },
+            { "type": "sw.os", "slug": "fedora", "version": "28" }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "11-jdk",
+      "requires": [
+        {
+          "or": [
+            { "type": "sw.os", "slug": "debian", "version": "sid" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "xenial" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "artful" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "bionic" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "cosmic" },
+            { "type": "sw.os", "slug": "fedora", "version": "27" },
+            { "type": "sw.os", "slug": "fedora", "version": "28" }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "11-jre",
+      "requires": [
+        {
+          "or": [
+            { "type": "sw.os", "slug": "debian", "version": "sid" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "xenial" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "artful" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "bionic" },
+            { "type": "sw.os", "slug": "ubuntu", "version": "cosmic" },
+            { "type": "sw.os", "slug": "fedora", "version": "27" },
+            { "type": "sw.os", "slug": "fedora", "version": "28" }
+          ]
+        }
+      ]
+    }
+  ]
+}
