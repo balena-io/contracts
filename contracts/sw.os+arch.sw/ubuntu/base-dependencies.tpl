@@ -41,3 +41,5 @@ until [ $n -gt $max ]; do\n\
 done\n\
 rm -r /var/lib/apt/lists/*' > /usr/sbin/install_packages \
   && chmod 0755 "/usr/sbin/install_packages"
+
+{{import partial=sw.stack-variant.slug combination="sw.os+arch.sw"}}

@@ -1,7 +1,6 @@
 ENV LC_ALL C.UTF-8
 ENV DEBIAN_FRONTEND noninteractive
 ENV UDEV off
-ENV DBUS_SYSTEM_BUS_ADDRESS unix:path=/run/dbus/system_bus_socket
 
 # 01_nodoc
 RUN echo 'path-exclude /usr/share/doc/*\n\

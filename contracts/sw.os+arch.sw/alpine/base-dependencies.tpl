@@ -4,10 +4,8 @@ RUN apk add --no-cache \
   curl \
   dbus \
   findutils \
-  openrc \
   tar \
   udev \
-  tini \
   && echo '#!/bin/sh\n\
 set -e\n\
 set -u\n\ 
@@ -30,3 +28,5 @@ until [ $n -gt $max ]; do\n\
   n=$(($n + 1))\n\
 done' > /usr/sbin/install_packages \
   && chmod 0755 "/usr/sbin/install_packages"
+
+{{import partial=sw.stack-variant.slug combination="sw.os+arch.sw"}}

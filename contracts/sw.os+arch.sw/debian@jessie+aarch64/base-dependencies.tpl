@@ -17,3 +17,5 @@ RUN sed -i '/debian-security/{s/^/#/}' /etc/apt/sources.list \
       fi \
   ) \
   && rm -rf /var/lib/apt/lists/*
+
+{{import partial=sw.stack-variant.slug combination="sw.os+arch.sw"}}

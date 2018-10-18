@@ -2,7 +2,6 @@ RUN dnf update -y && dnf install -y \
   ca-certificates \
   findutils \
   hostname \
-  systemd \
   tar \
   udev \
   which \
@@ -32,3 +31,5 @@ until [ $n -gt $max ]; do\n\
 done\n\
 dnf clean all' > /usr/sbin/install_packages \
   && chmod 0755 "/usr/sbin/install_packages"
+
+{{import partial=sw.stack-variant.slug combination="sw.os+arch.sw"}}
