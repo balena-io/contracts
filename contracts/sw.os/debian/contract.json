@@ -2,10 +2,13 @@
   "slug": "debian",
   "type": "sw.os",
   "version": "1",
-  "data": { "libc": "glibc" },
+  "data": {
+    "libc": "glibc",
+    "latest": "stretch"
+  },
   "name": "Debian {{version}}",
   "requires": [
-    { "type": "sw.blob", "slug": "resin-xbuild" },
+    { "type": "sw.blob", "slug": "balena-xbuild" },
     { "type": "sw.blob", "slug": "entry" }
   ],
   "variants": [

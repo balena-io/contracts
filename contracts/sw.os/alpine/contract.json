@@ -2,10 +2,13 @@
   "slug": "alpine",
   "type": "sw.os",
   "version": "1",
-  "data": { "libc": "musl-libc" },
+  "data": { 
+    "libc": "musl-libc",
+    "latest": "3.8"
+  },
   "name": "Alpine Linux {{version}}",
   "requires": [
-    { "type": "sw.blob", "slug": "resin-xbuild" },
+    { "type": "sw.blob", "slug": "balena-xbuild" },
     { "type": "sw.blob", "slug": "entry" }
   ],
   "variants": [

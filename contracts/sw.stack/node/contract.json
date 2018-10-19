@@ -3,6 +3,9 @@
   "type": "sw.stack",
   "name": "Node.js $NODE_VERSION",
   "version": "1",
+  "data": {
+    "latest": "10.10.0"
+  },
   "assets": {
     "yarn": {
       "version": "1.6.0"
