@@ -1,7 +1,7 @@
 {
-  "slug": "resin-xbuild",
+  "slug": "balena-xbuild",
   "type": "sw.blob",
-  "name": "Resin XBuild v{{version}}",
+  "name": "Balena XBuild v{{version}}",
   "version": "1.0.0",
   "assets": {
     "bin": {
