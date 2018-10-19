@@ -1,43 +1,6 @@
 ENV NODE_VERSION {{sw.stack.version}}
 ENV YARN_VERSION {{sw.stack.assets.yarn.version}}
 
-# Install packages for build variant
-RUN dnf install -y \
-		ca-certificates \
-		curl \
-		wget \
-		bzr \
-		git \
-		mercurial \
-		openssh-clients \
-		subversion \
-		autoconf \
-		automake \
-		bzip2-devel \
-		glib2-devel \
-		gcc \
-		gcc-c++ \
-		ImageMagick \
-		ImageMagick-devel \
-		kernel-devel \
-		libcurl-devel \
-		libevent-devel \
-		libffi-devel \
-		libjpeg-devel \
-		libsqlite3x-devel \
-		libxml2-devel \
-		libxslt-devel \
-		libyaml-devel \
-		mysql-devel \
-		make \
-		ncurses-devel \
-		openssl-devel \
-		postgresql-devel \
-		readline-devel \
-		sqlite-devel \
-		zlib-devel \
-	&& dnf clean all
-
 RUN for key in \
 	6A010C5166006599AA17F08146C2130DFD2497F5 \
 	; do \

@@ -1,43 +1,8 @@
 ENV NODE_VERSION {{sw.stack.version}}
 ENV YARN_VERSION {{sw.stack.assets.yarn.version}}
 
-# Install packages for build variant
-RUN apk add --update \
-		bzr \
-		git \
-		mercurial \
-		openssh-client \
-		subversion \
-		ca-certificates \
-		curl \
-		wget \
-		autoconf \
-		build-base \
-		imagemagick \
-		libbz2 \
-		#libcurl \
-		libevent-dev \
-		libffi-dev \
-		glib-dev \
-		jpeg-dev \
-		imagemagick-dev \
-		ncurses5-libs \
-		libpq \
-		readline-dev \
-		sqlite-dev \
-		openssl-dev \
-		libxml2-dev \
-		libxslt-dev \
-		yaml-dev \
-		zlib-dev \
-		xz \
-		# Node dependencies
-		libgcc \
-		libstdc++ \
-		libuv \
-		libcrypto1.0 \
-		libssl1.0 \
-	&& rm -rf /var/cache/apk/*
+# Install dependencies
+RUN apk add --no-cache libgcc libstdc++ libuv libcrypto1.0 libssl1.0
 
 RUN for key in \
 	6A010C5166006599AA17F08146C2130DFD2497F5 \
