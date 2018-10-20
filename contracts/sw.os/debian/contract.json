@@ -32,6 +32,17 @@
     },
     {
       "requires": [
+        { "type": "arch.sw", "slug": "rpi" },
+        { "type": "sw.blob", "slug": "qemu" }
+      ],
+      "variants": [
+        { "version": "jessie", "name": "Debian Jessie" },
+        { "version": "stretch", "name": "Debian Stretch" },
+        { "version": "buster", "name": "Debian Buster" }
+      ]
+    },
+    {
+      "requires": [
         {
           "or": [
             { "type": "arch.sw", "slug": "i386" },
