@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## v1.1.1 - 2018-10-23
+
+* Base-images: Add deprecation warning when using resin base images [Trong Nghia Nguyen]
+
 ## v1.1.0 - 2018-09-25
 
 * Device: Add contract for asus-tinker-board and asus-tinker-board-s [Trong Nghia Nguyen]
