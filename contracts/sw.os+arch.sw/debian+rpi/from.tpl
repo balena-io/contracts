@@ -1,1 +1,1 @@
-FROM balenalib/rpi-raspbian:{{sw.os.version}}
+FROM balenalib/{{arch.sw.slug}}-raspbian:{{sw.os.version}}

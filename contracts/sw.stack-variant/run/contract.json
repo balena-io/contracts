@@ -5,7 +5,11 @@
   "name": "Language stack run variant",
   "requires": [
     {
-      "type": "sw.stack"
+      "or": [
+      	{ "type": "sw.stack" },
+        { "type": "arch.sw" },
+        { "type": "sw.os" }
+      ]
     }
   ]
 }
