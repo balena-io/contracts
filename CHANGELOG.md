@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## v1.1.3 - 2018-10-24
+
+* BaseImages: Remove deprecation warning for resin base images [Trong Nghia Nguyen]
+
 ## v1.1.2 - 2018-10-23
 
 * Contracts: various small updates [Trong Nghia Nguyen]
