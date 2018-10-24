@@ -2,27 +2,16 @@
   "slug": "debian",
   "type": "sw.os",
   "version": "1",
-  "data": { "libc": "glibc" },
+  "data": {
+    "libc": "glibc",
+    "latest": "stretch"
+  },
   "name": "Debian {{version}}",
   "requires": [
-    { "type": "sw.blob", "slug": "tini" },
-    { "type": "sw.blob", "slug": "resin-xbuild" },
+    { "type": "sw.blob", "slug": "balena-xbuild" },
     { "type": "sw.blob", "slug": "entry" }
   ],
   "variants": [
-    {
-      "version": "wheezy",
-      "name": "Debian Wheezy",
-      "requires": [
-        {
-          "or": [
-            { "type": "arch.sw", "slug": "armv5e" },
-            { "type": "arch.sw", "slug": "armv7hf" }
-          ]
-        },
-        { "type": "sw.blob", "slug": "qemu" }
-      ]
-    },
     {
       "requires": [
         {
@@ -43,6 +32,17 @@
     },
     {
       "requires": [
+        { "type": "arch.sw", "slug": "rpi" },
+        { "type": "sw.blob", "slug": "qemu" }
+      ],
+      "variants": [
+        { "version": "jessie", "name": "Debian Jessie" },
+        { "version": "stretch", "name": "Debian Stretch" },
+        { "version": "buster", "name": "Debian Buster" }
+      ]
+    },
+    {
+      "requires": [
         {
           "or": [
             { "type": "arch.sw", "slug": "i386" },
@@ -52,7 +52,6 @@
         }
       ],
       "variants": [
-        { "version": "wheezy", "name": "Debian Wheezy" },
         { "version": "jessie", "name": "Debian Jessie" },
         { "version": "stretch", "name": "Debian Stretch" },
         { "version": "buster", "name": "Debian Buster" },

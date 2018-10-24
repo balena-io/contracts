@@ -1,5 +1,4 @@
-# For backward compatibility, udev is enabled by default
-ENV UDEV on
+ENV UDEV off
 
 # Few tweaks for Fedora base image
 RUN mkdir -p /etc/dnf/vars \

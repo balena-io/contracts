@@ -1,0 +1,15 @@
+{
+  "slug": "build",
+  "version": "1",
+  "type": "sw.stack-variant",
+  "name": "Language stack build variant",
+  "requires": [
+    {
+      "or": [
+      	{ "type": "sw.stack" },
+        { "type": "arch.sw" },
+        { "type": "sw.os" }
+      ]
+    }
+  ]
+}

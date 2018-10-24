@@ -34,3 +34,5 @@ RUN set -x \
   && make && make install \
   && apt-get purge -y --auto-remove $buildDeps \
   && cd / && rm -rf /libx1000
+
+{{import partial=sw.stack-variant.slug combination="sw.os+arch.sw"}}

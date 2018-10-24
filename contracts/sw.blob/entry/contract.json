@@ -24,49 +24,19 @@
     {
       "assets": {
         "bin": {
-          "name": "entry-no-systemd-debian.sh",
-          "url": "file://./assets/entry-no-systemd-debian.sh",
-          "checksum": ""
-        }
-      },
-      "requires": [
-        { "type": "sw.os", "slug": "debian", "version": "wheezy" }
-      ]
-    },
-    {
-      "assets": {
-        "bin": {
-          "name": "entry-systemd-debian.sh",
-          "url": "file://./assets/entry-systemd-debian.sh",
+          "name": "entry.sh",
+          "url": "file://./assets/entry.sh",
           "checksum": ""
         }
       },
       "requires": [
         {
           "or": [
-            { "type": "sw.os", "slug": "debian", "version": "jessie" },
-            { "type": "sw.os", "slug": "debian", "version": "sid" },
-            { "type": "sw.os", "slug": "debian", "version": "buster" },
-            { "type": "sw.os", "slug": "debian", "version": "stretch" },
-            { "type": "sw.os", "slug": "ubuntu", "version": "trusty" },
-            { "type": "sw.os", "slug": "ubuntu", "version": "xenial" },
-            { "type": "sw.os", "slug": "ubuntu", "version": "artful" },
-            { "type": "sw.os", "slug": "ubuntu", "version": "bionic" },
-            { "type": "sw.os", "slug": "ubuntu", "version": "cosmic" }
+            { "type": "sw.os", "slug": "fedora" },
+            { "type": "sw.os", "slug": "debian" },
+            { "type": "sw.os", "slug": "ubuntu" }
           ]
         }
-      ]
-    },
-    {
-      "assets": {
-        "bin": {
-          "name": "entry-fedora.sh",
-          "url": "file://./assets/entry-fedora.sh",
-          "checksum": ""
-        }
-      },
-      "requires": [
-        { "type": "sw.os", "slug": "fedora" }
       ]
     }
   ]

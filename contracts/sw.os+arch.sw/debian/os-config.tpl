@@ -1,7 +1,6 @@
 ENV LC_ALL C.UTF-8
 ENV DEBIAN_FRONTEND noninteractive
-# For backward compatibility, udev is enabled by default
-ENV UDEV on
+ENV UDEV off
 
 # 01_nodoc
 RUN echo 'path-exclude /usr/share/doc/*\n\
