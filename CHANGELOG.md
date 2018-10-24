@@ -5,6 +5,24 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## v1.1.2 - 2018-10-23
+
+* Contracts: various small updates [Trong Nghia Nguyen]
+* Openjdk: Add contracts and partials for OpenJDK stack [Trong Nghia Nguyen]
+* Golang: Add contract and partials for golang stack [Trong Nghia Nguyen]
+* Python: Add contract and partials for Python stack [Trong Nghia Nguyen]
+* Namechange: Change xbuild partial to balena-xbuild [Trong Nghia Nguyen]
+* Partials: Few partial updates for node stack [Trong Nghia Nguyen]
+* Version: Add latest version for some contracts [Trong Nghia Nguyen]
+* Balena-xbuild: Change resin-xbuild to balena-xbuild [Trong Nghia Nguyen]
+* Entry-script: Update entry script contract for balena base images [Trong Nghia Nguyen]
+* Debian: Drop support for Debian Wheezy [Trong Nghia Nguyen]
+* Node: Add contracts and partials for nodejs base image stack [Trong Nghia Nguyen]
+* Os: Remove tini and initsystem related partials [Trong Nghia Nguyen]
+* Blob: Remove tini contracts [Trong Nghia Nguyen]
+* Os: add install_packages script to os partials [Trong Nghia Nguyen]
+* Os: Update default env vars [Trong Nghia Nguyen]
+
 ## v1.1.1 - 2018-10-23
 
 * Base-images: Add deprecation warning when using resin base images [Trong Nghia Nguyen]
