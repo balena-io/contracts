@@ -2,7 +2,7 @@
   "slug": "qemu",
   "type": "sw.blob",
   "version": "1",
-  "name": "QEMU v{{version}}",
+  "name": "QEMU v{{this.version}}",
   "assets": {
     "bin": {
       "checksumType": "sha256"

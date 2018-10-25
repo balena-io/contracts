@@ -6,7 +6,7 @@
     "libc": "glibc",
     "latest": "stretch"
   },
-  "name": "Debian {{version}}",
+  "name": "Debian {{this.version}}",
   "requires": [
     { "type": "sw.blob", "slug": "balena-xbuild" },
     { "type": "sw.blob", "slug": "entry" }
