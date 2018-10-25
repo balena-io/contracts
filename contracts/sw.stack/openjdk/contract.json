@@ -1,7 +1,7 @@
 {
   "slug": "openjdk",
   "type": "sw.stack",
-  "name": "OpenJDK {{version}}",
+  "name": "OpenJDK {{this.version}}",
   "version": "1",
   "data": {
     "latest": "7-jdk"
