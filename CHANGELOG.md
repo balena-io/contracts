@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## v1.1.5 - 2018-10-28
+
+* Rpi: Change raspbian key server in rpi debian images [Trong Nghia Nguyen]
+* Fedora: Remove fedora 27 due to dnf issue [Trong Nghia Nguyen]
+* Beaglebone: No longer install package from oldstable replease [Trong Nghia Nguyen]
+
 ## v1.1.4 - 2018-10-25
 
 * Namechange: Rename some stuff from resin to balena [Trong Nghia Nguyen]
