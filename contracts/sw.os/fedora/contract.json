@@ -14,7 +14,6 @@
   "variants": [
     {
       "variants": [
-        { "version": "27" },
         { "version": "28" },
         { "version": "26" }
       ],
@@ -30,7 +29,6 @@
     },
     {
       "variants": [
-        { "version": "27" },
         { "version": "28" },
         { "version": "26" }
       ],
