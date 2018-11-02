@@ -1,6 +1,7 @@
 RUN dnf update -y && dnf install -y \
   ca-certificates \
   findutils \
+  gnupg \
   hostname \
   tar \
   udev \

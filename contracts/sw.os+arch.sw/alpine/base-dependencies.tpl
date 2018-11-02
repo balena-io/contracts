@@ -6,6 +6,7 @@ RUN apk add --no-cache \
   findutils \
   tar \
   udev \
+  gnupg \
   && echo '#!/bin/sh\n\
 set -e\n\
 set -u\n\ 
