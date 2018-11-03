@@ -8,9 +8,9 @@ RUN dnf update -y && dnf install -y \
   which \
   curl \
   && dnf clean all \
-  && echo '#!/bin/sh\n\
+  && echo $'#!/bin/sh\n\
 set -e\n\
-set -u\n\ 
+set -u\n\
 n=0\n\
 max=2\n\
 until [ $n -gt $max ]; do\n\
