@@ -18,7 +18,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   && rm -rf /var/lib/apt/lists/* \
   && echo '#!/bin/sh\n\
 set -e\n\
-set -u\n\ 
+set -u\n\
 export DEBIAN_FRONTEND=noninteractive\n\
 n=0\n\
 max=2\n\
