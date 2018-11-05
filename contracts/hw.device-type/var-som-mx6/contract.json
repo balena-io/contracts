@@ -1,0 +1,20 @@
+{
+  "slug": "var-som-mx6",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "Variscite VAR-SOM-MX6",
+  "data": {
+    "arch": "armv7hf",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "installation": "sdcard"
+    }
+  }
+}
