@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.6 - 2018-11-05
+
+* Circleci: Update circleci config 2.0 [Trong Nghia Nguyen]
+* BaseImages: Fix install_packages on Alpine and Fedora partials [Trong Nghia Nguyen]
+* BaseImages: Add gnupg to base dependencies for Alpine and Fedora [Trong Nghia Nguyen]
+
 ## v1.1.5 - 2018-10-28
 
 * Rpi: Change raspbian key server in rpi debian images [Trong Nghia Nguyen]
