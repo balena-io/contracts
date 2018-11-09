@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.8 - 2018-11-09
+
+* Python: Add info of openssl1.1 supported binary for python v2.7.15 v3.4.9 v3.5.6 and v3.6.6 [Trong Nghia Nguyen]
+* Golang: Add info for Golang v1.11.1 [Trong Nghia Nguyen]
+
 ## 1.1.7 - 2018-11-06
 
 * New-device: Add contract for var-som-mx6 [Trong Nghia Nguyen]
