@@ -1,0 +1,20 @@
+{
+  "slug": "nanopi-neo-air",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "Nanopi Neo Air",
+  "data": {
+    "arch": "armv7hf",
+    "hdmi": false,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "installation": "sdcard"
+    }
+  }
+}
