@@ -1,10 +1,13 @@
 {
   "slug": "openjdk",
   "type": "sw.stack",
-  "name": "OpenJDK {{this.version}}",
+  "name": "OpenJDK v{{this.version}}",
   "version": "1",
   "data": {
     "latest": "7-jdk"
+  },
+  "assets": {
+    "manifest": "OpenJDK v{{this.version}}"
   },
   "requires": [
     {
