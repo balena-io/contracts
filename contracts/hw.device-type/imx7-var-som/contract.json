@@ -1,11 +1,11 @@
 {
-  "slug": "var-som-mx6",
+  "slug": "imx7-var-som",
   "version": "1",
   "type": "hw.device-type",
-  "name": "Variscite VAR-SOM-MX6",
+  "name": "Variscite VAR-SOM-MX7",
   "data": {
     "arch": "armv7hf",
-    "hdmi": true,
+    "hdmi": false,
     "led": false,
     "connectivity": {
       "bluetooth": true,
