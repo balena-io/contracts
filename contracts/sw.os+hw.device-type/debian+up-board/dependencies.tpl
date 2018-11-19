@@ -25,7 +25,6 @@ RUN set -x \
 		python-dev \
 		swig \
 		pkg-config \
-		curl \
 	' \
 	&& apt-get update && apt-get install -y $buildDeps --no-install-recommends && rm -rf /var/lib/apt/lists/* \
 	&& mkdir /cmake \ 
