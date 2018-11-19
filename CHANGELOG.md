@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.10 - 2018-11-19
+
+* Nanopi-neo-air: Mention wifi support [Alexandru Costache]
+* Var-som-mx6: Mention wifi support [Alexandru Costache]
+* NewDevice: Add info for imx7-var-som [Alexandru Costache]
+
 ## 1.1.9 - 2018-11-13
 
 * NewDevice: Add info for nanopi-neo-air [Trong Nghia Nguyen]
