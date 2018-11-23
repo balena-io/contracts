@@ -1,0 +1,21 @@
+{
+  "slug": "beaglebone-pocket",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "PocketBeagle",
+  "data": {
+    "arch": "armv7hf",
+    "led": true,
+    "hdmi": false,
+    "connectivity": {
+      "bluetooth": false,
+      "wifi": false
+    },
+    "storage": {
+      "internal": false
+    },
+    "media": {
+      "installation": "sdcard"
+    }
+  }
+}
