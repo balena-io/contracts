@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.11 - 2018-11-23
+
+* NewDevice: Add info for PocketBeagle [Alexandru Costache]
+
 ## 1.1.10 - 2018-11-19
 
 * Nanopi-neo-air: Mention wifi support [Alexandru Costache]
