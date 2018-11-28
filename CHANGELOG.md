@@ -5,6 +5,13 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.12 - 2018-11-28
+
+* BaseImages: Add ONBUILD log output that lists base image features [Trong Nghia Nguyen]
+* BaseImages: Add i386-nlp arch to openJDK stack [Trong Nghia Nguyen]
+* BaseImages: Remove curl from some partials since it is installed in previous layer [Trong Nghia Nguyen]
+* BaseImages: Set latest Go version to 1.11.1 [Trong Nghia Nguyen]
+
 ## 1.1.11 - 2018-11-23
 
 * NewDevice: Add info for PocketBeagle [Alexandru Costache]
