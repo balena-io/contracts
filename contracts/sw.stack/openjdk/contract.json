@@ -1,10 +1,13 @@
 {
   "slug": "openjdk",
   "type": "sw.stack",
-  "name": "OpenJDK {{this.version}}",
+  "name": "OpenJDK v{{this.version}}",
   "version": "1",
   "data": {
     "latest": "7-jdk"
+  },
+  "assets": {
+    "manifest": "OpenJDK v{{this.version}}"
   },
   "requires": [
     {
@@ -14,7 +17,8 @@
         { "type": "arch.sw", "slug": "armv7hf" },
         { "type": "arch.sw", "slug": "i386" },
         { "type": "arch.sw", "slug": "aarch64" },
-        { "type": "arch.sw", "slug": "amd64" }
+        { "type": "arch.sw", "slug": "amd64" },
+        { "type": "arch.sw", "slug": "i386-nlp" }
       ]
     }
   ],

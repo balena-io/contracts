@@ -2,7 +2,7 @@
   "slug": "run",
   "version": "1",
   "type": "sw.stack-variant",
-  "name": "Language stack run variant",
+  "name": "run variant",
   "requires": [
     {
       "or": [
