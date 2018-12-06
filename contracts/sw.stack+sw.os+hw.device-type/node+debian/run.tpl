@@ -6,9 +6,9 @@ RUN buildDeps='curl' \
 	&& for key in \
 	6A010C5166006599AA17F08146C2130DFD2497F5 \
 	; do \
-		gpg --keyserver pgp.mit.edu --recv-keys "$key" || \
-		gpg --keyserver keyserver.pgp.com --recv-keys "$key" || \
-		gpg --keyserver ha.pool.sks-keyservers.net --recv-keys "$key" ; \
+		gpg --batch --keyserver pgp.mit.edu --recv-keys "$key" || \
+		gpg --batch --keyserver keyserver.pgp.com --recv-keys "$key" || \
+		gpg --batch --keyserver ha.pool.sks-keyservers.net --recv-keys "$key" ; \
 	done \
 	&& apt-get update && apt-get install -y $buildDeps --no-install-recommends \
 	&& rm -rf /var/lib/apt/lists/* \
