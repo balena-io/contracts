@@ -1,7 +1,7 @@
 {
   "slug": "python",
   "type": "sw.stack",
-  "name": "Python v{{this.version}}",
+  "name": "Python $PYTHON_VERSION",
   "version": "1",
   "data": {
     "latest": "2.7.15"
@@ -15,8 +15,7 @@
     },
     "dbus": {
       "version": "1.2.4"
-    },
-    "manifest": "Python v{{this.version}}, Pip v{{this.assets.pip.version}}, Setuptools v{{this.assets.setuptools.version}}"
+    }
   },
   "requires": [
     {

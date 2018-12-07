@@ -4,9 +4,9 @@ ENV YARN_VERSION {{sw.stack.assets.yarn.version}}
 RUN for key in \
 	6A010C5166006599AA17F08146C2130DFD2497F5 \
 	; do \
-		gpg --keyserver pgp.mit.edu --recv-keys "$key" || \
-		gpg --keyserver keyserver.pgp.com --recv-keys "$key" || \
-		gpg --keyserver ha.pool.sks-keyservers.net --recv-keys "$key" ; \
+		gpg --batch --keyserver pgp.mit.edu --recv-keys "$key" || \
+		gpg --batch --keyserver keyserver.pgp.com --recv-keys "$key" || \
+		gpg --batch --keyserver ha.pool.sks-keyservers.net --recv-keys "$key" ; \
 	done \
 	&& curl -SLO "{{sw.stack.assets.bin.url}}" \
 	&& echo "{{sw.stack.assets.bin.checksum}}  {{sw.stack.assets.bin.name}}" | sha256sum -c - \
