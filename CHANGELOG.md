@@ -5,6 +5,14 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.13 - 2018-12-07
+
+* Yarn: Update yarn to v1.12.3 [Trong Nghia Nguyen]
+* Node: Add info for node v11.3.0, v10.14.0, v8.14.0 and v6.15.0 [Trong Nghia Nguyen]
+* Revert "baseImages: Add ONBUILD log output that lists base image features" Since we must rethink how to properly implement this feature [Trong Nghia Nguyen]
+* Golang: Add info for Golang v1.11.2 and v1.10.5 [Trong Nghia Nguyen]
+* DebianImages: Invoke gpg with --batch [Trong Nghia Nguyen]
+
 ## 1.1.12 - 2018-11-28
 
 * BaseImages: Add ONBUILD log output that lists base image features [Trong Nghia Nguyen]
