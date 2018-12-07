@@ -1,7 +1,7 @@
 {
   "slug": "node",
   "type": "sw.stack",
-  "name": "Node.js v{{this.version}}",
+  "name": "Node.js $NODE_VERSION",
   "version": "1",
   "data": {
     "latest": "10.10.0"
@@ -9,8 +9,7 @@
   "assets": {
     "yarn": {
       "version": "1.6.0"
-    },
-    "manifest": "Node.js v{{this.version}}, Yarn v{{this.assets.yarn.version}}"
+    }
   },
   "requires": [
     {

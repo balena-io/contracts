@@ -1,13 +1,10 @@
 {
   "slug": "golang",
   "type": "sw.stack",
-  "name": "Go v{{this.version}}",
+  "name": "Go $PYTHON_VERSION",
   "version": "1",
   "data": {
     "latest": "1.11.2"
-  },
-  "assets": {
-    "manifest": "Go v{{this.version}}"
   },
   "requires": [
     {

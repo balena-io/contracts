@@ -2,7 +2,7 @@
   "slug": "build",
   "version": "1",
   "type": "sw.stack-variant",
-  "name": "build variant",
+  "name": "Language stack build variant",
   "requires": [
     {
       "or": [
