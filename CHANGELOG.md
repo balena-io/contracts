@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.14 - 2019-01-11
+
+* NewDevice: Add info for imx8m-var-dart [Trong Nghia Nguyen]
+
 ## 1.1.13 - 2018-12-07
 
 * Yarn: Update yarn to v1.12.3 [Trong Nghia Nguyen]
