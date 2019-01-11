@@ -1,0 +1,21 @@
+{
+  "slug": "imx8m-var-dart",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "Variscite DART-MX8M",
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "installation": "sdcard"
+    }
+  }
+}
