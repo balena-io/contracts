@@ -19,13 +19,13 @@ ENV UPM_VERSION 1.6.0
 # Install mraa
 RUN set -x \
 	&& buildDeps=' \
-		build-essential \
-		git-core \
 		libpcre3-dev \
 		python-dev \
 		swig \
 		pkg-config \
 	' \
+	&& if ! apt-cache show 'build-essential' 2>/dev/null | grep -q '^Version:'; then buildDeps="$buildDeps build-essential"; fi \
+	&& if ! apt-cache show 'git' 2>/dev/null | grep -q '^Version:'; then buildDeps="$buildDeps git"; fi \
 	&& apt-get update && apt-get install -y $buildDeps --no-install-recommends && rm -rf /var/lib/apt/lists/* \
 	&& mkdir /cmake \
 	&& curl -SL https://cmake.org/files/v3.5/cmake-3.5.2.tar.gz -o cmake.tar.gz \
