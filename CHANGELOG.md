@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.15 - 2019-01-16
+
+* Mraa: Update mraa to v2.0.0 and upm to v1.7.1 [Trong Nghia Nguyen]
+* Mraa: Fix mraa build dependencies [Trong Nghia Nguyen]
+* Python: Add support for python v3.7.2 and v3.6.8 [Trong Nghia Nguyen]
+
 ## 1.1.14 - 2019-01-11
 
 * NewDevice: Add info for imx8m-var-dart [Trong Nghia Nguyen]
