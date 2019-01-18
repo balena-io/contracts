@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.16 - 2019-01-18
+
+* NewDevice: Add info for cl-som-imx8 [Alexandru Costache]
+
 ## 1.1.15 - 2019-01-16
 
 * Mraa: Update mraa to v2.0.0 and upm to v1.7.1 [Trong Nghia Nguyen]
