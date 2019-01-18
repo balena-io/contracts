@@ -1,0 +1,21 @@
+{
+  "slug": "cl-som-imx8",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "Compulab iMX8",
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "installation": "sdcard"
+    }
+  }
+}
