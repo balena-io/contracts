@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.17 - 2019-01-22
+
+* Python: Update the checksum for Python v2.7.15 armv6hf binary [Trong Nghia Nguyen]
+* Node: Add support for node v11.6.0 v10.15.0 v8.15.0 and v6.16.0 [Trong Nghia Nguyen]
+
 ## 1.1.16 - 2019-01-18
 
 * NewDevice: Add info for cl-som-imx8 [Alexandru Costache]
