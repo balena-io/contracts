@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.18 - 2019-02-06
+
+* Imx8m-var-dart: Add identification led support [Alexandru Costache]
+
 ## 1.1.17 - 2019-01-22
 
 * Python: Update the checksum for Python v2.7.15 armv6hf binary [Trong Nghia Nguyen]
