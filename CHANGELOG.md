@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.19 - 2019-02-13
+
+* Rpi: Add ui component to rpi family base images sources list [Trong Nghia Nguyen]
+* Alpine: Add support for Alpine Linux 3.9 [Trong Nghia Nguyen]
+* Python: Update pip to v19.0.1 and setuptools v40.6.3 [Trong Nghia Nguyen]
+
 ## 1.1.18 - 2019-02-06
 
 * Imx8m-var-dart: Add identification led support [Alexandru Costache]
