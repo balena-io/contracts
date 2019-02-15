@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.20 - 2019-02-15
+
+* Debian: Add procps to the default package list for Debian images [Trong Nghia Nguyen]
+* Node: Add v11.9.0 and v10.15.1 to node contract [Trong Nghia Nguyen]
+
 ## 1.1.19 - 2019-02-13
 
 * Rpi: Add ui component to rpi family base images sources list [Trong Nghia Nguyen]
