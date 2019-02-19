@@ -1,0 +1,20 @@
+{
+  "slug": "orange-pi-zero",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "Orange Pi Zero",
+  "data": {
+    "arch": "armv7hf",
+    "hdmi": false,
+    "led": true,
+    "connectivity": {
+      "bluetooth": false
+    },
+    "storage": {
+      "internal": false
+    },
+    "media": {
+      "installation": "sdcard"
+    }
+  }
+}
