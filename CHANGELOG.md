@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.21 - 2019-02-19
+
+* NewDevice: Add contract for Orange Pi Zero [Trong Nghia Nguyen]
+
 ## 1.1.20 - 2019-02-15
 
 * Debian: Add procps to the default package list for Debian images [Trong Nghia Nguyen]

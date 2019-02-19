@@ -1,6 +1,6 @@
 {
   "name": "contracts",
-  "version": "1.1.20",
+  "version": "1.1.21",
   "description": "Resin.io Base Contracts",
   "repository": {
     "type": "git",
