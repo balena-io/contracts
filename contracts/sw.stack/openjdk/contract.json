@@ -4,7 +4,7 @@
   "name": "OpenJDK {{this.version}}",
   "version": "1",
   "data": {
-    "latest": "7-jdk"
+    "latest": "8-jdk"
   },
   "requires": [
     {
@@ -85,9 +85,7 @@
             { "type": "sw.os", "slug": "ubuntu", "version": "xenial" },
             { "type": "sw.os", "slug": "ubuntu", "version": "artful" },
             { "type": "sw.os", "slug": "ubuntu", "version": "bionic" },
-            { "type": "sw.os", "slug": "ubuntu", "version": "cosmic" },
-            { "type": "sw.os", "slug": "fedora", "version": "27" },
-            { "type": "sw.os", "slug": "fedora", "version": "28" }
+            { "type": "sw.os", "slug": "ubuntu", "version": "cosmic" }
           ]
         }
       ]
@@ -101,9 +99,7 @@
             { "type": "sw.os", "slug": "ubuntu", "version": "xenial" },
             { "type": "sw.os", "slug": "ubuntu", "version": "artful" },
             { "type": "sw.os", "slug": "ubuntu", "version": "bionic" },
-            { "type": "sw.os", "slug": "ubuntu", "version": "cosmic" },
-            { "type": "sw.os", "slug": "fedora", "version": "27" },
-            { "type": "sw.os", "slug": "fedora", "version": "28" }
+            { "type": "sw.os", "slug": "ubuntu", "version": "cosmic" }
           ]
         }
       ]
@@ -118,7 +114,8 @@
             { "type": "sw.os", "slug": "ubuntu", "version": "artful" },
             { "type": "sw.os", "slug": "ubuntu", "version": "bionic" },
             { "type": "sw.os", "slug": "ubuntu", "version": "cosmic" },
-            { "type": "sw.os", "slug": "fedora", "version": "27" },
+            { "type": "sw.os", "slug": "fedora", "version": "30" },
+            { "type": "sw.os", "slug": "fedora", "version": "29" },
             { "type": "sw.os", "slug": "fedora", "version": "28" }
           ]
         }
@@ -134,7 +131,8 @@
             { "type": "sw.os", "slug": "ubuntu", "version": "artful" },
             { "type": "sw.os", "slug": "ubuntu", "version": "bionic" },
             { "type": "sw.os", "slug": "ubuntu", "version": "cosmic" },
-            { "type": "sw.os", "slug": "fedora", "version": "27" },
+            { "type": "sw.os", "slug": "fedora", "version": "30" },
+            { "type": "sw.os", "slug": "fedora", "version": "29" },
             { "type": "sw.os", "slug": "fedora", "version": "28" }
           ]
         }
