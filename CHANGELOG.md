@@ -5,6 +5,13 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.22 - 2019-02-25
+
+* Device: Add support for Orange Pi One [Trong Nghia Nguyen]
+* Openjdk: Update Fedora openjdk images [Trong Nghia Nguyen]
+* Fedora: Add suppor for Fedora 29 and 30 [Trong Nghia Nguyen]
+* AlpineLinux: Install libssl1.1 on latest Alpine Linux [Trong Nghia Nguyen]
+
 ## 1.1.21 - 2019-02-19
 
 * NewDevice: Add contract for Orange Pi Zero [Trong Nghia Nguyen]
