@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.23 - 2019-02-26
+
+* Device: Add contract for Raspberry Pi 3 64bits [Trong Nghia Nguyen]
+* Golang: Add v1.11.5 and v1.10.8 to Golang contract [Trong Nghia Nguyen]
+* Node: Add v11.10.0 to Node contract [Trong Nghia Nguyen]
+
 ## 1.1.22 - 2019-02-25
 
 * Device: Add support for Orange Pi One [Trong Nghia Nguyen]
