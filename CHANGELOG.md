@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.24 - 2019-02-27
+
+* Go: Add v1.12 to Golang contract [Trong Nghia Nguyen]
+
 ## 1.1.23 - 2019-02-26
 
 * Device: Add contract for Raspberry Pi 3 64bits [Trong Nghia Nguyen]
