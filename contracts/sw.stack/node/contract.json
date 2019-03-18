@@ -4,7 +4,8 @@
   "name": "Node.js $NODE_VERSION",
   "version": "1",
   "data": {
-    "latest": "11.10.1"
+    "latest": "11.10.1",
+    "versionList": "`11.10.1 (latest)`, `10.15.3`, `9.11.2`, `8.15.1`, `6.17.0`"
   },
   "assets": {
     "yarn": {
