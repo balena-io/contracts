@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.26 - 2019-03-21
+
+* Device: Add contract for NPE X500 M3 [Trong Nghia Nguyen]
+* Device: Add contract for Nitrogen 6X Quad 2GB [Trong Nghia Nguyen]
+* Device: Add contract for Aetina N510 TX2 [Trong Nghia Nguyen]
+
 ## 1.1.25 - 2019-03-07
 
 * Node: Add v11.10.1 v10.15.3 v8.15.1 and v6.17.0 [Trong Nghia Nguyen]
