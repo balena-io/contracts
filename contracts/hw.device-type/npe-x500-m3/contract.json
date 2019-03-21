@@ -1,0 +1,20 @@
+{
+  "slug": "npe-x500-m3",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "NPE X500 M3",
+  "data": {
+    "arch": "armv7hf",
+    "hdmi": true,
+    "led": true,
+    "connectivity": {
+      "bluetooth": true
+    },
+    "storage": {
+      "internal": false
+    },
+    "media": {
+      "installation": "sdcard"
+    }
+  }
+}
