@@ -4,7 +4,8 @@
   "version": "1",
   "data": {
     "libc": "glibc",
-    "latest": "bionic"
+    "latest": "bionic",
+    "versionList": "`bionic (latest)`, `cosmic`, `artful`, `xenial`, `trusty`"
   },
   "name": "Ubuntu {{this.version}}",
   "requires": [
