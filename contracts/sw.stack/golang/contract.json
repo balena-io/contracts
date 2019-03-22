@@ -4,7 +4,8 @@
   "name": "Go $PYTHON_VERSION",
   "version": "1",
   "data": {
-    "latest": "1.12"
+    "latest": "1.12",
+    "versionList": "`1.12 (latest)`, `1.11.5`, `1.10.8`"
   },
   "requires": [
     {
