@@ -1,4 +1,4 @@
-RUN echo 'deb http://archive.debian.org/debian jessie main' > /etc/apt/sources.list \
+RUN sed -i '/jessie-updates/{s/^/#/}' /etc/apt/sources.list \
   && apt-get update && apt-get install -y --no-install-recommends \
   sudo \
   ca-certificates \
@@ -9,6 +9,7 @@ RUN echo 'deb http://archive.debian.org/debian jessie main' > /etc/apt/sources.l
   netbase \
   curl \
   udev \
+  procps \
   $( \
       if apt-cache show 'iproute' 2>/dev/null | grep -q '^Version:'; then \
         echo 'iproute'; \
@@ -44,3 +45,4 @@ rm -r /var/lib/apt/lists/*' > /usr/sbin/install_packages \
   && chmod 0755 "/usr/sbin/install_packages"
 
 {{import partial=sw.stack-variant.slug combination="sw.os+arch.sw"}}
+
