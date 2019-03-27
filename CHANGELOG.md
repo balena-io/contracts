@@ -5,6 +5,13 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.27 - 2019-03-26
+
+* Debian: Add workaround for missing `-updates` package repo in Debian Jessie [Trong Nghia Nguyen]
+* Golang: Add info for v1.12.1 and v1.11.6 [Trong Nghia Nguyen]
+* Node: Add info node v11.12.0 [Trong Nghia Nguyen]
+* Node: Set node v6.x and v8.x for i386 Alpine to last known working version [Trong Nghia Nguyen]
+
 ## 1.1.26 - 2019-03-21
 
 * Device: Add contract for NPE X500 M3 [Trong Nghia Nguyen]
