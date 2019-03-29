@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.28 - 2019-03-29
+
+* Alpine: Change Alpine Linux v3.9 and edge from arm32v6 to arm32v7 [Trong Nghia Nguyen]
+
 ## 1.1.27 - 2019-03-26
 
 * Debian: Add workaround for missing `-updates` package repo in Debian Jessie [Trong Nghia Nguyen]
