@@ -131,7 +131,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "c84fe17ceb999ecd5d0a1ad5b70b502779a22e433f96e0b6a0ddf6d99f954975",
+                  "checksum": "58be8912097b93098bbbc3c1b536b2f9e70efdca64d63d7e4cdb4dbd40b3e751",
                   "name": "node-v$NODE_VERSION-linux-x64.tar.gz",
                   "url": "http://nodejs.org/dist/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -143,7 +143,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "58be8912097b93098bbbc3c1b536b2f9e70efdca64d63d7e4cdb4dbd40b3e751",
+                  "checksum": "044360cc730d90b579fecea7d49861a23c326f058b39e9ac18c391d77073736d",
                   "name": "node-v$NODE_VERSION-linux-arm64.tar.gz",
                   "url": "http://nodejs.org/dist/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
