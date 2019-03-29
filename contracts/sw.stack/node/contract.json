@@ -39,12 +39,7 @@
                 }
               },
               "requires": [
-                {
-                  "or": [
-                    { "type": "arch.sw", "slug": "rpi" },
-                    { "type": "arch.sw", "slug": "armv7hf" }
-                  ]
-                }
+                { "type": "arch.sw", "slug": "rpi" }
               ]
             },
             {
@@ -81,6 +76,18 @@
               },
               "requires": [
                 { "type": "arch.sw", "slug": "aarch64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "b84d51de696a194ef8497b8ba03463f371b029ba2785f7f77c917739f74cea57",
+                  "name": "node-v$NODE_VERSION-linux-alpine-armv7hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "armv7hf" }
               ]
             }
           ]
@@ -168,12 +175,7 @@
                 }
               },
               "requires": [
-                {
-                  "or": [
-                    { "type": "arch.sw", "slug": "rpi" },
-                    { "type": "arch.sw", "slug": "armv7hf" }
-                  ]
-                }
+                { "type": "arch.sw", "slug": "rpi" }
               ]
             },
             {
@@ -210,6 +212,18 @@
               },
               "requires": [
                 { "type": "arch.sw", "slug": "aarch64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "464e87c7f69329022fa0d53b7e9736d8456c25f262c5656cc826c470062982fc",
+                  "name": "node-v$NODE_VERSION-linux-alpine-armv7hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "armv7hf" }
               ]
             }
           ]
@@ -436,12 +450,7 @@
                 }
               },
               "requires": [
-                {
-                  "or": [
-                    { "type": "arch.sw", "slug": "rpi" },
-                    { "type": "arch.sw", "slug": "armv7hf" }
-                  ]
-                }
+                { "type": "arch.sw", "slug": "rpi" }
               ]
             },
             {
@@ -466,6 +475,18 @@
               },
               "requires": [
                 { "type": "arch.sw", "slug": "aarch64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "194bda8c994c59102abcf0ee808d8b658a90faf00afeee5275e1e014833fd180",
+                  "name": "node-v$NODE_VERSION-linux-alpine-armv7hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "armv7hf" }
               ]
             }
           ]
@@ -564,12 +585,7 @@
                 }
               },
               "requires": [
-                {
-                  "or": [
-                    { "type": "arch.sw", "slug": "rpi" },
-                    { "type": "arch.sw", "slug": "armv7hf" }
-                  ]
-                }
+                { "type": "arch.sw", "slug": "rpi" }
               ]
             },
             {
@@ -594,6 +610,18 @@
               },
               "requires": [
                 { "type": "arch.sw", "slug": "aarch64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "00ebc56f7843e5381bd57e4d1206fd9045210e67940df52518597302924ec8c1",
+                  "name": "node-v$NODE_VERSION-linux-alpine-armv7hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "armv7hf" }
               ]
             }
           ]
