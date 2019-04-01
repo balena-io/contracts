@@ -5,6 +5,13 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.29 - 2019-03-29
+
+* Node: Fix wrong checksums in node v11.12.0 [Trong Nghia Nguyen]
+* Alpine: Add armv7hf node binary for Alpine Linux [Trong Nghia Nguyen]
+* Alpine: Add armv7hf python binary for Alpine Linux [Trong Nghia Nguyen]
+* Alpine: Add armv7hf golang binary for Alpine Linux [Trong Nghia Nguyen]
+
 ## 1.1.28 - 2019-03-29
 
 * Alpine: Change Alpine Linux v3.9 and edge from arm32v6 to arm32v7 [Trong Nghia Nguyen]
