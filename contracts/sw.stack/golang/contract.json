@@ -34,12 +34,7 @@
                 }
               },
               "requires": [
-                {
-                  "or": [
-                    { "type": "arch.sw", "slug": "rpi" },
-                    { "type": "arch.sw", "slug": "armv7hf" }
-                  ]
-                }
+                { "type": "arch.sw", "slug": "rpi" }
               ]
             },
             {
@@ -76,6 +71,18 @@
               },
               "requires": [
                 { "type": "arch.sw", "slug": "aarch64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "5e8e5ca254e626fcdc79b4392d8f477f15a3054aea71f58fcd9a634d2475d164",
+                  "name": "go$GO_VERSION.linux-alpine-armv7hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "armv7hf" }
               ]
             }
           ]
@@ -199,12 +206,7 @@
                 }
               },
               "requires": [
-                {
-                  "or": [
-                    { "type": "arch.sw", "slug": "rpi" },
-                    { "type": "arch.sw", "slug": "armv7hf" }
-                  ]
-                }
+                { "type": "arch.sw", "slug": "rpi" }
               ]
             },
             {
@@ -241,6 +243,18 @@
               },
               "requires": [
                 { "type": "arch.sw", "slug": "aarch64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "f9289f40d20acc554c6fbee7602840a6cdde91d9468766ff3c522b4425fc2aab",
+                  "name": "go$GO_VERSION.linux-alpine-armv7hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "armv7hf" }
               ]
             }
           ]
@@ -364,12 +378,7 @@
                 }
               },
               "requires": [
-                {
-                  "or": [
-                    { "type": "arch.sw", "slug": "rpi" },
-                    { "type": "arch.sw", "slug": "armv7hf" }
-                  ]
-                }
+                { "type": "arch.sw", "slug": "rpi" }
               ]
             },
             {
@@ -406,6 +415,18 @@
               },
               "requires": [
                 { "type": "arch.sw", "slug": "aarch64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "92e208c8828ea41fb61e881b49fe883fba12f3730ec72a49b64be0ae74bb486d",
+                  "name": "go$GO_VERSION.linux-alpine-armv7hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "armv7hf" }
               ]
             }
           ]
