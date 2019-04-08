@@ -6,11 +6,11 @@ This [guide][getting-started] can help you get started with using this base imag
 
 # What is Go?
 
-Go (a.k.a., Golang) is a programming language first developed at Google. It is a statically-typed language with syntax loosely derived from C, but with additional features such as garbage collection, type safety, some dynamic-typing capabilities, additional built-in types (e.g., variable-length arrays and key-value maps), and a large standard library.
+{{sw.stack.data.introduction}}
 
 > [wikipedia.org/wiki/Go_(programming_language)](http://en.wikipedia.org/wiki/Go_%28programming_language%29)
 
-![logo](https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/golang/logo.png)
+![logo]({{sw.stack.data.logo}})
 
 {{#hw.device-type}}
 {{import partial="golang-device" combination="dockerhub"}}

@@ -5,7 +5,9 @@
   "version": "1",
   "data": {
     "latest": "11.10.1",
-    "versionList": "`11.10.1 (latest)`, `10.15.3`, `9.11.2`, `8.15.1`, `6.17.0`"
+    "versionList": "`11.10.1 (latest)`, `10.15.3`, `9.11.2`, `8.15.1`, `6.17.0`",
+    "introduction": "Node.js is a software platform for scalable server-side and networking applications. Node.js applications are written in JavaScript and can be run within the Node.js runtime on Mac OS X, Windows, and Linux without changes.\n\nNode.js applications are designed to maximize throughput and efficiency, using non-blocking I/O and asynchronous events. Node.js applications run single-threaded, although Node.js uses multiple threads for file and network events. Node.js is commonly used for real-time applications due to its asynchronous nature.\n\nNode.js internally uses the Google V8 JavaScript engine to execute code; a large percentage of the basic modules are written in JavaScript. Node.js contains a built-in, asynchronous I/O library for file, socket, and HTTP communication. The HTTP and socket support allows Node.js to act as a web server without additional software such as Apache.",
+    "logo": "https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/node/logo.png"
   },
   "assets": {
     "yarn": {

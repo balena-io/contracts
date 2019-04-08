@@ -6,11 +6,11 @@ This [guide][getting-started] can help you get started with using this base imag
 
 # What is Python?
 
-Python is an interpreted, interactive, object-oriented, open-source programming language. It incorporates modules, exceptions, dynamic typing, very high level dynamic data types, and classes. Python combines remarkable power with very clear syntax. It has interfaces to many system calls and libraries, as well as to various window systems, and is extensible in C or C++. It is also usable as an extension language for applications that need a programmable interface. Finally, Python is portable: it runs on many Unix variants, on the Mac, and on Windows 2000 and later.
+{{sw.stack.data.introduction}}
 
 > [wikipedia.org/wiki/Python_(programming_language)](https://en.wikipedia.org/wiki/Python_%28programming_language%29)
 
-![logo](https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/python/logo.png)
+![logo]({{sw.stack.data.logo}}).
 
 {{#hw.device-type}}
 {{import partial="python-device" combination="dockerhub"}}
