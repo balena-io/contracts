@@ -5,6 +5,30 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.29 - 2019-03-29
+
+* Node: Fix wrong checksums in node v11.12.0 [Trong Nghia Nguyen]
+* Alpine: Add armv7hf node binary for Alpine Linux [Trong Nghia Nguyen]
+* Alpine: Add armv7hf python binary for Alpine Linux [Trong Nghia Nguyen]
+* Alpine: Add armv7hf golang binary for Alpine Linux [Trong Nghia Nguyen]
+
+## 1.1.28 - 2019-03-29
+
+* Alpine: Change Alpine Linux v3.9 and edge from arm32v6 to arm32v7 [Trong Nghia Nguyen]
+
+## 1.1.27 - 2019-03-26
+
+* Debian: Add workaround for missing `-updates` package repo in Debian Jessie [Trong Nghia Nguyen]
+* Golang: Add info for v1.12.1 and v1.11.6 [Trong Nghia Nguyen]
+* Node: Add info node v11.12.0 [Trong Nghia Nguyen]
+* Node: Set node v6.x and v8.x for i386 Alpine to last known working version [Trong Nghia Nguyen]
+
+## 1.1.26 - 2019-03-21
+
+* Device: Add contract for NPE X500 M3 [Trong Nghia Nguyen]
+* Device: Add contract for Nitrogen 6X Quad 2GB [Trong Nghia Nguyen]
+* Device: Add contract for Aetina N510 TX2 [Trong Nghia Nguyen]
+
 ## 1.1.25 - 2019-03-07
 
 * Node: Add v11.10.1 v10.15.3 v8.15.1 and v6.17.0 [Trong Nghia Nguyen]
