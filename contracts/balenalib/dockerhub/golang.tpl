@@ -13,10 +13,10 @@ This [guide][getting-started] can help you get started with using this base imag
 ![logo]({{sw.stack.data.logo}})
 
 {{#hw.device-type}}
-{{import partial="golang-device" combination="dockerhub"}}
+{{import partial="dockerhub" combination="sw.stack+hw.device-type+balenalib"}}
 {{/hw.device-type}}
 {{#arch.sw}}
-{{import partial="golang-arch" combination="dockerhub"}}
+{{import partial="dockerhub" combination="sw.stack+arch.sw+balenalib"}}
 {{/arch.sw}}
 
 [example-projects]: https://www.balena.io/docs/learn/getting-started/{{hw.device-type.slug}}/go/#example-projects?ref=dockerhub

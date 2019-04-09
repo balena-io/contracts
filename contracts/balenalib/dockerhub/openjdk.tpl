@@ -9,8 +9,8 @@ Java is a registered trademark of Oracle and/or its affiliates.
 ![logo]({{sw.stack.data.logo}}).
 
 {{#hw.device-type}}
-{{import partial="openjdk-device" combination="dockerhub"}}
+{{import partial="dockerhub" combination="sw.stack+hw.device-type+balenalib"}}
 {{/hw.device-type}}
 {{#arch.sw}}
-{{import partial="openjdk-arch" combination="dockerhub"}}
+{{import partial="dockerhub" combination="sw.stack+arch.sw+balenalib"}}
 {{/arch.sw}}

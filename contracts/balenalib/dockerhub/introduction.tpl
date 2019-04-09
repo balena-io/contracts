@@ -1,4 +1,6 @@
-This image is part of the [balena.io][balena] base image series for IoT devices. The image is optimized for use with [balena.io][balena] and [balenaOS][balena-os], but can be used in any Docker environment running on the appropriate architecture. 
+This image is part of the [balena.io][balena] base image series for IoT devices. The image is optimized for use with [balena.io][balena] and [balenaOS][balena-os], but can be used in any Docker environment running on the appropriate architecture.
+
+![balenalogo](https://avatars2.githubusercontent.com/u/6157842?s=200&v=4).
 
 Some notable features in `balenalib` base images:
 
