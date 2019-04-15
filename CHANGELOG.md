@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.30 - 2019-04-15
+
+* NewDevice: Add contract for Nvidia Jetson Nano [Alexandru Costache]
+* NewDevice: Add contract for BepMarine DL-PM6X [Alexandru Costache]
+
 ## 1.1.29 - 2019-03-29
 
 * Node: Fix wrong checksums in node v11.12.0 [Trong Nghia Nguyen]
