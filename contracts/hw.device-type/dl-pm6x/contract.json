@@ -1,0 +1,21 @@
+{
+  "slug": "dl-pm6x",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "BEP Marine DL-PM6X",
+  "data": {
+    "arch": "armv7hf",
+    "hdmi": false,
+    "led": false,
+    "connectivity": {
+      "bluetooth": false,
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "installation": "usbkey"
+    }
+  }
+}
