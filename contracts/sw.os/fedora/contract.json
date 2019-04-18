@@ -4,7 +4,8 @@
   "version": "1",
   "data" : {
     "libc": "glibc",
-    "latest": "29"
+    "latest": "29",
+    "versionList": "`29 (latest)`, `30`, `28`, `26`"
   },
   "name": "Fedora {{this.version}}",
   "requires": [

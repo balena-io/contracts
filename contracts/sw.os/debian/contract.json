@@ -4,7 +4,8 @@
   "version": "1",
   "data": {
     "libc": "glibc",
-    "latest": "stretch"
+    "latest": "stretch",
+    "versionList": "`stretch (latest)`, `jessie`, `buster`, `sid`"
   },
   "name": "Debian {{this.version}}",
   "requires": [
