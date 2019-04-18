@@ -1,0 +1,21 @@
+{
+  "slug": "jetson-nano",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "Nvidia Jetson Nano",
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": false,
+      "wifi": false
+    },
+    "storage": {
+      "internal": false
+    },
+    "media": {
+      "installation": "sdcard"
+    }
+  }
+}
