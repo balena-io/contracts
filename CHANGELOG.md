@@ -5,6 +5,17 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.31 - 2019-04-18
+
+* Dockerhub: Reorganize dockerhub partials to respect contracts structure [Trong Nghia Nguyen]
+* Stack: Update latest stack version in versionList [Trong Nghia Nguyen]
+* Dockerhub: Move stack logo and introduction into the contract [Trong Nghia Nguyen]
+* Dockerhub: Add partials for OS base images [Trong Nghia Nguyen]
+* Dockerhub: Add partials for OpenJDK stack [Trong Nghia Nguyen]
+* Dockerhub: Add partials for Python stack [Trong Nghia Nguyen]
+* Dockerhub: Add partials for Golang stack [Trong Nghia Nguyen]
+* Dockerhub: Initial implementation of partials for dockerhub description [Trong Nghia Nguyen]
+
 ## 1.1.30 - 2019-04-15
 
 * NewDevice: Add contract for Nvidia Jetson Nano [Alexandru Costache]
