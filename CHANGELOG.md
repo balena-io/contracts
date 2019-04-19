@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.33 - 2019-04-19
+
+* Golang: Add Go v1.12.4 and v1.11.9 [Trong Nghia Nguyen]
+* Node: Add node v11.14.0 and v6.17.1 [Trong Nghia Nguyen]
+
 ## 1.1.32 - 2019-04-19
 
 * Dotnet: Add partials for dotnet stack [Trong Nghia Nguyen]
