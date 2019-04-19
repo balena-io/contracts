@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.32 - 2019-04-19
+
+* Dotnet: Add partials for dotnet stack [Trong Nghia Nguyen]
+* Dotnet: Add contract for dotnet core stack [Trong Nghia Nguyen]
+
 ## 1.1.31 - 2019-04-18
 
 * Dockerhub: Reorganize dockerhub partials to respect contracts structure [Trong Nghia Nguyen]
