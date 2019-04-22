@@ -5,7 +5,8 @@
   "version": "1",
   "data": {
     "latest": "2.2-sdk",
-    "versionList": "`2.2-sdk (latest)`, `2.2-runtime`, `2.2-aspnet`, `3.0-sdk`, `3.0-runtime`, `3.0-aspnet`, `2.1-sdk`, `2.1-runtime`, `2.1-aspnet`"
+    "versionList": "`2.2-sdk (latest)`, `2.2-runtime`, `2.2-aspnet`, `3.0-sdk`, `3.0-runtime`, `3.0-aspnet`, `2.1-sdk`, `2.1-runtime`, `2.1-aspnet`",
+    "introduction": "This repository contains different flavours of .NET Core platform: .NET Core SDK, ASP.NET Core Runtime and .NET Core Runtime.\n\n- .NET Core Runtime contains runtimes and libraries and is optimized for running .NET Core apps in production.\n\n- ASP.NET Core Runtime contains ASP.NET Core and .NET Core runtimes and libraries and is optimized for running ASP.NET Core apps in production.\n\n- .NET Core SDK is comprised of three parts: .NET Core CLI, .NET Core and ASP.NET Core. Use this variant for your development process (developing, building and testing applications)."
   },
   "requires": [
     {
