@@ -4,7 +4,7 @@
   "name": "OpenJDK {{this.version}}",
   "version": "1",
   "data": {
-    "latest": "8-jdk",
+    "latest": "11-jdk",
     "introduction": "OpenJDK (Open Java Development Kit) is a free and open source implementation of the Java Platform, Standard Edition (Java SE). OpenJDK is the official reference implementation of Java SE since version 7.",
     "logo": "https://raw.githubusercontent.com/docker-library/docs/a3439b66b7980d1811f6b3835a3c541747172970/openjdk/logo.png"
   },
@@ -79,39 +79,11 @@
       ]
     },
     {
-      "version": "10-jdk",
-      "requires": [
-        {
-          "or": [
-            { "type": "sw.os", "slug": "debian", "version": "sid" },
-            { "type": "sw.os", "slug": "ubuntu", "version": "xenial" },
-            { "type": "sw.os", "slug": "ubuntu", "version": "artful" },
-            { "type": "sw.os", "slug": "ubuntu", "version": "bionic" },
-            { "type": "sw.os", "slug": "ubuntu", "version": "cosmic" }
-          ]
-        }
-      ]
-    },
-    {
-      "version": "10-jre",
-      "requires": [
-        {
-          "or": [
-            { "type": "sw.os", "slug": "debian", "version": "sid" },
-            { "type": "sw.os", "slug": "ubuntu", "version": "xenial" },
-            { "type": "sw.os", "slug": "ubuntu", "version": "artful" },
-            { "type": "sw.os", "slug": "ubuntu", "version": "bionic" },
-            { "type": "sw.os", "slug": "ubuntu", "version": "cosmic" }
-          ]
-        }
-      ]
-    },
-    {
       "version": "11-jdk",
       "requires": [
         {
           "or": [
-            { "type": "sw.os", "slug": "debian", "version": "sid" },
+            { "type": "sw.os", "slug": "debian", "version": "stretch" },
             { "type": "sw.os", "slug": "ubuntu", "version": "xenial" },
             { "type": "sw.os", "slug": "ubuntu", "version": "artful" },
             { "type": "sw.os", "slug": "ubuntu", "version": "bionic" },
@@ -128,7 +100,7 @@
       "requires": [
         {
           "or": [
-            { "type": "sw.os", "slug": "debian", "version": "sid" },
+            { "type": "sw.os", "slug": "debian", "version": "stretch" },
             { "type": "sw.os", "slug": "ubuntu", "version": "xenial" },
             { "type": "sw.os", "slug": "ubuntu", "version": "artful" },
             { "type": "sw.os", "slug": "ubuntu", "version": "bionic" },
