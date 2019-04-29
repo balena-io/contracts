@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.35 - 2019-04-26
+
+* Qemu: Update QEMU to v4.0.0+balena [Trong Nghia Nguyen]
+
 ## 1.1.34 - 2019-04-22
 
 * Dotnet: Add partials to generate dockerhub description [Trong Nghia Nguyen]
