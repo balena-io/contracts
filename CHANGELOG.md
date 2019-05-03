@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.37 - 2019-05-03
+
+* Node: v6.x EOL [Trong Nghia Nguyen]
+* Node: Update yarn to v1.15.2 [Trong Nghia Nguyen]
+* Node: Add v12.0.0 and v8.16.0 [Trong Nghia Nguyen]
+
 ## 1.1.36 - 2019-05-01
 
 * Modify orbitty-tx2 bluetooth property to true [Horia Delicoti]
