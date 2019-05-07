@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.40 - 2019-05-07
+
+* Device: Add contract for Beaglebone Fastenal [Alexandru Costache]
+
 ## 1.1.39 - 2019-05-04
 
 * Python: Add support for v2.7.16 v3.7.3 v3.5.7 and v3.4.10 [Trong Nghia Nguyen]
