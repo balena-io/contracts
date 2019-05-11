@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.42 - 2019-05-11
+
+* Python: Fix wrong partials when generate Dockerfile [Trong Nghia Nguyen]
+
 ## 1.1.41 - 2019-05-07
 
 * Device: Add contract for Nvidia D3 TX2 [Trong Nghia Nguyen]
