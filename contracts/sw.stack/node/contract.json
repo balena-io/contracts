@@ -425,6 +425,18 @@
               "requires": [
                 { "type": "arch.sw", "slug": "aarch64" }
               ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "44ce9c952b00004c44b853914b9ccba9a981b8248bc1d4a2eb02a8a47d950ceb",
+                  "name": "node-v$NODE_VERSION-linux-i386.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "i386" }
+              ]
             }
           ]
         }
