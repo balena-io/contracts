@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.43 - 2019-05-14
+
+* Node: Add glibc i386 binary for v10.15.3 [Trong Nghia Nguyen]
+
 ## 1.1.42 - 2019-05-11
 
 * Python: Fix wrong partials when generate Dockerfile [Trong Nghia Nguyen]
