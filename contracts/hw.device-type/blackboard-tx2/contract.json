@@ -1,0 +1,20 @@
+{
+  "slug": "blackboard-tx2",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "Nvidia blackboard TX2",
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "installation": "sdcard"
+    }
+  }
+}
