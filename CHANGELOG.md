@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.45 - 2019-05-20
+
+* Device: Add contract for Orange Pi Lite [Trong Nghia Nguyen]
+* Device: Add contract for Nvidia blackboard TX2 [Trong Nghia Nguyen]
+
 ## 1.1.44 - 2019-05-18
 
 * Node: Add v12.2.0 [Trong Nghia Nguyen]
