@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.46 - 2019-05-21
+
+* Aspnet: Install .NET Runtime before aspnet for v3.0 [Trong Nghia Nguyen]
+* Dotnet: Version update for dotnet sdk, runtime and aspnet [Trong Nghia Nguyen]
+
 ## 1.1.45 - 2019-05-20
 
 * Device: Add contract for Orange Pi Lite [Trong Nghia Nguyen]
