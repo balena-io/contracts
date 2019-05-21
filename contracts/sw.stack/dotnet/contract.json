@@ -333,6 +333,14 @@
                   "checksum": "8B43F09C7832911EAED67BA6BFF4987226E06146B310A6762A63E1586CFB9FD0D466E7AE9B04E25D8D0C0E058B26C295BB4D31EA2A8FAAED8C519758ED089BDD",
                   "name": "aspnetcore-runtime-$ASPNETCORE_VERSION-linux-arm.tar.gz",
                   "url": "https://dotnetcli.blob.core.windows.net/dotnet/aspnetcore/Runtime/$ASPNETCORE_VERSION/{{this.assets.bin.name}}"
+                },
+                "runtime": {
+                  "fullVersion": "3.0.0-preview5-27626-15",
+                  "bin": {
+                    "checksum": "14BB89C0E6DE5479137235B2B79BAA64B63ABD89712B7D9ED239AE0ECBFC226E8CC60287D6BD8159BFF626712BA48F5CA961692DAF018E87575FDBABDCD42C83",
+                    "name": "dotnet-runtime-$DOTNET_VERSION-linux-arm.tar.gz",
+                    "url": "https://dotnetcli.blob.core.windows.net/dotnet/Runtime/$DOTNET_VERSION/{{this.assets.runtime.bin.name}}"
+                  }
                 }
               },
               "requires": [
@@ -345,6 +353,14 @@
                   "checksum": "7C8790C263806DBF7CFFEF73FC39C52C46DC9CE7F43A3A290CA21B271A6164A57ABEE4619D021C04097C43AF4DEC0E2BE205CF0C12B4AC498290CFCA77EC1DE5",
                   "name": "aspnetcore-runtime-$ASPNETCORE_VERSION-linux-x64.tar.gz",
                   "url": "https://dotnetcli.blob.core.windows.net/dotnet/aspnetcore/Runtime/$ASPNETCORE_VERSION/{{this.assets.bin.name}}"
+                },
+                "runtime": {
+                  "fullVersion": "3.0.0-preview5-27626-15",
+                  "bin": {
+                    "checksum": "BCE60AB112BC9F47FE968EDFD96EC7254020ACB5D4F9263F91E1D66BC2B8B953F9B945D172619A2707B032F117C11E77423E43864E6CE31E0B1174A51CB55B8E",
+                    "name": "dotnet-runtime-$DOTNET_VERSION-linux-x64.tar.gz",
+                    "url": "https://dotnetcli.blob.core.windows.net/dotnet/Runtime/$DOTNET_VERSION/{{this.assets.runtime.bin.name}}"
+                  }
                 }
               },
               "requires": [
@@ -357,6 +373,14 @@
                   "checksum": "1DB29CDABCAF93DC3E31ADA3BD1288DB03DB6129478E33E31952DE3A64A5490EEB4D493B4E8761283C3A22F240C98C2F000E86EB9CDCA4905F20C50F1B24DFF3",
                   "name": "aspnetcore-runtime-$ASPNETCORE_VERSION-linux-arm64.tar.gz",
                   "url": "https://dotnetcli.blob.core.windows.net/dotnet/aspnetcore/Runtime/$ASPNETCORE_VERSION/{{this.assets.bin.name}}"
+                },
+                "runtime": {
+                  "fullVersion": "3.0.0-preview5-27626-15",
+                  "bin": {
+                    "checksum": "05115F8B1948C919A2880FCD402B7867C12F4F7130213FA060ED684E38EBDE512DA0BD85345E48A14FCD05BF976447275C2AEC6C47309474CCC66B79E60251E6",
+                    "name": "dotnet-runtime-$DOTNET_VERSION-linux-arm64.tar.gz",
+                    "url": "https://dotnetcli.blob.core.windows.net/dotnet/Runtime/$DOTNET_VERSION/{{this.assets.runtime.bin.name}}"
+                  }
                 }
               },
               "requires": [
