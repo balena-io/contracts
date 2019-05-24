@@ -3,6 +3,7 @@ RUN dnf -y update \
 	&& dnf -y install \
 		gzip \
 		java-1.8.0-openjdk \
+		java-1.8.0-openjdk-devel \
 		tar \
 	&& dnf clean all
 
