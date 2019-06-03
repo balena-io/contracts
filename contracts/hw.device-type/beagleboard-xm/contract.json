@@ -1,0 +1,20 @@
+{
+  "slug": "beagleboard-xm",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "BeagleBoard-XM",
+  "data": {
+    "arch": "armv7hf",
+    "hdmi": true,
+    "led": true,
+    "connectivity": {
+      "bluetooth": false
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "installation": "sdcard"
+    }
+  }
+}
