@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.51 - 2019-06-12
+
+* Device: Add contract for NanoPC-T4 [Trong Nghia Nguyen]
+
 ## 1.1.50 - 2019-06-03
 
 * Device: Add support for BeagleBoard-XM [Trong Nghia Nguyen]
