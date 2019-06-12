@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.52 - 2019-06-12
+
+* Golang: Add support for v1.12.5 and v1.11.10 [Trong Nghia Nguyen]
+* Node: Add support for v12.4.0 [Trong Nghia Nguyen]
+
 ## 1.1.51 - 2019-06-12
 
 * Device: Add contract for NanoPC-T4 [Trong Nghia Nguyen]
