@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.54 - 2019-06-17
+
+* Sw.stack: Fix golang version [Roman Mazur]
+
 ## 1.1.53 - 2019-06-13
 
 * Device: Add contract for Nvidia Jetson Xavier [Alexandru Costache]
