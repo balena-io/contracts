@@ -1,0 +1,20 @@
+{
+  "slug": "up-squared",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "UP Squared",
+  "data": {
+    "arch": "amd64",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": false
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "installation": "usbkey"
+    }
+  }
+}
