@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.55 - 2019-06-20
+
+* Up: Add partials for new UP boards [Trong Nghia Nguyen]
+* Device: Add contract for Up-core, Up-core-plus and Up-squared [Trong Nghia Nguyen]
+
 ## 1.1.54 - 2019-06-17
 
 * Sw.stack: Fix golang version [Roman Mazur]
