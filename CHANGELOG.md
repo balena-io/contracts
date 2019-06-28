@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.56 - 2019-06-25
+
+* Alpine: Handling the CVE-2019-5021 vurnerability [Trong Nghia Nguyen]
+
 ## 1.1.55 - 2019-06-20
 
 * Up: Add partials for new UP boards [Trong Nghia Nguyen]
