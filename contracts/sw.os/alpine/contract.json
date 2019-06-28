@@ -5,7 +5,7 @@
   "data": { 
     "libc": "musl-libc",
     "latest": "3.9",
-    "versionList": "`3.9 (latest)`, `3.8`, `3.7`, `3.6`, `3.5`, `edge`"
+    "versionList": "`3.9 (latest)`, `3.8`, `3.7`, `3.6`, `edge`"
   },
   "name": "Alpine Linux {{this.version}}",
   "requires": [
@@ -26,7 +26,6 @@
       ],
       "variants": [
         { "version": "edge" },
-        { "version": "3.5" },
         { "version": "3.6" },
         { "version": "3.7" },
         { "version": "3.8" },
@@ -45,7 +44,6 @@
       ],
       "variants": [
         { "version": "edge" },
-        { "version": "3.5" },
         { "version": "3.6" },
         { "version": "3.7" },
         { "version": "3.8" },
