@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.58 - 2019-07-01
+
+* Alpine: Add support for Alpine Linux v3.10 [Trong Nghia Nguyen]
+
 ## 1.1.57 - 2019-06-28
 
 * Go: Add Go v1.12.6 and v1.11.11 [Trong Nghia Nguyen]
