@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.60 - 2019-07-04
+
+* Debian: Fix SSL certificate problem when downloading with curl on Buster [Trong Nghia Nguyen]
+
 ## 1.1.59 - 2019-07-02
 
 * Dotnet: Add latest sdk, runtime and aspnet releases [Trong Nghia Nguyen]
