@@ -24,7 +24,12 @@
         {
           "data": { "libc": "glibc" },
           "requires": [
-            { "type": "sw.os", "slug": "debian", "version": "stretch" }
+            {
+              "or": [
+                { "type": "sw.os", "slug": "debian", "version": "stretch" },
+                { "type": "sw.os", "slug": "debian", "version": "buster" }
+              ]
+            }
           ],
           "variants": [
             {
@@ -74,7 +79,12 @@
         {
           "data": { "libc": "glibc" },
           "requires": [
-            { "type": "sw.os", "slug": "debian", "version": "stretch" }
+            {
+              "or": [
+                { "type": "sw.os", "slug": "debian", "version": "stretch" },
+                { "type": "sw.os", "slug": "debian", "version": "buster" }
+              ]
+            }
           ],
           "variants": [
             {
@@ -124,7 +134,12 @@
         {
           "data": { "libc": "glibc" },
           "requires": [
-            { "type": "sw.os", "slug": "debian", "version": "stretch" }
+            {
+              "or": [
+                { "type": "sw.os", "slug": "debian", "version": "stretch" },
+                { "type": "sw.os", "slug": "debian", "version": "buster" }
+              ]
+            }
           ],
           "variants": [
             {
@@ -174,7 +189,12 @@
         {
           "data": { "libc": "glibc" },
           "requires": [
-            { "type": "sw.os", "slug": "debian", "version": "stretch" }
+            {
+              "or": [
+                { "type": "sw.os", "slug": "debian", "version": "stretch" },
+                { "type": "sw.os", "slug": "debian", "version": "buster" }
+              ]
+            }
           ],
           "variants": [
             {
@@ -224,7 +244,12 @@
         {
           "data": { "libc": "glibc" },
           "requires": [
-            { "type": "sw.os", "slug": "debian", "version": "stretch" }
+            {
+              "or": [
+                { "type": "sw.os", "slug": "debian", "version": "stretch" },
+                { "type": "sw.os", "slug": "debian", "version": "buster" }
+              ]
+            }
           ],
           "variants": [
             {
@@ -274,7 +299,12 @@
         {
           "data": { "libc": "glibc" },
           "requires": [
-            { "type": "sw.os", "slug": "debian", "version": "stretch" }
+            {
+              "or": [
+                { "type": "sw.os", "slug": "debian", "version": "stretch" },
+                { "type": "sw.os", "slug": "debian", "version": "buster" }
+              ]
+            }
           ],
           "variants": [
             {
@@ -324,7 +354,12 @@
         {
           "data": { "libc": "glibc" },
           "requires": [
-            { "type": "sw.os", "slug": "debian", "version": "stretch" }
+            {
+              "or": [
+                { "type": "sw.os", "slug": "debian", "version": "stretch" },
+                { "type": "sw.os", "slug": "debian", "version": "buster" }
+              ]
+            }
           ],
           "variants": [
             {
@@ -398,7 +433,12 @@
         {
           "data": { "libc": "glibc" },
           "requires": [
-            { "type": "sw.os", "slug": "debian", "version": "stretch" }
+            {
+              "or": [
+                { "type": "sw.os", "slug": "debian", "version": "stretch" },
+                { "type": "sw.os", "slug": "debian", "version": "buster" }
+              ]
+            }
           ],
           "variants": [
             {
@@ -436,7 +476,12 @@
         {
           "data": { "libc": "glibc" },
           "requires": [
-            { "type": "sw.os", "slug": "debian", "version": "stretch" }
+            {
+              "or": [
+                { "type": "sw.os", "slug": "debian", "version": "stretch" },
+                { "type": "sw.os", "slug": "debian", "version": "buster" }
+              ]
+            }
           ],
           "variants": [
             {

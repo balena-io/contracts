@@ -14,6 +14,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 		xz-utils \
 	&& rm -rf /var/lib/apt/lists/*
 
+RUN echo 'deb http://deb.debian.org/debian stretch-backports main' > /etc/apt/sources.list.d/stretch-backports.list
+
 # Default to UTF-8 file.encoding
 ENV LANG C.UTF-8
 
@@ -40,7 +42,7 @@ RUN set -ex; \
 	\
 	apt-get update; \
 	apt-get install -y --no-install-recommends \
-		openjdk-11-jre-headless \
+		openjdk-11-jdk-headless \
 	; \
 	rm -rf /var/lib/apt/lists/*; \
 	\
@@ -58,3 +60,7 @@ RUN set -ex; \
 	update-alternatives --get-selections | awk -v home="$(readlink -f "$JAVA_HOME")" 'index($3, home) == 1 { $2 = "manual"; print | "update-alternatives --set-selections" }'; \
 # ... and verify that it actually worked for one of the alternatives we care about
 	update-alternatives --query java | grep -q 'Status: manual'
+
+# https://docs.oracle.com/javase/10/tools/jshell.htm
+# https://en.wikipedia.org/wiki/JShell
+CMD ["jshell"]
