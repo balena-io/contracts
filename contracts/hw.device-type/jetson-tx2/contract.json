@@ -8,7 +8,7 @@
     "hdmi": true,
     "led": false,
     "connectivity": {
-      "bluetooth": false
+      "bluetooth": true
     },
     "storage": {
       "internal": false
