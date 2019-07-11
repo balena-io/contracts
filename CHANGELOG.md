@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.61 - 2019-07-11
+
+* Jetson TX2's bluetooth should be true [Horia Delicoti]
+
 ## 1.1.60 - 2019-07-04
 
 * Device: Add contract for Nitrogen8M Mini SBC [Alexandru Costache]
