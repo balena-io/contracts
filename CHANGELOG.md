@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.62 - 2019-07-12
+
+* Debian: Move latest tag to Debian Buster [Trong Nghia Nguyen]
+
 ## 1.1.61 - 2019-07-11
 
 * Jetson TX2's bluetooth should be true [Horia Delicoti]
