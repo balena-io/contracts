@@ -84,6 +84,7 @@
         {
           "or": [
             { "type": "sw.os", "slug": "debian", "version": "stretch" },
+            { "type": "sw.os", "slug": "debian", "version": "buster" },
             { "type": "sw.os", "slug": "ubuntu", "version": "xenial" },
             { "type": "sw.os", "slug": "ubuntu", "version": "artful" },
             { "type": "sw.os", "slug": "ubuntu", "version": "bionic" },
@@ -101,6 +102,7 @@
         {
           "or": [
             { "type": "sw.os", "slug": "debian", "version": "stretch" },
+            { "type": "sw.os", "slug": "debian", "version": "buster" },
             { "type": "sw.os", "slug": "ubuntu", "version": "xenial" },
             { "type": "sw.os", "slug": "ubuntu", "version": "artful" },
             { "type": "sw.os", "slug": "ubuntu", "version": "bionic" },
