@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.63 - 2019-07-17
+
+* Node: Add v12.6.0 [Trong Nghia Nguyen]
+* Debian: Use another workaround for broken certificates on buster [Trong Nghia Nguyen]
+* Golang: Add v1.12.7 and v1.11.12 [Trong Nghia Nguyen]
+
 ## 1.1.62 - 2019-07-12
 
 * Debian: Move latest tag to Debian Buster [Trong Nghia Nguyen]
