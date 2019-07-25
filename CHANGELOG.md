@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.64 - 2019-07-25
+
+* Install_updates: Remove /var/cache/apt/archives on clean up [Trong Nghia Nguyen]
+* Python: Add Python v3.7.4 and v3.6.9 [Trong Nghia Nguyen]
+
 ## 1.1.63 - 2019-07-17
 
 * Node: Add v12.6.0 [Trong Nghia Nguyen]
