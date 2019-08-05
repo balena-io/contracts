@@ -1,9 +1,9 @@
-Resin.io Base Contracts
+Balena Base Contracts
 =======================
 
-[![CircleCI](https://circleci.com/gh/resin-io/contracts/tree/master.svg?style=svg)](https://circleci.com/gh/resin-io/contracts/tree/master)
+[![CircleCI](https://circleci.com/gh/balena-io/contracts/tree/master.svg?style=svg)](https://circleci.com/gh/balena-io/contracts/tree/master)
 
-The collection of contracts and partials across the resin.io system.
+The collection of contracts and partials across the balena system.
 
 Contracts
 ---------
@@ -63,8 +63,8 @@ sw.os+arch.sw/<os>/download.tpl
 Contribute
 ----------
 
-- Issue Tracker: [github.com/resin-io/contracts/issues][issues]
-- Source Code: [github.com/resin-io/contracts][source]
+- Issue Tracker: [github.com/balena-io/contracts/issues][issues]
+- Source Code: [github.com/balena-io/contracts][source]
 
 ### Dependencies
 
@@ -83,6 +83,6 @@ License
 
 The project is licensed under the Apache 2.0 license.
 
-[issues]: https://github.com/resin-io/contracts/issues
-[source]: https://github.com/resin-io/contracts
+[issues]: https://github.com/balena-io/contracts/issues
+[source]: https://github.com/balena-io/contracts
 [nodejs]: https://nodejs.org
