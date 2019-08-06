@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.65 - 2019-08-05
+
+* Cleanup: Clean up everything before making contracts public [Trong Nghia Nguyen]
+
 ## 1.1.64 - 2019-07-25
 
 * Install_updates: Remove /var/cache/apt/archives on clean up [Trong Nghia Nguyen]
