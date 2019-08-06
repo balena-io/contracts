@@ -4,8 +4,8 @@
   "version": "1",
   "data" : {
     "libc": "glibc",
-    "latest": "29",
-    "versionList": "`29 (latest)`, `30`, `28`, `26`"
+    "latest": "30",
+    "versionList": "`30 (latest)`, `31`, `29`, `28`, `26`"
   },
   "name": "Fedora {{this.version}}",
   "requires": [
@@ -15,17 +15,7 @@
   "variants": [
     {
       "variants": [
-        { "version": "29" },
-        { "version": "28" },
-        { "version": "26" }
-      ],
-      "requires": [
-        { "type": "sw.blob", "slug": "qemu" },
-        { "type": "arch.sw", "slug": "armv7hf" }
-      ]
-    },
-    {
-      "variants": [
+        { "version": "31" },
         { "version": "30" },
         { "version": "29" },
         { "version": "28" },
@@ -33,11 +23,17 @@
       ],
       "requires": [
         { "type": "sw.blob", "slug": "qemu" },
-        { "type": "arch.sw", "slug": "aarch64" }
+        {
+          "or": [
+            { "type": "arch.sw", "slug": "armv7hf" },
+            { "type": "arch.sw", "slug": "aarch64" }
+          ]
+        }
       ]
     },
     {
       "variants": [
+        { "version": "31" },
         { "version": "30" },
         { "version": "29" },
         { "version": "28" },
