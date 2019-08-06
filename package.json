@@ -1,16 +1,16 @@
 {
   "name": "contracts",
   "version": "1.1.64",
-  "description": "Resin.io Base Contracts",
+  "description": "Balena Base Contracts",
   "repository": {
     "type": "git",
-    "url": "git@github.com:resin-io/contracts.git"
+    "url": "git@github.com:balena-io/contracts.git"
   },
   "private": true,
   "scripts": {
     "test": "eslint scripts && node scripts/check-contracts.js"
   },
-  "author": "Resin Inc. <hello@resin.io>",
+  "author": "Balena Inc. <hello@balena.io>",
   "license": "Apache-2.0",
   "devDependencies": {
     "eslint": "^4.8.0",
