@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.68 - 2019-08-19
+
+* Device: Add support for Auvidea j120 TX2 [Trong Nghia Nguyen]
+
 ## 1.1.67 - 2019-08-06
 
 * Fedora: Set Fedora 30 as latest and add Fedora 31 [Trong Nghia Nguyen]
