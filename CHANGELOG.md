@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.69 - 2019-08-19
+
+* Node: Add v12.8.1 10.16.3 and v8.16.1 [Trong Nghia Nguyen]
+
 ## 1.1.68 - 2019-08-19
 
 * Device: Add support for Auvidea j120 TX2 [Trong Nghia Nguyen]
