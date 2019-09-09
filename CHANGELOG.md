@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.72 - 2019-09-09
+
+* Erlang: Add support for Erlang base images [Trong Nghia Nguyen]
+
 ## 1.1.71 - 2019-08-28
 
 * Go: Add v1.12.9 and v1.11.13 [Trong Nghia Nguyen]
