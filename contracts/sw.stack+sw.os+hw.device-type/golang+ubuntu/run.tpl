@@ -19,8 +19,7 @@ RUN set -x \
 	&& curl -SLO "{{sw.stack.assets.bin.url}}" \
 	&& echo "{{sw.stack.assets.bin.checksum}}  {{sw.stack.assets.bin.name}}" | sha256sum -c - \
 	&& tar -xzf "{{sw.stack.assets.bin.name}}" -C /usr/local/go --strip-components=1 \
-	&& rm -f {{sw.stack.assets.bin.name}} \
-	&& apt-get purge -y --auto-remove $fetchDeps
+	&& rm -f {{sw.stack.assets.bin.name}}
 
 ENV GOROOT /usr/local/go
 ENV GOPATH /go

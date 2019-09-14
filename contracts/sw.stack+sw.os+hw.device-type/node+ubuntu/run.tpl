@@ -24,6 +24,5 @@ RUN buildDeps='curl' \
 	&& ln -s /opt/yarn/bin/yarn /usr/local/bin/yarn \
 	&& ln -s /opt/yarn/bin/yarn /usr/local/bin/yarnpkg \
 	&& rm yarn-v$YARN_VERSION.tar.gz.asc yarn-v$YARN_VERSION.tar.gz \
-	&& apt-get purge -y --auto-remove $buildDeps \
 	&& npm config set unsafe-perm true -g --unsafe-perm \
 	&& rm -rf /tmp/*

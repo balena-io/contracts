@@ -19,6 +19,12 @@
     },
     "dbus": {
       "version": "1.2.8"
+    },
+    "test": {
+      "main": "test-stack@python",
+      "name": "test-stack@python.sh",
+      "commit": "07c49c5104e67fe8b4264569d9c02b2dc7299685",
+      "url": "https://raw.githubusercontent.com/nghiant2710/base-images/{{this.assets.test.commit}}/scripts/assets/tests/{{this.assets.test.name}}"
     }
   },
   "requires": [
