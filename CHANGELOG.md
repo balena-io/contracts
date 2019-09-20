@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.73 - 2019-09-19
+
+* Dotnet: Update latest .NET releases [Trong Nghia Nguyen]
+* Python: Fix Python not found when compile dbus-python [Trong Nghia Nguyen]
+* Rpi64: Use generic debian for 64-bit rpi images [Trong Nghia Nguyen]
+
 ## 1.1.72 - 2019-09-09
 
 * Node: Add support for v12.10.0 [Trong Nghia Nguyen]
