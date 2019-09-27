@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.74 - 2019-09-27
+
+* Dotnet: Add support for .NET Core v3.0.0 [Trong Nghia Nguyen]
+* Ubuntu: Add support for new Ubuntu versions [Trong Nghia Nguyen]
+
 ## 1.1.73 - 2019-09-19
 
 * Dotnet: Update latest .NET releases [Trong Nghia Nguyen]
