@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.75 - 2019-10-02
+
+* Node: Add support for Node v12.11.0 [Trong Nghia Nguyen]
+
 ## 1.1.74 - 2019-09-27
 
 * Dotnet: Add support for .NET Core v3.0.0 [Trong Nghia Nguyen]
