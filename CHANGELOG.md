@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.76 - 2019-10-08
+
+* Remove unused device types [Andreas Fitzek]
+
 ## 1.1.75 - 2019-10-02
 
 * Node: Add support for Node v12.11.0 [Trong Nghia Nguyen]
