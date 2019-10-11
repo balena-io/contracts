@@ -276,7 +276,6 @@
                 { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                 { "type": "sw.os", "slug": "debian" , "version": "sid" },
                 { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                 { "type": "sw.os", "slug": "fedora" }
@@ -626,8 +625,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -653,7 +651,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -673,8 +670,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -700,7 +696,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -720,8 +715,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -747,7 +741,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -767,8 +760,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -794,7 +786,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -814,8 +805,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -841,7 +831,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -861,8 +850,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -888,7 +876,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -908,8 +895,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -935,7 +921,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -1203,8 +1188,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -1230,7 +1214,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -1250,8 +1233,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -1277,7 +1259,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -1297,8 +1278,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -1324,7 +1304,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -1344,8 +1323,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -1371,7 +1349,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -1391,8 +1368,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -1418,7 +1394,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -1438,8 +1413,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -1465,7 +1439,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -1485,8 +1458,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -1512,7 +1484,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -1780,8 +1751,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -1807,7 +1777,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -1827,8 +1796,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -1854,7 +1822,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -1874,8 +1841,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -1901,7 +1867,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -1921,8 +1886,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -1948,7 +1912,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -1968,8 +1931,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -1995,7 +1957,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -2015,8 +1976,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -2042,7 +2002,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -2062,8 +2021,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -2089,7 +2047,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -2348,8 +2305,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -2375,7 +2331,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -2395,8 +2350,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -2422,7 +2376,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -2442,8 +2395,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -2469,7 +2421,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -2489,8 +2440,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -2516,7 +2466,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -2536,8 +2485,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -2563,7 +2511,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -2583,8 +2530,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -2610,7 +2556,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }
@@ -2630,8 +2575,7 @@
                     {
                       "or": [
                         { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "trusty" }
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                       ]
                     }
                   ],
@@ -2657,7 +2601,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                         { "type": "sw.os", "slug": "debian" , "version": "sid" },
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "artful" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "fedora" }

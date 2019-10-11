@@ -5,7 +5,7 @@
   "data": {
     "libc": "glibc",
     "latest": "bionic",
-    "versionList": "`bionic (latest)`, `cosmic`, `artful`, `xenial`, `trusty`"
+    "versionList": "`bionic (latest)`, `cosmic`, `xenial`, `disco`, `eoan`"
   },
   "name": "Ubuntu {{this.version}}",
   "requires": [
@@ -32,9 +32,9 @@
         }
       ],
       "variants": [
-        { "version": "trusty" },
+        { "version": "eoan" },
         { "version": "xenial" },
-        { "version": "artful" },
+        { "version": "disco" },
         { "version": "bionic" },
         { "version": "cosmic" }
       ]
@@ -50,9 +50,9 @@
         }
       ],
       "variants": [
-        { "version": "trusty" },
+        { "version": "eoan" },
         { "version": "xenial" },
-        { "version": "artful" },
+        { "version": "disco" },
         { "version": "bionic" },
         { "version": "cosmic" }
       ]

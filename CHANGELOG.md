@@ -5,6 +5,29 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.77 - 2019-10-09
+
+* Go: Add v1.13.1 and v1.12.10 [Trong Nghia Nguyen]
+
+## 1.1.76 - 2019-10-08
+
+* Remove unused device types [Andreas Fitzek]
+
+## 1.1.75 - 2019-10-02
+
+* Node: Add support for Node v12.11.0 [Trong Nghia Nguyen]
+
+## 1.1.74 - 2019-09-27
+
+* Dotnet: Add support for .NET Core v3.0.0 [Trong Nghia Nguyen]
+* Ubuntu: Add support for new Ubuntu versions [Trong Nghia Nguyen]
+
+## 1.1.73 - 2019-09-19
+
+* Dotnet: Update latest .NET releases [Trong Nghia Nguyen]
+* Python: Fix Python not found when compile dbus-python [Trong Nghia Nguyen]
+* Rpi64: Use generic debian for 64-bit rpi images [Trong Nghia Nguyen]
+
 ## 1.1.72 - 2019-09-09
 
 * Node: Add support for v12.10.0 [Trong Nghia Nguyen]
