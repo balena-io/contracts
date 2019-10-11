@@ -48,7 +48,6 @@ RUN set -x \
 		-o \( -type f -a -name '*.pyc' -o -name '*.pyo' \) \
 		-exec rm -rf '{}' + \
 	&& cd / \
-	&& apk del .build-deps \
 	&& rm -rf /usr/src/python ~/.cache
 
 {{import partial="config" combination="sw.stack+sw.os+hw.device-type"}}
