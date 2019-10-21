@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.79 - 2019-10-21
+
+* Install_packages: Fix cleanup command [Trong Nghia Nguyen]
+
 ## 1.1.78 - 2019-10-11
 
 * Test: Add contract and partials for base images test [Trong Nghia Nguyen]
