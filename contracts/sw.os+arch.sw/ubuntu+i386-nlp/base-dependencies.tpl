@@ -39,7 +39,7 @@ until [ $n -gt $max ]; do\n\
   echo "apt failed, retrying"\n\
   n=$(($n + 1))\n\
 done\n\
-rm -r /var/cache/apt/archives/* /var/lib/apt/lists/*' > /usr/sbin/install_packages \
+rm -rf /var/cache/apt/archives/* /var/lib/apt/lists/*' > /usr/sbin/install_packages \
   && chmod 0755 "/usr/sbin/install_packages"
 
 RUN set -x \
