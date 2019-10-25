@@ -4,8 +4,8 @@
   "name": "Go $GO_VERSION",
   "version": "1",
   "data": {
-    "latest": "1.13.1",
-    "versionList": "`1.13.1 (latest)`,`1.12.10`, `1.11.13`, `1.10.8`",
+    "latest": "1.13.3",
+    "versionList": "`1.13.3 (latest)`,`1.12.12`, `1.11.13`, `1.10.8`",
     "introduction": "Go (a.k.a., Golang) is a programming language first developed at Google. It is a statically-typed language with syntax loosely derived from C, but with additional features such as garbage collection, type safety, some dynamic-typing capabilities, additional built-in types (e.g., variable-length arrays and key-value maps), and a large standard library.",
     "logo": "https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/golang/logo.png"
   },
@@ -27,7 +27,7 @@
   },
   "variants": [
     {
-      "version": "1.13.1",
+      "version": "1.13.3",
       "variants": [
         {
           "data": { "libc": "musl-libc" },
@@ -38,7 +38,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "cafa58b77d6bd722289cf6654d58226e156f6a33e0aa0992c0763444ebece2f1",
+                  "checksum": "fd1787ff3ed1524c1f1b6b373ff0e56891c5dc2994c66d134a505baf238bdccc",
                   "name": "go$GO_VERSION.linux-alpine-armv6hf.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
                   
@@ -51,7 +51,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "a1de42bbb4dd9cda96ad2971602908ffefb565050b7112cb6ea135f19d9c6e03",
+                  "checksum": "13c8d4450efb2b43d6c6a9866c846beba5b943a591d09df7992ce845d1bdfb7a",
                   "name": "go$GO_VERSION.linux-alpine-amd64.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
                 }
@@ -63,7 +63,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "6a5629936e40391affbd4eb86021dcd5394309fab6605c63ef54ba3bad050462",
+                  "checksum": "700d9ee2804c7115fa3e414911c72807b58a934ea2f16d30660f145236f39f0e",
                   "name": "go$GO_VERSION.linux-alpine-i386.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
                 }
@@ -75,7 +75,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "eb3cbb5036456354c528446e6fa618a99015d49ceac2dbac30ca30852021f707",
+                  "checksum": "c81d7465e342d4e05bf9d6bd30411757c1bcd2e011352428da84870acf8c4425",
                   "name": "go$GO_VERSION.linux-alpine-aarch64.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
                 }
@@ -87,7 +87,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "39b57ac3e3b4f642feed6c625014146e87481bea63d06bcf056d2958e2d88758",
+                  "checksum": "2a3d757ef3ffc4337db825011f2073095a8c7ae35015d1e0cebc44a1fc421015",
                   "name": "go$GO_VERSION.linux-alpine-armv7hf.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
                 }
@@ -113,7 +113,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "7c75d4002321ea4a066dfe13f6dd5168076e9a231317c5afd55e78b86f478e37",
+                  "checksum": "9f15d6aa4098cd53ec5cb48d1a1e554d062b2263a03985d50c2568757d966dc6",
                   "name": "go$GO_VERSION.linux-armv6l.tar.gz",
                   "url": "https://storage.googleapis.com/golang/{{this.assets.bin.name}}"
                 }
@@ -125,7 +125,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "82607c4d8d781b88a7e283dd4c48e80c04f26c1892a511c0ca21209c0f9ba2ab",
+                  "checksum": "b0f9f61a8b2ac2f6b500ed0f456ba7412e9b89e5a5db0e065571c879f487ede5",
                   "name": "go$GO_VERSION.linux-armv7hf.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
                 }
@@ -137,7 +137,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "94f874037b82ea5353f4061e543681a0e79657f787437974214629af8407d124",
+                  "checksum": "0804bf02020dceaa8a7d7275ee79f7a142f1996bfd0c39216ccb405f93f994c0",
                   "name": "go$GO_VERSION.linux-amd64.tar.gz",
                   "url": "https://storage.googleapis.com/golang/{{this.assets.bin.name}}"
                 }
@@ -149,7 +149,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "8af8787b7c2a3c0eb3f20f872577fcb6c36098bf725c59c4923921443084c807",
+                  "checksum": "9fa65ae42665baff53802091b49b83af6f2e397986b6cbea2ae30e2c7ee0f2f2",
                   "name": "go$GO_VERSION.linux-arm64.tar.gz",
                   "url": "https://storage.googleapis.com/golang/{{this.assets.bin.name}}"
                 }
@@ -161,7 +161,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "4bf7a961fda7ad892b8824002036de8c0f290df05df2e8f11252d1f8c77dcd8f",
+                  "checksum": "c68ebb127924ee753d05fcd4cc893e3409a6754e8884bb04e5248e9b5849f6ba",
                   "name": "go$GO_VERSION.linux-386.tar.gz",
                   "url": "https://storage.googleapis.com/golang/{{this.assets.bin.name}}"
                 }
@@ -173,7 +173,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "b593deb0e29f59e96c592a0108a7d20ec1bd40ee5ab1a80278e330f62319bfb7",
+                  "checksum": "1489bee8cc80347ad1dc224551a50c944d4b770b0f4831744d641c5d5212852f",
                   "name": "go$GO_VERSION.linux-i386-nlp.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
                 }
@@ -185,7 +185,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "f0f26cd3c2bec594d54133a0ac0db5c6297bcbdb145571f87ff9690cf372d250",
+                  "checksum": "c96c003262b6d9ad8aff17561ac9d6600e38190b80d33f6e4da3fe72dba1d9a1",
                   "name": "go$GO_VERSION.linux-armel.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
                 }
@@ -199,7 +199,7 @@
       ]
     },
     {
-      "version": "1.12.10",
+      "version": "1.12.12",
       "variants": [
         {
           "data": { "libc": "musl-libc" },
@@ -210,7 +210,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "d377647df8001da6a1d95d55969325250edbef57b0e16a8c947339793cc428d8",
+                  "checksum": "0faee801035d17daf5bc4eebaf239d14b7f35262637a60796c537f3271b6108d",
                   "name": "go$GO_VERSION.linux-alpine-armv6hf.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
                   
@@ -223,7 +223,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "75afa5b9b2eaea5b273d8ab7cd454d0892081b7aa30bf6be66bdf49f029b7b0f",
+                  "checksum": "a00eedc28dc28577cf1f0c66e8cb33c05b6b3c336886259d37b17f6850a20389",
                   "name": "go$GO_VERSION.linux-alpine-amd64.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
                 }
@@ -235,7 +235,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "9625910cf45dd099fe5f2959a8e3607249cce035376b98bd93b5bbdf2165feca",
+                  "checksum": "cc89646c42d9f3dfdadb5e602a1af2916e2259169d05ce7a243ddd9f9ce5cf22",
                   "name": "go$GO_VERSION.linux-alpine-i386.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
                 }
@@ -247,7 +247,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "63b73adcfd32599add64ed7a454aadf4724ef8aa8ae0ed4f1dfc07500f3912aa",
+                  "checksum": "b859326a3abf955962f0f3765642c681a897c8a460f70046d909fc9534b3d8e2",
                   "name": "go$GO_VERSION.linux-alpine-aarch64.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
                 }
@@ -259,7 +259,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "7d66f409ff45b7aa52e51fc270ebebea142a3171264b89fbc7525de04f6af5af",
+                  "checksum": "510df8abd37775749b527320a0e2b5ab471526e553503f0c666d6d2c9754b799",
                   "name": "go$GO_VERSION.linux-alpine-armv7hf.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
                 }
@@ -285,7 +285,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "b20a897e3a078637a91e8c91ff69a27bcefea7384a0019e56fbfd21f8170fe6b",
+                  "checksum": "ed3cda3c2d0648a712fa13cfc25e82431772231ef8f3db70de2fa9c2b893a5ab",
                   "name": "go$GO_VERSION.linux-armv6l.tar.gz",
                   "url": "https://storage.googleapis.com/golang/{{this.assets.bin.name}}"
                 }
@@ -297,7 +297,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "442c8669841d3cb27ec6e6d9823d667c760d5a2122a30d69e965de55d43096a6",
+                  "checksum": "303729614a51af07edb2221a31f217eb7637ae12ed6480a4bc71568fb1eebe5a",
                   "name": "go$GO_VERSION.linux-armv7hf.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
                 }
@@ -309,7 +309,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "aaa84147433aed24e70b31da369bb6ca2859464a45de47c2a5023d8573412f6b",
+                  "checksum": "4cf11ac6a8fa42d26ab85e27a5d916ee171900a87745d9f7d4a29a21587d78fc",
                   "name": "go$GO_VERSION.linux-amd64.tar.gz",
                   "url": "https://storage.googleapis.com/golang/{{this.assets.bin.name}}"
                 }
@@ -321,7 +321,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "d45d1eebe10a33a3d850cafcefd45200091a9ddb880857135307ee0de9424d24",
+                  "checksum": "a7e2fed536904f2bf7007deed3609b3484c55660821bd2faaeb6928fa62fd33e",
                   "name": "go$GO_VERSION.linux-arm64.tar.gz",
                   "url": "https://storage.googleapis.com/golang/{{this.assets.bin.name}}"
                 }
@@ -333,7 +333,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "863ad8abc9a9a18a9d55e2a3a2c68046ae57ccd34c2fa0159b70d015957391d6",
+                  "checksum": "59a48035f9b1387347e8a8a0f7c6d693e6bc84e0374ef802fb8ec61f894db073",
                   "name": "go$GO_VERSION.linux-386.tar.gz",
                   "url": "https://storage.googleapis.com/golang/{{this.assets.bin.name}}"
                 }
@@ -345,7 +345,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "6b8b27f6d913b493edb11df75165a1becb040fd6c018f1f237ad1ce9e83ac6aa",
+                  "checksum": "bea17c7b4742c59593a348c53d17a0a3dc09e55d5b21fbd5da36a81ddd821474",
                   "name": "go$GO_VERSION.linux-i386-nlp.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
                 }
@@ -357,7 +357,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "a157f7465e0ec514733e4e038ee0c42e5249a1cd85a8682bc2c0f1a5b8403da8",
+                  "checksum": "376380bc782aabd9986b3da02a521c3f8aeb36e2241d1a9032a1c97f581140e1",
                   "name": "go$GO_VERSION.linux-armel.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
                 }
