@@ -16,8 +16,8 @@
     "test": {
       "main": "test-stack@node",
       "name": "test-stack@node.sh",
-      "commit": "07c49c5104e67fe8b4264569d9c02b2dc7299685",
-      "url": "https://raw.githubusercontent.com/nghiant2710/base-images/{{this.assets.test.commit}}/scripts/assets/tests/{{this.assets.test.name}}"
+      "commit": "8accad6af708fca7271c5c65f18a86782e19f877",
+      "url": "https://raw.githubusercontent.com/balena-io-library/base-images/{{this.assets.test.commit}}/scripts/assets/tests/{{this.assets.test.name}}"
     }
   },
   "requires": [
