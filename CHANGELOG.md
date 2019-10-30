@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.81 - 2019-10-30
+
+* Curl: Fix curl not working on latest Ubuntu releases [Trong Nghia Nguyen]
+* Python: Add v2.7.17 v3.7.5 and v3.8.0 [Trong Nghia Nguyen]
+* Node: Add v13.0.1 v12.13.0 and v10.17.0 with Yarn v1.19.1 [Trong Nghia Nguyen]
+
 ## 1.1.80 - 2019-10-25
 
 * Golang: Add v1.13.3 and v1.12.12 [Trong Nghia Nguyen]
