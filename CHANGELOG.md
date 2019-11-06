@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.82 - 2019-11-06
+
+* Test: Update OS version test [Trong Nghia Nguyen]
+
 ## 1.1.81 - 2019-10-30
 
 * Curl: Fix curl not working on latest Ubuntu releases [Trong Nghia Nguyen]
