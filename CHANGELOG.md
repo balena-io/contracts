@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.83 - 2019-11-06
+
+* Device: Add support for Surface Go [Trong Nghia Nguyen]
+
 ## 1.1.82 - 2019-11-06
 
 * Test: Update OS version test [Trong Nghia Nguyen]
