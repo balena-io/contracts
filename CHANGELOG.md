@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.84 - 2019-11-15
+
+* Device: Add suport for Auvidea JN30B Nano [Alexandru Costache]
+
 ## 1.1.83 - 2019-11-06
 
 * Device: Add support for Surface Go [Trong Nghia Nguyen]
