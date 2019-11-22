@@ -4,5 +4,5 @@ RUN curl -SLO "{{sw.blob.balena-xbuild.assets.bin.url}}" \
   && rm "{{sw.blob.balena-xbuild.assets.bin.name}}" \
   && chmod +x {{sw.blob.balena-xbuild.assets.bin.main}} \
   && mv {{sw.blob.balena-xbuild.assets.bin.main}} /usr/bin \
-  && ln -s {{sw.blob.balena-xbuild.assets.bin.main}} /usr/bin/cross-build-start \
-  && ln -s {{sw.blob.balena-xbuild.assets.bin.main}} /usr/bin/cross-build-end
+  && ln -sf {{sw.blob.balena-xbuild.assets.bin.main}} /usr/bin/cross-build-start \
+  && ln -sf {{sw.blob.balena-xbuild.assets.bin.main}} /usr/bin/cross-build-end

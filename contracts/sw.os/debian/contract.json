@@ -16,7 +16,7 @@
     "test": {
       "main": "test-os",
       "name": "test-os.sh",
-      "commit": "45fb4c638009eedb8f2ede5cddde6b78aeade416",
+      "commit": "a95300eda2320833e537ca20d728a870bf02177d",
       "url": "https://raw.githubusercontent.com/balena-io-library/base-images/{{this.assets.test.commit}}/scripts/assets/tests/{{this.assets.test.name}}"
     }
   },
