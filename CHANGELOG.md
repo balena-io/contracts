@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.85 - 2019-11-22
+
+* Xbuild: Various updates [Trong Nghia Nguyen]
+* Golang: Add v1.12.13 and v1.13.4 [Trong Nghia Nguyen]
+* Node: Add v13.1.0 [Trong Nghia Nguyen]
+
 ## 1.1.84 - 2019-11-15
 
 * Device: Add suport for Auvidea JN30B Nano [Alexandru Costache]
