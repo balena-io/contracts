@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.86 - 2019-12-04
+
+* Device: Add Google Coral Dev Board [Alexandru Costache]
+
 ## 1.1.85 - 2019-11-22
 
 * Xbuild: Various updates [Trong Nghia Nguyen]
