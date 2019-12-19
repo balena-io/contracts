@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.87 - 2019-12-19
+
+* Dotnet: Add v3.1.0 v2.2.8 and v2.1.14 [Trong Nghia Nguyen]
+
 ## 1.1.86 - 2019-12-04
 
 * Device: Add Google Coral Dev Board [Alexandru Costache]
