@@ -60,6 +60,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -104,6 +105,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -148,6 +150,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -192,6 +195,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -236,6 +240,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -402,6 +407,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -446,6 +452,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -490,6 +497,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -534,6 +542,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -578,6 +587,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -744,6 +754,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -788,6 +799,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -832,6 +844,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -876,6 +889,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -920,6 +934,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -1326,6 +1341,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -1370,6 +1386,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -1414,6 +1431,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -1458,6 +1476,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -1502,6 +1521,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -2471,6 +2491,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -2515,6 +2536,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -2559,6 +2581,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -2603,6 +2626,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
@@ -2647,6 +2671,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
