@@ -5,7 +5,7 @@
   "data": {
     "libc": "glibc",
     "latest": "buster",
-    "versionList": "`buster (latest)`, `jessie`, `stretch`, `sid`"
+    "versionList": "`buster (latest)`, `bullseye`, `jessie`, `stretch`, `sid`"
   },
   "name": "Debian {{this.version}}",
   "requires": [
@@ -36,6 +36,7 @@
         { "version": "jessie", "name": "Debian Jessie" },
         { "version": "stretch", "name": "Debian Stretch" },
         { "version": "buster", "name": "Debian Buster" },
+        { "version": "bullseye", "name": "Debian Bullseye" },
         { "version": "sid", "name": "Debian Sid" }
       ]
     },
@@ -47,6 +48,7 @@
       "variants": [
         { "version": "jessie", "name": "Debian Jessie" },
         { "version": "stretch", "name": "Debian Stretch" },
+        { "version": "bullseye", "name": "Debian Bullseye" },
         { "version": "buster", "name": "Debian Buster" }
       ]
     },
@@ -64,6 +66,7 @@
         { "version": "jessie", "name": "Debian Jessie" },
         { "version": "stretch", "name": "Debian Stretch" },
         { "version": "buster", "name": "Debian Buster" },
+        { "version": "bullseye", "name": "Debian Bullseye" },
         { "version": "sid", "name": "Debian Sid" }
       ]
     }
