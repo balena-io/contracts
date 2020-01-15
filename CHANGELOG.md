@@ -5,6 +5,15 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.89 - 2020-01-15
+
+* Alpine: Remove i386-nlp from Alpine Linux supported archs [Trong Nghia Nguyen]
+* Python: Add v3.8.1 v3.7.6 and v3.6.10 [Trong Nghia Nguyen]
+* Go: Add v1.13.6 and v1.12.15 [Trong Nghia Nguyen]
+* Node: Add v13.6.0 v12.14.1 and v10.18.1 [Trong Nghia Nguyen]
+* Debian: Add support for Debian Bullseye [Trong Nghia Nguyen]
+* Alpine: Change latest Alpine Linux to 3.11 [Trong Nghia Nguyen]
+
 ## 1.1.88 - 2019-12-23
 
 * Node: Add support for latest node releases [Trong Nghia Nguyen]
