@@ -35,6 +35,7 @@
             {
               "or": [
                 { "type": "sw.os", "slug": "debian", "version": "stretch" },
+                { "type": "sw.os", "slug": "debian", "version": "bullseye" },
                 { "type": "sw.os", "slug": "debian", "version": "buster" }
               ]
             }
@@ -90,6 +91,7 @@
             {
               "or": [
                 { "type": "sw.os", "slug": "debian", "version": "stretch" },
+                { "type": "sw.os", "slug": "debian", "version": "bullseye" },
                 { "type": "sw.os", "slug": "debian", "version": "buster" }
               ]
             }
@@ -145,6 +147,7 @@
             {
               "or": [
                 { "type": "sw.os", "slug": "debian", "version": "stretch" },
+                { "type": "sw.os", "slug": "debian", "version": "bullseye" },
                 { "type": "sw.os", "slug": "debian", "version": "buster" }
               ]
             }
@@ -200,6 +203,7 @@
             {
               "or": [
                 { "type": "sw.os", "slug": "debian", "version": "stretch" },
+                { "type": "sw.os", "slug": "debian", "version": "bullseye" },
                 { "type": "sw.os", "slug": "debian", "version": "buster" }
               ]
             }
@@ -255,6 +259,7 @@
             {
               "or": [
                 { "type": "sw.os", "slug": "debian", "version": "stretch" },
+                { "type": "sw.os", "slug": "debian", "version": "bullseye" },
                 { "type": "sw.os", "slug": "debian", "version": "buster" }
               ]
             }
@@ -310,6 +315,7 @@
             {
               "or": [
                 { "type": "sw.os", "slug": "debian", "version": "stretch" },
+                { "type": "sw.os", "slug": "debian", "version": "bullseye" },
                 { "type": "sw.os", "slug": "debian", "version": "buster" }
               ]
             }
@@ -365,6 +371,7 @@
             {
               "or": [
                 { "type": "sw.os", "slug": "debian", "version": "stretch" },
+                { "type": "sw.os", "slug": "debian", "version": "bullseye" },
                 { "type": "sw.os", "slug": "debian", "version": "buster" }
               ]
             }
@@ -444,6 +451,7 @@
             {
               "or": [
                 { "type": "sw.os", "slug": "debian", "version": "stretch" },
+                { "type": "sw.os", "slug": "debian", "version": "bullseye" },
                 { "type": "sw.os", "slug": "debian", "version": "buster" }
               ]
             }
@@ -487,6 +495,7 @@
             {
               "or": [
                 { "type": "sw.os", "slug": "debian", "version": "stretch" },
+                { "type": "sw.os", "slug": "debian", "version": "bullseye" },
                 { "type": "sw.os", "slug": "debian", "version": "buster" }
               ]
             }

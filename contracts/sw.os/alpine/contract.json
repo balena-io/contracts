@@ -4,7 +4,7 @@
   "version": "1",
   "data": { 
     "libc": "musl-libc",
-    "latest": "3.10",
+    "latest": "3.11",
     "versionList": "`3.11 (latest)`, `3.10`, `3.9`, `3.8`, `3.7`, `3.6`, `edge`"
   },
   "name": "Alpine Linux {{this.version}}",
@@ -47,7 +47,6 @@
         {
           "or": [
             { "type": "arch.sw", "slug": "i386" },
-            { "type": "arch.sw", "slug": "i386-nlp" },
             { "type": "arch.sw", "slug": "amd64" }
           ]
         }
