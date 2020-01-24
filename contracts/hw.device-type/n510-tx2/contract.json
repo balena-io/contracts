@@ -8,10 +8,11 @@
     "hdmi": true,
     "led": false,
     "connectivity": {
-      "bluetooth": false
+      "bluetooth": true,
+      "wifi": true
     },
     "storage": {
-      "internal": false
+      "internal": true
     },
     "media": {
       "installation": "sdcard"
