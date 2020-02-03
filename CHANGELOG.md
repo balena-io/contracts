@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.92 - 2020-02-03
+
+* Device: Add Nvidia Jetson TX2 with PCIe M.2 Slot Enabled [Florin Sarbu]
+
 ## 1.1.91 - 2020-02-03
 
 * Device: Add Nitrogen8MM DWE board [Alexandru Costache]
