@@ -1,0 +1,21 @@
+{
+  "slug": "m2pcie-tx2",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "Nvidia Jetson TX2 with PCIe M.2 Slot Enabled",
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true
+    },
+    "storage": {
+      "internal": true,
+      "wifi": true
+    },
+    "media": {
+      "installation": "sdcard"
+    }
+  }
+}
