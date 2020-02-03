@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.91 - 2020-02-03
+
+* Device: Add Nitrogen8MM DWE board [Alexandru Costache]
+
 ## 1.1.90 - 2020-01-24
 
 * Contract.json: Update wifi,bt and storage fields [Vicentiu Galanopulo]
