@@ -8,13 +8,14 @@
     "hdmi": true,
     "led": true,
     "connectivity": {
-      "bluetooth": true
+      "bluetooth": true,
+      "wifi": true
     },
     "storage": {
       "internal": true
     },
     "media": {
-      "installation": "sdcard"
+      "installation": "dfu"
     }
   }
 }
