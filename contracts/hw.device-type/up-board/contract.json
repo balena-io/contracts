@@ -8,10 +8,11 @@
     "hdmi": true,
     "led": false,
     "connectivity": {
-      "bluetooth": false
+      "bluetooth": false,
+      "wifi": false
     },
     "storage": {
-      "internal": false
+      "internal": true
     },
     "media": {
       "installation": "usbkey"

@@ -5,6 +5,10 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.90 - 2020-01-24
+
+* Contract.json: Update wifi,bt and storage fields [Vicentiu Galanopulo]
+
 ## 1.1.89 - 2020-01-15
 
 * Alpine: Remove i386-nlp from Alpine Linux supported archs [Trong Nghia Nguyen]
