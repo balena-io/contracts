@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.93 - 2020-02-06
+
+* Rpi: Remove raspbian/raspberrypi package repository from Debian bullseye and sid [Trong Nghia Nguyen]
+* Dotnet: Add support for v3.1.1 sdk/runtime/aspnet [Trong Nghia Nguyen]
+* Node: Add support for v13.8.0 v12.15.0 and v10.19.0 [Trong Nghia Nguyen]
+
 ## 1.1.92 - 2020-02-03
 
 * Device: Add Nvidia Jetson TX2 with PCIe M.2 Slot Enabled [Florin Sarbu]
