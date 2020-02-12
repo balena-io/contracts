@@ -2,7 +2,7 @@
 ENV DOTNET_VERSION {{sw.stack.assets.runtime.fullVersion}}
 
 RUN curl -SL --output dotnet.tar.gz "{{sw.stack.assets.runtime.bin.url}}" \
-    && dotnet_sha512='{{sw.stack.assets.bin.checksum}}' \
+    && dotnet_sha512='{{sw.stack.assets.runtime.bin.checksum}}' \
     && echo "$dotnet_sha512 dotnet.tar.gz" | sha512sum -c - \
     && mkdir -p /usr/share/dotnet \
     && tar -zxf dotnet.tar.gz -C /usr/share/dotnet \

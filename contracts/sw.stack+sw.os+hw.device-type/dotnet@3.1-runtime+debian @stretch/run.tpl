@@ -7,7 +7,7 @@ RUN apt-get update \
         libc6 \
         libgcc1 \
         libgssapi-krb5-2 \
-        libicu63 \
+        libicu57 \
         libssl1.1 \
         libstdc++6 \
         zlib1g \
@@ -17,3 +17,5 @@ RUN apt-get update \
 ENV ASPNETCORE_URLS=http://+:80 \
     # Enable detection of running in a container
     DOTNET_RUNNING_IN_CONTAINER=true
+
+{{import partial="dotnet-runtime" combination="sw.stack+sw.os+hw.device-type"}}
