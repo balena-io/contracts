@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.94 - 2020-02-12
+
+* Node: Add node v12.16.0 [Trong Nghia Nguyen]
+* Dotnet: Update dependencies for Debian buster and bullseye [Trong Nghia Nguyen]
+
 ## 1.1.93 - 2020-02-06
 
 * Rpi: Remove raspbian/raspberrypi package repository from Debian bullseye and sid [Trong Nghia Nguyen]
