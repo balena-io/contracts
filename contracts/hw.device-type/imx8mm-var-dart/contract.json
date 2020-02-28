@@ -1,18 +1,18 @@
 {
-  "slug": "m2pcie-tx2",
+  "slug": "imx8mm-var-dart",
   "version": "1",
   "type": "hw.device-type",
-  "name": "Nvidia Jetson TX2 with PCIe M.2 Slot Enabled",
+  "name": "Variscite DART-MX8M Mini",
   "data": {
     "arch": "aarch64",
-    "hdmi": true,
+    "hdmi": false,
     "led": false,
     "connectivity": {
-      "bluetooth": true
+      "bluetooth": true,
+      "wifi": true
     },
     "storage": {
-      "internal": true,
-      "wifi": true
+      "internal": true
     },
     "media": {
       "installation": "sdcard"
