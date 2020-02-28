@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.96 - 2020-02-25
+
+* Device: Remove device type Nvidia Jetson TX2 with PCIe M.2 Slot [Alexandru Costache]
+* Device: Add Variscite IMX8M Mini device type [Alexandru Costache]
+
 ## 1.1.95 - 2020-02-19
 
 * Golang: Add v1.13.8 and v1.12.17 [Trong Nghia Nguyen]
