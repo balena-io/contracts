@@ -367,18 +367,6 @@
               "requires": [
                 { "type": "arch.sw", "slug": "i386-nlp" }
               ]
-            },
-            {
-              "assets": {
-                "bin": {
-                  "checksum": "67608fbd78c222dd71e62fd7decc8c75b62ed88a18dcf0e3c099b6090cfd25ee",
-                  "name": "Python-$PYTHON_VERSION.linux-armel-openssl1.1.tar.gz",
-                  "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                }
-              },
-              "requires": [
-                { "type": "arch.sw", "slug": "armv5e" }
-              ]
             }
           ]
         }
@@ -714,18 +702,6 @@
               },
               "requires": [
                 { "type": "arch.sw", "slug": "i386-nlp" }
-              ]
-            },
-            {
-              "assets": {
-                "bin": {
-                  "checksum": "d5e4d34d223a1ee8ebe233456eec85eddd4181dcaa3c2dffa4b5b83f0dec524f",
-                  "name": "Python-$PYTHON_VERSION.linux-armel-openssl1.1.tar.gz",
-                  "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                }
-              },
-              "requires": [
-                { "type": "arch.sw", "slug": "armv5e" }
               ]
             }
           ]
@@ -1867,54 +1843,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "armv5e" }
-              ],
-              "variants": [
-                {
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
-                      ]
-                    }
-                  ],
-                  "assets": {
-                    "bin": {
-                      "checksum": "39ab4bcf8b317070738b6635549eeba0eb19e249e780b55de1190dcc2cd33893",
-                      "name": "Python-$PYTHON_VERSION.linux-armel-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "d0db6be684c0dc5509baa1e7fb6d908f84173ab972bf03de40f0e73b4f0d5873",
-                      "name": "Python-$PYTHON_VERSION.linux-armel-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "stretch" },
-                        { "type": "sw.os", "slug": "debian" , "version": "sid" },
-                        { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
-                        { "type": "sw.os", "slug": "fedora" }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ]
         }
@@ -2421,52 +2349,6 @@
                     "bin": {
                       "checksum": "1daae4d9fcc63b7b84f7bd31b6bf1b49c63a07c4f36b6aa61102aa2cbaecf1e3",
                       "name": "Python-$PYTHON_VERSION.linux-i386-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "stretch" },
-                        { "type": "sw.os", "slug": "debian" , "version": "sid" },
-                        { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "fedora" }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "armv5e" }
-              ],
-              "variants": [
-                {
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
-                      ]
-                    }
-                  ],
-                  "assets": {
-                    "bin": {
-                      "checksum": "6a7a85989867d202d3a501bcd3c47a6011808a3ba72eea8f6ec982c2f2e98191",
-                      "name": "Python-$PYTHON_VERSION.linux-armel-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "c1aa8e10e56eef0b1590fbdcb8857df54f536c4d203a5b9aa31fb5e064ee8f6e",
-                      "name": "Python-$PYTHON_VERSION.linux-armel-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   },
