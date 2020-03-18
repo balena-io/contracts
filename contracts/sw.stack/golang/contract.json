@@ -625,18 +625,6 @@
               "requires": [
                 { "type": "arch.sw", "slug": "i386-nlp" }
               ]
-            },
-            {
-              "assets": {
-                "bin": {
-                  "checksum": "f048240b428b9107264c6b27c25550bf890de9a11510115184af32b48291f6a8",
-                  "name": "go$GO_VERSION.linux-armel.tar.gz",
-                  "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
-                }
-              },
-              "requires": [
-                { "type": "arch.sw", "slug": "armv5e" }
-              ]
             }
           ]
         }
@@ -796,18 +784,6 @@
               },
               "requires": [
                 { "type": "arch.sw", "slug": "i386-nlp" }
-              ]
-            },
-            {
-              "assets": {
-                "bin": {
-                  "checksum": "12d319a014b894db07d32792bc4e450f7d408742e1d7bf602777fb375196233e",
-                  "name": "go$GO_VERSION.linux-armel.tar.gz",
-                  "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
-                }
-              },
-              "requires": [
-                { "type": "arch.sw", "slug": "armv5e" }
               ]
             }
           ]

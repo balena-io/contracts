@@ -23,8 +23,7 @@
         {
           "or": [
             { "type": "arch.sw", "slug": "armv7hf" },
-            { "type": "arch.sw", "slug": "rpi" },
-            { "type": "arch.sw", "slug": "armv5e" }
+            { "type": "arch.sw", "slug": "rpi" }
           ]
         }
       ]
