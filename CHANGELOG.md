@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+## 1.1.98 - 2020-03-18
+
+* Drop support for armv5e architecture [Trong Nghia Nguyen]
+* Add Golang v1.14 [Trong Nghia Nguyen]
+
 ## 1.1.97 - 2020-03-12
 
 * Add node v13.11.0 and update yarn to v1.22.4 [Trong Nghia Nguyen]
