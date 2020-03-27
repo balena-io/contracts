@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.1.99
+## (2020-03-27)
+
+* device: Add support for SKX2 [Florin Sarbu]
+
 ## 1.1.98 - 2020-03-18
 
 * Drop support for armv5e architecture [Trong Nghia Nguyen]
