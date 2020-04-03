@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.1.101
+## (2020-04-02)
+
+* Add support for ubuntu focal (20.04) [Trong Nghia Nguyen]
+
 # v1.1.100
 ## (2020-03-27)
 
