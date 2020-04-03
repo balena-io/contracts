@@ -5,7 +5,7 @@
   "data": {
     "libc": "glibc",
     "latest": "bionic",
-    "versionList": "`bionic (latest)`, `cosmic`, `xenial`, `disco`, `eoan`"
+    "versionList": "`bionic (latest)`, `cosmic`, `xenial`, `disco`, `eoan`, `focal`"
   },
   "name": "Ubuntu {{this.version}}",
   "requires": [
@@ -32,6 +32,7 @@
         }
       ],
       "variants": [
+        { "version": "focal" },
         { "version": "eoan" },
         { "version": "xenial" },
         { "version": "disco" },
@@ -44,12 +45,24 @@
         {
           "or": [
             { "type": "arch.sw", "slug": "i386" },
-            { "type": "arch.sw", "slug": "i386-nlp" },
-            { "type": "arch.sw", "slug": "amd64" }
+            { "type": "arch.sw", "slug": "i386-nlp" }
           ]
         }
       ],
       "variants": [
+        { "version": "eoan" },
+        { "version": "xenial" },
+        { "version": "disco" },
+        { "version": "bionic" },
+        { "version": "cosmic" }
+      ]
+    },
+    {
+      "requires": [
+        { "type": "arch.sw", "slug": "amd64" }
+      ],
+      "variants": [
+        { "version": "focal" },
         { "version": "eoan" },
         { "version": "xenial" },
         { "version": "disco" },
