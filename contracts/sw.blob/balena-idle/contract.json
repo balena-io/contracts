@@ -1,0 +1,14 @@
+{
+  "slug": "balena-idle",
+  "type": "sw.blob",
+  "version": "1",
+  "name": "balena idle script",
+  "assets": {
+    "bin": {
+      "name": "balena-idle",
+      "url": "file://./assets/commands/balena-idle",
+      "checksum": "",
+      "main": "balena-idle"
+    }
+  }
+}
