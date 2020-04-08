@@ -1,7 +1,7 @@
 {
   "slug": "node",
   "type": "sw.stack",
-  "name": "Node.js $NODE_VERSION",
+  "name": "Node.js v{{this.version}}",
   "version": "1",
   "data": {
     "latest": "13.12.0",
@@ -18,7 +18,8 @@
       "name": "test-stack@node.sh",
       "commit": "8accad6af708fca7271c5c65f18a86782e19f877",
       "url": "https://raw.githubusercontent.com/balena-io-library/base-images/{{this.assets.test.commit}}/scripts/assets/tests/{{this.assets.test.name}}"
-    }
+    },
+    "manifest": "Node.js v{{this.version}}, Yarn v{{this.assets.yarn.version}}"
   },
   "requires": [
     {

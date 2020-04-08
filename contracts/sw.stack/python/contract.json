@@ -1,7 +1,7 @@
 {
   "slug": "python",
   "type": "sw.stack",
-  "name": "Python $PYTHON_VERSION",
+  "name": "Python v{{this.version}}",
   "version": "1",
   "data": {
     "latest": "2.7.17",
@@ -25,7 +25,8 @@
       "name": "test-stack@python.sh",
       "commit": "8accad6af708fca7271c5c65f18a86782e19f877",
       "url": "https://raw.githubusercontent.com/balena-io-library/base-images/{{this.assets.test.commit}}/scripts/assets/tests/{{this.assets.test.name}}"
-    }
+    },
+    "manifest": "Python v{{this.version}}, Pip v{{this.assets.pip.version}}, Setuptools v{{this.assets.setuptools.version}}"
   },
   "requires": [
     {
@@ -291,6 +292,7 @@
                 { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
+                { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                 { "type": "sw.os", "slug": "fedora" }
               ]
             }
@@ -627,6 +629,7 @@
                 { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
+                { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                 { "type": "sw.os", "slug": "fedora" }
               ]
             }
@@ -1003,6 +1006,7 @@
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
                     }
@@ -1051,6 +1055,7 @@
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
                     }
@@ -1099,6 +1104,7 @@
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
                     }
@@ -1147,6 +1153,7 @@
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
                     }
@@ -1195,6 +1202,7 @@
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
                     }
@@ -1243,6 +1251,7 @@
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
                     }
@@ -1291,6 +1300,7 @@
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
                     }
@@ -1597,6 +1607,7 @@
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
                     }
@@ -1645,6 +1656,7 @@
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
                     }
@@ -1693,6 +1705,7 @@
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
                     }
@@ -1741,6 +1754,7 @@
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
                     }
@@ -1789,6 +1803,7 @@
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
                     }
@@ -1837,6 +1852,7 @@
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
                     }
@@ -2658,6 +2674,7 @@
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
                     }
@@ -2706,6 +2723,7 @@
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
                     }
@@ -2754,6 +2772,7 @@
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
                     }
@@ -2802,6 +2821,7 @@
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
                     }
@@ -2850,6 +2870,7 @@
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
                     }
@@ -2898,6 +2919,7 @@
                         { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
+                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
                     }
