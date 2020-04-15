@@ -1,7 +1,7 @@
 {
   "slug": "golang",
   "type": "sw.stack",
-  "name": "Go $GO_VERSION",
+  "name": "Go v{{this.version}}",
   "version": "1",
   "data": {
     "latest": "1.14",
@@ -23,7 +23,8 @@
       "name": "test-stack@golang.sh",
       "commit": "8accad6af708fca7271c5c65f18a86782e19f877",
       "url": "https://raw.githubusercontent.com/balena-io-library/base-images/{{this.assets.test.commit}}/scripts/assets/tests/{{this.assets.test.name}}"
-    }
+    },
+    "manifest": "Go v{{this.version}}"
   },
   "variants": [
     {

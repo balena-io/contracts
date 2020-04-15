@@ -1,0 +1,14 @@
+{
+  "slug": "balena-info",
+  "type": "sw.blob",
+  "version": "1",
+  "name": "balena info script",
+  "assets": {
+    "bin": {
+      "name": "balena-info",
+      "url": "file://./assets/commands/balena-info",
+      "checksum": "",
+      "main": "balena-info"
+    }
+  }
+}

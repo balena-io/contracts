@@ -9,6 +9,8 @@
   },
   "name": "Alpine Linux {{this.version}}",
   "requires": [
+    { "type": "sw.blob", "slug": "balena-idle" },
+    { "type": "sw.blob", "slug": "balena-info" },
     { "type": "sw.blob", "slug": "balena-xbuild" },
     { "type": "sw.blob", "slug": "entry" }
   ],
