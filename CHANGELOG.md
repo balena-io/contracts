@@ -5,6 +5,15 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.1.103
+## (2020-04-15)
+
+* Add stack manifest [Trong Nghia Nguyen]
+* Add contract for balena-idle and balena-info [Trong Nghia Nguyen]
+* Add a fake shell to print onbuild messages [Trong Nghia Nguyen]
+* python: Add Python 2 deprecation warning [Trong Nghia Nguyen]
+* baseImages: Store base image info in .balena/message/image-info [Trong Nghia Nguyen]
+
 # v1.1.102
 ## (2020-04-09)
 
