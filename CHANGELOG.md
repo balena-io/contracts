@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.1.106
+## (2020-04-17)
+
+* Add coral package sources to debian and ubuntu images [Trong Nghia Nguyen]
+
 # v1.1.105
 ## (2020-04-16)
 
