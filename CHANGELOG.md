@@ -5,6 +5,13 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.1.108
+## (2020-04-28)
+
+* Add details about `balena-idle` and `balena-info` to base image messages [Trong Nghia Nguyen]
+* Remove `Device` and `Device-type` from base image detail messages [Trong Nghia Nguyen]
+* Fix wrong image-info partial is selected for Alpine and Fedora Dockerfiles [Trong Nghia Nguyen]
+
 # v1.1.107
 ## (2020-04-28)
 
