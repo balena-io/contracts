@@ -1,7 +1,7 @@
 ENV NODE_VERSION {{sw.stack.version}}
 ENV YARN_VERSION {{sw.stack.assets.yarn.version}}
 
-RUN buildDeps='curl' \
+RUN buildDeps='curl libatomic1' \
 	&& set -x \
 	&& for key in \
 	6A010C5166006599AA17F08146C2130DFD2497F5 \
