@@ -5,6 +5,13 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.1.113
+## (2020-05-28)
+
+* Add node v12.17.0 [Trong Nghia Nguyen]
+* Add libatomic1 as runtime deps for ubuntu node [Trong Nghia Nguyen]
+* Add node v14.3.0 [Trong Nghia Nguyen]
+
 # v1.1.112
 ## (2020-05-27)
 
