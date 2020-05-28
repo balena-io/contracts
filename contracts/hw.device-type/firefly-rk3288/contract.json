@@ -1,0 +1,21 @@
+{
+  "slug": "firefly-rk3288",
+  "version": "1",
+  "type": "hw.device-type",
+  "name": "FireFly rk3288",
+  "data": {
+    "arch": "armv7hf",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": false
+    },
+    "media": {
+      "installation": "sdcard"
+    }
+  }
+}

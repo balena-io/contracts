@@ -5,6 +5,13 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.1.112
+## (2020-05-27)
+
+* device: Add support for Photon Nano community board [Alexandru Costache]
+* device: Add support for FireFly rk3288 community board [Alexandru Costache]
+* device: Add support for AIO 3288C community board [Alexandru Costache]
+
 # v1.1.111
 ## (2020-05-18)
 
