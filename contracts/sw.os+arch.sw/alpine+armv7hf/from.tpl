@@ -1,1 +1,1 @@
-FROM arm32v6/alpine:{{sw.os.version}}
+FROM arm32v7/alpine:{{sw.os.version}}
