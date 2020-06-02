@@ -61,6 +61,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -75,25 +76,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "b16a7293fd7c77bb7b6db64317040eaace7be3985d1b23c29dc8227c896ea905",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -106,6 +88,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -120,25 +103,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "7f763cb380f5718daf4ceb1749cbe265de1c6fd23535d8e1fd89a87d2fded05c",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -151,6 +115,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -165,25 +130,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "b874b0f1956ccb8acac8e1c46fd4abaa8ccd34fd3e3477d653d25654c96410ec",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-i386-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -196,6 +142,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -210,25 +157,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "582e032a6f9ad4fd99da8a1d0eb0ba190b1d82efd34d1246254d37f28acb6446",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -241,6 +169,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -255,25 +184,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "b16a7293fd7c77bb7b6db64317040eaace7be3985d1b23c29dc8227c896ea905",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             }
@@ -398,6 +308,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -412,25 +323,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "a68774aaa644d337707a95e43795fd2398ab5cb13989a81741c327c1e73f84da",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -443,6 +335,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -457,25 +350,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "aa59f01d779c02a6cddb1dc5fbcc4f4b11c3a01a485ed70bad0cbd3916814053",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -488,6 +362,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -502,25 +377,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "de10fc74c06b0f4c912c2dec0fe06e472a4c4fed9e2ed24052d4604a5a44635d",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-i386-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -533,6 +389,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -547,25 +404,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "84432d62cc1493126364d4a5e56d596984d8055f871bc9f4fda4084efe94f0ff",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -578,6 +416,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -592,25 +431,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "a68774aaa644d337707a95e43795fd2398ab5cb13989a81741c327c1e73f84da",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             }
@@ -735,6 +555,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -749,25 +570,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "7698627d0e64317916a8ee09367ec6aedbb7969250c5b4acbc104c53175da7b4",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -780,6 +582,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -794,25 +597,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "9ce80d5e5a01676be7a8041507f62e6fee9f17a2c6ad335d127ac787f64aeec3",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -825,6 +609,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -839,25 +624,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "93ba6fab13b002243d5bbd525ad6cd3b5a9d561d62e5d4a830c4a1062c550a4a",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-i386-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -870,6 +636,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -884,25 +651,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "87bafbdc9b4c49713cb5b1a4280c6894d3b1c892acbe1df974d539deaf5bccf1",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -915,6 +663,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -929,25 +678,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "06a3767c2a62fdd7e945f286d09fff7a58e4eeeb43ee8850a0ddaced2c7eb920",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             }
@@ -1336,6 +1066,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -1350,25 +1081,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "4d7fd4a98a5eeb865d52f2041631710935b775f75d872a152a383d6aa1533dad",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -1381,6 +1093,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -1395,25 +1108,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "5952cf58963282b9ba67b38db696600a871d9ca0693e5c9e76bec507221382d4",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -1426,6 +1120,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -1440,25 +1135,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "f22ebf1969efd1e213b46aee3dcc686c3c154cc52db16a48457845f4b2e1a114",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-i386-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -1471,6 +1147,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -1485,25 +1162,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "56481a7813ef4b8cb3317d4c1235676f24d5b5158f9f37895e72071f8578014a",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -1516,6 +1174,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -1530,25 +1189,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "4d7fd4a98a5eeb865d52f2041631710935b775f75d872a152a383d6aa1533dad",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             }
@@ -1888,6 +1528,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -1902,25 +1543,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "d25a7cbf848da611e63fd818c1cc055141ef2185686f5b29d9aecc58a692b223",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -1933,6 +1555,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -1947,25 +1570,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "229397f2030db511eb8b8e36fe62578b0b88b7c14719beeb4c602cc717840157",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -1978,6 +1582,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -1992,25 +1597,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "0d872533e95f691b85b6537a7400c0377178c8f0e384cf2d2f9a845173e5a091",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-i386-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -2023,6 +1609,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -2037,25 +1624,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "7532b02d730651e50bc906fb5c1039d69943d37cf660cc562cce6ab65b5c02d7",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -2068,6 +1636,7 @@
                   "requires": [
                     {
                       "or": [
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.10" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.9" },
@@ -2082,25 +1651,6 @@
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "d25a7cbf848da611e63fd818c1cc055141ef2185686f5b29d9aecc58a692b223",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.8" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.7" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.6" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.5" }
-                      ]
-                    }
-                  ]
                 }
               ]
             }
