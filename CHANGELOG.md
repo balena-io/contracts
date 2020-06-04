@@ -5,6 +5,14 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.1.115
+## (2020-06-04)
+
+* Drop support for EOL Golang versions (v1.12 v1.11 and v1.10) [Trong Nghia Nguyen]
+* Add Golang v1.14.4 and v1.13.12 [Trong Nghia Nguyen]
+* Drop support for EOL node versions (v13, v11, v9 and v8) [Trong Nghia Nguyen]
+* Add node v14.4.0 v12.18.0 and v10.21.0 [Trong Nghia Nguyen]
+
 # v1.1.114
 ## (2020-06-02)
 
