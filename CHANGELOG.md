@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.1.116
+## (2020-06-22)
+
+* device: Add support for Variscite DART MX8M Mini NRT [Florin Sarbu]
+
 # v1.1.115
 ## (2020-06-04)
 
