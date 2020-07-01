@@ -15,7 +15,7 @@
       "internal": true
     },
     "media": {
-      "installation": "sdcard"
+      "installation": "dfu"
     }
   }
 }

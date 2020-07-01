@@ -2,7 +2,7 @@
   "slug": "fincm3",
   "version": "1",
   "type": "hw.device-type",
-  "name": "BALENA FIN",
+  "name": "Balena Fin (CM3)",
   "data": {
     "arch": "armv7hf",
     "hdmi": true,
