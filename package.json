@@ -1,6 +1,6 @@
 {
   "name": "contracts",
-  "version": "1.1.117",
+  "version": "1.2.0",
   "description": "Balena Base Contracts",
   "repository": {
     "type": "git",
