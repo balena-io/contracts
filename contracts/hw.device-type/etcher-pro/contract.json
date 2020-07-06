@@ -1,18 +1,17 @@
 {
-  "slug": "nitrogen6x",
+  "slug": "etcher-pro",
   "version": "1",
   "type": "hw.device-type",
-  "name": "Nitrogen 6x",
+  "name": "Etcher Pro",
   "data": {
-    "arch": "armv7hf",
+    "arch": "aarch64",
     "hdmi": true,
     "led": false,
     "connectivity": {
-      "bluetooth": true,
       "wifi": true
     },
     "storage": {
-      "internal": false
+      "internal": true
     },
     "media": {
       "installation": "sdcard"

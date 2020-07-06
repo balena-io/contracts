@@ -11,7 +11,7 @@
       "bluetooth": false
     },
     "storage": {
-      "internal": false
+      "internal": true
     },
     "media": {
       "installation": "sdcard"

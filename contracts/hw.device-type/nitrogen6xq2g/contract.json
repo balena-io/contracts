@@ -12,7 +12,7 @@
       "wifi": true
     },
     "storage": {
-      "internal": true
+      "internal": false
     },
     "media": {
       "installation": "sdcard"

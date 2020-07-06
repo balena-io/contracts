@@ -1,15 +1,15 @@
 {
-  "slug": "nitrogen6x",
+  "slug": "ts7700",
   "version": "1",
   "type": "hw.device-type",
-  "name": "Nitrogen 6x",
+  "name": "Technologic TS-7700",
   "data": {
-    "arch": "armv7hf",
+    "arch": "armv5e",
     "hdmi": true,
     "led": false,
     "connectivity": {
-      "bluetooth": true,
-      "wifi": true
+      "bluetooth": false,
+      "wifi": false
     },
     "storage": {
       "internal": false
