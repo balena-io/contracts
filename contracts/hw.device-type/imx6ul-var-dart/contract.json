@@ -2,6 +2,7 @@
   "slug": "imx6ul-var-dart",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": [],
   "name": "Dart",
   "data": {
     "arch": "armv7hf",

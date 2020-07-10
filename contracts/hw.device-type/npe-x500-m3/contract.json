@@ -2,6 +2,7 @@
   "slug": "npe-x500-m3",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": [],
   "name": "NPE X500 M3",
   "data": {
     "arch": "armv7hf",

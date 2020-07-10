@@ -2,6 +2,7 @@
   "slug": "imx7-var-som",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": [],
   "name": "Variscite VAR-SOM-MX7",
   "data": {
     "arch": "armv7hf",

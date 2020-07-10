@@ -2,6 +2,7 @@
   "slug": "hummingboard",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": ["solidrun-imx6","cubox-i","hummingboard2"],
   "name": "Hummingboard",
   "data": {
     "arch": "armv7hf",

@@ -2,6 +2,7 @@
   "slug": "orangepi-plus2",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": [],
   "name": "Orange Pi Plus2",
   "data": {
     "arch": "armv7hf",

@@ -2,6 +2,7 @@
   "slug": "aio-3288c",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": ["aio-3288c"],
   "name": "AIO 3288C",
   "data": {
     "arch": "armv7hf",

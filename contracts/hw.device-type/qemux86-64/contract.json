@@ -2,6 +2,7 @@
   "slug": "qemux86-64",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": [],
   "name": "QEMU x86-64",
   "data": {
     "arch": "amd64",

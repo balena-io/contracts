@@ -2,6 +2,7 @@
   "slug": "nanopc-t4",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": [],
   "name": "NanoPC-T4",
   "data": {
     "arch": "aarch64",

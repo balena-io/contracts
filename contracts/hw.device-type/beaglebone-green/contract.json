@@ -2,6 +2,7 @@
   "slug": "beaglebone-green",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": [],
   "name": "BeagleBone Green",
   "data": {
     "arch": "armv7hf",

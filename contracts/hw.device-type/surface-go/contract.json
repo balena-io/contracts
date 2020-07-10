@@ -2,6 +2,7 @@
   "slug": "surface-go",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": [],
   "name": "Microsoft Surface Go",
   "data": {
     "arch": "amd64",
