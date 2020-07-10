@@ -2,6 +2,7 @@
   "slug": "raspberry-pi",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": ["raspberrypi"],
   "name": "Raspberry Pi (1, Zero, Zero W)",
   "data": {
     "arch": "rpi",

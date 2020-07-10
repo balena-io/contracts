@@ -2,6 +2,7 @@
   "slug": "coral-dev",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": [],
   "name": "Google Coral Dev Board",
   "data": {
     "arch": "aarch64",

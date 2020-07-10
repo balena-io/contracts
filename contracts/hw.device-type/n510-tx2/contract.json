@@ -2,6 +2,7 @@
   "slug": "n510-tx2",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": [],
   "name": "Aetina N510 TX2",
   "data": {
     "arch": "aarch64",

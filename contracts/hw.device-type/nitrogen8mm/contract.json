@@ -2,6 +2,7 @@
   "slug": "nitrogen8mm",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": [],
   "name": "Nitrogen8M Mini SBC",
   "data": {
     "arch": "aarch64",

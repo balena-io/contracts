@@ -2,6 +2,7 @@
   "slug": "blackboard-tx2",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": [],
   "name": "Nvidia blackboard TX2",
   "data": {
     "arch": "aarch64",

@@ -2,6 +2,7 @@
   "slug": "imx8m-var-dart",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": [],
   "name": "Variscite DART-MX8M",
   "data": {
     "arch": "aarch64",

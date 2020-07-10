@@ -2,6 +2,7 @@
   "slug": "imx8mm-var-dart-plt",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": [],
   "name": "Variscite DART-MX8M Mini PLT",
   "data": {
     "arch": "aarch64",

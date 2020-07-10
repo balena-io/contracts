@@ -2,6 +2,7 @@
   "slug": "jn30b-nano",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": [],
   "name": "Auvidea JN30B Nano",
   "data": {
     "arch": "aarch64",

@@ -2,6 +2,7 @@
   "slug": "up-squared",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": [],
   "name": "UP Squared",
   "data": {
     "arch": "amd64",

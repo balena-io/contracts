@@ -2,6 +2,7 @@
   "slug": "via-vab820-quad",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": ["vab820-quad"],
   "name": "VIA vab820",
   "data": {
     "arch": "armv7hf",

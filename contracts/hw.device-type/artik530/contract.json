@@ -2,6 +2,7 @@
   "slug": "artik530",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": [],
   "name": "Samsung Artik 530",
   "data": {
     "arch": "armv7hf",

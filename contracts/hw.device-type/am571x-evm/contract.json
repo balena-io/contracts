@@ -2,6 +2,7 @@
   "slug": "am571x-evm",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": [],
   "name": "AM571X-EVM",
   "data": {
     "arch": "armv7hf",
