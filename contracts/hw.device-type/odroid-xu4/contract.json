@@ -2,15 +2,20 @@
   "slug": "odroid-xu4",
   "version": "1",
   "type": "hw.device-type",
-  "aliases": ["odroid-ux3","odroid-u3+"],
+  "aliases": [
+    "odroid-ux3",
+    "odroid-u3+"
+  ],
   "name": "ODroid XU4",
   "data": {
     "arch": "armv7hf",
     "hdmi": true,
+    "usb": true,
     "led": false,
     "connectivity": {
       "bluetooth": false,
-      "wifi": false
+      "wifi": false,
+      "ethernet": true
     },
     "storage": {
       "internal": false

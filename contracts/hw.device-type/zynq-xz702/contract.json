@@ -2,14 +2,18 @@
   "slug": "zc702-zynq7",
   "version": "1",
   "type": "hw.device-type",
-  "aliases": ["zc702-zynq7"],
+  "aliases": [
+    "zc702-zynq7"
+  ],
   "name": "Zynq zc702",
   "data": {
     "arch": "armv7hf",
     "hdmi": true,
+    "usb": true,
     "led": false,
     "connectivity": {
-      "bluetooth": false
+      "bluetooth": false,
+      "ethernet": true
     },
     "storage": {
       "internal": false
