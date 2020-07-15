@@ -1,13 +1,13 @@
 {
-  "slug": "revpi-core-3",
+  "slug": "photon-xavier-nx",
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Revolution Pi Core 3",
+  "name": "CTI Photon Xavier NX",
   "data": {
-    "arch": "armv7hf",
+    "arch": "aarch64",
     "hdmi": true,
-    "led": true,
+    "led": false,
     "connectivity": {
       "bluetooth": false,
       "wifi": false

@@ -2,6 +2,7 @@
   "slug": "parallella",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": ["parallella-hdmi-resin"],
   "name": "Parallella",
   "data": {
     "arch": "armv7hf",

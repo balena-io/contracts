@@ -2,6 +2,7 @@
   "slug": "etcher-pro",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": [],
   "name": "Etcher Pro",
   "data": {
     "arch": "aarch64",

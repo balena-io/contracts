@@ -5,6 +5,16 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.3.1
+## (2020-07-14)
+
+* jetson-nano: Update name to match dashboard [Alexandru Costache]
+
+# v1.3.0
+## (2020-07-10)
+
+* Add aliases field to every device type [Stevche Radevski]
+
 # v1.2.0
 ## (2020-07-06)
 

@@ -1,13 +1,13 @@
 {
-  "slug": "revpi-core-3",
+  "slug": "jetson-nano-emmc",
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Revolution Pi Core 3",
+  "name": "Nvidia Jetson Nano eMMC",
   "data": {
-    "arch": "armv7hf",
+    "arch": "aarch64",
     "hdmi": true,
-    "led": true,
+    "led": false,
     "connectivity": {
       "bluetooth": false,
       "wifi": false

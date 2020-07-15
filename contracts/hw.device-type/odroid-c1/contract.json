@@ -2,6 +2,7 @@
   "slug": "odroid-c1",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": [],
   "name": "ODroid C1",
   "data": {
     "arch": "armv7hf",

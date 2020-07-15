@@ -2,6 +2,7 @@
   "slug": "beagleboard-xm",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": [],
   "name": "BeagleBoard-XM",
   "data": {
     "arch": "armv7hf",

@@ -2,6 +2,7 @@
   "slug": "apalis-imx6q",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": ["apalis-imx6"],
   "name": "Toradex Apalis",
   "data": {
     "arch": "armv7hf",

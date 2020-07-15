@@ -2,6 +2,7 @@
   "slug": "beaglebone-green-wifi",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": [],
   "name": "BeagleBone Green Wifi",
   "data": {
     "arch": "armv7hf",

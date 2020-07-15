@@ -2,6 +2,7 @@
   "slug": "up-core-plus",
   "version": "1",
   "type": "hw.device-type",
+  "aliases": [],
   "name": "UP Core Plus",
   "data": {
     "arch": "amd64",
