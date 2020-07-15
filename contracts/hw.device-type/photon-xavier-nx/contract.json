@@ -1,9 +1,9 @@
 {
-  "slug": "jetson-nano",
+  "slug": "photon-xavier-nx",
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Nvidia Jetson Nano SD-CARD",
+  "name": "CTI Photon Xavier NX",
   "data": {
     "arch": "aarch64",
     "hdmi": true,
@@ -13,10 +13,10 @@
       "wifi": false
     },
     "storage": {
-      "internal": false
+      "internal": true
     },
     "media": {
-      "installation": "sdcard"
+      "installation": "dfu"
     }
   }
 }
