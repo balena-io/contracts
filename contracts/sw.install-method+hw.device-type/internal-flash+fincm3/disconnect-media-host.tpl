@@ -1,0 +1,1 @@
+When flashing is complete, power off the board by detaching the power if connected, and unplug the DGB micro-USB cable.

@@ -1,0 +1,16 @@
+{
+  "slug": "usbkey",
+  "version": "1",
+  "type": "hw.storage-media",
+  "name": "USB Key",
+  "requires": [
+    {
+      "type": "hw.device-type",
+      "data": {
+        "media": {
+          "installation": "usbkey"
+        }
+      }
+    }
+  ]
+}

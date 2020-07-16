@@ -1,0 +1,1 @@
+Disable the SD boot jumper present on your specific base board.

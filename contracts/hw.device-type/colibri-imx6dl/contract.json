@@ -2,15 +2,19 @@
   "slug": "colibri-imx6dl",
   "version": "1",
   "type": "hw.device-type",
-  "aliases": ["colibri-imx6"],
+  "aliases": [
+    "colibri-imx6"
+  ],
   "name": "Toradex Colibri",
   "data": {
     "arch": "armv7hf",
     "hdmi": true,
+    "usb": true,
     "led": false,
     "connectivity": {
       "bluetooth": false,
-      "wifi": false
+      "wifi": false,
+      "ethernet": true
     },
     "storage": {
       "internal": true

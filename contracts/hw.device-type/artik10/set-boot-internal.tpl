@@ -1,0 +1,1 @@
+Set SW2 dip switch to position 1:off, 2:off.

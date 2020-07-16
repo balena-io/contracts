@@ -1,0 +1,1 @@
+Connect your {{hw.device-type.name}} to the internet.

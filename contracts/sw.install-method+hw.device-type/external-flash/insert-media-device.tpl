@@ -1,0 +1,2 @@
+Insert the freshly burnt {{hw.storage-media.name}} into the {{hw.device-type.name}}.
+<strong role=\"alert\">Warning!</strong> This will also completely erase internal storage media, so please make a backup first.

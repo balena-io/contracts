@@ -1,0 +1,1 @@
+The device is performing a shutdown. Please wait until the device is offline in the dashboard and disconnect the power cable.

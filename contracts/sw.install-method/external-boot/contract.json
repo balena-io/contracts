@@ -1,0 +1,16 @@
+{
+  "slug": "external-boot",
+  "version": "1",
+  "type": "sw.install-method",
+  "name": "External boot",
+  "requires": [
+    {
+      "type": "hw.device-type",
+      "data": {
+        "storage": {
+          "internal": false
+        }
+      }
+    }
+  ]
+}

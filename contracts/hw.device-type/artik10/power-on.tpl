@@ -1,0 +1,1 @@
+Press the power switch PSW1 to the on position. Press and hold for 1 second the SW3 POWER push button.

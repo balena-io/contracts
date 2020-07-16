@@ -1,0 +1,34 @@
+{
+  "slug": "external-flash",
+  "version": "1",
+  "type": "sw.install-method",
+  "name": "External flash",
+  "requires": [
+    {
+      "type": "hw.device-type",
+      "data": {
+        "storage": {
+          "internal": true
+        }
+      }
+    },
+    {
+      "or": [
+        { 
+          "type": "hw.device-type", "data": {
+            "media": {
+              "installation": "sdcard"
+            }
+          }
+        },
+        { 
+          "type": "hw.device-type", "data": {
+            "media": {
+              "installation": "usbkey"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
