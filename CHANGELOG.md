@@ -5,6 +5,13 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.4.1
+## (2020-07-30)
+
+* Add Go v1.14.6 and v1.13.14 [Trong Nghia Nguyen]
+* Add node v14.7.0 v12.18.3 and v10.22.0 [Trong Nghia Nguyen]
+* Add archive.raspberrypi.org/debian package repository to rpi family [Trong Nghia Nguyen]
+
 # v1.4.0
 ## (2020-07-23)
 
