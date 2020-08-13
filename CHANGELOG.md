@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.4.2
+## (2020-08-12)
+
+* astro-tx2: Add CTI Astro TX2 G+ device type [Alexandru Costache]
+
 # v1.4.1
 ## (2020-07-30)
 
