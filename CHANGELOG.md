@@ -5,6 +5,13 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.4.3
+## (2020-08-13)
+
+* Add node v14.8.0 [Trong Nghia Nguyen]
+* Add Nvidia package repositories to all Nvidia base images (jetson family) [Trong Nghia Nguyen]
+* Add libatomic1 as a dependency for debian node base images [Trong Nghia Nguyen]
+
 # v1.4.2
 ## (2020-08-12)
 
