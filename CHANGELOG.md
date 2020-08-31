@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.4.4
+## (2020-08-28)
+
+* Add support for new Fedora releases [Trong Nghia Nguyen]
+* Add node v14.9.0 [Trong Nghia Nguyen]
+
 # v1.4.3
 ## (2020-08-13)
 
