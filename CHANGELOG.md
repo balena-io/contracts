@@ -5,6 +5,13 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.4.5
+## (2020-09-04)
+
+* Add repo.download.nvidia.com/jetson sources to Ubuntu base images [Trong Nghia Nguyen]
+* Add l4t-core workaround for all Jetson images [Trong Nghia Nguyen]
+* Add Golang v1.5 and v1.14.7 [Trong Nghia Nguyen]
+
 # v1.4.4
 ## (2020-08-28)
 
