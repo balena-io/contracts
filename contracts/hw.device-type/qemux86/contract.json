@@ -17,6 +17,7 @@
     },
     "media": {
       "installation": "image"
-    }
+    },
+    "is_private": false
   }
 }

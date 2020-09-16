@@ -16,6 +16,7 @@
     },
     "media": {
       "installation": "sdcard"
-    }
+    },
+    "is_private": false
   }
 }
