@@ -17,6 +17,7 @@
     },
     "media": {
       "installation": "dfu"
-    }
+    },
+    "is_private": false
   }
 }

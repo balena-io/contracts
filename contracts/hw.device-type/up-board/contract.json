@@ -17,6 +17,7 @@
     },
     "media": {
       "installation": "usbkey"
-    }
+    },
+    "is_private": false
   }
 }
