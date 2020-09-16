@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.6.0
+## (2020-09-16)
+
+* Add private flag to device type contract [Stevche Radevski]
+
 # v1.5.0
 ## (2020-09-14)
 
