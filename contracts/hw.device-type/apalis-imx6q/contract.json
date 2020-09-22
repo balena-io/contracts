@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": ["apalis-imx6"],
-  "name": "Toradex Apalis",
+  "name": "Apalis iMX6q",
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

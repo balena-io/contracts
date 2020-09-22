@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "ODroid C1",
+  "name": "ODROID-C1+",
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

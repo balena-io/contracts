@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": ["artik520"],
-  "name": "Samsung Artik 5",
+  "name": "Samsung Artik 520",
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

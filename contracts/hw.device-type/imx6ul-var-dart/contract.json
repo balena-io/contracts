@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Dart",
+  "name": "Variscite DART-6UL",
   "data": {
     "arch": "armv7hf",
     "hdmi": false,

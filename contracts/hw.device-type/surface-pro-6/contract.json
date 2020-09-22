@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Microsoft Surface Pro 6",
+  "name": "Microsoft Surface 6",
   "data": {
     "arch": "amd64",
     "hdmi": true,
