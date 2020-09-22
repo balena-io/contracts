@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Compulab iMX8",
+  "name": "Compulab MX8M",
   "data": {
     "arch": "aarch64",
     "hdmi": true,

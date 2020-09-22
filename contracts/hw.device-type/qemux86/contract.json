@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "QEMU x86",
+  "name": "QEMU X86 32bit",
   "data": {
     "arch": "i386",
     "hdmi": true,

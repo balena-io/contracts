@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": ["zc702-zynq7"],
-  "name": "Zynq zc702",
+  "name": "Zynq ZC702",
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

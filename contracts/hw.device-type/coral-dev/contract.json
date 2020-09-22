@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Google Coral Dev Board",
+  "name": "Coral Dev Board",
   "data": {
     "arch": "aarch64",
     "hdmi": true,

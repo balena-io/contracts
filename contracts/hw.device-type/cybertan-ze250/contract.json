@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": ["ZE250"],
-  "name": "Cybertan ze250",
+  "name": "Cybertan ZE250",
   "data": {
     "arch": "i386-nlp",
     "hdmi": true,

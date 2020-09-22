@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": ["raspberrypi"],
-  "name": "Raspberry Pi (1, Zero, Zero W)",
+  "name": "Raspberry Pi (v1 / Zero / Zero W)",
   "data": {
     "arch": "rpi",
     "hdmi": true,
