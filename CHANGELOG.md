@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.7.1
+## (2020-09-30)
+
+* revpi-connect: Add Revolution Pi Connect device type [Florin Sarbu]
+
 # v1.7.0
 ## (2020-09-22)
 
