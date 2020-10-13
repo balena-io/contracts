@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Nitrogen8MM DWE",
+  "name": "Nitrogen8MM HUB3",
   "data": {
     "arch": "aarch64",
     "hdmi": false,
