@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.9.0
+## (2020-10-20)
+
+* Remove DTs that are too specific and should be private [Stevche Radevski]
+
 # v1.8.0
 ## (2020-10-13)
 
