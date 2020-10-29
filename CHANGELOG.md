@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.9.1
+## (2020-10-29)
+
+* jetson-xavier-nx-devkit: Add device type [Alexandru Costache]
+
 # v1.9.0
 ## (2020-10-20)
 
