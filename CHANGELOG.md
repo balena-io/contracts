@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.10.2
+## (2020-12-01)
+
+* Revert to object-based contracts [Stevche Radevski]
+
 # v1.10.1
 ## (2020-12-01)
 
