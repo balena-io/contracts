@@ -4,10 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Asus Tinker Board",
-  "assets": {
+  "assets": [{
     "url": "./asus-tinker-board.svg",
     "name": "logo"
-  },
+  }],
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

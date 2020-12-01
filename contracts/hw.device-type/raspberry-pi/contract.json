@@ -4,10 +4,10 @@
   "type": "hw.device-type",
   "aliases": ["raspberrypi"],
   "name": "Raspberry Pi (v1 / Zero / Zero W)",
-  "assets": {
+  "assets": [{
     "url": "./raspberry-pi.svg",
     "name": "logo"
-  },
+  }],
   "data": {
     "arch": "rpi",
     "hdmi": true,

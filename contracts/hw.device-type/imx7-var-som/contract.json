@@ -4,10 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Variscite VAR-SOM-MX7",
-  "assets": {
+  "assets": [{
     "url": "./imx7-var-som.svg",
     "name": "logo"
-  },
+  }],
   "data": {
     "arch": "armv7hf",
     "hdmi": false,

@@ -4,10 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Auvidea JN30B Nano",
-  "assets": {
+  "assets": [{
     "url": "./jn30b-nano.svg",
     "name": "logo"
-  },
+  }],
   "data": {
     "arch": "aarch64",
     "hdmi": true,

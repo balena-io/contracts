@@ -4,10 +4,10 @@
   "type": "hw.device-type",
   "aliases": ["aio-3288c"],
   "name": "AIO 3288C",
-  "assets": {
+  "assets": [{
     "url": "./aio-3288c.svg",
     "name": "logo"
-  },
+  }],
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

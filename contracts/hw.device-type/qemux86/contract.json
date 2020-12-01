@@ -4,10 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "QEMU X86 32bit",
-  "assets": {
+  "assets": [{
     "url": "./qemux86.svg",
     "name": "logo"
-  },
+  }],
   "data": {
     "arch": "i386",
     "hdmi": true,

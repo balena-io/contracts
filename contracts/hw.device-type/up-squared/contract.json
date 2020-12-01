@@ -4,10 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "UP Squared",
-  "assets": {
+  "assets": [{
     "url": "./up-squared.svg",
     "name": "logo"
-  },
+  }],
   "data": {
     "arch": "amd64",
     "hdmi": true,

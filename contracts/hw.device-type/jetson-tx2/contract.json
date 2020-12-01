@@ -4,10 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Nvidia Jetson TX2",
-  "assets": {
+  "assets": [{
     "url": "./jetson-tx2.svg",
     "name": "logo"
-  },
+  }],
   "data": {
     "arch": "aarch64",
     "hdmi": true,

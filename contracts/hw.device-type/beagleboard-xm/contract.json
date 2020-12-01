@@ -4,10 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "BeagleBoard-XM",
-  "assets": {
+  "assets": [{
     "url": "./beagleboard-xm.svg",
     "name": "logo"
-  },
+  }],
   "data": {
     "arch": "armv7hf",
     "hdmi": true,
