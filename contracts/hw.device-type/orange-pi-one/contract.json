@@ -4,10 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Orange Pi One",
-  "assets": {
+  "assets": [{
     "url": "./orange-pi-one.svg",
     "name": "logo"
-  },
+  }],
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

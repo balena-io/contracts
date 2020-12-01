@@ -4,10 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "AM571X EVM",
-  "assets": {
+  "assets": [{
     "url": "./am571x-evm.svg",
     "name": "logo"
-  },
+  }],
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

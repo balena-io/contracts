@@ -4,10 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "BeagleBone Green Wireless",
-  "assets": {
+  "assets": [{
     "url": "./beagleboard-green-wifi.svg",
     "name": "logo"
-  },
+  }],
   "data": {
     "arch": "armv7hf",
     "hdmi": false,

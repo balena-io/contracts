@@ -4,10 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Generic ARMv7-a HF",
-  "assets": {
+  "assets": [{
     "url": "./generic-armv7ahf.svg",
     "name": "logo"
-  },
+  }],
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

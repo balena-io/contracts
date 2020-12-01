@@ -4,10 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "UP Board",
-  "assets": {
+  "assets": [{
     "url": "./up-board.svg",
     "name": "logo"
-  },
+  }],
   "data": {
     "arch": "amd64",
     "hdmi": true,

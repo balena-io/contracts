@@ -4,10 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Samsung Artik 710",
-  "assets": {
+  "assets": [{
     "url": "./artik710.svg",
     "name": "logo"
-  },
+  }],
   "data": {
     "arch": "aarch64",
     "hdmi": true,

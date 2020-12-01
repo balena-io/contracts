@@ -4,10 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Variscite DART-MX8M",
-  "assets": {
+  "assets": [{
     "url": "./imx8m-var-dart.svg",
     "name": "logo"
-  },
+  }],
   "data": {
     "arch": "aarch64",
     "hdmi": true,

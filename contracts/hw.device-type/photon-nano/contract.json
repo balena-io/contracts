@@ -4,10 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "CTI Photon Nano",
-  "assets": {
+  "assets": [{
     "url": "./photon-nano.svg",
     "name": "logo"
-  },
+  }],
   "data": {
     "arch": "aarch64",
     "hdmi": true,

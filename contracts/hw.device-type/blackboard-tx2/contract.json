@@ -4,10 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Nvidia blackboard TX2",
-  "assets": {
+  "assets": [{
     "url": "./blackboard-tx2.svg",
     "name": "logo"
-  },
+  }],
   "data": {
     "arch": "aarch64",
     "hdmi": true,

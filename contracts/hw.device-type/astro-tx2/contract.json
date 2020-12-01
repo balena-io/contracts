@@ -4,10 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "CTI Astro TX2 G+",
-  "assets": {
+  "assets": [{
     "url": "./astro-tx2.svg",
     "name": "logo"
-  },
+  }],
   "data": {
     "arch": "aarch64",
     "hdmi": true,
