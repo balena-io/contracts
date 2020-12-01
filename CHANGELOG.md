@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.10.0
+## (2020-12-01)
+
+* Add logos for each device type [Stevche Radevski]
+
 # v1.9.5
 ## (2020-11-17)
 
