@@ -4,10 +4,12 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "CTI Photon Xavier NX",
-  "assets": [{
-    "url": "./photon-xavier-nx.svg",
-    "name": "logo"
-  }],
+  "assets": {
+    "logo": {
+      "url": "./photon-xavier-nx.svg",
+      "name": "logo"
+    }
+  },
   "data": {
     "arch": "aarch64",
     "hdmi": true,

@@ -4,10 +4,12 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "ODROID-C1+",
-  "assets": [{
-    "url": "./odroid-c1.svg",
-    "name": "logo"
-  }],
+  "assets": {
+    "logo": {
+      "url": "./odroid-c1.svg",
+      "name": "logo"
+    }
+  },
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

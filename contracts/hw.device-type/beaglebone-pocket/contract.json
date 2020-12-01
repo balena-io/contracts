@@ -4,10 +4,12 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "PocketBeagle",
-  "assets": [{
-    "url": "./beagleboard-pocket.svg",
-    "name": "logo"
-  }],
+  "assets": {
+    "logo": {
+      "url": "./beagleboard-pocket.svg",
+      "name": "logo"
+    }
+  },
   "data": {
     "arch": "armv7hf",
     "led": true,

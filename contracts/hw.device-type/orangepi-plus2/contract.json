@@ -4,10 +4,12 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Orange Pi Plus2",
-  "assets": [{
-    "url": "./orangepi-plus2.svg",
-    "name": "logo"
-  }],
+  "assets": {
+    "logo": {
+      "url": "./orangepi-plus2.svg",
+      "name": "logo"
+    }
+  },
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

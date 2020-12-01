@@ -4,10 +4,12 @@
   "type": "hw.device-type",
   "aliases": ["solidrun-imx6","cubox-i","hummingboard2"],
   "name": "Hummingboard",
-  "assets": [{
-    "url": "./hummingboard.svg",
-    "name": "logo"
-  }],
+  "assets": {
+    "logo": {
+      "url": "./hummingboard.svg",
+      "name": "logo"
+    }
+  },
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

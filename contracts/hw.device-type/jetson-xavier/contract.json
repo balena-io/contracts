@@ -4,10 +4,12 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Nvidia Jetson Xavier",
-  "assets": [{
-    "url": "./jetson-xavier.svg",
-    "name": "logo"
-  }],
+  "assets": {
+    "logo": {
+      "url": "./jetson-xavier.svg",
+      "name": "logo"
+    }
+  },
   "data": {
     "arch": "aarch64",
     "hdmi": true,

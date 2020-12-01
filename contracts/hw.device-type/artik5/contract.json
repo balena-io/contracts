@@ -4,10 +4,12 @@
   "type": "hw.device-type",
   "aliases": ["artik520"],
   "name": "Samsung Artik 520",
-  "assets": [{
-    "url": "./artik5.svg",
-    "name": "logo"
-  }],
+  "assets": {
+    "logo": {
+      "url": "./artik5.svg",
+      "name": "logo"
+    }
+  },
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

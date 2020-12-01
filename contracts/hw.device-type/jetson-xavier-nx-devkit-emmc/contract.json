@@ -4,10 +4,12 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Nvidia Jetson Xavier NX Devkit eMMC",
-  "assets": [{
-    "url": "./jetson-xavier-nx-devkit-emmc.svg",
-    "name": "logo"
-  }],
+  "assets": {
+    "logo": {
+      "url": "./jetson-xavier-nx-devkit-emmc.svg",
+      "name": "logo"
+    }
+  },
   "data": {
     "arch": "aarch64",
     "hdmi": true,
