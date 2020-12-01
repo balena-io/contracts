@@ -4,6 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "NPE X500 M3",
+  "assets": {
+    "url": "./npe-x500-m3.svg",
+    "name": "logo"
+  },
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

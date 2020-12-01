@@ -4,6 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Siemens IOT2000",
+  "assets": {
+    "url": "./iot2000.svg",
+    "name": "logo"
+  },
   "data": {
     "arch": "i386-nlp",
     "hdmi": true,

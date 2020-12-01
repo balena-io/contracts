@@ -4,6 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "CTI Spacely TX2",
+  "assets": {
+    "url": "./spacely-tx2.svg",
+    "name": "logo"
+  },
   "data": {
     "arch": "aarch64",
     "hdmi": true,

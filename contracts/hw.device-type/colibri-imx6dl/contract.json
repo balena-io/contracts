@@ -4,6 +4,10 @@
   "type": "hw.device-type",
   "aliases": ["colibri-imx6"],
   "name": "Colibri iMX6dl",
+  "assets": {
+    "url": "./colibri-imx6dl.svg",
+    "name": "logo"
+  },
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

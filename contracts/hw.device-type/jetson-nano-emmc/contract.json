@@ -4,6 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Nvidia Jetson Nano eMMC",
+  "assets": {
+    "url": "./jetson-nano-emmc.svg",
+    "name": "logo"
+  },
   "data": {
     "arch": "aarch64",
     "hdmi": true,

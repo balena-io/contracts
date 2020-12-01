@@ -4,6 +4,10 @@
   "type": "hw.device-type",
   "aliases": ["parallella-hdmi-resin"],
   "name": "Parallella",
+  "assets": {
+    "url": "./parallella.svg",
+    "name": "logo"
+  },
   "data": {
     "arch": "armv7hf",
     "hdmi": true,
