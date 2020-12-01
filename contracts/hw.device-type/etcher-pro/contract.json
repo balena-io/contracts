@@ -4,10 +4,12 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Etcher Pro",
-  "assets": [{
-    "url": "./etcher-pro.svg",
-    "name": "logo"
-  }],
+  "assets": {
+    "logo": {
+      "url": "./etcher-pro.svg",
+      "name": "logo"
+    }
+  },
   "data": {
     "arch": "aarch64",
     "hdmi": true,

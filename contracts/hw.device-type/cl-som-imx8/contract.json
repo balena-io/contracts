@@ -4,10 +4,12 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Compulab MX8M",
-  "assets": [{
-    "url": "./cl-som-imx8.svg",
-    "name": "logo"
-  }],
+  "assets": {
+    "logo": {
+      "url": "./cl-som-imx8.svg",
+      "name": "logo"
+    }
+  },
   "data": {
     "arch": "aarch64",
     "hdmi": true,

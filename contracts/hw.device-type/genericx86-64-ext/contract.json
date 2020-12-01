@@ -4,10 +4,12 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Generic x86_64",
-  "assets": [{
-    "url": "./genericx86-64-ext.svg",
-    "name": "logo"
-  }],
+  "assets": {
+    "logo": {
+      "url": "./genericx86-64-ext.svg",
+      "name": "logo"
+    }
+  },
   "data": {
     "arch": "amd64",
     "hdmi": true,

@@ -4,10 +4,12 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "UP Core Plus",
-  "assets": [{
-    "url": "./up-core-plus.svg",
-    "name": "logo"
-  }],
+  "assets": {
+    "logo": {
+      "url": "./up-core-plus.svg",
+      "name": "logo"
+    }
+  },
   "data": {
     "arch": "amd64",
     "hdmi": false,

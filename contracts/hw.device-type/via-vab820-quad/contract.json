@@ -4,10 +4,12 @@
   "type": "hw.device-type",
   "aliases": ["vab820-quad"],
   "name": "VIA VAB 820-quad",
-  "assets": [{
-    "url": "./via-vab820-quad.svg",
-    "name": "logo"
-  }],
+  "assets": {
+    "logo": {
+      "url": "./via-vab820-quad.svg",
+      "name": "logo"
+    }
+  },
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

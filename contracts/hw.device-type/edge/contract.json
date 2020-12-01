@@ -4,10 +4,12 @@
   "type": "hw.device-type",
   "aliases": ["edge"],
   "name": "Edge Device Builder",
-  "assets": [{
-    "url": "./edge.svg",
-    "name": "logo"
-  }],
+  "assets": {
+    "logo": {
+      "url": "./edge.svg",
+      "name": "logo"
+    }
+  },
   "data": {
     "arch": "amd64",
     "hdmi": false,

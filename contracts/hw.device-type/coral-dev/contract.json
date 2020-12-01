@@ -4,10 +4,12 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Coral Dev Board",
-  "assets": [{
-    "url": "./coral-dev.svg",
-    "name": "logo"
-  }],
+  "assets": {
+    "logo": {
+      "url": "./coral-dev.svg",
+      "name": "logo"
+    }
+  },
   "data": {
     "arch": "aarch64",
     "hdmi": true,

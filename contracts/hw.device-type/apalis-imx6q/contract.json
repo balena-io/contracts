@@ -4,10 +4,12 @@
   "type": "hw.device-type",
   "aliases": ["apalis-imx6"],
   "name": "Apalis iMX6q",
-  "assets": [{
-    "url": "./apalis-imx6q.svg",
-    "name": "logo"
-  }],
+  "assets": {
+    "logo": {
+      "url": "./apalis-imx6q.svg",
+      "name": "logo"
+    }
+  },
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

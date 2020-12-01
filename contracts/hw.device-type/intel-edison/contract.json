@@ -4,10 +4,12 @@
   "type": "hw.device-type",
   "aliases": ["edison"],
   "name": "Intel Edison",
-  "assets": [{
-    "url": "./intel-edison.svg",
-    "name": "logo"
-  }],
+  "assets": {
+    "logo": {
+      "url": "./intel-edison.svg",
+      "name": "logo"
+    }
+  },
   "data": {
     "arch": "i386",
     "hdmi": false,

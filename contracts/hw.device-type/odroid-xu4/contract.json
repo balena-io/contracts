@@ -4,10 +4,12 @@
   "type": "hw.device-type",
   "aliases": ["odroid-ux3","odroid-u3+"],
   "name": "ODROID-XU4",
-  "assets": [{
-    "url": "./odroid-xu4.svg",
-    "name": "logo"
-  }],
+  "assets": {
+    "logo": {
+      "url": "./odroid-xu4.svg",
+      "name": "logo"
+    }
+  },
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

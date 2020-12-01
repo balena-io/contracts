@@ -4,10 +4,12 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Microsoft Surface 6",
-  "assets": [{
-    "url": "./surface-pro-6.svg",
-    "name": "logo"
-  }],
+  "assets": {
+    "logo": {
+      "url": "./surface-pro-6.svg",
+      "name": "logo"
+    }
+  },
   "data": {
     "arch": "amd64",
     "hdmi": true,
