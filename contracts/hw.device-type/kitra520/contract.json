@@ -4,6 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "RushUp Kitra 520",
+  "assets": {
+    "url": "./kitra520.svg",
+    "name": "logo"
+  },
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

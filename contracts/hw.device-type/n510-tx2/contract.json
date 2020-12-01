@@ -4,6 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Aetina N510 TX2",
+  "assets": {
+    "url": "./n510-tx2.svg",
+    "name": "logo"
+  },
   "data": {
     "arch": "aarch64",
     "hdmi": true,

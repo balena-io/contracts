@@ -4,6 +4,10 @@
   "type": "hw.device-type",
   "aliases": ["beaglebone"],
   "name": "BeagleBone Black",
+  "assets": {
+    "url": "./beagleboard-black.svg",
+    "name": "logo"
+  },
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

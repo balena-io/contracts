@@ -4,6 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Variscite DART-MX8M Mini",
+  "assets": {
+    "url": "./imx8mm-var-dart.svg",
+    "name": "logo"
+  },
   "data": {
     "arch": "aarch64",
     "hdmi": false,

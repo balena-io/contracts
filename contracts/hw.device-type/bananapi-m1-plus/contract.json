@@ -4,6 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "BananaPi-M1+",
+  "assets": {
+    "url": "./bananapi-m1-plus.svg",
+    "name": "logo"
+  },
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

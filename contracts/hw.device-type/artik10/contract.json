@@ -4,6 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Samsung Artik 10",
+  "assets": {
+    "url": "./artik10.svg",
+    "name": "logo"
+  },
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

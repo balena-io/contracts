@@ -4,6 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Technologic TS-4900",
+  "assets": {
+    "url": "./ts4900.svg",
+    "name": "logo"
+  },
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

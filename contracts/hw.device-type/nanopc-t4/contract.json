@@ -4,6 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "NanoPC-T4",
+  "assets": {
+    "url": "./nanopc-t4.svg",
+    "name": "logo"
+  },
   "data": {
     "arch": "aarch64",
     "hdmi": true,

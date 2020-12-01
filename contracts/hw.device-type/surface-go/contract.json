@@ -4,6 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Microsoft Surface Go",
+  "assets": {
+    "url": "./surface-go.svg",
+    "name": "logo"
+  },
   "data": {
     "arch": "amd64",
     "hdmi": false,

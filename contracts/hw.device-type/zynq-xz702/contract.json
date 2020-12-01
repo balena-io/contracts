@@ -4,6 +4,10 @@
   "type": "hw.device-type",
   "aliases": ["zc702-zynq7"],
   "name": "Zynq ZC702",
+  "assets": {
+    "url": "./zynq-xz702.svg",
+    "name": "logo"
+  },
   "data": {
     "arch": "armv7hf",
     "hdmi": true,

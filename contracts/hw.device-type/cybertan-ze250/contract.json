@@ -4,6 +4,10 @@
   "type": "hw.device-type",
   "aliases": ["ZE250"],
   "name": "Cybertan ZE250",
+  "assets": {
+    "url": "./cybertan-ze250.svg",
+    "name": "logo"
+  },
   "data": {
     "arch": "i386-nlp",
     "hdmi": true,

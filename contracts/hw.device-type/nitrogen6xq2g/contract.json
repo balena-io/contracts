@@ -4,6 +4,10 @@
   "type": "hw.device-type",
   "aliases": [],
   "name": "Nitrogen 6X Quad 2GB",
+  "assets": {
+    "url": "./nitrogen6xq2g.svg",
+    "name": "logo"
+  },
   "data": {
     "arch": "armv7hf",
     "hdmi": true,
