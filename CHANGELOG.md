@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.12.0
+## (2020-12-02)
+
+* Update the generic aarch64 logo with a smaller one [Stevche Radevski]
+
 # v1.11.0
 ## (2020-12-02)
 
