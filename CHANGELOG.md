@@ -5,6 +5,14 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.12.1
+## (2020-12-10)
+
+* Add dotnet v5.0 and update v3.x to latest version [Trong Nghia Nguyen]
+* Add Python v3.9.1 [Trong Nghia Nguyen]
+* Add node v15.4.0 [Trong Nghia Nguyen]
+* Add Go v1.15.6 and v1.14.13 [Trong Nghia Nguyen]
+
 # v1.12.0
 ## (2020-12-02)
 
