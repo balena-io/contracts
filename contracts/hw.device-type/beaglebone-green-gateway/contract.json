@@ -1,0 +1,29 @@
+{
+  "slug": "beaglebone-green-gateway",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "BeagleBone Green Gateway",
+  "assets": {
+    "logo": {
+      "url": "./beagleboard-green-gateway.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "armv7hf",
+    "hdmi": false,
+    "led": true,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "installation": "sdcard"
+    },
+    "is_private": false
+  }
+}
