@@ -1,0 +1,29 @@
+{
+  "slug": "raspberrypi400-64",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Raspberry Pi 400",
+  "assets": {
+    "logo": {
+      "url": "./raspberrypi400-64.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": true,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": false
+    },
+    "media": {
+      "installation": "sdcard"
+    },
+    "is_private": false
+  }
+}
