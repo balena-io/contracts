@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.12.3
+## (2020-12-17)
+
+* ccimx8x-sbc-pro: Add device type [Alex Gonzalez]
+
 # v1.12.2
 ## (2020-12-16)
 
