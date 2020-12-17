@@ -1,0 +1,29 @@
+{
+  "slug": "ccimx8x-sbc-pro",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Digi ConnectCore 8X SBC Pro",
+  "assets": {
+    "logo": {
+      "url": "./ccimx8x-sbc-pro.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "installation": "sdcard"
+    },
+    "is_private": false
+  }
+}
