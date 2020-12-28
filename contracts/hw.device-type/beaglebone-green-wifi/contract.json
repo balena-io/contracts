@@ -6,7 +6,7 @@
   "name": "BeagleBone Green Wireless",
   "assets": {
     "logo": {
-      "url": "./beagleboard-green-wifi.svg",
+      "url": "./beaglebone-green-wifi.svg",
       "name": "logo"
     }
   },

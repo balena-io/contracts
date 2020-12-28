@@ -6,7 +6,7 @@
   "name": "BeagleBone Green",
   "assets": {
     "logo": {
-      "url": "./beagleboard-green.svg",
+      "url": "./beaglebone-green.svg",
       "name": "logo"
     }
   },
