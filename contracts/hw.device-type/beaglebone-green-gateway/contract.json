@@ -6,7 +6,7 @@
   "name": "BeagleBone Green Gateway",
   "assets": {
     "logo": {
-      "url": "./beagleboard-green-gateway.svg",
+      "url": "./beaglebone-green-gateway.svg",
       "name": "logo"
     }
   },
