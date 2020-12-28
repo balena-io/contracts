@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.12.5
+## (2020-12-28)
+
+* Fix logo path for beaglebone green gateway [Stevche Radevski]
+
 # v1.12.4
 ## (2020-12-28)
 
