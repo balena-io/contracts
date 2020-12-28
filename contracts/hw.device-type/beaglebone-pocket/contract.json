@@ -6,7 +6,7 @@
   "name": "PocketBeagle",
   "assets": {
     "logo": {
-      "url": "./beagleboard-pocket.svg",
+      "url": "./beaglebone-pocket.svg",
       "name": "logo"
     }
   },
