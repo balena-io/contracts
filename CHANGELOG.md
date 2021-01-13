@@ -5,6 +5,14 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.12.6
+## (2021-01-12)
+
+* Add partials for jetson-xavier-nx-devkit [Trong Nghia Nguyen]
+* Add partials for rapsberrypi400-64 [Trong Nghia Nguyen]
+* Add partials for dotnet 5.0-aspnet [Trong Nghia Nguyen]
+* Add node v10.23.1 v12.20.1 v14.15.4 v15.5.1 [Trong Nghia Nguyen]
+
 # v1.12.5
 ## (2020-12-28)
 
