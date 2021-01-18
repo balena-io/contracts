@@ -306,7 +306,9 @@
         {
           "data": { "libc": "musl-libc" },
           "requires": [
-            { "type": "sw.os", "slug": "alpine" }
+            { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
+            { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
+            { "type": "sw.os", "slug": "alpine" , "version": "3.10" }
           ],
           "variants": [
             {
@@ -441,7 +443,9 @@
         {
           "data": { "libc": "musl-libc" },
           "requires": [
-            { "type": "sw.os", "slug": "alpine" }
+            { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
+            { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
+            { "type": "sw.os", "slug": "alpine" , "version": "3.10" }
           ],
           "variants": [
             {
