@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.12.7
+## (2021-01-18)
+
+* Add support for Alpine Linux 3.13 and drop v3.9 [Trong Nghia Nguyen]
+* Add node v15.6.0 [Trong Nghia Nguyen]
+
 # v1.12.6
 ## (2021-01-12)
 
