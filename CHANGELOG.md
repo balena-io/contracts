@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.12.9
+## (2021-01-21)
+
+* jetson-nano-2gb-devkit: Add device type [Alexandru Costache]
+
 # v1.12.8
 ## (2021-01-19)
 
