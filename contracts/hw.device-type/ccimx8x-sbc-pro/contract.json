@@ -1,22 +1,22 @@
 {
-  "slug": "beaglebone-green",
+  "slug": "ccimx8x-sbc-pro",
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "BeagleBone Green",
+  "name": "Digi ConnectCore 8X SBC Pro",
   "assets": {
     "logo": {
-      "url": "./beaglebone-green.svg",
+      "url": "./ccimx8x-sbc-pro.svg",
       "name": "logo"
     }
   },
   "data": {
-    "arch": "armv7hf",
-    "led": true,
-    "hdmi": false,
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": false,
     "connectivity": {
-      "bluetooth": false,
-      "wifi": false
+      "bluetooth": true,
+      "wifi": true
     },
     "storage": {
       "internal": true

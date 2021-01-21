@@ -5,6 +5,58 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.12.9
+## (2021-01-21)
+
+* jetson-nano-2gb-devkit: Add device type [Alexandru Costache]
+
+# v1.12.8
+## (2021-01-19)
+
+* smarc-px30: Add device type [Alexandru Costache]
+
+# v1.12.7
+## (2021-01-18)
+
+* Add support for Alpine Linux 3.13 and drop v3.9 [Trong Nghia Nguyen]
+* Add node v15.6.0 [Trong Nghia Nguyen]
+
+# v1.12.6
+## (2021-01-12)
+
+* Add partials for jetson-xavier-nx-devkit [Trong Nghia Nguyen]
+* Add partials for rapsberrypi400-64 [Trong Nghia Nguyen]
+* Add partials for dotnet 5.0-aspnet [Trong Nghia Nguyen]
+* Add node v10.23.1 v12.20.1 v14.15.4 v15.5.1 [Trong Nghia Nguyen]
+
+# v1.12.5
+## (2020-12-28)
+
+* Fix logo path for beaglebone green gateway [Stevche Radevski]
+
+# v1.12.4
+## (2020-12-28)
+
+* Fix mistaken logo path names [Stevche Radevski]
+
+# v1.12.3
+## (2020-12-17)
+
+* ccimx8x-sbc-pro: Add device type [Alex Gonzalez]
+
+# v1.12.2
+## (2020-12-16)
+
+* raspberrypi400-64: Add device type [Alexandru Costache]
+
+# v1.12.1
+## (2020-12-10)
+
+* Add dotnet v5.0 and update v3.x to latest version [Trong Nghia Nguyen]
+* Add Python v3.9.1 [Trong Nghia Nguyen]
+* Add node v15.4.0 [Trong Nghia Nguyen]
+* Add Go v1.15.6 and v1.14.13 [Trong Nghia Nguyen]
+
 # v1.12.0
 ## (2020-12-02)
 

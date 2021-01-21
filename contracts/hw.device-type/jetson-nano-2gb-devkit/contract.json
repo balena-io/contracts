@@ -1,25 +1,25 @@
 {
-  "slug": "beaglebone-green",
+  "slug": "jetson-nano-2gb-devkit",
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "BeagleBone Green",
+  "name": "Nvidia Jetson Nano 2GB Devkit SD",
   "assets": {
     "logo": {
-      "url": "./beaglebone-green.svg",
+      "url": "./jetson-nano-2gb-devkit.svg",
       "name": "logo"
     }
   },
   "data": {
-    "arch": "armv7hf",
-    "led": true,
-    "hdmi": false,
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": false,
     "connectivity": {
       "bluetooth": false,
-      "wifi": false
+      "wifi": true
     },
     "storage": {
-      "internal": true
+      "internal": false
     },
     "media": {
       "installation": "sdcard"

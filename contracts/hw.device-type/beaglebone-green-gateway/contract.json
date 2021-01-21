@@ -1,22 +1,22 @@
 {
-  "slug": "beaglebone-green",
+  "slug": "beaglebone-green-gateway",
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "BeagleBone Green",
+  "name": "BeagleBone Green Gateway",
   "assets": {
     "logo": {
-      "url": "./beaglebone-green.svg",
+      "url": "./beaglebone-green-gateway.svg",
       "name": "logo"
     }
   },
   "data": {
     "arch": "armv7hf",
-    "led": true,
     "hdmi": false,
+    "led": true,
     "connectivity": {
-      "bluetooth": false,
-      "wifi": false
+      "bluetooth": true,
+      "wifi": true
     },
     "storage": {
       "internal": true

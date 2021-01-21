@@ -1,25 +1,25 @@
 {
-  "slug": "beaglebone-green",
+  "slug": "raspberrypi400-64",
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "BeagleBone Green",
+  "name": "Raspberry Pi 400",
   "assets": {
     "logo": {
-      "url": "./beaglebone-green.svg",
+      "url": "./raspberrypi400-64.svg",
       "name": "logo"
     }
   },
   "data": {
-    "arch": "armv7hf",
+    "arch": "aarch64",
+    "hdmi": true,
     "led": true,
-    "hdmi": false,
     "connectivity": {
-      "bluetooth": false,
-      "wifi": false
+      "bluetooth": true,
+      "wifi": true
     },
     "storage": {
-      "internal": true
+      "internal": false
     },
     "media": {
       "installation": "sdcard"
