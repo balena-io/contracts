@@ -1,0 +1,10 @@
+{
+  "slug": "family-tinkerboard",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Tinkerboard",
+  "data": {
+    "manufacturedBy": "manufacturer-asus"
+  }
+}
