@@ -10,12 +10,12 @@
   },
   "variants": [
     {
-      "version": "5.2.0+balena1-arm",
+      "version": "5.2.0+balena4-arm",
       "assets": {
         "bin": {
           "name": "qemu-arm-static",
           "url": "file://./assets/qemu-arm-static",
-          "checksum": "143f00fad5db1baff013dc7139ee03f4a38b34623e4023cbf25738307135ef1a",
+          "checksum": "56b46c492193c6ebae112ce4ff8e1b51261070f24b8ea5c4d642973d2d5e8201",
           "main": "qemu-arm-static"
         }
       },
@@ -29,12 +29,12 @@
       ]
     },
     {
-      "version": "5.2.0+balena1-aarch64",
+      "version": "5.2.0+balena4-aarch64",
       "assets": {
         "bin": {
           "name": "qemu-aarch64-static",
           "url": "file://./assets/qemu-aarch64-static",
-          "checksum": "36b17abb623cecd03e581940cc1287e97861d1d36827bc346cd0e04fb4f221af",
+          "checksum": "4793100fbf2d8561eb013fc0eff9e66d71eee265035b4e7e2ff206333acb9e87",
           "main": "qemu-aarch64-static"
         }
       },
