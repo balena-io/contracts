@@ -1,0 +1,1 @@
+When flashing is complete, power off the board and unplug the micro-USB cable.

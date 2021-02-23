@@ -1,0 +1,1 @@
+Monitor the device in Balena dashboard to see when it entered the post-provisioning state. Leave the state settle for around 10 seconds.

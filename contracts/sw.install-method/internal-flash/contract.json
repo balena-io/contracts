@@ -1,0 +1,19 @@
+{
+  "slug": "internal-flash",
+  "version": "1",
+  "type": "sw.install-method",
+  "name": "Internal flash",
+  "requires": [
+    {
+      "type": "hw.device-type",
+      "data": {
+        "storage": {
+          "internal": true
+        },
+        "media": {
+          "installation": "dfu"
+        }
+      }
+    }
+  ]
+}

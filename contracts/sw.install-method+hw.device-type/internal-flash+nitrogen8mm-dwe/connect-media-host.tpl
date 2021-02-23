@@ -1,0 +1,1 @@
+Power on the board, stop booting in u-boot cmdline and connect the USB OTG port to the PC. Issue the following command in u-boot: ums 0 mmc 0.

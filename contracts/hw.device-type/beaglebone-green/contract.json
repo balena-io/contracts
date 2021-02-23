@@ -12,11 +12,13 @@
   },
   "data": {
     "arch": "armv7hf",
-    "led": true,
     "hdmi": false,
+    "usb": true,
+    "led": true,
     "connectivity": {
       "bluetooth": false,
-      "wifi": false
+      "wifi": false,
+      "ethernet": true
     },
     "storage": {
       "internal": true

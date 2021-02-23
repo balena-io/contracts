@@ -1,0 +1,1 @@
+Remove power from the board and drain the super capacitor completely.

@@ -1,0 +1,24 @@
+{
+  "slug": "nitrogen8mm-dwe",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Nitrogen8MM DWE",
+  "data": {
+    "arch": "aarch64",
+    "hdmi": false,
+    "usb": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true,
+      "ethernet": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "installation": "dfu"
+    }
+  }
+}

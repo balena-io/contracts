@@ -1,0 +1,1 @@
+Wait 5 seconds after the blue leds stopped flashing wildly, then remove power from the board. On some boards the leds will shut down completely.

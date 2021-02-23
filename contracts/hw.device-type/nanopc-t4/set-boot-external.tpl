@@ -1,0 +1,1 @@
+{{import partial="shutdown-indication" combination="hw.device-type"}}.

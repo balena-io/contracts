@@ -13,10 +13,12 @@
   "data": {
     "arch": "aarch64",
     "hdmi": true,
+    "usb": true,
     "led": true,
     "connectivity": {
       "bluetooth": true,
-      "wifi": true
+      "wifi": true,
+      "ethernet": true
     },
     "storage": {
       "internal": true

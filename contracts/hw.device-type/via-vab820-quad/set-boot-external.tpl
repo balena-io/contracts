@@ -1,0 +1,2 @@
+Set J11 (just next to the micro SD card slot) to position 2-3 (the position furthest away from the edge of the board) and then power on the board.
+{{import partial="shutdown-indication" combination="hw.device-type"}}.

@@ -1,0 +1,1 @@
+The device is performing a shutdown. Wait 30 seconds or until the red LED 402 is off

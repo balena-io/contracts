@@ -2,7 +2,9 @@
   "slug": "beaglebone-black",
   "version": "1",
   "type": "hw.device-type",
-  "aliases": ["beaglebone"],
+  "aliases": [
+    "beaglebone"
+  ],
   "name": "BeagleBone Black",
   "assets": {
     "logo": {
@@ -13,10 +15,12 @@
   "data": {
     "arch": "armv7hf",
     "hdmi": true,
+    "usb": true,
     "led": true,
     "connectivity": {
       "bluetooth": false,
-      "wifi": false
+      "wifi": false,
+      "ethernet": true
     },
     "storage": {
       "internal": true

@@ -2,7 +2,9 @@
   "slug": "intel-edison",
   "version": "1",
   "type": "hw.device-type",
-  "aliases": ["edison"],
+  "aliases": [
+    "edison"
+  ],
   "name": "Intel Edison",
   "assets": {
     "logo": {
@@ -13,10 +15,12 @@
   "data": {
     "arch": "i386",
     "hdmi": false,
+    "usb": false,
     "led": false,
     "connectivity": {
       "bluetooth": true,
-      "wifi": true
+      "wifi": true,
+      "ethernet": false
     },
     "storage": {
       "internal": true

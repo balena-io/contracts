@@ -1,0 +1,1 @@
+Set the SW1 BOOT SELECT switch to eMMC.

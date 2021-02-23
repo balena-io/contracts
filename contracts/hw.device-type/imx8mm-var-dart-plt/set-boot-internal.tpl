@@ -1,0 +1,1 @@
+Set the SW7 BOOT SELECT switch to INT.
