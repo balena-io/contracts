@@ -4,8 +4,8 @@
   "name": "Go v{{this.version}}",
   "version": "1",
   "data": {
-    "latest": "1.15.7",
-    "versionList": "`1.15.7 (latest)`, `1.14.14`",
+    "latest": "1.16",
+    "versionList": "`1.6 (latest)`, `1.15.8`, `1.14.14`",
     "introduction": "Go (a.k.a., Golang) is a programming language first developed at Google. It is a statically-typed language with syntax loosely derived from C, but with additional features such as garbage collection, type safety, some dynamic-typing capabilities, additional built-in types (e.g., variable-length arrays and key-value maps), and a large standard library.",
     "logo": "https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/golang/logo.png"
   },
@@ -28,7 +28,7 @@
   },
   "variants": [
     {
-      "version": "1.15.7",
+      "version": "1.16",
       "variants": [
         {
           "data": { "libc": "musl-libc" },
@@ -39,7 +39,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "e71eb687e01399d751e137315acb1595155fb395d0ca8d2f223006ae525c11b6",
+                  "checksum": "b5636bf85520840fdb9993a8f27e65b0db361c6b7a2a694d3392e9892878fa19",
                   "name": "go$GO_VERSION.linux-alpine-armv6hf.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
                   
@@ -52,7 +52,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "0af18e2eccac22682c780a46af23109f319adb1833d1d8d277a564d2cf275a3a",
+                  "checksum": "2fb4f266982a32f1433a1c0b011fb98b46a1b56ede3a0310c9f361969fc4e9cd",
                   "name": "go$GO_VERSION.linux-alpine-amd64.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
                 }
@@ -64,7 +64,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "29271a178e4e61dbc35523e693c7e0e60fecfd2cbb268029cc9e5b34be54126d",
+                  "checksum": "d8d44fbc837e358c8f03c94d18d79e08a388b16af9e64db3e6833fd35750019f",
                   "name": "go$GO_VERSION.linux-alpine-i386.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
                 }
@@ -76,7 +76,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "2887829d7c28dd15de15c2486b5a8901f6e3084667b7ff06607d90e839d077ff",
+                  "checksum": "56c25d13821ff03c6ed1045568964fe4ffc912b1e212a6700719401a72155555",
                   "name": "go$GO_VERSION.linux-alpine-aarch64.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
                 }
@@ -88,7 +88,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "38f7e68aa41fed0d3a8b85c4d3e8fe558203452e8ff4148be7e4784ccccb0aee",
+                  "checksum": "e5ec1504696d3484c0161fe3a0bbd37179c50cd4856b5d492a282a767e45a5ad",
                   "name": "go$GO_VERSION.linux-alpine-armv7hf.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
                 }
@@ -114,7 +114,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "8ab192799a191eb3752079ab17efff12d1d7dd0e965cf84dcbf08d55542e27d3",
+                  "checksum": "d1d9404b1dbd77afa2bdc70934e10fbfcf7d785c372efc29462bb7d83d0a32fd",
                   "name": "go$GO_VERSION.linux-armv6l.tar.gz",
                   "url": "https://storage.googleapis.com/golang/{{this.assets.bin.name}}"
                 }
@@ -126,7 +126,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "16da0e296dabb6c1199ccaa2de1a83e679ae2512263f6e05923319f4903beac1",
+                  "checksum": "5d2c637632fc23139c992e7f5adce1e46bccebd5a43fc90f797050ae71f46ab9",
                   "name": "go$GO_VERSION.linux-armv7hf.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
                 }
@@ -138,7 +138,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "0d142143794721bb63ce6c8a6180c4062bcf8ef4715e7d6d6609f3a8282629b3",
+                  "checksum": "013a489ebb3e24ef3d915abe5b94c3286c070dfe0818d5bca8108f1d6e8440d2",
                   "name": "go$GO_VERSION.linux-amd64.tar.gz",
                   "url": "https://storage.googleapis.com/golang/{{this.assets.bin.name}}"
                 }
@@ -150,7 +150,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "bca4af0c20f86521dfabf3b39fa2f1ceeeb11cebf7e90bdf1de2618c40628539",
+                  "checksum": "3770f7eb22d05e25fbee8fb53c2a4e897da043eb83c69b9a14f8d98562cd8098",
                   "name": "go$GO_VERSION.linux-arm64.tar.gz",
                   "url": "https://storage.googleapis.com/golang/{{this.assets.bin.name}}"
                 }
@@ -162,7 +162,154 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "519e5d7518376bc6b87afc04f16e72db66d9bc08641d9b4385ecf1f30e55e64c",
+                  "checksum": "ea435a1ac6d497b03e367fdfb74b33e961d813883468080f6e239b3b03bea6aa",
+                  "name": "go$GO_VERSION.linux-386.tar.gz",
+                  "url": "https://storage.googleapis.com/golang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "i386" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.15.8",
+      "variants": [
+        {
+          "data": { "libc": "musl-libc" },
+          "requires": [
+            { "type": "sw.os", "slug": "alpine" }
+          ],
+          "variants": [
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "077b921f01c8b82ea0fcde1f5106ab9369af9595362fcaaae057a6f1f0db3868",
+                  "name": "go$GO_VERSION.linux-alpine-armv6hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "rpi" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "5237f65d18a7d139a13635a5ae2283c42b39cb68e7210b96a22d8958f04d12b7",
+                  "name": "go$GO_VERSION.linux-alpine-amd64.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "amd64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "7f81c331f301c413a7f5c57c9380c6be9ac701fddd653a08803dc820317fb7f0",
+                  "name": "go$GO_VERSION.linux-alpine-i386.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "i386" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "c95d3deeae1a3f305ccbc9e3a661241a415b663a96f44fea373fa563c20689f2",
+                  "name": "go$GO_VERSION.linux-alpine-aarch64.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "aarch64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "abce37028d563a17fb5107f17003d164ce1b587fafba33c268bd350568ab736c",
+                  "name": "go$GO_VERSION.linux-alpine-armv7hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "armv7hf" }
+              ]
+            }
+          ]
+        },
+        {
+          "data": { "libc": "glibc" },
+          "requires": [
+            {
+              "or": [
+                { "type": "sw.os", "slug": "debian" },
+                { "type": "sw.os", "slug": "ubuntu" },
+                { "type": "sw.os", "slug": "fedora" }
+              ]
+            }
+          ],
+          "variants": [
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "708c398cb9e5029cfd5b654370978bf0e797d4d4a71153c06c7378db7e249a53",
+                  "name": "go$GO_VERSION.linux-armv6l.tar.gz",
+                  "url": "https://storage.googleapis.com/golang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "rpi" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "bde22202576c3920ff5646fb1d19877cedc19501939d6ccd7b16ff89071abd0a",
+                  "name": "go$GO_VERSION.linux-armv7hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/golang/v$GO_VERSION/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "armv7hf" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "d3379c32a90fdf9382166f8f48034c459a8cc433730bc9476d39d9082c94583b",
+                  "name": "go$GO_VERSION.linux-amd64.tar.gz",
+                  "url": "https://storage.googleapis.com/golang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "amd64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "0e31ea4bf53496b0f0809730520dee98c0ae5c530f3701a19df0ba0a327bf3d2",
+                  "name": "go$GO_VERSION.linux-arm64.tar.gz",
+                  "url": "https://storage.googleapis.com/golang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "aarch64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "a0cc9df6d04f89af8396278d171087894a453a03a950b0f60a4ac18b480f758f",
                   "name": "go$GO_VERSION.linux-386.tar.gz",
                   "url": "https://storage.googleapis.com/golang/{{this.assets.bin.name}}"
                 }
