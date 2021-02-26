@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.12.18
+## (2021-02-26)
+
+* nebra-hnt: Add new device type [Florin Sarbu]
+
 # v1.12.17
 ## (2021-02-25)
 
