@@ -24,6 +24,6 @@
     "media": {
       "installation": "sdcard"
     },
-    "is_private": false
+    "is_private": true
   }
 }
