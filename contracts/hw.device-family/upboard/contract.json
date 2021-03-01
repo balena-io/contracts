@@ -1,0 +1,10 @@
+{
+  "slug": "family-upboard",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "UP Board",
+  "data": {
+    "manufacturedBy": "manufacturer-aaeon"
+  }
+}
