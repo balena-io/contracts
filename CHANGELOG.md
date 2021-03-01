@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.0
+## (2021-03-01)
+
+* Add UP board family and manufacturer info [Stevche Radevski]
+
 # v1.12.19
 ## (2021-02-26)
 
