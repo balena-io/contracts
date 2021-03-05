@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.2
+## (2021-03-05)
+
+* raspberrypicm4-ioboard: Add device type [Alexandru Costache]
+
 # v1.13.1
 ## (2021-03-04)
 
