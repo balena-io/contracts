@@ -1,0 +1,29 @@
+{
+  "slug": "raspberrypicm4-ioboard",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Raspberry Pi CM4 IO Board",
+  "assets": {
+    "logo": {
+      "url": "./raspberrypicm4-ioboard.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": true,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": false
+    },
+    "media": {
+      "installation": "sdcard"
+    },
+    "is_private": false
+  }
+}
