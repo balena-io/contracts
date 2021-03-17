@@ -19,7 +19,38 @@
       "wifi": true
     },
     "storage": {
-      "internal": false
+      "internal": false,
+      "partitionTableType": "msdos",
+      "units": "KiB",
+      "partitions": {
+	      "balena-boot": {
+		      "type": "fat32",
+		      "offset": 4096,
+		      "alignment": 4096,
+		      "bootable": "1",
+		      "size": 40960
+	      },
+	      "balena-rootA": {
+		      "type": "ext4",
+		      "alignment": 4096,
+		      "size": 319488
+	      },
+	      "balena-rootB": {
+		      "type": "ext4",
+		      "alignment": 4096,
+		      "size": 319488
+	      },
+	      "balena-state": {
+		      "type": "ext4",
+		      "alignment": 4096,
+		      "size": 20480
+	      },
+	      "balena-data": {
+		      "type": "ext4",
+		      "alignment": 4096,
+		      "size": 196608
+	      }
+      }
     },
     "media": {
       "installation": "sdcard"
