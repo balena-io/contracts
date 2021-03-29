@@ -28,6 +28,21 @@
     "media": {
       "installation": "sdcard"
     },
+    "installation": {
+      "media": "SD card",
+      "method": "externalFlash"
+    },
     "is_private": false
+  },
+  "partials": {
+    "insertMediaDevice": ["Insert the freshly burn {{data.installation.media}} into the {{name}}"],
+    "bootDeviceExternal": [
+      "Power up the BeagleBone Black while holding down the small button near the SD slot. You need to keep it pressed until the blue LEDs start flashing wildly.",
+      "<strong role=\"alert\">Warning!</strong> This will also completely erase internal storage media, so please make a backup first."
+    ],
+    "waitForFlash": ["Wait for the device to finish flashing and shutdown. Please wait until all LEDs are off."],
+    "removeExternalMedia": ["Remove the balenaOS {{data.installation.media}}."],
+    "bootDeviceInternal": [],
+    "bootDevice": ["Remove and re-connect power to the board."]
   }
 }

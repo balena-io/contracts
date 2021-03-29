@@ -26,6 +26,13 @@
     "media": {
       "installation": "sdcard"
     },
+    "installation": {
+      "method": "externalBoot"
+    },
     "is_private": false
+  },
+  "partials": {
+    "insertMediaDevice": ["Insert the freshly burn SD card into the {{name}}."],
+    "bootDevice": ["Connect your {{name}} to the internet, then power it up."]
   }
 }

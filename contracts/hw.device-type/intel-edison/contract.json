@@ -28,6 +28,22 @@
     "media": {
       "installation": "dfu"
     },
+    "installation": {
+      "method": "other"
+    },
     "is_private": false
+  },
+  "partials": {
+    "instructions": [
+      "Install <code>dfu-util</code> and <code>coreutils</code> from your distributions repos. For example, for Ubuntu: <code>apt-get install dfu-util coreutils</code>",
+      "Unplug the Intel Edison board from your system",
+      "Unzip the downloaded Device OS file.",
+      "Execute the following from the unzipped directory: <code>sudo ./flashall.sh</code>",
+      "If you have trouble executing, you may need to modify the file permissions first: <code> sudo chmod +x ./flashall.sh</code>"
+    ],
+    "bootDevice": [
+      "Plug the Intel Edison as per the instructions on your terminal.",
+      "You can check the progress of the provisioning on your terminal."
+    ]
   }
 }
