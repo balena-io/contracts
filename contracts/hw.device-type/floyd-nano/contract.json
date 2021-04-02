@@ -1,0 +1,29 @@
+{
+  "slug": "floyd-nano",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Floyd Nano BB02A",
+  "assets": {
+    "logo": {
+      "url": "./floyd-nano.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": false,
+      "wifi": false
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "installation": "dfu"
+    },
+    "is_private": false
+  }
+}
