@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.0
+## (2021-04-05)
+
+* add instruction partials to device contracts [Micah Halter]
+* Add necessary contracts and templates for generating instructions [Stevche Radevski]
+
 # v1.12.15
 ## (2021-02-10)
 
