@@ -5,54 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
-# v1.13.4
+# v1.13.0
 ## (2021-04-05)
 
-* device: Update name for Floyd Nano [Alexandru Costache]
-
-# v1.13.3
-## (2021-04-02)
-
-* floyd-nano: Add device type [Alexandru Costache]
-
-# v1.13.2
-## (2021-03-05)
-
-* raspberrypicm4-ioboard: Add device type [Alexandru Costache]
-
-# v1.13.1
-## (2021-03-04)
-
-* iot-gate-imx8: Add new device type [Vicentiu Galanopulo]
-
-# v1.13.0
-## (2021-03-01)
-
-* Add UP board family and manufacturer info [Stevche Radevski]
-
-# v1.12.19
-## (2021-02-26)
-
-* nebra-hnt: Make device private [Florin Sarbu]
-
-# v1.12.18
-## (2021-02-26)
-
-* nebra-hnt: Add new device type [Florin Sarbu]
-
-# v1.12.17
-## (2021-02-25)
-
-* jetson-tx2: Update repositories to 32.4 [Alexandru Costache]
-
-# v1.12.16
-## (2021-02-25)
-
-* Add node v15.10.0 v14.16.0 v12.21.0 and v10.14.0 [Trong Nghia Nguyen]
-* Add dotnet v5.0.3 and v3.1.12 [Trong Nghia Nguyen]
-* Add Go v1.16 and v1.15.8 [Trong Nghia Nguyen]
-* Update QEMU to v5.2.0+balena4 [Trong Nghia Nguyen]
-* Add node v15.9.0 [Trong Nghia Nguyen]
+* add instruction partials to device contracts [Micah Halter]
+* Add necessary contracts and templates for generating instructions [Stevche Radevski]
 
 # v1.12.15
 ## (2021-02-10)
