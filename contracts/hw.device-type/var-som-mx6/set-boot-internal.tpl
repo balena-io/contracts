@@ -1,0 +1,1 @@
+Set the BOOT_SELECT switch to the NAND position.

@@ -13,10 +13,12 @@
   "data": {
     "arch": "armv7hf",
     "hdmi": true,
+    "usb": true,
     "led": true,
     "connectivity": {
       "bluetooth": true,
-      "wifi": true
+      "wifi": true,
+      "ethernet": true
     },
     "storage": {
       "internal": true
@@ -24,6 +26,17 @@
     "media": {
       "installation": "dfu"
     },
+    "installation": {
+      "method": "internalFlash"
+    },
     "is_private": false
+  },
+  "partials": {
+    "connectDevice": [
+      "While not having the Fin board powered, connect your system to the board's DBG/PRG port via a micro-USB cable.",
+      "<em>Note: for the Fin v1.1, only power the Fin from the PRG port for flashing. For the Fin v1.0, power on the Fin by attaching power to either the Barrel or the Phoenix connector.</em>"
+    ],
+    "disconnectDevice": ["When flashing is complete, power off the board by detaching the power if connected, and unplug the DGB micro-USB cable."],
+    "bootDevice": ["Remove and re-connect power to the board."]
   }
 }

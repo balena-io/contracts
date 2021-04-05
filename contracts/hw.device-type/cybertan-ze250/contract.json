@@ -13,9 +13,11 @@
   "data": {
     "arch": "i386-nlp",
     "hdmi": true,
+    "usb": true,
     "led": false,
     "connectivity": {
-      "bluetooth": false
+      "bluetooth": false,
+      "ethernet": true
     },
     "storage": {
       "internal": false

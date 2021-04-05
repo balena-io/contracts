@@ -1,0 +1,1 @@
+Put {{hw.device-type.name}} in recovery mode and connect it to your host computer.

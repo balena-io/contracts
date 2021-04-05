@@ -1,0 +1,2 @@
+Press and hold the Volume Down button and press the Power button. Release the Power button but keep pressing the Volume Down button until the windows logo disappears.
+{{import partial="shutdown-indication" combination="hw.device-type"}}.

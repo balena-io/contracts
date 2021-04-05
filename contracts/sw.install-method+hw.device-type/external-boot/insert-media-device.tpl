@@ -1,0 +1,1 @@
+Insert the freshly burnt {{hw.storage-media.name}} into {{hw.device-type.name}}.

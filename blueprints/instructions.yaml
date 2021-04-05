@@ -1,0 +1,28 @@
+selector:
+  hw.device-type: 1
+  hw.storage-media: 1
+  sw.install-method: 1
+output:
+  filename: instructions.md
+  slug: "{{this.children.hw.device-type.slug}}-{{this.children.sw.install-method.slug}}"
+  # We only have a single boot method per DT for now, add boot method to path once we support choosing a boot method.
+  path: "instructions/v1/{{this.children.hw.device-type.slug}}"
+  type: sw.device-type.instructions
+  template:
+    - name: instructions-device
+      data: >
+        {{import partial="connect-media-host" combination="sw.install-method+hw.device-type"}}
+
+        {{import partial="flash" combination="sw.install-method+hw.device-type"}}
+
+        {{import partial="disconnect-media-host" combination="sw.install-method+hw.device-type"}}
+
+        {{import partial="insert-media-device" combination="sw.install-method+hw.device-type"}}
+
+        {{import partial="set-boot-external" combination="hw.device-type"}}
+
+        {{import partial="remove-media-device" combination="sw.install-method+hw.device-type"}}
+
+        {{import partial="set-boot-internal" combination="hw.device-type"}}
+
+        {{import partial="connect-network" combination="hw.device-type"}}. {{import partial="power-on" combination="hw.device-type"}}

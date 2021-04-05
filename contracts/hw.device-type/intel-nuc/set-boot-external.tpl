@@ -1,0 +1,2 @@
+Please make sure you do not have any other USB keys inserted.\nPower up the Intel NUC. Make sure you have a keyboard connected.\nPress the F10 key (may differ on some platforms) while BIOS is loading in order to enter the boot menu.\nNext, select the name of your USB key.
+{{import partial="shutdown-indication" combination="hw.device-type"}}.

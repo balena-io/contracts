@@ -14,10 +14,12 @@
     "arch": "amd64",
     "family": "family-upboard",
     "hdmi": true,
+    "usb": true,
     "led": false,
     "connectivity": {
       "bluetooth": false,
-      "wifi": false
+      "wifi": false,
+      "ethernet": true
     },
     "storage": {
       "internal": true

@@ -1,0 +1,1 @@
+Unzip BalenaOS image and use the Jetson Flash tool to flash the board. Jetson Flash tool can be found at https://github.com/balena-os/jetson-flash. After flashing is completed, please wait until the board is rebooted

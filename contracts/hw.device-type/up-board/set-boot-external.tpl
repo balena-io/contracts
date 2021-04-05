@@ -1,0 +1,2 @@
+Power up the UP Board. Make sure you have a keyboard connected.\nPress the F7 key while BIOS is loading in order to enter the boot menu. Next, select the \"UEFI:\" option.
+{{import partial="shutdown-indication" combination="hw.device-type"}}.

@@ -2,7 +2,9 @@
   "slug": "aio-3288c",
   "version": "1",
   "type": "hw.device-type",
-  "aliases": ["aio-3288c"],
+  "aliases": [
+    "aio-3288c"
+  ],
   "name": "AIO 3288C",
   "assets": {
     "logo": {
@@ -13,10 +15,12 @@
   "data": {
     "arch": "armv7hf",
     "hdmi": true,
+    "usb": true,
     "led": false,
     "connectivity": {
       "bluetooth": true,
-      "wifi": true
+      "wifi": true,
+      "ethernet": true
     },
     "storage": {
       "internal": false

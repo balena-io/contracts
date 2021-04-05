@@ -14,10 +14,12 @@
     "arch": "armv7hf",
     "family": "family-tinkerboard",
     "hdmi": true,
+    "usb": true,
     "led": false,
     "connectivity": {
       "bluetooth": true,
-      "wifi": true
+      "wifi": true,
+      "ethernet": true
     },
     "storage": {
       "internal": false

@@ -2,7 +2,11 @@
   "slug": "hummingboard",
   "version": "1",
   "type": "hw.device-type",
-  "aliases": ["solidrun-imx6","cubox-i","hummingboard2"],
+  "aliases": [
+    "solidrun-imx6",
+    "cubox-i",
+    "hummingboard2"
+  ],
   "name": "Hummingboard",
   "assets": {
     "logo": {
@@ -13,10 +17,12 @@
   "data": {
     "arch": "armv7hf",
     "hdmi": true,
+    "usb": true,
     "led": false,
     "connectivity": {
       "bluetooth": false,
-      "wifi": false
+      "wifi": false,
+      "ethernet": true
     },
     "storage": {
       "internal": false

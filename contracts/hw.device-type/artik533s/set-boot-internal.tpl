@@ -1,0 +1,1 @@
+Set SW402 dip switch to position 1:off, 2:off, 3:off, 4:off.

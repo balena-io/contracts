@@ -1,0 +1,16 @@
+{
+  "slug": "sdcard",
+  "version": "1",
+  "type": "hw.storage-media",
+  "name": "SD Card",
+  "requires": [
+    {
+      "type": "hw.device-type",
+      "data": {
+        "media": {
+          "installation": "sdcard"
+        }
+      }
+    }
+  ]
+}
