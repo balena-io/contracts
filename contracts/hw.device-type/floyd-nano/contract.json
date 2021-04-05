@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Floyd Nano BB02A",
+  "name": "Floyd Nano BB02A eMMC",
   "assets": {
     "logo": {
       "url": "./floyd-nano.svg",
