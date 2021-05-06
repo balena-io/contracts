@@ -4,8 +4,8 @@
   "name": "Python v{{this.version}}",
   "version": "1",
   "data": {
-    "latest": "3.9.4",
-    "versionList": "`3.9.4 (latest)`, `3.8.9`, `2.7.18`, `3.7.9`, `3.6.12`, `3.5.10`",
+    "latest": "3.9.5",
+    "versionList": "`3.9.5 (latest)`, `3.8.10`, `2.7.18`, `3.7.9`, `3.6.12`, `3.5.10`",
     "introduction": "Python is an interpreted, interactive, object-oriented, open-source programming language. It incorporates modules, exceptions, dynamic typing, very high level dynamic data types, and classes. Python combines remarkable power with very clear syntax. It has interfaces to many system calls and libraries, as well as to various window systems, and is extensible in C or C++. It is also usable as an extension language for applications that need a programmable interface. Finally, Python is portable: it runs on many Unix variants, on the Mac, and on Windows 2000 and later.",
     "logo": "https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/python/logo.png"
 
@@ -38,7 +38,7 @@
   ],
   "variants": [
     {
-      "version": "3.9.4",
+      "version": "3.9.5",
       "assets" : {
         "pip": {
           "command": "pip3"
@@ -71,7 +71,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "2004a91f167c0fb2798555f7b2d5886b820686f589b71abe0c9a19b6334e78cc",
+                      "checksum": "348192a9896edb7c8d95ec46da361c0f97f02ab14d38711472b6fdc63465a60b",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -98,7 +98,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "001182f2fa74855d8254b5a7c6b18014e9f55767540162013c4d1baf25529555",
+                      "checksum": "2d6e4ba7b93976a35c8703c60d6bf2e2e7cfd5eaaa52cb3bbdab34a16cf4a37c",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -125,7 +125,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "f0afca04ecf89fcea4fdf52bd8c3e067181cca44032e7dae15b4cc8148d1c107",
+                      "checksum": "8acab98630bf7b246c004b8a04902da09be92c7f4640736fc1ee0d3e907d81a5",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-i386-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -152,7 +152,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "9c0e613b98c1adab757b0443f27a698f1e00cedf1b9e2e4dce05dff7d7ec52cb",
+                      "checksum": "0498d4a6ac61cecd01d95f43000e2270fa573a86e1f32cd17284fb54587e15f7",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -179,7 +179,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "ed043a94289b6553f5dde55c8b8b36a67b811c510cf56909621ea165c1f5f554",
+                      "checksum": "72a27e265f971c87d046778811835816afdacd87ae58619525fcacf06e102b8e",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -211,7 +211,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "2fadc736844c6201178265262e32e801504a094d3b7464d33addbfe1fa3eb43d",
+                  "checksum": "2960e68aa27025bbd44d72779403733139e413b6dc077488e4f1fc6ff3ec54a6",
                   "name": "Python-$PYTHON_VERSION.linux-armv6hf-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -223,7 +223,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "fe3cb03bf50d2128ff7c98e16308c5c2c4363983c87e26e0ffe4b280bf78e070",
+                  "checksum": "93b51d685235f7a60908cd8e3a43f6b6cf3ac9c3a0d2fcc15a1216cf7c1d7041",
                   "name": "Python-$PYTHON_VERSION.linux-armv7hf-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -235,7 +235,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "3cfb071eb95dcc80c29339ae8c534cd5072ab687d2c1c36d7a5a432bf35c9039",
+                  "checksum": "f653f747bce6920e97f50beec2cd3caef17158c71f520c9c41119c702777192c",
                   "name": "Python-$PYTHON_VERSION.linux-amd64-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -247,7 +247,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "6cb5376d0eb62e61085febdbeff72eaa8d80b3b535634144c364ba4be6052b17",
+                  "checksum": "08b4125511247af8047935bec2a92aad386551d5d761ce38779a80d5be9d1276",
                   "name": "Python-$PYTHON_VERSION.linux-aarch64-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -259,7 +259,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "26335842fa94a0b64f74fc2f904bad52caf92eff7bd303d7646cba59c7ccf3e2",
+                  "checksum": "3f2c9c61f0d988a46622e2e35ec2d7135f218c64eb31c72c046213cabd11b721",
                   "name": "Python-$PYTHON_VERSION.linux-i386-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -271,7 +271,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "26335842fa94a0b64f74fc2f904bad52caf92eff7bd303d7646cba59c7ccf3e2",
+                  "checksum": "3f2c9c61f0d988a46622e2e35ec2d7135f218c64eb31c72c046213cabd11b721",
                   "name": "Python-$PYTHON_VERSION.linux-i386-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -285,7 +285,7 @@
       ]
     },
     {
-      "version": "3.8.9",
+      "version": "3.8.10",
       "assets" : {
         "pip": {
           "command": "pip3"
@@ -318,7 +318,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "5679c51f0a4250daa643dacfae5fe907bc8ee929ee2c46fcf3f8be7a655b70d0",
+                      "checksum": "94babc2629872a960d4202b1c832dcaa5b4a37f9e190dca843a61e9622b7ee3a",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -345,7 +345,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "57f5474bdcb0d87be365d5e1094eae095b85a003accae2b8968b336e0e5e0ca6",
+                      "checksum": "27d1c44191df5c8b1a50c612c1308c5c1e4919511c4bda7116429c64e67e846b",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -372,7 +372,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "064437fe9778bd05297831978e58737279af62870fa0ed07ab948794cf0a28a0",
+                      "checksum": "4fb9f6595937830d5b5024637b34356aaaaf686fce2c0e15cd40a30582dfc264",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-i386-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -399,7 +399,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "a4807442be7d69905b637bc8a4866b10ac2b5d74c5c914974ad5883dd7d94dba",
+                      "checksum": "9ff4b63ab44774d25405e4d2eb1b0d8c388e6d7c3c388602dffca4b3669066da",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -426,7 +426,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "075f5b718b96ff426b67a84f6b308a55533bd00f560ddb09756280c5e11f1eb3",
+                      "checksum": "6297c333a4e15a356ac02cdde159b669b726d279e1281bd6273d1947ef160c85",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -458,7 +458,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "e4c05e185162c16a1a07e493e825e9db2c80bfa96816381191b249130024346b",
+                  "checksum": "a2100a0453f1a3b873d3fbe70bcce76123f2ba68a51844f6c308e8eb2bc5309e",
                   "name": "Python-$PYTHON_VERSION.linux-armv6hf-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -470,7 +470,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "c5b7c118af6ad28d1b978513451b47e5acca51e3fc469dfc95ccf0ee9036bd82",
+                  "checksum": "cde3397ee21893358b6041465f6533f69d455d7fea42887b4bc448abc66c9a79",
                   "name": "Python-$PYTHON_VERSION.linux-armv7hf-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -482,7 +482,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "aeffa910f8ea24fea33d4fc654d7d9aea05af625bd05ac4b9e31efc8e6769274",
+                  "checksum": "30ba78e46c14b23fdb466e1e2e9ec542645e1694f217821859b0d2d9635b3939",
                   "name": "Python-$PYTHON_VERSION.linux-amd64-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -494,7 +494,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "8a565846e715aa422ea060155704ed2ed5b06f685e6847630d2c7e7b28b0ffc8",
+                  "checksum": "95f3b925a0f0577e2cc6b0b7a2e3f63130e6b89e21f90de1175b318e3a7e8d02",
                   "name": "Python-$PYTHON_VERSION.linux-aarch64-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -506,7 +506,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "28c2a14c98e4a088d6e140ec7685b12470e7b057aee56067ad6a5965c1f3b56d",
+                  "checksum": "43c50480760b93a79a71d853418978a91501c39db176afe82b99617d7d03ab98",
                   "name": "Python-$PYTHON_VERSION.linux-i386-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -518,7 +518,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "28c2a14c98e4a088d6e140ec7685b12470e7b057aee56067ad6a5965c1f3b56d",
+                  "checksum": "43c50480760b93a79a71d853418978a91501c39db176afe82b99617d7d03ab98",
                   "name": "Python-$PYTHON_VERSION.linux-i386-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
