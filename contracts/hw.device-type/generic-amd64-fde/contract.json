@@ -1,0 +1,29 @@
+{
+  "slug": "generic-amd64-fde",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Generic AMD64 (x86-64) with disk encryption",
+  "assets": {
+    "logo": {
+      "url": "./generic-amd64-fde.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "amd64",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "installation": "usbkey"
+    },
+    "is_private": true
+  }
+}
