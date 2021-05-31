@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.7
+## (2021-05-31)
+
+* generic-amd64-fde: add device type [Michal Toman]
+
 # v1.13.6
 ## (2021-05-06)
 
