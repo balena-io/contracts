@@ -5,6 +5,13 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.9
+## (2021-06-02)
+
+* Update dotnet SDK to v5.0.3 and v3.1.409 and runtime to v5.0.6 and v3.1.15 [Trong Nghia Nguyen]
+* Drop EOL Node 15 [Trong Nghia Nguyen]
+* Update checksum for Python v3.9.5 and v3.8.10 [Trong Nghia Nguyen]
+
 # v1.13.8
 ## (2021-05-31)
 
