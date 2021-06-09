@@ -1,0 +1,29 @@
+{
+  "slug": "asus-tinker-edge-t",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "ASUS Tinker Edge T",
+  "assets": {
+    "logo": {
+      "url": "./asus-tinker-edge-t.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "installation": "sdcard"
+    },
+    "is_private": false
+  }
+}
