@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.10
+## (2021-06-09)
+
+* asus-tinker-edge-t: Add new device type [Florin Sarbu]
+
 # v1.13.9
 ## (2021-06-02)
 
