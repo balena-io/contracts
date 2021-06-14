@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.11
+## (2021-06-14)
+
+* hw.device-type: Add community Xavier NX SD ReSpeaker-2MIC [Alexandru Costache]
+
 # v1.13.10
 ## (2021-06-09)
 
