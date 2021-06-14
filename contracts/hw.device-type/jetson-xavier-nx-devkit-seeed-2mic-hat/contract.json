@@ -1,0 +1,29 @@
+{
+  "slug": "jetson-xavier-nx-devkit-seeed-2mic-hat",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Nvidia Jetson Xavier NX Devkit SD Seeed ReSpeaker-2Mic",
+  "assets": {
+    "logo": {
+      "url": "./jetson-xavier-nx-devkit-seeed-2mic-hat.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": false
+    },
+    "media": {
+      "installation": "sdcard"
+    },
+    "is_private": false
+  }
+}
