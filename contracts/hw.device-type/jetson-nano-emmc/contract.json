@@ -21,9 +21,13 @@
     "storage": {
       "internal": true
     },
+    "flashProtocol": "jetsonFlash",
     "media": {
-      "installation": "dfu"
+      "defaultBoot": "internal"
     },
     "is_private": false
+  },
+  "partials": {
+    "bootDevice": ["Connect power to the {{name}}"]
   }
 }

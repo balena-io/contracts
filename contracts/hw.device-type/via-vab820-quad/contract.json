@@ -21,8 +21,22 @@
       "internal": true
     },
     "media": {
-      "installation": "sdcard"
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
     },
     "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+      "Set J11 (just next to the micro SD card slot) to position 2-3 (the position furthest away from the edge of the board)",
+      "Power on the {{name}}"
+    ],
+    "flashIndicator": [
+      "the device is offline in the dashboard and disconnect the power cable"
+    ],
+    "bootDeviceInternal": [
+      "Set J11 (just next to the micro SD card slot) to position 1-2 (the position closest to the edge of the board)"
+    ],
+    "bootDevice": ["Remove and re-connect power to the {{name}}"]
   }
 }

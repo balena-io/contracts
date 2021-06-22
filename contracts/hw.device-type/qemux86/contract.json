@@ -22,8 +22,13 @@
       "internal": false
     },
     "media": {
-      "installation": "image"
+      "defaultBoot": "image"
     },
     "is_private": false
+  },
+  "partials": {
+    "instructions": [
+      "Run the following to start the image:\n<br>\nOn systems with KVM support:\n<br>\n<code>qemu-system-i386 -device ahci,id=ahci -drive file=balena-image-qemux86.img,media=disk,cache=none,format=raw,if=none,id=disk -device ide-hd,drive=disk,bus=ahci.0 -net nic,model=virtio -net user -m 512 -nographic -machine type=pc,accel=kvm -smp 4 -cpu host</code>\n<br>\nOn systems without KVM support:\n<br>\n<code>qemu-system-i386 -device ahci,id=ahci -drive file=balena-image-qemux86.img,media=disk,cache=none,format=raw,if=none,id=disk  -device ide-hd,drive=disk,bus=ahci.0 -net nic,model=virtio -net user -m 512 -nographic -machine type=pc -smp 4</code>\n<br>\nTweak <code>-smp</code> and <code>-cpu</code> parameters based on the CPU of the machine qemu is running on. <code>-cpu</code> parameter needs to be dropped on OSX and Windows.\n<br>\nTweak <code>-nographic</code> and <code>-m 512</code> to set the display of qemu and memory respectively.\n"
+    ]
   }
 }

@@ -22,8 +22,21 @@
       "internal": true
     },
     "media": {
-      "installation": "sdcard"
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
     },
     "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+      "Make sure your {{name}} contains a system-on-module with a 2GB i.MX8X quad B0 system-on-chip. Different module variants are not supported and will not boot.",
+      "Configure the boot microswitches (S2) for SD boot (SW1 OFF and SW2 ON)",
+      "Connect power to the {{name}}"
+    ],
+    "flashIndicator": ["all LEDs are off"],
+    "bootDevice": [
+      "Configure the boot microswitches (S2) for internal (eMMC) boot (SW1 OFF and SW2 OFF)",
+      "Remove and re-connect power to the {{name}}"
+    ]
   }
 }

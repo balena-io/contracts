@@ -22,8 +22,16 @@
       "internal": true
     },
     "media": {
-      "installation": "sdcard"
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
     },
     "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+      "Power up the {{name}} while holding down the small button near the SD slot. You need to keep it pressed until the blue LEDs start flashing wildly."
+    ],
+    "flashIndicator": ["all LEDs are off"],
+    "bootDevice": ["Remove and re-connect power to the {{name}}"]
   }
 }

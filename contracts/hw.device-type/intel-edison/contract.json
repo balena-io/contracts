@@ -21,9 +21,40 @@
     "storage": {
       "internal": true
     },
+    "flashProtocol": "edisonFlash",
     "media": {
-      "installation": "dfu"
+      "defaultBoot": "internal"
     },
     "is_private": false
+  },
+  "partials": {
+    "Linux": {
+      "flashDependencies": [
+        "Install <code>dfu-util</code> and <code>coreutils</code> from your distribution's repos. For example, for Ubuntu: <code>apt-get install dfu-util coreutils</code>"
+      ],
+      "flashInstructions": [
+        "Execute the following from the unzipped directory: <code>sudo ./flashall.sh</code>",
+        "<em>Note: If you have trouble executing, you may need to modify the file permissions first:</em> <code>sudo chmod +x ./flashall.sh</code>"
+      ]
+    },
+    "MacOS": {
+      "flashDependencies": [
+        "You need <a href='https://www.macports.org/'>MacPorts</a> installed on your system.",
+        "Run the following to install <code>dfu-utils</code>, <code>usbutils</code>, and <code>coreutils</code>: <code>sudo port install dfu-util usbutils coreutils && sudo port activate dfu-util</code>"
+      ],
+      "flashInstructions": [
+        "Execute the following from the unzipped directory: <code>sudo ./flashall.sh</code>",
+        "<em>Note: If you have trouble executing, you may need to modify the file permissions first:</em> <code>sudo chmod +x ./flashall.sh</code>"
+      ]
+    },
+    "Windows": {
+      "flashDependencies": [
+        "Install Windows drives for Edison from <a href='https://downloadmirror.intel.com/26993/eng/IntelEdisonDriverSetup1.2.1.exe'>here</a>"
+      ],
+      "flashInstructions": [
+        "Open a terminal with administrative privileges and execute the following from the unzipped directory: <code>flashall.bat</code>"
+      ]
+    },
+    "bootDevice": ["Power on {{name}}"]
   }
 }

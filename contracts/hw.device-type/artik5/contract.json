@@ -21,8 +21,19 @@
       "internal": true
     },
     "media": {
-      "installation": "sdcard"
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
     },
     "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+      "Set SW2 dip switch to position 1:on, 2:on. Also, make sure jumpers J20 and J33 are set towards the edge of the board.",
+      "Press the power switch PWR SW to the on position. Press and hold for 1 second the SW3 POWER push button."
+    ],
+    "bootDevice": [
+      "Set SW2 dip switch to position 1:off, 2:off",
+      "Press the power switch PWR SW to the on position. Press and hold for 1 second the SW3 POWER push button"
+    ]
   }
 }

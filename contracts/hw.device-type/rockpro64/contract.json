@@ -22,8 +22,11 @@
       "internal": false
     },
     "media": {
-      "installation": "sdcard"
+      "defaultBoot": "sdcard"
     },
     "is_private": false
+  },
+  "partials": {
+    "bootDevice": ["Connect the {{name}} to the internet and power it on"]
   }
 }

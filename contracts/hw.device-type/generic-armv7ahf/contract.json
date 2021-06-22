@@ -22,7 +22,7 @@
       "internal": false
     },
     "media": {
-      "installation": "sdcard"
+      "defaultBoot": "sdcard"
     },
     "is_private": false
   }
