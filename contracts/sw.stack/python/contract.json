@@ -18,7 +18,7 @@
       "version": "56.0.0"
     },
     "dbus": {
-      "version": "1.2.8"
+      "version": "1.2.16"
     },
     "test": {
       "main": "test-stack@python",
