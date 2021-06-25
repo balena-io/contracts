@@ -16,7 +16,7 @@ RUN apk add --update \
 		glib-dev \
 		jpeg-dev \
 		imagemagick-dev \
-		ncurses5-libs \
+		ncurses-libs \
 		libpq \
 		readline-dev \
 		sqlite-dev \
