@@ -5,6 +5,15 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.12
+## (2021-06-25)
+
+* Add openjdk-16 for amd64 and aarch64 Debian Buster [Trong Nghia Nguyen]
+* Add support for Alpine Linux 3.14 [Trong Nghia Nguyen]
+* Add node v16.4.0 [Trong Nghia Nguyen]
+* Update python-dbus to v1.2.16 [Trong Nghia Nguyen]
+* Add golang v1.16.5 and v1.15.13 [Trong Nghia Nguyen]
+
 # v1.13.11
 ## (2021-06-14)
 
