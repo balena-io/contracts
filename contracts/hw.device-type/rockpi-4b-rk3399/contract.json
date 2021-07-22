@@ -1,0 +1,29 @@
+{
+  "slug": "rockpi-4b-rk3399",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "ROCK Pi 4B",
+  "assets": {
+    "logo": {
+      "url": "./rockpi-4b-rk3399.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "installation": "sdcard"
+    },
+    "is_private": false
+  }
+}
