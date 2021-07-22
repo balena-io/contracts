@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.15
+## (2021-07-22)
+
+* rockpi-4b-rk3399: Add new device type [Florin Sarbu]
+
 # v1.13.14
 ## (2021-07-02)
 
