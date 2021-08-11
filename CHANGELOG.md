@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.19
+## (2021-08-11)
+
+* jetsons: Update the rest of sources.list to L4T 32.5.1 [Alexandru Costache]
+
 # v1.13.18
 ## (2021-08-05)
 
