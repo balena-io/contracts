@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.21
+## (2021-08-20)
+
+* n310-tx2: Add contract [Alexandru Costache]
+
 # v1.13.20
 ## (2021-08-12)
 
