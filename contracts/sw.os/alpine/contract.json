@@ -4,8 +4,8 @@
   "version": "1",
   "data": { 
     "libc": "musl-libc",
-    "latest": "3.13",
-    "versionList": "`3.13 (latest)`, `3.14`, `3.11`, `3.12`, `edge`"
+    "latest": "3.14",
+    "versionList": "`3.14 (latest)`, `3.13`, `3.11`, `3.12`, `edge`"
   },
   "name": "Alpine Linux {{this.version}}",
   "requires": [
