@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.23
+## (2021-08-25)
+
+* Update test script for Golang base images [Trong Nghia Nguyen]
+
 # v1.13.22
 ## (2021-08-25)
 
