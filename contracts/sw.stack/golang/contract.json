@@ -21,7 +21,7 @@
     "test": {
       "main": "test-stack@golang",
       "name": "test-stack@golang.sh",
-      "commit": "8accad6af708fca7271c5c65f18a86782e19f877",
+      "commit": "613d8e9ca8540f29a43fddf658db56a8d826fffe",
       "url": "https://raw.githubusercontent.com/balena-io-library/base-images/{{this.assets.test.commit}}/scripts/assets/tests/{{this.assets.test.name}}"
     },
     "manifest": "Go v{{this.version}}"
