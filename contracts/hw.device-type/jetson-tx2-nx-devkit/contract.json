@@ -22,7 +22,7 @@
       "internal": true
     },
     "media": {
-      "installation": "sdcard"
+      "installation": "dfu"
     },
     "is_private": false
   }
