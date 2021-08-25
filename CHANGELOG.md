@@ -5,6 +5,13 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.22
+## (2021-08-25)
+
+* Add Golang v1.17 [Trong Nghia Nguyen]
+* Update contracts to v6.0.0-balena1 [Trong Nghia Nguyen]
+* Set Alpine Linux 3.14 as the latest tag [Trong Nghia Nguyen]
+
 # v1.13.21
 ## (2021-08-20)
 
