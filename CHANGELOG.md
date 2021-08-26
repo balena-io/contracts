@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.24
+## (2021-08-25)
+
+* photon-tx2-nx: Add new community Device type [Alexandru Costache]
+
 # v1.13.23
 ## (2021-08-25)
 
