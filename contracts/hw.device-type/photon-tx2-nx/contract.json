@@ -1,12 +1,12 @@
 {
-  "slug": "jetson-tx2-nx-devkit",
+  "slug": "photon-tx2-nx",
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Nvidia Jetson TX2 NX (with Xavier NX Devkit)",
+  "name": "CTI Photon TX2 NX",
   "assets": {
     "logo": {
-      "url": "./jetson-tx2-nx-devkit.svg",
+      "url": "./photon-tx2-nx.svg",
       "name": "logo"
     }
   },
