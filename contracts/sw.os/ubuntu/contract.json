@@ -4,8 +4,8 @@
   "version": "1",
   "data": {
     "libc": "glibc",
-    "latest": "bionic",
-    "versionList": "`bionic (latest)`, `cosmic`, `xenial`, `disco`, `eoan`, `focal`"
+    "latest": "focal",
+    "versionList": "`focal (latest)`, `xenial`, `bionic`"
   },
   "name": "Ubuntu {{this.version}}",
   "requires": [
@@ -35,11 +35,8 @@
       ],
       "variants": [
         { "version": "focal" },
-        { "version": "eoan" },
         { "version": "xenial" },
-        { "version": "disco" },
-        { "version": "bionic" },
-        { "version": "cosmic" }
+        { "version": "bionic" }
       ]
     },
     {
@@ -52,11 +49,8 @@
         }
       ],
       "variants": [
-        { "version": "eoan" },
         { "version": "xenial" },
-        { "version": "disco" },
-        { "version": "bionic" },
-        { "version": "cosmic" }
+        { "version": "bionic" }
       ]
     },
     {
@@ -65,11 +59,8 @@
       ],
       "variants": [
         { "version": "focal" },
-        { "version": "eoan" },
         { "version": "xenial" },
-        { "version": "disco" },
-        { "version": "bionic" },
-        { "version": "cosmic" }
+        { "version": "bionic" }
       ]
     }
   ]

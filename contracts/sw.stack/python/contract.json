@@ -199,9 +199,6 @@
                 { "type": "sw.os", "slug": "debian" , "version": "buster" },
                 { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                 { "type": "sw.os", "slug": "fedora" }
               ]
@@ -434,9 +431,6 @@
                 { "type": "sw.os", "slug": "debian" , "version": "buster" },
                 { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                 { "type": "sw.os", "slug": "fedora" }
               ]
@@ -669,9 +663,6 @@
                 { "type": "sw.os", "slug": "debian" , "version": "buster" },
                 { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                 { "type": "sw.os", "slug": "fedora" }
               ]
@@ -927,9 +918,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -959,9 +947,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -991,9 +976,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1023,9 +1005,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1055,9 +1034,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1267,9 +1243,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1311,9 +1284,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1355,9 +1325,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1387,9 +1354,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1431,9 +1395,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1475,9 +1436,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1678,9 +1636,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1722,9 +1677,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1766,9 +1718,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1810,9 +1759,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1854,9 +1800,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1898,9 +1841,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
