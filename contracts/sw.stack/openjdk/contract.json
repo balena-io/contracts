@@ -27,23 +27,13 @@
     {
       "version": "7-jdk",
       "requires": [
-        {
-          "or": [
-            { "type": "sw.os", "slug": "debian", "version": "jessie" },
-            { "type": "sw.os", "slug": "alpine" }
-          ]
-        }
+        { "type": "sw.os", "slug": "alpine" }
       ]
     },
     {
       "version": "7-jre",
       "requires": [
-        {
-          "or": [
-            { "type": "sw.os", "slug": "debian", "version": "jessie" },
-            { "type": "sw.os", "slug": "alpine" }
-          ]
-        }
+        { "type": "sw.os", "slug": "alpine" }
       ]
     },
     {
