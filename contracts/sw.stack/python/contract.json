@@ -4,18 +4,18 @@
   "name": "Python v{{this.version}}",
   "version": "1",
   "data": {
-    "latest": "3.9.6",
-    "versionList": "`3.9.6 (latest)`, `3.8.11`, `2.7.18`, `3.7.11`, `3.6.14`, `3.5.10`",
+    "latest": "3.9.7",
+    "versionList": "`3.9.7 (latest)`, `3.8.12`, `2.7.18`, `3.7.12`, `3.6.15`, `3.5.10`",
     "introduction": "Python is an interpreted, interactive, object-oriented, open-source programming language. It incorporates modules, exceptions, dynamic typing, very high level dynamic data types, and classes. Python combines remarkable power with very clear syntax. It has interfaces to many system calls and libraries, as well as to various window systems, and is extensible in C or C++. It is also usable as an extension language for applications that need a programmable interface. Finally, Python is portable: it runs on many Unix variants, on the Mac, and on Windows 2000 and later.",
     "logo": "https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/python/logo.png"
 
   },
   "assets": {
     "pip": {
-      "version": "21.2.3"
+      "version": "21.2.4"
     },
     "setuptools": {
-      "version": "57.4.0"
+      "version": "58.0.0"
     },
     "dbus": {
       "version": "1.2.18"
@@ -38,7 +38,7 @@
   ],
   "variants": [
     {
-      "version": "3.9.6",
+      "version": "3.9.7",
       "assets" : {
         "pip": {
           "command": "pip3"
@@ -71,7 +71,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "12d11d0a92a8e44d11ffcfe4d9be6c7472721b6763af98137817b188aca6dc8d",
+                      "checksum": "6e5296fdb2e7093dce9434580164a3d7bd67fc566f0e4da22989feb1359c396b",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -98,7 +98,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "fd495d5dd7b4d3167df6a7a693a77b0e2be6d0cbde9ebe5b8006d4b894729fc9",
+                      "checksum": "eade0a4505ef116c1cdbf11eb3770cab333c7fd98ba73dbfdf6e957982c8e2ff",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -125,7 +125,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "86c8117eb5a56cc28e104315f279c7c84eaeeb598797eb514f6acfe260f5ba07",
+                      "checksum": "89b7bfaf8a57d4fc8b0a5d7b67a9c1c3235f4301b98e8d243763d78e52ca8dd2",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-i386-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -152,7 +152,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "1cbd26a8137e5c324a29f4783e8a9ce3fdb94eebe746b45d7b5de1dc8a70e7a3",
+                      "checksum": "69965021ad9b5a95c9a08e90a74a986a6645c7586ec55d6b3d81f45357571073",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -179,7 +179,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "af856e7ddd9e60393517f7eb9e8d3a535a74f4d6c9518482267314744b2b24f3",
+                      "checksum": "b5adcf3fc2c5a2a0fcd32f5b9e96e0867d1f761740fc4921035eac27a97fbf6c",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -199,9 +199,6 @@
                 { "type": "sw.os", "slug": "debian" , "version": "buster" },
                 { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                 { "type": "sw.os", "slug": "fedora" }
               ]
@@ -211,7 +208,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "9874913f5725b7aa21fbe41cff405872ef1f2f3be8d63e9b1673eacec489fcd3",
+                  "checksum": "d0c36a0b076c476d5223c8464c05232287397a5b3a1d102f59430acb5e80463c",
                   "name": "Python-$PYTHON_VERSION.linux-armv6hf-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -223,7 +220,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "b93ade16bf1e18f2d3a4e16b4a4accd8186cf9fdb252dda654c466407f7f8383",
+                  "checksum": "048101d2eb48a2157a7f85f1a33c7184b474bd7afe8b7463e6218645c8bf1957",
                   "name": "Python-$PYTHON_VERSION.linux-armv7hf-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -235,7 +232,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "66202855c698681192d72b4b39d87f5e9db44ec3eacd15d6bbba4193f56add75",
+                  "checksum": "deb68ce61ce76b96f2426c92594cd7398720836849dd4e23ba09f2598855d476",
                   "name": "Python-$PYTHON_VERSION.linux-amd64-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -247,7 +244,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "ba76702f8d4b6f506624fdf3cdef0c1a9c3a8324607fec84071ba557c5485e9b",
+                  "checksum": "e3758d84c2c89ddfc596a4843c7787931ead5b22e804b92b12d90493abca5de5",
                   "name": "Python-$PYTHON_VERSION.linux-aarch64-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -259,7 +256,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "245096be7d675b848121018fe1cac9c3381b72cdba0f23e05a39c3b1465690ab",
+                  "checksum": "d4ac61964de09b77cf6c1674533498a546427969d6c286e09c43c389fc31425c",
                   "name": "Python-$PYTHON_VERSION.linux-i386-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -273,7 +270,7 @@
       ]
     },
     {
-      "version": "3.8.11",
+      "version": "3.8.12",
       "assets" : {
         "pip": {
           "command": "pip3"
@@ -306,7 +303,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "b584bba729a032297f83abf33692b00677e52d26a3ea7b1e5c05d46f47b9a79e",
+                      "checksum": "9344760bd04065a2109a8e878934909499bd8087379cfb60dee6a723ff9dfa93",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -333,7 +330,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "ca125e9eb52942d8e09b297d762b30e7b78020bfb0a1d6971f9e0074daeb40ac",
+                      "checksum": "17a69952a1da1b13573c90ee5cbeed7940f086b769cd83d6c2c2ac4ce7e45fad",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -360,7 +357,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "f2e42f291f7fd922573b77b2ee1fb30b39f84556b66a721faebae4086113f0db",
+                      "checksum": "c3449ccaf8a091bb2d530d70f7bc92d8c458520fbcae2e2f5d16771c55a789fb",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-i386-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -387,7 +384,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "3da811d6def26c4bf6653b556adacb0b29ef1efee2a222166d422aff2d6cf2bc",
+                      "checksum": "da591e47e53955a628305c2b229b62b837e2b60b2f0d16d23a59e663a1ece18c",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -414,7 +411,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "9ad9d14e242a96e861878c1314e2ed86e5e9d082b43f00e523d93234b0f34789",
+                      "checksum": "1fa80c3ed0949e34ee0c9ee7cc0b523fd4875783315c58d5f35ea23c1c709ed5",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -434,9 +431,6 @@
                 { "type": "sw.os", "slug": "debian" , "version": "buster" },
                 { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                 { "type": "sw.os", "slug": "fedora" }
               ]
@@ -446,7 +440,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "c3b748fcd762f565e4ebbcc3736a9e268a87898ac09d7e4c2eeb650675eb350b",
+                  "checksum": "5df88b44341b77db07c2dffbeb2a1e535cca728880cf261a4b8f0ed11f416a5f",
                   "name": "Python-$PYTHON_VERSION.linux-armv6hf-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -458,7 +452,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "023cf5f725806026f196bce5d9ec2d0827b39d1b913393701777d394bbd1e051",
+                  "checksum": "462e82c7e4df7269e7f55d47e3b518b54c3f842ff07dcd5959c5961565703619",
                   "name": "Python-$PYTHON_VERSION.linux-armv7hf-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -470,7 +464,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "aee7d4a5c19d4bfac8eb692f1c514b6eacde86a4a85c5f621d9ca2c7263c00cb",
+                  "checksum": "1c9fdfd11345ce7f28235d97fa7696a5a22bc8898a238cc0eb4bc8e8ff24d3d0",
                   "name": "Python-$PYTHON_VERSION.linux-amd64-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -482,7 +476,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "42e0ff815b6a33135cb8de4cc2eb1820d316558b75ce730ccea0ace151c95d06",
+                  "checksum": "27ca59beed9aa540feec7fe2dae66f37010d7e73feb9bf246321d0f9f10d5a27",
                   "name": "Python-$PYTHON_VERSION.linux-aarch64-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -494,7 +488,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "bf9fe746aaef71b7d31fc1058ff759ef9832c67e67e47790eb506c1572e98715",
+                  "checksum": "578495b3501d2166fa111e99f43c9f1bb78cb7383efb2c7069c2fb1852a88d54",
                   "name": "Python-$PYTHON_VERSION.linux-i386-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -508,7 +502,7 @@
       ]
     },
     {
-      "version": "3.7.11",
+      "version": "3.7.12",
       "assets" : {
         "pip": {
           "command": "pip3"
@@ -541,7 +535,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "48e89f0deb6e14cee7c593740283808448a19c8e3bfc03d1e0e9eeb2e9b38e39",
+                      "checksum": "c5d3d756cd73a20040d83de6add968ba10417cd516e11ac5c2f05542ad01b5e2",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -568,7 +562,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "2dbf1022755318b5f63d697f884fb7adc786b0dc861d3c754941decb53fb1094",
+                      "checksum": "2b4afef57ed17d98e4ca5a4641b276c43faf0d6eea8f2aab33ff77e6d8c246b1",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -595,7 +589,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "8f2d55453aa4b4310c8956e7b79ab4a3b86561e782f4c5f74226eed44b898d44",
+                      "checksum": "36f83c62444b6153f6e2bf443fc11eb5ef98755c7623f072d294abf9eb8f80d9",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-i386-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -622,7 +616,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "01eec2a30369f63349f25be13f674e3f3b3147fef0b0b9f8dcb3c745dbdd681f",
+                      "checksum": "81ad89312c5aeebbe2fd6f169966c648ed71da6880068884df8754c819d1d202",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -649,7 +643,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "97bc0ec4e0efe8a7c56e2507f9956fd6a675225bf7c1dcfc17e86ce60a408f9d",
+                      "checksum": "fe1f54cb7380c5433ca0c45beaebc141d8a6b825752173373adda6b3a9986564",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -669,9 +663,6 @@
                 { "type": "sw.os", "slug": "debian" , "version": "buster" },
                 { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                 { "type": "sw.os", "slug": "fedora" }
               ]
@@ -681,7 +672,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "99c8b55d2198df2557fb660169a8d4182d24347cf54bece083b0747061537c1b",
+                  "checksum": "3f92c8a3d47691750d6f2579f51e08aa09a4493dec4e252379b8c55329a72aa4",
                   "name": "Python-$PYTHON_VERSION.linux-armv6hf-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -693,7 +684,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "882ac11310d9f88067d97848eadda2f2f39bc46c118cdfc81cdf9ba90d5d85c8",
+                  "checksum": "48691326350a2a2a56651c3976f238f9852306c7d524687917e989a01c3cbb7b",
                   "name": "Python-$PYTHON_VERSION.linux-armv7hf-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -705,7 +696,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "2e21cf513e176a959589a5cdcc4de5d27e386b1d58d83f089e8c3ed7f76e8ae1",
+                  "checksum": "87cc1f63eb8d4ee6f5850e770f236ddb45219c0d7fdb8cdc3d1a5877eb50233d",
                   "name": "Python-$PYTHON_VERSION.linux-amd64-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -717,7 +708,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "98ed54f7c6cfff28c71331df296a0ba36aab76be2af4adda9e2b9b6092089386",
+                  "checksum": "3db5bc48f5e1bee703c8e4dfaca790dfe2c8e47125465a5870917bd60565957d",
                   "name": "Python-$PYTHON_VERSION.linux-aarch64-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -729,7 +720,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "e8060eb03efb3d0dc7a6a3395f770777745cb3c91e94480fa5fe41f48ef7f3a4",
+                  "checksum": "1fcfbad1bc84c471989c604006fa2463a8411fe203db34b6c4866f6b4a749ed7",
                   "name": "Python-$PYTHON_VERSION.linux-i386-openssl1.1.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                 }
@@ -743,7 +734,7 @@
       ]
     },
     {
-      "version": "3.6.14",
+      "version": "3.6.15",
       "assets" : {
         "pip": {
           "command": "pip3"
@@ -776,7 +767,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "be27e11b6ee3bcbb485ab1ad52cfaf2f61da563a6dcab4eb3121a85f3100a9c2",
+                      "checksum": "32435b7384273c9d22a0998df3b92ba8f7ef6afe40b104b24a7c96ca597b8fd8",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -803,7 +794,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "892ed63eab73348c3529fe7d08a66c63c9cf95bc0bccd4152351810dc004a6ed",
+                      "checksum": "85d9be7827ab22dca34e55eac06849a8c21160c67e6710340a4d94e0f52094bb",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -830,7 +821,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "121e04b51c4975b0298b0c47669a734aabda001a129f0cb0913318d527700d91",
+                      "checksum": "27ccee4e4b4bad403987c31f6d0cdc213dfaf97a95c86389dff79a8260738983",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-i386-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -857,7 +848,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "61b79d021947e81c8be65e6ba1c3bbc6b0bc13702cab4457837e488eb65588e8",
+                      "checksum": "45eef885851be858b9cd49fe89e85d8e317521b8aad586e142a4c2148c765ff4",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -884,7 +875,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "bc73e84b3fc16ddd542c60d697faddfe1795acf5a4930aa61b194c7fc1fc467e",
+                      "checksum": "bdf7cc9180c546d5e1e5528ec8e071d5aa7e2a74e4a4fb2e1bce596db34134b1",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -914,7 +905,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "8ac768de603bf65e9aed0eea273db708608830f9b30e40d36cf96c2658947fb2",
+                      "checksum": "c02f6182217b1821ced5f6a90d2f910fc8be1aecb7530e921fd8a961f57b994d",
                       "name": "Python-$PYTHON_VERSION.linux-armv6hf-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -927,9 +918,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -946,7 +934,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "2e19e1738ab22b314e06d2d2a00095956c7fe07e7223dcab7fa5a8d62d269ed2",
+                      "checksum": "d895cefb24c24aa3d3c36b3d580e93953e46da2ab2ba5f5c848543a4f4e77e1a",
                       "name": "Python-$PYTHON_VERSION.linux-armv7hf-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -959,9 +947,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -978,7 +963,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "d7b65ff75ecbba8b7db75f17bef16bec5154c6414a578c0361dcdc94337d8458",
+                      "checksum": "9004c2e509bc434db995370b43d6077e332c1a9cb263b3b792c8244d247f36cd",
                       "name": "Python-$PYTHON_VERSION.linux-amd64-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -991,9 +976,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1010,7 +992,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "24a00065335bf384ec1790e719b25ba27d75c9489d2387b2427df7390c9c284f",
+                      "checksum": "b59fdca5c931564f457908db18157a762345aa6b94ece3a046ee2c4e2ce496a3",
                       "name": "Python-$PYTHON_VERSION.linux-aarch64-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -1023,9 +1005,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1042,7 +1021,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "86c0a8a9ebdb9dc2b4c415a5d408c614372c2d1d0c2191350e2931705f76b15f",
+                      "checksum": "5b02ff0355dbf278100b316e636e275faf0253c05dd62a13631bad0d19d47605",
                       "name": "Python-$PYTHON_VERSION.linux-i386-openssl1.1.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -1055,9 +1034,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1241,12 +1217,7 @@
               "variants": [
                 {
                   "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
-                      ]
-                    }
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                   ],
                   "assets": {
                     "bin": {
@@ -1272,9 +1243,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1290,12 +1258,7 @@
               "variants": [
                 {
                   "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
-                      ]
-                    }
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                   ],
                   "assets": {
                     "bin": {
@@ -1321,9 +1284,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1339,12 +1299,7 @@
               "variants": [
                 {
                   "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
-                      ]
-                    }
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                   ],
                   "assets": {
                     "bin": {
@@ -1370,9 +1325,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1402,9 +1354,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1420,12 +1369,7 @@
               "variants": [
                 {
                   "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
-                      ]
-                    }
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                   ],
                   "assets": {
                     "bin": {
@@ -1451,9 +1395,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1469,12 +1410,7 @@
               "variants": [
                 {
                   "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
-                      ]
-                    }
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                   ],
                   "assets": {
                     "bin": {
@@ -1500,9 +1436,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1677,12 +1610,7 @@
               "variants": [
                 {
                   "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
-                      ]
-                    }
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                   ],
                   "assets": {
                     "bin": {
@@ -1708,9 +1636,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1726,12 +1651,7 @@
               "variants": [
                 {
                   "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
-                      ]
-                    }
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                   ],
                   "assets": {
                     "bin": {
@@ -1757,9 +1677,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1775,12 +1692,7 @@
               "variants": [
                 {
                   "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
-                      ]
-                    }
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                   ],
                   "assets": {
                     "bin": {
@@ -1806,9 +1718,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1824,12 +1733,7 @@
               "variants": [
                 {
                   "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
-                      ]
-                    }
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                   ],
                   "assets": {
                     "bin": {
@@ -1855,9 +1759,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1873,12 +1774,7 @@
               "variants": [
                 {
                   "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
-                      ]
-                    }
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                   ],
                   "assets": {
                     "bin": {
@@ -1904,9 +1800,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
@@ -1922,12 +1815,7 @@
               "variants": [
                 {
                   "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "jessie" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
-                      ]
-                    }
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                   ],
                   "assets": {
                     "bin": {
@@ -1953,9 +1841,6 @@
                         { "type": "sw.os", "slug": "debian" , "version": "buster" },
                         { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "cosmic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "disco" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "eoan" },
                         { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                         { "type": "sw.os", "slug": "fedora" }
                       ]
