@@ -5,6 +5,15 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.26
+## (2021-09-06)
+
+* Add Python v3.9.7 v3.8.12 v3.7.12 and v3.6.15 [Trong Nghia Nguyen]
+* Add node v12.22.6 and v14.17.6 [Trong Nghia Nguyen]
+* Remove Ubuntu Disco, Eoan and Cosmic as they reached EOL [Trong Nghia Nguyen]
+* Remove Fedora 31 as it reached EOL [Trong Nghia Nguyen]
+* Remove Debian Jessie since it reached EOL [Trong Nghia Nguyen]
+
 # v1.13.25
 ## (2021-08-27)
 
