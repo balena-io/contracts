@@ -5,7 +5,7 @@
   "version": "1",
   "data": {
     "latest": "3.9.7",
-    "versionList": "`3.9.7 (latest)`, `3.8.12`, `2.7.18`, `3.7.12`, `3.6.15`, `3.5.10`",
+    "versionList": "`3.9.7 (latest)`, `3.8.12`, `3.7.12`, `3.6.15`",
     "introduction": "Python is an interpreted, interactive, object-oriented, open-source programming language. It incorporates modules, exceptions, dynamic typing, very high level dynamic data types, and classes. Python combines remarkable power with very clear syntax. It has interfaces to many system calls and libraries, as well as to various window systems, and is extensible in C or C++. It is also usable as an extension language for applications that need a programmable interface. Finally, Python is portable: it runs on many Unix variants, on the Mac, and on Windows 2000 and later.",
     "logo": "https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/python/logo.png"
 
@@ -63,7 +63,6 @@
                       "or": [
                         { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
@@ -71,8 +70,20 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "6e5296fdb2e7093dce9434580164a3d7bd67fc566f0e4da22989feb1359c396b",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-openssl1.1.tar.gz",
+                      "checksum": "f2111d9a740e323724a422a4270c2cccdc512d95d3351fc9c42d31c10e04e27a",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  }
+                },
+                {
+                  "requires": [
+                    { "type": "sw.os", "slug": "alpine" , "version": "3.11" }
+                  ],
+                  "assets": {
+                    "bin": {
+                      "checksum": "44402ecb3b59b483add2745c69eb6405803f1a2b7ab8b0bb720633c7ebda39ff",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
@@ -90,7 +101,6 @@
                       "or": [
                         { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
@@ -98,8 +108,20 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "eade0a4505ef116c1cdbf11eb3770cab333c7fd98ba73dbfdf6e957982c8e2ff",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-openssl1.1.tar.gz",
+                      "checksum": "d8ffdbc676321a93c9387c3c0e97d99d6026157e417bd0a2255eac96ef36c96c",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  }
+                },
+                {
+                  "requires": [
+                    { "type": "sw.os", "slug": "alpine" , "version": "3.11" }
+                  ],
+                  "assets": {
+                    "bin": {
+                      "checksum": "dea43a32042d5bd603bf3c21418d083da0b987d4705f5d9f55cc21bc7367d86c",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
@@ -117,7 +139,6 @@
                       "or": [
                         { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
@@ -125,8 +146,20 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "89b7bfaf8a57d4fc8b0a5d7b67a9c1c3235f4301b98e8d243763d78e52ca8dd2",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-i386-openssl1.1.tar.gz",
+                      "checksum": "5d3469c72f09ec0078254f1f95580b4b659eab5ed55cf580ff6cc582c3cd7f4b",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-i386-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  }
+                },
+                {
+                  "requires": [
+                    { "type": "sw.os", "slug": "alpine" , "version": "3.11" }
+                  ],
+                  "assets": {
+                    "bin": {
+                      "checksum": "1a069d6446158a89d63999cbf7a66466149482aa0385d92ea40385eb7fcd344d",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-i386-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
@@ -144,7 +177,6 @@
                       "or": [
                         { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
@@ -152,8 +184,20 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "69965021ad9b5a95c9a08e90a74a986a6645c7586ec55d6b3d81f45357571073",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-openssl1.1.tar.gz",
+                      "checksum": "86d883be64bd5ff629293093812d60d394efbf84ac080347563c8854db93274e",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  }
+                },
+                {
+                  "requires": [
+                    { "type": "sw.os", "slug": "alpine" , "version": "3.11" }
+                  ],
+                  "assets": {
+                    "bin": {
+                      "checksum": "e0f0c9ce7799eda3cfb0a61ec57b582ac71ed1a05d3d17c217a5672570a0e614",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
@@ -171,7 +215,6 @@
                       "or": [
                         { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
@@ -179,8 +222,20 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "b5adcf3fc2c5a2a0fcd32f5b9e96e0867d1f761740fc4921035eac27a97fbf6c",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf-openssl1.1.tar.gz",
+                      "checksum": "ac2bb1a87f649ab92d472e5fa6899205dc4a49d5ada39bb6a6a0702c1b8b1cfa",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  }
+                },
+                {
+                  "requires": [
+                    { "type": "sw.os", "slug": "alpine" , "version": "3.11" }
+                  ],
+                  "assets": {
+                    "bin": {
+                      "checksum": "6a626482040bd20e683d461c4dcadd6ce6932bd8c878299f141adc045496ddbf",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
@@ -191,78 +246,154 @@
         },
         {
           "data": { "libc": "glibc" },
-          "requires": [
-            {
-              "or": [
-                { "type": "sw.os", "slug": "debian" , "version": "stretch" },
-                { "type": "sw.os", "slug": "debian" , "version": "sid" },
-                { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
-                { "type": "sw.os", "slug": "fedora" }
-              ]
-            }
-          ],
           "variants": [
             {
-              "assets": {
-                "bin": {
-                  "checksum": "d0c36a0b076c476d5223c8464c05232287397a5b3a1d102f59430acb5e80463c",
-                  "name": "Python-$PYTHON_VERSION.linux-armv6hf-openssl1.1.tar.gz",
-                  "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                }
-              },
               "requires": [
-                { "type": "arch.sw", "slug": "rpi" }
+                {
+                  "or": [
+                    { "type": "sw.os", "slug": "debian" , "version": "sid" },
+                    { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
+                    { "type": "sw.os", "slug": "debian", "version": "bookworm" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
+                    { "type": "sw.os", "slug": "fedora" }
+                  ]
+                }
+              ],
+              "variants": [
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "e1cf9edb7935a5f357ab0c071ec9b579be79f352a497675d918f2cd1c2b35f79",
+                      "name": "Python-$PYTHON_VERSION.linux-armv6hf-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "rpi" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "74e8cf51dec30e45fbfdc9a7dc0f85091e310840bee8f88584ab8dd3c7253700",
+                      "name": "Python-$PYTHON_VERSION.linux-armv7hf-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "armv7hf" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "1d03ac5771d5b304ef665077446dc14922c3fb02b46d28a954963e52b46a8dea",
+                      "name": "Python-$PYTHON_VERSION.linux-amd64-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "amd64" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "8dbeafe80bd47a8f31d5d23cd22af78e1d7c4a9716497e8d4c6fae3de44bc209",
+                      "name": "Python-$PYTHON_VERSION.linux-aarch64-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "aarch64" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "e0a9073ee7affd207e7ddec691d5e2d9edd02d8d6c460eebcc55fe21856b5208",
+                      "name": "Python-$PYTHON_VERSION.linux-i386-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "i386" }
+                  ]
+                }
               ]
             },
             {
-              "assets": {
-                "bin": {
-                  "checksum": "048101d2eb48a2157a7f85f1a33c7184b474bd7afe8b7463e6218645c8bf1957",
-                  "name": "Python-$PYTHON_VERSION.linux-armv7hf-openssl1.1.tar.gz",
-                  "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                }
-              },
               "requires": [
-                { "type": "arch.sw", "slug": "armv7hf" }
-              ]
-            },
-            {
-              "assets": {
-                "bin": {
-                  "checksum": "deb68ce61ce76b96f2426c92594cd7398720836849dd4e23ba09f2598855d476",
-                  "name": "Python-$PYTHON_VERSION.linux-amd64-openssl1.1.tar.gz",
-                  "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                {
+                  "or": [
+                    { "type": "sw.os", "slug": "debian" , "version": "stretch" },
+                    { "type": "sw.os", "slug": "debian" , "version": "buster" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
+                  ]
                 }
-              },
-              "requires": [
-                { "type": "arch.sw", "slug": "amd64" }
-              ]
-            },
-            {
-              "assets": {
-                "bin": {
-                  "checksum": "e3758d84c2c89ddfc596a4843c7787931ead5b22e804b92b12d90493abca5de5",
-                  "name": "Python-$PYTHON_VERSION.linux-aarch64-openssl1.1.tar.gz",
-                  "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+              ],
+              "variants": [
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "ca090337580a08b11d1b5a381a32799f17157085b26495aef2ac6988ff1dd3e6",
+                      "name": "Python-$PYTHON_VERSION.linux-armv6hf-libffi3.2.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "rpi" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "a09b172585aeb791612087efe4f9c7eea32899377e23c646e7ee4bfb3ad60878",
+                      "name": "Python-$PYTHON_VERSION.linux-armv7hf-libffi3.2.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "armv7hf" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "6857314b59a928361ec57519bd68b9c7eabf0f2a39f48d7557d699b391122c76",
+                      "name": "Python-$PYTHON_VERSION.linux-amd64-libffi3.2.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "amd64" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "2bf763718cc7dbd512b5d5cb1dd61f7287b469157474a45a0c7471c707a911d5",
+                      "name": "Python-$PYTHON_VERSION.linux-aarch64-libffi3.2.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "aarch64" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "5e4627b92f5042dbc3b5bea86c6bc2d59239e8cf62d9e04961a0ab6fe18dca75",
+                      "name": "Python-$PYTHON_VERSION.linux-i386-libffi3.2.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "i386" }
+                  ]
                 }
-              },
-              "requires": [
-                { "type": "arch.sw", "slug": "aarch64" }
-              ]
-            },
-            {
-              "assets": {
-                "bin": {
-                  "checksum": "d4ac61964de09b77cf6c1674533498a546427969d6c286e09c43c389fc31425c",
-                  "name": "Python-$PYTHON_VERSION.linux-i386-openssl1.1.tar.gz",
-                  "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                }
-              },
-              "requires": [
-                { "type": "arch.sw", "slug": "i386" }
               ]
             }
           ]
@@ -295,7 +426,6 @@
                       "or": [
                         { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
@@ -303,8 +433,20 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "9344760bd04065a2109a8e878934909499bd8087379cfb60dee6a723ff9dfa93",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-openssl1.1.tar.gz",
+                      "checksum": "8cc5ebba83817dfa9d5ded3cd4a1dd7c9b625f2989e215408aa15d56dceee1c1",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  }
+                },
+                {
+                  "requires": [
+                    { "type": "sw.os", "slug": "alpine" , "version": "3.11" }
+                  ],
+                  "assets": {
+                    "bin": {
+                      "checksum": "c0630b6250fd59604dc4a045788ab1dbdbd090da021b136b21677be01e08c0d1",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
@@ -322,7 +464,6 @@
                       "or": [
                         { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
@@ -330,8 +471,20 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "17a69952a1da1b13573c90ee5cbeed7940f086b769cd83d6c2c2ac4ce7e45fad",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-openssl1.1.tar.gz",
+                      "checksum": "eecfc0f778cc11b4ee71f9825aba78107693f7e645b13bbf7bfa86585aa76ca3",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  }
+                },
+                {
+                  "requires": [
+                    { "type": "sw.os", "slug": "alpine" , "version": "3.11" }
+                  ],
+                  "assets": {
+                    "bin": {
+                      "checksum": "228b5f8b15feb6c66778e836c3a691f594c880d044e1cf3874b4ae79ff0519c1",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
@@ -349,7 +502,6 @@
                       "or": [
                         { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
@@ -357,8 +509,20 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "c3449ccaf8a091bb2d530d70f7bc92d8c458520fbcae2e2f5d16771c55a789fb",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-i386-openssl1.1.tar.gz",
+                      "checksum": "89b16a4f5509c2d7460d2395a8de631dfd681951b2ea7cfdc70e59fdc122a1c3",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-i386-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  }
+                },
+                {
+                  "requires": [
+                    { "type": "sw.os", "slug": "alpine" , "version": "3.11" }
+                  ],
+                  "assets": {
+                    "bin": {
+                      "checksum": "7ee9639952b35321fb54b4bef81b94008ca502432cc0eee916a426952dfb2dbf",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-i386-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
@@ -376,7 +540,6 @@
                       "or": [
                         { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
@@ -384,8 +547,20 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "da591e47e53955a628305c2b229b62b837e2b60b2f0d16d23a59e663a1ece18c",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-openssl1.1.tar.gz",
+                      "checksum": "bb67eb314216623a3b385c972cfc63e3a1f1cd7c877775e9e0b87671e668ee5e",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  }
+                },
+                {
+                  "requires": [
+                    { "type": "sw.os", "slug": "alpine" , "version": "3.11" }
+                  ],
+                  "assets": {
+                    "bin": {
+                      "checksum": "a41d8177d4a949604e9a1755231546c7e45af6e6990c1dbbe3fd37ae74dd8c9a",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
@@ -403,7 +578,6 @@
                       "or": [
                         { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
@@ -411,8 +585,20 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "1fa80c3ed0949e34ee0c9ee7cc0b523fd4875783315c58d5f35ea23c1c709ed5",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf-openssl1.1.tar.gz",
+                      "checksum": "a9c035ae60c69723a518ec604de8e0cc39dde8f6f838946393e5999c9cdf3cba",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  }
+                },
+                {
+                  "requires": [
+                    { "type": "sw.os", "slug": "alpine" , "version": "3.11" }
+                  ],
+                  "assets": {
+                    "bin": {
+                      "checksum": "ee537479fcd8e99d7b3ea09a11f10774b413571eae63faa0ae63e81f87fdf5fd",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
@@ -423,78 +609,154 @@
         },
         {
           "data": { "libc": "glibc" },
-          "requires": [
-            {
-              "or": [
-                { "type": "sw.os", "slug": "debian" , "version": "stretch" },
-                { "type": "sw.os", "slug": "debian" , "version": "sid" },
-                { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
-                { "type": "sw.os", "slug": "fedora" }
-              ]
-            }
-          ],
           "variants": [
             {
-              "assets": {
-                "bin": {
-                  "checksum": "5df88b44341b77db07c2dffbeb2a1e535cca728880cf261a4b8f0ed11f416a5f",
-                  "name": "Python-$PYTHON_VERSION.linux-armv6hf-openssl1.1.tar.gz",
-                  "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                }
-              },
               "requires": [
-                { "type": "arch.sw", "slug": "rpi" }
+                {
+                  "or": [
+                    { "type": "sw.os", "slug": "debian" , "version": "sid" },
+                    { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
+                    { "type": "sw.os", "slug": "debian", "version": "bookworm" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
+                    { "type": "sw.os", "slug": "fedora" }
+                  ]
+                }
+              ],
+              "variants": [
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "e1e8636601054e31e3b8a603c955b1b67307c3f18268d0568f0f71fa2a1bc217",
+                      "name": "Python-$PYTHON_VERSION.linux-armv6hf-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "rpi" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "6a884579b49a710e50be46d35195499fb50fe8777c18069c9c5dc1efb6b148c4",
+                      "name": "Python-$PYTHON_VERSION.linux-armv7hf-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "armv7hf" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "7b3d7645a4cc38baa36f6d1ffbe8f84bbfdeef7ab22436073d61a31aa812424f",
+                      "name": "Python-$PYTHON_VERSION.linux-amd64-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "amd64" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "b04ecc256b15830a76bfcf1a5a4f8b510a10bc094e530df5267cd9e30e9aa955",
+                      "name": "Python-$PYTHON_VERSION.linux-aarch64-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "aarch64" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "be856ebf55d7d35b00890c0c3979a367c06d1589861e9aa2d045f098413878e6",
+                      "name": "Python-$PYTHON_VERSION.linux-i386-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "i386" }
+                  ]
+                }
               ]
             },
             {
-              "assets": {
-                "bin": {
-                  "checksum": "462e82c7e4df7269e7f55d47e3b518b54c3f842ff07dcd5959c5961565703619",
-                  "name": "Python-$PYTHON_VERSION.linux-armv7hf-openssl1.1.tar.gz",
-                  "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                }
-              },
               "requires": [
-                { "type": "arch.sw", "slug": "armv7hf" }
-              ]
-            },
-            {
-              "assets": {
-                "bin": {
-                  "checksum": "1c9fdfd11345ce7f28235d97fa7696a5a22bc8898a238cc0eb4bc8e8ff24d3d0",
-                  "name": "Python-$PYTHON_VERSION.linux-amd64-openssl1.1.tar.gz",
-                  "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                {
+                  "or": [
+                    { "type": "sw.os", "slug": "debian" , "version": "stretch" },
+                    { "type": "sw.os", "slug": "debian" , "version": "buster" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
+                  ]
                 }
-              },
-              "requires": [
-                { "type": "arch.sw", "slug": "amd64" }
-              ]
-            },
-            {
-              "assets": {
-                "bin": {
-                  "checksum": "27ca59beed9aa540feec7fe2dae66f37010d7e73feb9bf246321d0f9f10d5a27",
-                  "name": "Python-$PYTHON_VERSION.linux-aarch64-openssl1.1.tar.gz",
-                  "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+              ],
+              "variants": [
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "bfc5766f3363469b59b960f4c3c317d98dc1146dfed791ec01b7b476ce05f98a",
+                      "name": "Python-$PYTHON_VERSION.linux-armv6hf-libffi3.2.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "rpi" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "1caf0609337bf86be785a9a5d17893b06499db0acd992d9cbf3ce61e7bf92eb2",
+                      "name": "Python-$PYTHON_VERSION.linux-armv7hf-libffi3.2.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "armv7hf" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "7b3d7645a4cc38baa36f6d1ffbe8f84bbfdeef7ab22436073d61a31aa812424f",
+                      "name": "Python-$PYTHON_VERSION.linux-amd64-libffi3.2.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "amd64" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "7431f1179737fed6518ccf8187ad738c2f2e16feb75b7528e4e0bb7934d192cf",
+                      "name": "Python-$PYTHON_VERSION.linux-aarch64-libffi3.2.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "aarch64" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "e2d2c4dd5177b5281d473f708e0d7f21f6888a6569420bcd0b49bd7b0344a873",
+                      "name": "Python-$PYTHON_VERSION.linux-i386-libffi3.2.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "i386" }
+                  ]
                 }
-              },
-              "requires": [
-                { "type": "arch.sw", "slug": "aarch64" }
-              ]
-            },
-            {
-              "assets": {
-                "bin": {
-                  "checksum": "578495b3501d2166fa111e99f43c9f1bb78cb7383efb2c7069c2fb1852a88d54",
-                  "name": "Python-$PYTHON_VERSION.linux-i386-openssl1.1.tar.gz",
-                  "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                }
-              },
-              "requires": [
-                { "type": "arch.sw", "slug": "i386" }
               ]
             }
           ]
@@ -527,7 +789,6 @@
                       "or": [
                         { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
@@ -535,8 +796,20 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "c5d3d756cd73a20040d83de6add968ba10417cd516e11ac5c2f05542ad01b5e2",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-openssl1.1.tar.gz",
+                      "checksum": "ac3bef47ee282b4eece72613377d19c3b1c210dec1e8c77196d402afcc1c253c",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  }
+                },
+                {
+                  "requires": [
+                    { "type": "sw.os", "slug": "alpine" , "version": "3.11" }
+                  ],
+                  "assets": {
+                    "bin": {
+                      "checksum": "70616724fbc25bdfb968674b43258413209a7dd0121f19ab50f7c20a72bce746",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
@@ -554,7 +827,6 @@
                       "or": [
                         { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
@@ -562,8 +834,20 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "2b4afef57ed17d98e4ca5a4641b276c43faf0d6eea8f2aab33ff77e6d8c246b1",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-openssl1.1.tar.gz",
+                      "checksum": "6d3a4e97bb7e681b7322735d921641e81d3ebb7fd8221dc75b745b30ae2ed661",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  }
+                },
+                {
+                  "requires": [
+                    { "type": "sw.os", "slug": "alpine" , "version": "3.11" }
+                  ],
+                  "assets": {
+                    "bin": {
+                      "checksum": "f25115b08f03ca88b1229aa9d6bead6c73e9cf24a728650f15f786d553716406",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
@@ -581,7 +865,6 @@
                       "or": [
                         { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
@@ -589,8 +872,20 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "36f83c62444b6153f6e2bf443fc11eb5ef98755c7623f072d294abf9eb8f80d9",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-i386-openssl1.1.tar.gz",
+                      "checksum": "9979f4fdc38679c96a29ac2fd51ee4f3e5d0af8695eab2d4d05bae07db3649b3",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-i386-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  }
+                },
+                {
+                  "requires": [
+                    { "type": "sw.os", "slug": "alpine" , "version": "3.11" }
+                  ],
+                  "assets": {
+                    "bin": {
+                      "checksum": "1feba2f362ff0b7274d671d67fab87d94b1db5fdab3a4185c1fce9c56b0e0442",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-i386-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
@@ -608,7 +903,6 @@
                       "or": [
                         { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
@@ -616,8 +910,20 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "81ad89312c5aeebbe2fd6f169966c648ed71da6880068884df8754c819d1d202",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-openssl1.1.tar.gz",
+                      "checksum": "e0a0be261388c8e2d5ed32606a3da892825eb648fb42cee53161ace7e562ca9a",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  }
+                },
+                {
+                  "requires": [
+                    { "type": "sw.os", "slug": "alpine" , "version": "3.11" }
+                  ],
+                  "assets": {
+                    "bin": {
+                      "checksum": "fbf8952a45c85cac626f295df28cb657d4f91c499e47fec105f8581171aecd41",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
@@ -635,7 +941,6 @@
                       "or": [
                         { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
@@ -643,8 +948,20 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "fe1f54cb7380c5433ca0c45beaebc141d8a6b825752173373adda6b3a9986564",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf-openssl1.1.tar.gz",
+                      "checksum": "9223beb319fbcf6b450d05d69f9aefa46286af533eaf6841e45207a058962372",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  }
+                },
+                {
+                  "requires": [
+                    { "type": "sw.os", "slug": "alpine" , "version": "3.11" }
+                  ],
+                  "assets": {
+                    "bin": {
+                      "checksum": "5b7a05fd7aa4b43d4f34e0f5ea09608cbc9ec8ea96e7aff56991380c650d83b9",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
@@ -655,78 +972,154 @@
         },
         {
           "data": { "libc": "glibc" },
-          "requires": [
-            {
-              "or": [
-                { "type": "sw.os", "slug": "debian" , "version": "stretch" },
-                { "type": "sw.os", "slug": "debian" , "version": "sid" },
-                { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
-                { "type": "sw.os", "slug": "fedora" }
-              ]
-            }
-          ],
           "variants": [
             {
-              "assets": {
-                "bin": {
-                  "checksum": "3f92c8a3d47691750d6f2579f51e08aa09a4493dec4e252379b8c55329a72aa4",
-                  "name": "Python-$PYTHON_VERSION.linux-armv6hf-openssl1.1.tar.gz",
-                  "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                }
-              },
               "requires": [
-                { "type": "arch.sw", "slug": "rpi" }
+                {
+                  "or": [
+                    { "type": "sw.os", "slug": "debian" , "version": "sid" },
+                    { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
+                    { "type": "sw.os", "slug": "debian", "version": "bookworm" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
+                    { "type": "sw.os", "slug": "fedora" }
+                  ]
+                }
+              ],
+              "variants": [
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "516fb38f531a7fa7a1887eb683947d48088f7944c0a0a3cc83c5fcff85f73005",
+                      "name": "Python-$PYTHON_VERSION.linux-armv6hf-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "rpi" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "d8d0dd3457e8491022d8e736860f4dd747a0a8bb93a3b1319fe9d2610b0006b0",
+                      "name": "Python-$PYTHON_VERSION.linux-armv7hf-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "armv7hf" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "91f68c22bc428aede49c65359e79a49bef83d1498422d2bc170345184f16b382",
+                      "name": "Python-$PYTHON_VERSION.linux-amd64-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "amd64" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "028a72f1f4fa6ad7a89904f6d6ed036c53ee34a0d3e2bca723331403d20ae5c2",
+                      "name": "Python-$PYTHON_VERSION.linux-aarch64-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "aarch64" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "18a18e9ac6468cbccf9d1d8ab34c94d7e20c501b7850e3a19db49a374f04891b",
+                      "name": "Python-$PYTHON_VERSION.linux-i386-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "i386" }
+                  ]
+                }
               ]
             },
             {
-              "assets": {
-                "bin": {
-                  "checksum": "48691326350a2a2a56651c3976f238f9852306c7d524687917e989a01c3cbb7b",
-                  "name": "Python-$PYTHON_VERSION.linux-armv7hf-openssl1.1.tar.gz",
-                  "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                }
-              },
               "requires": [
-                { "type": "arch.sw", "slug": "armv7hf" }
-              ]
-            },
-            {
-              "assets": {
-                "bin": {
-                  "checksum": "87cc1f63eb8d4ee6f5850e770f236ddb45219c0d7fdb8cdc3d1a5877eb50233d",
-                  "name": "Python-$PYTHON_VERSION.linux-amd64-openssl1.1.tar.gz",
-                  "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                {
+                  "or": [
+                    { "type": "sw.os", "slug": "debian" , "version": "stretch" },
+                    { "type": "sw.os", "slug": "debian" , "version": "buster" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
+                  ]
                 }
-              },
-              "requires": [
-                { "type": "arch.sw", "slug": "amd64" }
-              ]
-            },
-            {
-              "assets": {
-                "bin": {
-                  "checksum": "3db5bc48f5e1bee703c8e4dfaca790dfe2c8e47125465a5870917bd60565957d",
-                  "name": "Python-$PYTHON_VERSION.linux-aarch64-openssl1.1.tar.gz",
-                  "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+              ],
+              "variants": [
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "20d8f0b067594d8e1f25232e829f080a68f06b0cd0703fc175d6ab30b7751f77",
+                      "name": "Python-$PYTHON_VERSION.linux-armv6hf-libffi3.2.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "rpi" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "cca21481e4824340e576630e2f19e52532e04ff42c9bc8b88694a7986a50c77c",
+                      "name": "Python-$PYTHON_VERSION.linux-armv7hf-libffi3.2.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "armv7hf" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "1af4e7a463f38ffab75f7992ba6dabd2f234538c1b436c6945ad635b0a9e9c3e",
+                      "name": "Python-$PYTHON_VERSION.linux-amd64-libffi3.2.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "amd64" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "549abdcfda758bd014f18806c3b47d03abd20b2a526f42b340e62ce96f62ca3e",
+                      "name": "Python-$PYTHON_VERSION.linux-aarch64-libffi3.2.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "aarch64" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "af5c7f1989dbb66793dcc28a0858365047c26762f668fa9674eea322a0daff26",
+                      "name": "Python-$PYTHON_VERSION.linux-i386-libffi3.2.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "i386" }
+                  ]
                 }
-              },
-              "requires": [
-                { "type": "arch.sw", "slug": "aarch64" }
-              ]
-            },
-            {
-              "assets": {
-                "bin": {
-                  "checksum": "1fcfbad1bc84c471989c604006fa2463a8411fe203db34b6c4866f6b4a749ed7",
-                  "name": "Python-$PYTHON_VERSION.linux-i386-openssl1.1.tar.gz",
-                  "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                }
-              },
-              "requires": [
-                { "type": "arch.sw", "slug": "i386" }
               ]
             }
           ]
@@ -759,7 +1152,6 @@
                       "or": [
                         { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
@@ -767,8 +1159,20 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "32435b7384273c9d22a0998df3b92ba8f7ef6afe40b104b24a7c96ca597b8fd8",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-openssl1.1.tar.gz",
+                      "checksum": "b468f9d5f0c40efe3a6d2651ef9b134eb417b4d01a7ee9bfecb1b3c6ddfdeb1c",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  }
+                },
+                {
+                  "requires": [
+                    { "type": "sw.os", "slug": "alpine" , "version": "3.11" }
+                  ],
+                  "assets": {
+                    "bin": {
+                      "checksum": "b1aaae598e35f839f57624ee6429f9b5c3f00919fe078500b2cb07a921d31512",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
@@ -786,7 +1190,6 @@
                       "or": [
                         { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
@@ -794,8 +1197,20 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "85d9be7827ab22dca34e55eac06849a8c21160c67e6710340a4d94e0f52094bb",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-openssl1.1.tar.gz",
+                      "checksum": "b77741a57a57f5737b58926a08aa47034f7a3a78ce1183124a315f6f5fed41f3",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  }
+                },
+                {
+                  "requires": [
+                    { "type": "sw.os", "slug": "alpine" , "version": "3.11" }
+                  ],
+                  "assets": {
+                    "bin": {
+                      "checksum": "2184041e29ca135c3d90c6f08274874fa6ebd18d2a68a1aca78bfe6ecd9a8763",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
@@ -813,7 +1228,6 @@
                       "or": [
                         { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
@@ -821,8 +1235,20 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "27ccee4e4b4bad403987c31f6d0cdc213dfaf97a95c86389dff79a8260738983",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-i386-openssl1.1.tar.gz",
+                      "checksum": "63ec4664b96dceb1cf116439455109feec4d33bded22ce5e7cd2d67a84e95642",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-i386-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  }
+                },
+                {
+                  "requires": [
+                    { "type": "sw.os", "slug": "alpine" , "version": "3.11" }
+                  ],
+                  "assets": {
+                    "bin": {
+                      "checksum": "f4ee0a913d3c3a38cb1687c88ea8104bbf23370d66368ab975b5efb8589643d6",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-i386-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
@@ -840,7 +1266,6 @@
                       "or": [
                         { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
@@ -848,8 +1273,20 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "45eef885851be858b9cd49fe89e85d8e317521b8aad586e142a4c2148c765ff4",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-openssl1.1.tar.gz",
+                      "checksum": "5b27dad8387ca41d1bafb93fc6f90ad0c4bca7f252cee4804713a9144ac6aebb",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  }
+                },
+                {
+                  "requires": [
+                    { "type": "sw.os", "slug": "alpine" , "version": "3.11" }
+                  ],
+                  "assets": {
+                    "bin": {
+                      "checksum": "d3784baf2ca67019fba7dd30c26624b077e878e92647fffb691fec3cd3153156",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
@@ -867,7 +1304,6 @@
                       "or": [
                         { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
@@ -875,723 +1311,20 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "bdf7cc9180c546d5e1e5528ec8e071d5aa7e2a74e4a4fb2e1bce596db34134b1",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "data": { "libc": "glibc" },
-          "requires": [
-            {
-              "or": [
-                { "type": "sw.os", "slug": "debian" },
-                { "type": "sw.os", "slug": "ubuntu" },
-                { "type": "sw.os", "slug": "fedora" }
-              ]
-            }
-          ],
-          "variants": [
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "rpi" }
-              ],
-              "variants": [
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "c02f6182217b1821ced5f6a90d2f910fc8be1aecb7530e921fd8a961f57b994d",
-                      "name": "Python-$PYTHON_VERSION.linux-armv6hf-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "stretch" },
-                        { "type": "sw.os", "slug": "debian" , "version": "sid" },
-                        { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
-                        { "type": "sw.os", "slug": "fedora" }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "armv7hf" }
-              ],
-              "variants": [
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "d895cefb24c24aa3d3c36b3d580e93953e46da2ab2ba5f5c848543a4f4e77e1a",
-                      "name": "Python-$PYTHON_VERSION.linux-armv7hf-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "stretch" },
-                        { "type": "sw.os", "slug": "debian" , "version": "sid" },
-                        { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
-                        { "type": "sw.os", "slug": "fedora" }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "amd64" }
-              ],
-              "variants": [
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "9004c2e509bc434db995370b43d6077e332c1a9cb263b3b792c8244d247f36cd",
-                      "name": "Python-$PYTHON_VERSION.linux-amd64-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "stretch" },
-                        { "type": "sw.os", "slug": "debian" , "version": "sid" },
-                        { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
-                        { "type": "sw.os", "slug": "fedora" }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "aarch64" }
-              ],
-              "variants": [
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "b59fdca5c931564f457908db18157a762345aa6b94ece3a046ee2c4e2ce496a3",
-                      "name": "Python-$PYTHON_VERSION.linux-aarch64-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "stretch" },
-                        { "type": "sw.os", "slug": "debian" , "version": "sid" },
-                        { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
-                        { "type": "sw.os", "slug": "fedora" }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "i386" }
-              ],
-              "variants": [
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "5b02ff0355dbf278100b316e636e275faf0253c05dd62a13631bad0d19d47605",
-                      "name": "Python-$PYTHON_VERSION.linux-i386-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "stretch" },
-                        { "type": "sw.os", "slug": "debian" , "version": "sid" },
-                        { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
-                        { "type": "sw.os", "slug": "fedora" }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "version": "3.5.10",
-      "assets" : {
-        "pip": {
-          "command": "pip3"
-        },
-        "command": "python3"
-      },
-      "variants": [
-        {
-          "data": { "libc": "musl-libc" },
-          "requires": [
-            { "type": "sw.os", "slug": "alpine" }
-          ],
-          "variants": [
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "rpi" }
-              ],
-              "variants": [
-                {
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "edge" }
-                      ]
-                    }
-                  ],
-                  "assets": {
-                    "bin": {
-                      "checksum": "ccc794804cad77e38302423db37254cf1bb2efbfe67e391756819e142243282f",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "amd64" }
-              ],
-              "variants": [
-                {
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "edge" }
-                      ]
-                    }
-                  ],
-                  "assets": {
-                    "bin": {
-                      "checksum": "fb9d913b4a3fcb2a695329c89c999afd3d67e6bea3467579e6bfca5babc795dc",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "i386" }
-              ],
-              "variants": [
-                {
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "edge" }
-                      ]
-                    }
-                  ],
-                  "assets": {
-                    "bin": {
-                      "checksum": "be866e19ad0d0c7241246df6c65b4b4de2d546f26092055b5d33f913507b89c2",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-i386-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "aarch64" }
-              ],
-              "variants": [
-                {
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "edge" }
-                      ]
-                    }
-                  ],
-                  "assets": {
-                    "bin": {
-                      "checksum": "c1bb5516019f31282e1171cc735a80a27f2bfdd569c25798bc2a414c8ca4dbae",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "armv7hf" }
-              ],
-              "variants": [
-                {
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "edge" }
-                      ]
-                    }
-                  ],
-                  "assets": {
-                    "bin": {
-                      "checksum": "85b19d06c1c69acbc9e01d19a13dc157b7c16c1bba5a600d2728456a8741d29e",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "data": { "libc": "glibc" },
-          "requires": [
-            {
-              "or": [
-                { "type": "sw.os", "slug": "debian" },
-                { "type": "sw.os", "slug": "ubuntu" },
-                { "type": "sw.os", "slug": "fedora" }
-              ]
-            }
-          ],
-          "variants": [
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "rpi" }
-              ],
-              "variants": [
-                {
-                  "requires": [
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
-                  ],
-                  "assets": {
-                    "bin": {
-                      "checksum": "b61a5b8fd6fe86fac1f75f2108c0a39154cce551de2daa3262adb67475d0c372",
-                      "name": "Python-$PYTHON_VERSION.linux-armv6hf-openssl1.0.tar.gz",
+                      "checksum": "bdf4d64875dccb53476489e5ea45085de53a5838c2666127a3668ecdfd8d1739",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf-libffi3.3.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
                 },
                 {
-                  "assets": {
-                    "bin": {
-                      "checksum": "bd5471a1fbd006c2394f3ba2124fd62751a9321841e9d23ae1a8a04382a23d59",
-                      "name": "Python-$PYTHON_VERSION.linux-armv6hf-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
                   "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "stretch" },
-                        { "type": "sw.os", "slug": "debian" , "version": "sid" },
-                        { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
-                        { "type": "sw.os", "slug": "fedora" }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "armv7hf" }
-              ],
-              "variants": [
-                {
-                  "requires": [
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
+                    { "type": "sw.os", "slug": "alpine" , "version": "3.11" }
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "351ffaa6dc7b44955f886ed42f9d228a268fe8b590f0e745c5434ce0620201dc",
-                      "name": "Python-$PYTHON_VERSION.linux-armv7hf-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "4abc87b995e08c143de14f26d8ab6ffd9017aad400bf91bc36a802efda7fe27a",
-                      "name": "Python-$PYTHON_VERSION.linux-armv7hf-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "stretch" },
-                        { "type": "sw.os", "slug": "debian" , "version": "sid" },
-                        { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
-                        { "type": "sw.os", "slug": "fedora" }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "amd64" }
-              ],
-              "variants": [
-                {
-                  "requires": [
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
-                  ],
-                  "assets": {
-                    "bin": {
-                      "checksum": "2a5beb0d4ffa2d8f5f4285928241fa5439bf2cd9e81bd84f7bdd34da3b50a86e",
-                      "name": "Python-$PYTHON_VERSION.linux-amd64-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "dd9e789e524ef17065c0e0220cc9b9284eaa6e7650fdc9912267d2ecd9831f0b",
-                      "name": "Python-$PYTHON_VERSION.linux-amd64-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "stretch" },
-                        { "type": "sw.os", "slug": "debian" , "version": "sid" },
-                        { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
-                        { "type": "sw.os", "slug": "fedora" }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "aarch64" }
-              ],
-              "variants": [
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "423a72fecef7a888c7121199426c96cda6b0c9c6a6dde4bf156e75ab21713aa9",
-                      "name": "Python-$PYTHON_VERSION.linux-aarch64-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "stretch" },
-                        { "type": "sw.os", "slug": "debian" , "version": "sid" },
-                        { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
-                        { "type": "sw.os", "slug": "fedora" }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "i386" }
-              ],
-              "variants": [
-                {
-                  "requires": [
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
-                  ],
-                  "assets": {
-                    "bin": {
-                      "checksum": "caa200ad611a52f033d94ed7fbb6deefac87cbe76a5c7703a0b72aadf126334b",
-                      "name": "Python-$PYTHON_VERSION.linux-i386-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "ea3a63b0a729b7071b4600ed8ba9ed95d2d7abcec1f7e1029941d6eecc75a18c",
-                      "name": "Python-$PYTHON_VERSION.linux-i386-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "stretch" },
-                        { "type": "sw.os", "slug": "debian" , "version": "sid" },
-                        { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
-                        { "type": "sw.os", "slug": "fedora" }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "i386-nlp" }
-              ],
-              "variants": [
-                {
-                  "requires": [
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
-                  ],
-                  "assets": {
-                    "bin": {
-                      "checksum": "caa200ad611a52f033d94ed7fbb6deefac87cbe76a5c7703a0b72aadf126334b",
-                      "name": "Python-$PYTHON_VERSION.linux-i386-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "ea3a63b0a729b7071b4600ed8ba9ed95d2d7abcec1f7e1029941d6eecc75a18c",
-                      "name": "Python-$PYTHON_VERSION.linux-i386-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "stretch" },
-                        { "type": "sw.os", "slug": "debian" , "version": "sid" },
-                        { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
-                        { "type": "sw.os", "slug": "fedora" }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "version": "2.7.18",
-      "assets" : {
-        "pip": {
-          "command": "pip"
-        },
-        "command": "python"
-      },
-      "variants": [
-        {
-          "data": { "libc": "musl-libc" },
-          "requires": [
-            { "type": "sw.os", "slug": "alpine" }
-          ],
-          "variants": [
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "rpi" }
-              ],
-              "variants": [
-                {
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "edge" }
-                      ]
-                    }
-                  ],
-                  "assets": {
-                    "bin": {
-                      "checksum": "6a48a5122509c676eb3a732df31bd49ac666da470becd81bbceec1d5d4f5f07a",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "amd64" }
-              ],
-              "variants": [
-                {
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "edge" }
-                      ]
-                    }
-                  ],
-                  "assets": {
-                    "bin": {
-                      "checksum": "990fa0296db4e07480628a45d838cbc9f0af1264fcdec5d875e645b1db323b98",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "i386" }
-              ],
-              "variants": [
-                {
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "edge" }
-                      ]
-                    }
-                  ],
-                  "assets": {
-                    "bin": {
-                      "checksum": "901596536ee712ddc3f3021a1b6380bf29b8144b2f1dd3ab69f1cf28b881e9a3",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-i386-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "aarch64" }
-              ],
-              "variants": [
-                {
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "edge" }
-                      ]
-                    }
-                  ],
-                  "assets": {
-                    "bin": {
-                      "checksum": "99099d8226533b505cb3ec47c1b948d3d8b0ce575a23a925405983ebf3792bce",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "armv7hf" }
-              ],
-              "variants": [
-                {
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.13" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.11" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
-                        { "type": "sw.os", "slug": "alpine" , "version": "edge" }
-                      ]
-                    }
-                  ],
-                  "assets": {
-                    "bin": {
-                      "checksum": "7a64bd674d4402309227dd6df630d8c5d225fe8ff3410dcab84d599e589ab39c",
-                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf.tar.gz",
+                      "checksum": "e3f97b7407e6aed4d2f5c4a7dae68ff1dd26b533f6b90147ced332f044d7898e",
+                      "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   }
@@ -1605,246 +1338,149 @@
           "variants": [
             {
               "requires": [
-                { "type": "arch.sw", "slug": "rpi" }
+                {
+                  "or": [
+                    { "type": "sw.os", "slug": "debian" , "version": "sid" },
+                    { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
+                    { "type": "sw.os", "slug": "debian", "version": "bookworm" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
+                    { "type": "sw.os", "slug": "fedora" }
+                  ]
+                }
               ],
               "variants": [
                 {
-                  "requires": [
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
-                  ],
                   "assets": {
                     "bin": {
-                      "checksum": "e54c7b088ab02e669d91170c20993b938c3830bcc44c37c605bfc539dd807b4b",
-                      "name": "Python-$PYTHON_VERSION.linux-armv6hf-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "f618c1689e3781905cde06e868704a47ce4b458a97ace25aef7bc206403bcb40",
-                      "name": "Python-$PYTHON_VERSION.linux-armv6hf-openssl1.1.tar.gz",
+                      "checksum": "8cea4f1916dffa0de18dbde08aa4b95639e58eace0ff65cb3b4ef75a40c44b81",
+                      "name": "Python-$PYTHON_VERSION.linux-armv6hf-libffi3.3.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   },
                   "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "stretch" },
-                        { "type": "sw.os", "slug": "debian" , "version": "sid" },
-                        { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
-                        { "type": "sw.os", "slug": "fedora" }
-                      ]
+                    { "type": "arch.sw", "slug": "rpi" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "7ff252a91617ecbb724b79575986b5e5eb9398c6e500011d9359d7e729b36831",
+                      "name": "Python-$PYTHON_VERSION.linux-armv7hf-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "armv7hf" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "3b2b04a2227b729f8f19c622e226c1d6ed49546585c89d7d7888791a612e1d54",
+                      "name": "Python-$PYTHON_VERSION.linux-amd64-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "amd64" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "d1ad157374edde07a452ca96ff18e343abb23dc51de5ed0ec9a0091ae6005a70",
+                      "name": "Python-$PYTHON_VERSION.linux-aarch64-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "aarch64" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "96958c91375192dcc57bfbc5fb43c7b3d2728373433f84a597d55518bd6e1566",
+                      "name": "Python-$PYTHON_VERSION.linux-i386-libffi3.3.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
+                    }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "i386" }
                   ]
                 }
               ]
             },
             {
               "requires": [
-                { "type": "arch.sw", "slug": "armv7hf" }
-              ],
-              "variants": [
                 {
-                  "requires": [
+                  "or": [
+                    { "type": "sw.os", "slug": "debian" , "version": "stretch" },
+                    { "type": "sw.os", "slug": "debian" , "version": "buster" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
-                  ],
-                  "assets": {
-                    "bin": {
-                      "checksum": "5b43d005053a12b704815c3f69f59732b12f1a90d2480d631dde07824c438711",
-                      "name": "Python-$PYTHON_VERSION.linux-armv7hf-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "95b85360b746dae2f418859a4003589d6436381d4389d128c811de70082f4e6a",
-                      "name": "Python-$PYTHON_VERSION.linux-armv7hf-openssl1.1.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  },
-                  "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "stretch" },
-                        { "type": "sw.os", "slug": "debian" , "version": "sid" },
-                        { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
-                        { "type": "sw.os", "slug": "fedora" }
-                      ]
-                    }
                   ]
                 }
-              ]
-            },
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "amd64" }
               ],
               "variants": [
                 {
-                  "requires": [
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
-                  ],
                   "assets": {
                     "bin": {
-                      "checksum": "dc994cf4b971c3ea6533900de27d3a7038440867825ce54e042d5e825a196fe9",
-                      "name": "Python-$PYTHON_VERSION.linux-amd64-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  }
-                },
-                {
-                  "assets": {
-                    "bin": {
-                      "checksum": "aafb68a7aeaf62223d12bbe13cbf0bafc993f5296d620e8fdfcfcbefe26a18fc",
-                      "name": "Python-$PYTHON_VERSION.linux-amd64-openssl1.1.tar.gz",
+                      "checksum": "ca5e92a17eaeafc9f44ca835dd154fe440dba64efe0f78c64eec70c8a7d77327",
+                      "name": "Python-$PYTHON_VERSION.linux-armv6hf-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   },
                   "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "stretch" },
-                        { "type": "sw.os", "slug": "debian" , "version": "sid" },
-                        { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
-                        { "type": "sw.os", "slug": "fedora" }
-                      ]
-                    }
+                    { "type": "arch.sw", "slug": "rpi" }
                   ]
-                }
-              ]
-            },
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "aarch64" }
-              ],
-              "variants": [
-                {
-                  "requires": [
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
-                  ],
-                  "assets": {
-                    "bin": {
-                      "checksum": "f6f964fa1e0ff8f19014ff0c5220a45d8e02e6f830d5d55d9e1e19e6ff8e99b6",
-                      "name": "Python-$PYTHON_VERSION.linux-aarch64-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  }
                 },
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "5327a6a8e6f15ed4c0105cc72480da45d72add405ba00a12a035bc8f7be76ee6",
-                      "name": "Python-$PYTHON_VERSION.linux-aarch64-openssl1.1.tar.gz",
+                      "checksum": "7b6a864a34bdff7d065c48264de8247f8d7199ab6ebdcb6d8c82694a1380daf9",
+                      "name": "Python-$PYTHON_VERSION.linux-armv7hf-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   },
                   "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "stretch" },
-                        { "type": "sw.os", "slug": "debian" , "version": "sid" },
-                        { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
-                        { "type": "sw.os", "slug": "fedora" }
-                      ]
-                    }
+                    { "type": "arch.sw", "slug": "armv7hf" }
                   ]
-                }
-              ]
-            },
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "i386" }
-              ],
-              "variants": [
-                {
-                  "requires": [
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
-                  ],
-                  "assets": {
-                    "bin": {
-                      "checksum": "5486595b1e84298fd5d36102fc64e612287fd7a719c335e9bf9c560a920df717",
-                      "name": "Python-$PYTHON_VERSION.linux-i386-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  }
                 },
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "60792453d1213e6957e7a1558d7c6e4777289b9b154814b03057efe852d38228",
-                      "name": "Python-$PYTHON_VERSION.linux-i386-openssl1.1.tar.gz",
+                      "checksum": "363447510565fe95ceb59ab3b11473c5ddc27b8b646ba02f7892c37174be1696",
+                      "name": "Python-$PYTHON_VERSION.linux-amd64-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   },
                   "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "stretch" },
-                        { "type": "sw.os", "slug": "debian" , "version": "sid" },
-                        { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
-                        { "type": "sw.os", "slug": "fedora" }
-                      ]
-                    }
+                    { "type": "arch.sw", "slug": "amd64" }
                   ]
-                }
-              ]
-            },
-            {
-              "requires": [
-                { "type": "arch.sw", "slug": "i386-nlp" }
-              ],
-              "variants": [
-                {
-                  "requires": [
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
-                  ],
-                  "assets": {
-                    "bin": {
-                      "checksum": "5486595b1e84298fd5d36102fc64e612287fd7a719c335e9bf9c560a920df717",
-                      "name": "Python-$PYTHON_VERSION.linux-i386-openssl1.0.tar.gz",
-                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
-                    }
-                  }
                 },
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "60792453d1213e6957e7a1558d7c6e4777289b9b154814b03057efe852d38228",
-                      "name": "Python-$PYTHON_VERSION.linux-i386-openssl1.1.tar.gz",
+                      "checksum": "6030ab4b6b2279ac25451fb4bde00f6090bf0bf2a66c82002bf5bd3dc21a67b2",
+                      "name": "Python-$PYTHON_VERSION.linux-aarch64-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
                   },
                   "requires": [
-                    {
-                      "or": [
-                        { "type": "sw.os", "slug": "debian" , "version": "stretch" },
-                        { "type": "sw.os", "slug": "debian" , "version": "sid" },
-                        { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                        { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                        { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
-                        { "type": "sw.os", "slug": "fedora" }
-                      ]
+                    { "type": "arch.sw", "slug": "aarch64" }
+                  ]
+                },
+                {
+                  "assets": {
+                    "bin": {
+                      "checksum": "f7c1aaa8ee296f461b2487aa122a49695c0cae46e8f113845386e655d6d12d86",
+                      "name": "Python-$PYTHON_VERSION.linux-i386-libffi3.2.tar.gz",
+                      "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
+                  },
+                  "requires": [
+                    { "type": "arch.sw", "slug": "i386" }
                   ]
                 }
               ]

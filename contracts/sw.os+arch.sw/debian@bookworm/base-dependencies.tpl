@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   netbase \
   curl \
   udev \
+  procps \
   $( \
       if apt-cache show 'iproute' 2>/dev/null | grep -q '^Version:'; then \
         echo 'iproute'; \
@@ -44,3 +45,4 @@ rm -rf /var/cache/apt/archives/* /var/lib/apt/lists/*' > /usr/sbin/install_packa
   && chmod 0755 "/usr/sbin/install_packages"
 
 {{import partial=sw.stack-variant.slug combination="sw.os+arch.sw"}}
+

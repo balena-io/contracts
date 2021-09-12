@@ -5,7 +5,7 @@
   "data": {
     "libc": "glibc",
     "latest": "focal",
-    "versionList": "`focal (latest)`, `xenial`, `bionic`"
+    "versionList": "`focal (latest)`, `hirsute`, `impish`, `xenial`, `bionic`"
   },
   "name": "Ubuntu {{this.version}}",
   "requires": [
@@ -36,17 +36,14 @@
       "variants": [
         { "version": "focal" },
         { "version": "xenial" },
+        { "version": "hirsute" },
+        { "version": "impish" },
         { "version": "bionic" }
       ]
     },
     {
       "requires": [
-        {
-          "or": [
-            { "type": "arch.sw", "slug": "i386" },
-            { "type": "arch.sw", "slug": "i386-nlp" }
-          ]
-        }
+        { "type": "arch.sw", "slug": "i386" }
       ],
       "variants": [
         { "version": "xenial" },
@@ -60,6 +57,8 @@
       "variants": [
         { "version": "focal" },
         { "version": "xenial" },
+        { "version": "hirsute" },
+        { "version": "impish" },
         { "version": "bionic" }
       ]
     }
