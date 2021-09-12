@@ -5,6 +5,15 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.27
+## (2021-09-12)
+
+* Update checksum for Python contracts [Trong Nghia Nguyen]
+* Add node v16.9.1 [Trong Nghia Nguyen]
+* Add support for Fedora 35 [Trong Nghia Nguyen]
+* Add support for Ubuntu Hirsute and Impish [Trong Nghia Nguyen]
+* Add support for Debian Bookworm [Trong Nghia Nguyen]
+
 # v1.13.26
 ## (2021-09-06)
 
