@@ -1,0 +1,29 @@
+{
+  "slug": "isg-503",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Rocktech ISG 503",
+  "assets": {
+    "logo": {
+      "url": "./isg-503.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": false,
+    "led": false,
+    "connectivity": {
+      "bluetooth": false,
+      "wifi": false
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "installation": "sdcard"
+    },
+    "is_private": false
+  }
+}
