@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.30
+## (2021-10-05)
+
+* hw.device-type: Add Rocktech ISG 503 community device [Alexandru Costache]
+
 # v1.13.29
 ## (2021-09-29)
 
