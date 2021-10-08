@@ -1,0 +1,29 @@
+{
+  "slug": "cnx100-xavier-nx",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Auvidea CNX100 Xavier NX",
+  "assets": {
+    "logo": {
+      "url": "./cnx100-xavier-nx.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": false,
+      "wifi": false
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "installation": "dfu"
+    },
+    "is_private": false
+  }
+}
