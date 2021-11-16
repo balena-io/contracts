@@ -9,11 +9,11 @@ RUN curl -SL --output dotnet.tar.gz "{{sw.stack.assets.bin.url}}" \
     && rm dotnet.tar.gz \
     && ln -s /usr/share/dotnet/dotnet /usr/bin/dotnet
 
-# Configure web servers to bind to port 80 when present
 # Enable correct mode for dotnet watch (only mode supported in a container)
 ENV DOTNET_USE_POLLING_FILE_WATCHER=true \
     # Skip extraction of XML docs - generally not useful within an image/container - helps performance
-    NUGET_XMLDOC_MODE=skip
+    NUGET_XMLDOC_MODE=skip \
+    DOTNET_NOLOGO=true
 
 # Trigger first run experience by running arbitrary cmd to populate local package cache
 RUN dotnet help
