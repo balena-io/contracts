@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.39
+## (2021-11-25)
+
+* raspberrypi0-2w-64: Use same icon as the Pi Zero Wifi [Alexandru Costache]
+
 # v1.13.38
 ## (2021-11-22)
 
