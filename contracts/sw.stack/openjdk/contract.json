@@ -142,6 +142,49 @@
           }
         }
       ]
+    },
+    {
+      "version": "17-jdk",
+      "variants": [
+        {
+          "requires": [
+            { "type": "arch.sw", "slug": "amd64" },
+            {
+              "or": [
+                { "type": "sw.os", "slug": "debian", "version": "buster" },
+                { "type": "sw.os", "slug": "debian", "version": "bookworm" },
+                { "type": "sw.os", "slug": "debian", "version": "bullseye" }
+              ]
+            }
+          ],
+          "assets": {
+            "bin": {
+              "checksum": "1c0a73cbb863aad579b967316bf17673b8f98a9bb938602a140ba2e5c38f880a",
+              "name": "openjdk-17.0.1_linux-x64_bin.tar.gz",
+              "url": "https://download.java.net/java/GA/jdk17.0.1/2a2082e5a09d4267845be086888add4f/12/GPL/openjdk-17.0.1_linux-x64_bin.tar.gz"
+            }
+          }
+        },
+        {
+          "requires": [
+            { "type": "arch.sw", "slug": "aarch64" },
+            {
+              "or": [
+                { "type": "sw.os", "slug": "debian", "version": "buster" },
+                { "type": "sw.os", "slug": "debian", "version": "bookworm" },
+                { "type": "sw.os", "slug": "debian", "version": "bullseye" }
+              ]
+            }
+          ],
+          "assets": {
+            "bin": {
+              "checksum": "86653d48787e5a1c029df10da7808194fe8bd931ddd72ff3d42850bf1afb317e",
+              "name": "openjdk-17.0.1_linux-aarch64_bin.tar.gz",
+              "url": "https://download.java.net/java/GA/jdk17.0.1/2a2082e5a09d4267845be086888add4f/12/GPL/openjdk-17.0.1_linux-aarch64_bin.tar.gz"
+            }
+          }
+        }
+      ]
     }
   ]
 }
