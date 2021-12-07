@@ -5,6 +5,16 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.41
+## (2021-12-07)
+
+* Add OpenJDK jdk17.0.1 [Trong Nghia Nguyen]
+* Update partials for Ubuntu RPI base images [Trong Nghia Nguyen]
+* Add support for Fedora 36 [Trong Nghia Nguyen]
+* Add support for Alpine Linux 3.15 [Trong Nghia Nguyen]
+* Add Golang v1.17.2 and v1.16.11 [Trong Nghia Nguyen]
+* Add node v17.2.0 v16.13.1 and v14.18.2 [Trong Nghia Nguyen]
+
 # v1.13.40
 ## (2021-12-02)
 

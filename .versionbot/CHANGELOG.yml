@@ -1,4 +1,65 @@
 - commits:
+    - subject: Add OpenJDK jdk17.0.1
+      hash: 2041ccc59418148fa6ff6a868d7886a508f23f13
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+    - subject: Update partials for Ubuntu RPI base images
+      hash: 6afc74b5d54f6888b787c5ace17cdc0a260d67fa
+      body: >
+        Since ppa:ubuntu-raspi2/ppa repository is empty now, the
+        libraspberrypi-bin will be installed only in Ubuntu Focal or newer
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+    - subject: Add support for Fedora 36
+      hash: 2382fc945215560b89919ae30b356f7ce467682a
+      body: |
+        Drop Fedora 32
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+    - subject: Add support for Alpine Linux 3.15
+      hash: 703044e153ec74c1bf575b736adeb44241f70973
+      body: |
+        Drop Alpine Linux 3.11
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+    - subject: Add Golang v1.17.2 and v1.16.11
+      hash: 9d857e78ee7463c319bfa649998374d07b3e3ada
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+    - subject: Add node v17.2.0 v16.13.1 and v14.18.2
+      hash: e75bf9e5b8a5783b60145cf9f62d2aceaf4dca41
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 1.13.41
+  date: 2021-12-07T08:53:16.428Z
+- commits:
     - subject: Enable nested changelogs
       hash: 13f5bf6c0f0776a03964ab8e4a1f8aeafb660bb1
       body: |
