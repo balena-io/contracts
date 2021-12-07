@@ -4,8 +4,8 @@
   "name": "Node.js v{{this.version}}",
   "version": "1",
   "data": {
-    "latest": "17.0.1",
-    "versionList": "`17.0.1 (latest)`, `16.13.0`, `14.18.1`, `12.22.7`",
+    "latest": "17.2.0",
+    "versionList": "`17.2.0 (latest)`, `16.13.1`, `14.18.2`, `12.22.7`",
     "introduction": "Node.js is a software platform for scalable server-side and networking applications. Node.js applications are written in JavaScript and can be run within the Node.js runtime on Mac OS X, Windows, and Linux without changes.\n\nNode.js applications are designed to maximize throughput and efficiency, using non-blocking I/O and asynchronous events. Node.js applications run single-threaded, although Node.js uses multiple threads for file and network events. Node.js is commonly used for real-time applications due to its asynchronous nature.\n\nNode.js internally uses the Google V8 JavaScript engine to execute code; a large percentage of the basic modules are written in JavaScript. Node.js contains a built-in, asynchronous I/O library for file, socket, and HTTP communication. The HTTP and socket support allows Node.js to act as a web server without additional software such as Apache.",
     "logo": "https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/node/logo.png"
   },
@@ -31,7 +31,7 @@
   ],
   "variants": [
     {
-      "version": "17.0.1",
+      "version": "17.2.0",
       "variants": [
         {
           "data": { "libc": "musl-libc" },
@@ -42,7 +42,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "a4ea12024f70b0c77a52938bb490148e336202318030043e449cfe2de3aee4b0",
+                  "checksum": "6fe11d695ad912d96ebb463236941f0cc555e3719fa898c12f110a99a78145fb",
                   "name": "node-v$NODE_VERSION-linux-alpine-amd64.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -54,7 +54,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "9a7eca7965d19a4d15acc23aca13c0d7418b57752598c7f9ac485cf1f6804c6c",
+                  "checksum": "f9682a5cd8734c3f78a659d3adc5f5a214010f810e0f11c4f40be9e92b9a32d6",
                   "name": "node-v$NODE_VERSION-linux-alpine-i386.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -66,7 +66,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "4f0572c4051a5e6354881fbaf9a3b613dfc32e7162cb8884003e48a8ce738efc",
+                  "checksum": "bc707949e7bff0dc48e711b1b094cca1577ed52fc3017c8cc1dfc4b28f9dc77f",
                   "name": "node-v$NODE_VERSION-linux-alpine-aarch64.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -78,7 +78,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "8b1a1765dd768f96fedabdc2df435a6f65f7e42a2e80ad13669ff87597d88816",
+                  "checksum": "a8087bdef3dd6305c4fd31f8838078b5491ee5f22709982b7221f13d8dca3f91",
                   "name": "node-v$NODE_VERSION-linux-alpine-armv6hf.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -90,7 +90,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "6efa2b9a0047441c66f77f62ce9b9ebfae989adcff7851798cfa6c6312304757",
+                  "checksum": "ea1a8c142aa3be9da65a6ebb6e4578ac543c5ae33d994631989567fad49a344a",
                   "name": "node-v$NODE_VERSION-linux-alpine-armv7hf.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -116,7 +116,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "e9e6bf1263b549576519aec2fb4b5efaf3513f0c00de5c2b25dd0e3dd09ecbd0",
+                  "checksum": "d342932c01f4bbea67c83cfb7432d07e0653da1d2f9644e684be5c731caa1d2c",
                   "name": "node-v$NODE_VERSION-linux-armv7l.tar.gz",
                   "url": "http://nodejs.org/dist/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -128,7 +128,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "c2aaef730245ad180d2a2b9d2d2806feca57e93e0691faabb41175d26bed9c89",
+                  "checksum": "a26491670f11d6ef4f919d3c2678fe65292c9e1d7e9184ec551a011816d92f0d",
                   "name": "node-v$NODE_VERSION-linux-x64.tar.gz",
                   "url": "http://nodejs.org/dist/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -140,7 +140,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "f9f17e8c10bdc5bb64ecfc821e00eb77d48292f0176ff38147e1e340c7c502cc",
+                  "checksum": "6b671b6982343fd1ffa39080d76c237a649058c1e7a61ba83bc8996e382e3381",
                   "name": "node-v$NODE_VERSION-linux-i386.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -152,7 +152,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "b993eccc0d493065ba1e4b30e189bae43b9d7aba587625eed891125f316e1333",
+                  "checksum": "d5fbc40f78be71007960b8490d9dc605bc006c2986d44812b4071116e6499ca4",
                   "name": "node-v$NODE_VERSION-linux-arm64.tar.gz",
                   "url": "http://nodejs.org/dist/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -164,7 +164,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "6b8fafcf13ad98d05b1f565f98c15fcbfedfb2c7b90190442990f48b097ce707",
+                  "checksum": "96e35985a111e3327ac1e74677fca839815e5ca6430e51808dae435b153501fa",
                   "name": "node-v$NODE_VERSION-linux-armv6hf.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -178,7 +178,7 @@
       ]
     },
     {
-      "version": "16.13.0",
+      "version": "16.13.1",
       "variants": [
         {
           "data": { "libc": "musl-libc" },
@@ -189,7 +189,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "5b87749117a2661d6d44e719e5bacaf680f142aa8598dc1c317b4261d0443507",
+                  "checksum": "0e01af18c108b6a4b0791eec1adcd2bfeb5f8bf7ae139d408359e7db167f3172",
                   "name": "node-v$NODE_VERSION-linux-alpine-amd64.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -201,7 +201,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "528c8818a90c7d167dbbc0b56644e37ba9e8ee64243ca4d750537b8ff6b95324",
+                  "checksum": "5e086d29e2a06ab01563bd6dc9cd8fe8fb20291f2409fd017066ade08087ee8a",
                   "name": "node-v$NODE_VERSION-linux-alpine-i386.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -213,7 +213,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "78323ec57ef38cc6fb5cd3b10e2297ca91c81ca9cb57c283afc8886f27316467",
+                  "checksum": "573813bb46d9e1ace55fb52bd1b283ebb09daac6c599f6e650d0f1645ecd8834",
                   "name": "node-v$NODE_VERSION-linux-alpine-aarch64.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -225,7 +225,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "985ef703d7079642b67982dab20e9b767a929c53bfd0443e30e12c193ebc18f4",
+                  "checksum": "5e8346010fb1b0094c9a980f152fe87c64a474bb6fbe8bdea970ac8a5a9a79ac",
                   "name": "node-v$NODE_VERSION-linux-alpine-armv6hf.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -237,7 +237,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "08a7ca90111592681f9a9814018cd0c857bad938e6d7cd9e5856805d7fc804bd",
+                  "checksum": "ece7b14b93807953748263f82f5cefe35957608225bc1d67dfb64b01aeb9bbdd",
                   "name": "node-v$NODE_VERSION-linux-alpine-armv7hf.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -263,7 +263,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "3d22bc15b47c26129d56745cd587ead7e240a36968ceb3c4105bebc5c6a0be16",
+                  "checksum": "749bc9191f1ba3b2c9d79d74675a3c19a69a3e7da5f17d5a1ce3d05a6cbef88e",
                   "name": "node-v$NODE_VERSION-linux-armv7l.tar.gz",
                   "url": "http://nodejs.org/dist/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -275,7 +275,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "589b7e7eb22f8358797a2c14a0bd865459d0b44458b8f05d2721294dacc7f734",
+                  "checksum": "5f80197d654fd0b749cdeddf1f07a5eac1fcf6b423a00ffc8f2d3bea9c6dc8d1",
                   "name": "node-v$NODE_VERSION-linux-x64.tar.gz",
                   "url": "http://nodejs.org/dist/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -287,7 +287,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "8c074651b0f8ad21c77617f0b01225dadbe62ae5256f8fda340a9d20ff6695a0",
+                  "checksum": "8e52b3bac44ac790bd65bb8c2275a46eada39e6801825bdb94ab83a7ca025cb7",
                   "name": "node-v$NODE_VERSION-linux-i386.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -299,7 +299,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "46e3857f5552abd36d9548380d795b043a3ceec2504e69fe1a754fa76012daaf",
+                  "checksum": "c2f2a0a5adbfc267dbe41ef9fbd83af157a64997bc7546c12717ff55ea6b57d8",
                   "name": "node-v$NODE_VERSION-linux-arm64.tar.gz",
                   "url": "http://nodejs.org/dist/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -311,7 +311,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "4193fca8c71d75292264e2f58370fc2322500e5675d2008d3e7ff2ff4d727cc9",
+                  "checksum": "49af0caf92b9aa201e0d4cc2ea9a7194eff0c8f0954a8f6df61f0b88ebf14c8c",
                   "name": "node-v$NODE_VERSION-linux-armv6hf.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -325,7 +325,7 @@
       ]
     },
     {
-      "version": "14.18.1",
+      "version": "14.18.2",
       "variants": [
         {
           "data": { "libc": "musl-libc" },
@@ -336,7 +336,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "45d1e56420ca521275fa7e76af25b70c55f6afc82e42e120fb0ee3e2afe5e3f9",
+                  "checksum": "4168ff95e4ca538a5f4fc12688808ac0051c1b44a282898cc2b7caf8f9910711",
                   "name": "node-v$NODE_VERSION-linux-alpine-amd64.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -348,7 +348,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "f38690775e631e7e26edc1ad6c4a554af9b10ba49bd046a406bb5aeea4657ffc",
+                  "checksum": "5a6d005a6c013683862c7f89dc5248c62e431bd735fcacd64581cd27b7419b66",
                   "name": "node-v$NODE_VERSION-linux-alpine-i386.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -360,7 +360,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "cdd4798174e6cf3fceffe3a2be4e24aecabeada0c8d887e94c7ed25106d2268a",
+                  "checksum": "e559bdfe9de798ae9f5177b8e31d1f6a822952e1d6b30b57c717010d744b3690",
                   "name": "node-v$NODE_VERSION-linux-alpine-aarch64.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -372,7 +372,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "06e2b268dc38991b4f94d9a83f439defca66a967d889a49f7b645b2f3a29d54c",
+                  "checksum": "4c85053e238d9539a25a7f6e28df98eaa9a88f9a9bd1d879ff5a50088d871bd4",
                   "name": "node-v$NODE_VERSION-linux-alpine-armv6hf.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -384,7 +384,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "1676339db868eaffc7b610bbd639953474e63f313f36ab92f9d4e77f76af09c4",
+                  "checksum": "69996257c079ce34c1da5ab2bf127def420e1e09c6f7228cd3fa880b44073f9d",
                   "name": "node-v$NODE_VERSION-linux-alpine-armv7hf.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -410,7 +410,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "6da18f92ce3320e07f710435843d45e97040a2a51667e92af40bb005ebf651d1",
+                  "checksum": "70211985c0881c36af91d39108c5f61c0ac11de3b43b89b3f7b1a9ac333d1d3e",
                   "name": "node-v$NODE_VERSION-linux-armv7l.tar.gz",
                   "url": "http://nodejs.org/dist/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -422,7 +422,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "088498c67bab31871a1cab40dbc9b7b82c1abf53a2cf740e061bd6033a74839d",
+                  "checksum": "83fa18a0e3642235446b66653eb27c169224ae9c1a15a32d6c3d9ddefb154ed4",
                   "name": "node-v$NODE_VERSION-linux-x64.tar.gz",
                   "url": "http://nodejs.org/dist/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -434,7 +434,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "3fcd1c6c008c2dfddea60ede3c735696982fb038288e45c2d35ef6b2098c8220",
+                  "checksum": "e78e18e01a08b2459d738fc5fec6bd79f2b3dccf85e5122cd646b3385964bc1e",
                   "name": "node-v$NODE_VERSION-linux-arm64.tar.gz",
                   "url": "http://nodejs.org/dist/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
@@ -446,7 +446,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "7c961d547a45e804e9f017dded6103567b03d30a0bac020312d19ffd6a2c89ae",
+                  "checksum": "e4e6c26fb1e0ea1d7f1eb86ad1afc117d19cd5e35d4a38ce6f6b952aefbb9497",
                   "name": "node-v$NODE_VERSION-linux-armv6hf.tar.gz",
                   "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
                 }
