@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.42
+## (2021-12-07)
+
+* Add partials for OpenJDK 17 images [Trong Nghia Nguyen]
+
 # v1.13.41
 ## (2021-12-07)
 

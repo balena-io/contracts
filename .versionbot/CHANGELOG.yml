@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add partials for OpenJDK 17 images
+      hash: 91b8d52039dccbd629cfc2d53738b42e11e2f977
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 1.13.42
+  date: 2021-12-07T11:01:14.570Z
+- commits:
     - subject: Add OpenJDK jdk17.0.1
       hash: 2041ccc59418148fa6ff6a868d7886a508f23f13
       body: ''
