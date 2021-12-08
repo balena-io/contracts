@@ -13,7 +13,7 @@
   "data": {
     "arch": "armv7hf",
     "hdmi": true,
-    "led": false,
+    "led": true,
     "connectivity": {
       "bluetooth": false,
       "wifi": false
