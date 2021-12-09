@@ -14,7 +14,7 @@
     "arch": "armv7hf",
     "family": "family-tinkerboard",
     "hdmi": true,
-    "led": false,
+    "led": true,
     "connectivity": {
       "bluetooth": true,
       "wifi": true

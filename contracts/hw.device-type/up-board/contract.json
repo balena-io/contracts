@@ -14,7 +14,7 @@
     "arch": "amd64",
     "family": "family-upboard",
     "hdmi": true,
-    "led": false,
+    "led": true,
     "connectivity": {
       "bluetooth": false,
       "wifi": false
