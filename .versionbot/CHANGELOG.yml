@@ -1,4 +1,20 @@
 - commits:
+    - subject: 'hw.device-type: genericx86-64-ext: disable wlan/bluetooth'
+      hash: f5f695cbeae9821709f4cc2d7ed48b08ab6e0556
+      body: |
+        Disable wireless and bluetooth for genericx86-64-ext DT, as these are
+        not built-in and provided by default for this device type. This allows
+        core tests to pass in Leviathan, as it's not assumed that these devices
+        are present.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Joseph Kogut <joseph@balena.io>
+        signed-off-by: Joseph Kogut <joseph@balena.io>
+      author: Joseph Kogut
+  version: 1.13.43
+  date: 2021-12-09T17:46:03.064Z
+- commits:
     - subject: Add partials for OpenJDK 17 images
       hash: 91b8d52039dccbd629cfc2d53738b42e11e2f977
       body: ''

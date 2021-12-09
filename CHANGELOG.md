@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.43
+## (2021-12-09)
+
+* hw.device-type: genericx86-64-ext: disable wlan/bluetooth [Joseph Kogut]
+
 # v1.13.42
 ## (2021-12-07)
 
