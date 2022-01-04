@@ -1,4 +1,16 @@
 - commits:
+    - subject: 'hw.device-type: Move nebra-hnt device-type from this repository'
+      hash: 720af4b6a69e4031bfe7a3e657b33d3cc24616e9
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 1.13.46
+  date: 2022-01-04T13:02:15.936Z
+- commits:
     - subject: 'hw.device-type: Add Seeed Odyssey community device'
       hash: eb32dcf170f48c625b3bd578abbfd9860bc04143
       body: ''
