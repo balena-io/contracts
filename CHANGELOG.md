@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.45
+## (2022-01-04)
+
+* hw.device-type: Add Seeed Odyssey community device [Florin Sarbu]
+
 # v1.13.44
 ## (2021-12-09)
 
