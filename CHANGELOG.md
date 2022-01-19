@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.48
+## (2022-01-18)
+
+* contract.json: Change pretty device type name [Lakshantha Dissanayake]
+
 # v1.13.47
 ## (2022-01-11)
 

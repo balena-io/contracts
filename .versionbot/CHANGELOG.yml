@@ -1,4 +1,16 @@
 - commits:
+    - subject: 'contract.json: Change pretty device type name'
+      hash: 2a869c5fe81523e55121bf120abb8f9131cbe406
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lakshantha Dissanayake <lakshanthad@seeed.cc>
+        signed-off-by: Lakshantha Dissanayake <lakshanthad@seeed.cc>
+      author: Lakshantha Dissanayake
+  version: 1.13.48
+  date: 2022-01-18T18:29:35.351Z
+- commits:
     - subject: Add node v17.3.1 v16.13.2 v14.18.3 and v12.22.9
       hash: 76c07e2804bb36d2ad2ed9021f9a4a404455e2aa
       body: ''
