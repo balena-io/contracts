@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Seeed Odyssey",
+  "name": "Seeed ODYSSEY-X86",
   "assets": {
     "logo": {
       "url": "./odyssey-x86.svg",
