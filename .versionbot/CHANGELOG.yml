@@ -1,4 +1,26 @@
 - commits:
+    - subject: Add python v3.10.2 and v3.9.10
+      hash: 7402bf8f7bd2161113294a7ba2c968b0922ff6d7
+      body: |
+        Update pip to v21.3.1 and setuptools to v60.5.4
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+    - subject: Add node v17.4.0
+      hash: d36f13f0feaa044f8d56e39f9dd6d377a16fde3d
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 1.13.49
+  date: 2022-01-24T19:23:32.113Z
+- commits:
     - subject: 'contract.json: Change pretty device type name'
       hash: 2a869c5fe81523e55121bf120abb8f9131cbe406
       body: ''
