@@ -1,4 +1,16 @@
 - commits:
+    - subject: 'hw.device-type: Add NanoPi R2C device'
+      hash: c4100dab187418f5c1d9519ae2a97eb5be49339a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 1.13.50
+  date: 2022-01-27T07:58:06.251Z
+- commits:
     - subject: Add python v3.10.2 and v3.9.10
       hash: 7402bf8f7bd2161113294a7ba2c968b0922ff6d7
       body: |

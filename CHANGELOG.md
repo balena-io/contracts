@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.50
+## (2022-01-27)
+
+* hw.device-type: Add NanoPi R2C device [Florin Sarbu]
+
 # v1.13.49
 ## (2022-01-24)
 
