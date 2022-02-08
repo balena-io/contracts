@@ -1,7 +1,34 @@
 - commits:
-    - subject: 'hw.device-type: Add NanoPi R2C device'
+    - subject: "hw.device-type: Update sources.list to L4T 32.6.1"
+      hash: 76c3702653e268cccaf9059d0d26a8f9c30c58f8
+      body: |
+        This is part one which updates the base images for
+        the following devices, which have already been updated
+        to L4T 32.6.1 in the OS image:
+        - Jetson Nano 2GB
+        - Jetson Nano eMMC
+        - Jetson Nano SD-CARD
+        - Jetson Xavier NX
+        - Jetson TX2 NX
+
+        The following devices will have the base
+        images updated in a subsequent commit, after
+        new OS images are released:
+        - Jetson TX2
+        - Jetson Xavier AGX
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 1.13.51
+  title: "'hw.device-type: Update sources.list to L4T 32.6.1'"
+  date: 2022-02-08T14:38:26.180Z
+- commits:
+    - subject: "hw.device-type: Add NanoPi R2C device"
       hash: c4100dab187418f5c1d9519ae2a97eb5be49339a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -23,7 +50,7 @@
       author: Trong Nghia Nguyen
     - subject: Add node v17.4.0
       hash: d36f13f0feaa044f8d56e39f9dd6d377a16fde3d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -33,9 +60,9 @@
   version: 1.13.49
   date: 2022-01-24T19:23:32.113Z
 - commits:
-    - subject: 'contract.json: Change pretty device type name'
+    - subject: "contract.json: Change pretty device type name"
       hash: 2a869c5fe81523e55121bf120abb8f9131cbe406
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -47,7 +74,7 @@
 - commits:
     - subject: Add node v17.3.1 v16.13.2 v14.18.3 and v12.22.9
       hash: 76c07e2804bb36d2ad2ed9021f9a4a404455e2aa
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -56,7 +83,7 @@
       author: Trong Nghia Nguyen
     - subject: Add Go v1.16.13 and v1.17.6
       hash: 46587887d51466a84dc59c01cdf8b55c73f9f856
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -66,9 +93,9 @@
   version: 1.13.47
   date: 2022-01-11T19:47:26.609Z
 - commits:
-    - subject: 'hw.device-type: Move nebra-hnt device-type from this repository'
+    - subject: "hw.device-type: Move nebra-hnt device-type from this repository"
       hash: 720af4b6a69e4031bfe7a3e657b33d3cc24616e9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -78,9 +105,9 @@
   version: 1.13.46
   date: 2022-01-04T13:02:15.936Z
 - commits:
-    - subject: 'hw.device-type: Add Seeed Odyssey community device'
+    - subject: "hw.device-type: Add Seeed Odyssey community device"
       hash: eb32dcf170f48c625b3bd578abbfd9860bc04143
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -92,7 +119,7 @@
 - commits:
     - subject: Fixed incorrect led status
       hash: 4bb6eb1f732957e605f00e47b068199f14ff1765
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -102,7 +129,7 @@
   version: 1.13.44
   date: 2021-12-09T17:55:41.078Z
 - commits:
-    - subject: 'hw.device-type: genericx86-64-ext: disable wlan/bluetooth'
+    - subject: "hw.device-type: genericx86-64-ext: disable wlan/bluetooth"
       hash: f5f695cbeae9821709f4cc2d7ed48b08ab6e0556
       body: |
         Disable wireless and bluetooth for genericx86-64-ext DT, as these are
@@ -120,7 +147,7 @@
 - commits:
     - subject: Add partials for OpenJDK 17 images
       hash: 91b8d52039dccbd629cfc2d53738b42e11e2f977
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -132,7 +159,7 @@
 - commits:
     - subject: Add OpenJDK jdk17.0.1
       hash: 2041ccc59418148fa6ff6a868d7886a508f23f13
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -172,7 +199,7 @@
       author: Trong Nghia Nguyen
     - subject: Add Golang v1.17.2 and v1.16.11
       hash: 9d857e78ee7463c319bfa649998374d07b3e3ada
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -181,7 +208,7 @@
       author: Trong Nghia Nguyen
     - subject: Add node v17.2.0 v16.13.1 and v14.18.2
       hash: e75bf9e5b8a5783b60145cf9f62d2aceaf4dca41
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -211,7 +238,7 @@
       footers:
         change-type: patch
         signed-off-by: Alexandru Costache <alexandru@balena.io>
-      subject: 'raspberrypi0-2w-64: Use same icon as the Pi Zero Wifi'
+      subject: "raspberrypi0-2w-64: Use same icon as the Pi Zero Wifi"
       body: |-
         We initially used the icon from the device repository,
         however, that one appears to be larger. Let's
@@ -245,9 +272,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'raspberrypi0-2w-64: Add device type'
+    - subject: "raspberrypi0-2w-64: Add device type"
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.36
 - date: 2021-11-19T03:46:03.000Z
 - commits:
@@ -263,7 +290,7 @@
 - commits:
     - subject: Fix wrong version number in dotnet contract
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.35
 - date: 2021-11-16T09:23:21.000Z
 - commits:
@@ -299,7 +326,7 @@
 - commits:
     - subject: Add node v16.13.0 and v17.0.1
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: fb1a4e71fe5eb27e7aae9333ee478aa90e8dcaba
 - commits:
@@ -313,7 +340,7 @@
 - commits:
     - subject: Add golang v1.17.2 and v1.16.9
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.33
 - date: 2021-10-14T06:06:27.000Z
 - commits:
@@ -329,7 +356,7 @@
 - commits:
     - subject: Add node v16.11.1 v14.18.1 and v12.22.7
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.32
 - date: 2021-10-08T15:29:30.000Z
 - commits:
@@ -343,9 +370,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'hw.device-type: Add Auvidea CNX100 Xavier NX community device'
+    - subject: "hw.device-type: Add Auvidea CNX100 Xavier NX community device"
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.31
 - date: 2021-10-07T05:36:56.000Z
 - commits:
@@ -361,7 +388,7 @@
 - commits:
     - subject: Add Python v3.10.0
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.30
 - date: 2021-10-05T09:21:10.000Z
 - commits:
@@ -375,9 +402,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'hw.device-type: Add Rocktech ISG 503 community device'
+    - subject: "hw.device-type: Add Rocktech ISG 503 community device"
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.29
 - date: 2021-09-29T13:50:44.000Z
 - commits:
@@ -393,7 +420,7 @@
 - commits:
     - subject: Add node v14.18.0
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.28
 - date: 2021-09-23T08:28:23.000Z
 - commits:
@@ -409,7 +436,7 @@
 - commits:
     - subject: Add node v16.10.0
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 5fec282b16beff278320e750e66848393e94f5fc
 - commits:
@@ -423,7 +450,7 @@
 - commits:
     - subject: Add golang v1.17.1 and v1.16.8
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.27
 - date: 2021-09-12T09:30:07.000Z
 - commits:
@@ -439,7 +466,7 @@
 - commits:
     - subject: Add support for Debian Bookworm
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: b154f659a7299091a1958c8d8a576f5e5227b073
 - commits:
@@ -453,7 +480,7 @@
 - commits:
     - subject: Add support for Ubuntu Hirsute and Impish
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 93d1557ece22ecd28ede3b50b2115ffd5c1a5997
 - commits:
@@ -467,7 +494,7 @@
 - commits:
     - subject: Add support for Fedora 35
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 9ebf0543975ec6736df03550161c0698986b6032
 - commits:
@@ -481,7 +508,7 @@
 - commits:
     - subject: Add node v16.9.1
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 3e2f9830ac3684cecb8929e79ceaa368bc19c1bc
 - commits:
@@ -495,7 +522,7 @@
 - commits:
     - subject: Update checksum for Python contracts
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.26
 - date: 2021-09-06T15:35:15.000Z
 - commits:
@@ -537,7 +564,7 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'Remove Ubuntu Disco, Eoan and Cosmic as they reached EOL'
+    - subject: Remove Ubuntu Disco, Eoan and Cosmic as they reached EOL
 - commits:
     - body: Set Focal as the latest tag for Ubuntu base images
 - commits:
@@ -553,7 +580,7 @@
 - commits:
     - subject: Add node v12.22.6 and v14.17.6
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 900a9f132e66471de3ccc7cdc4724456db0650ae
 - commits:
@@ -583,7 +610,7 @@
 - commits:
     - subject: Add node v16.8.0
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 6259de646db80816b2cfa564e2254ff7d725094e
 - commits:
@@ -611,9 +638,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balen.io>
 - commits:
-    - subject: 'photon-tx2-nx: Add new community Device type'
+    - subject: "photon-tx2-nx: Add new community Device type"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 15f3a6d5ae9aa07dcc854af22627ec283dde89c7
 - commits:
@@ -622,7 +649,7 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'jetson-tx2-nx-devkit: Change installation type to dfu'
+    - subject: "jetson-tx2-nx-devkit: Change installation type to dfu"
 - commits:
     - body: |-
         The TX2 NX does not have sd-card support, let's
@@ -642,7 +669,7 @@
 - commits:
     - subject: Update test script for Golang base images
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.22
 - date: 2021-08-25T07:52:41.000Z
 - commits:
@@ -658,7 +685,7 @@
 - commits:
     - subject: Set Alpine Linux 3.14 as the latest tag
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: e2fc02056973825e30371b02d4c74606da623454
 - commits:
@@ -672,7 +699,7 @@
 - commits:
     - subject: Update contracts to v6.0.0-balena1
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 39f06f419b6e3af124f9a5ac3a74fd531f1191f8
 - commits:
@@ -686,7 +713,7 @@
 - commits:
     - subject: Add Golang v1.17
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.21
 - date: 2021-08-20T14:43:29.000Z
 - commits:
@@ -700,7 +727,7 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'n310-tx2: Add contract'
+    - subject: "n310-tx2: Add contract"
 - commits:
     - body: |-
         This is a community device which
@@ -721,7 +748,7 @@
 - commits:
     - subject: Add Python v3.9.6 v3.8.11 v3.7.11 and v3.6.14
 - commits:
-    - body: 'Update pip to v21.2.3, setuptools to v57.4.0 and python-dbus to 1.2.18'
+    - body: Update pip to v21.2.3, setuptools to v57.4.0 and python-dbus to 1.2.18
 - commits:
     - hash: 392560c76adc2579f176cee82b920d3af9eeb27d
 - commits:
@@ -735,7 +762,7 @@
 - commits:
     - subject: Add latest dotnet releases
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: f987aa8d5d392d28822256989b39fb9b17b4cae3
 - commits:
@@ -749,7 +776,7 @@
 - commits:
     - subject: Add node v16.6.2 v14.17.5 and v12.22.5
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: cb8e8db0c8e67ff5c89cf9a94c01f897096ad2b2
 - commits:
@@ -763,7 +790,7 @@
 - commits:
     - subject: Add golang v1.16.7 and v1.15.15
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.19
 - date: 2021-08-11T15:50:48.000Z
 - commits:
@@ -777,7 +804,7 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'jetsons: Update the rest of sources.list to L4T 32.5.1'
+    - subject: "jetsons: Update the rest of sources.list to L4T 32.5.1"
 - commits:
     - body: |-
         We are currently rolling out BalenaOS images for
@@ -798,7 +825,7 @@
 - commits:
     - subject: Add support for node v16.6.1 v14.17.4 and v12.22.4
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 185e12565047512cbcf6dcc84559d2ee4702c3db
 - commits:
@@ -812,7 +839,7 @@
 - commits:
     - subject: Add support for golang v1.16.6 and 1.15.4
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.17
 - date: 2021-08-05T18:08:12.000Z
 - commits:
@@ -826,9 +853,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'jetson-nano: Updte sources.list to 32.5'
+    - subject: "jetson-nano: Updte sources.list to 32.5"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 5cc63cbfb0289e899e34577c87deffd6ac33bf70
 - commits:
@@ -837,9 +864,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'jetson-xavier-agx: Update sources.list to 32.5'
+    - subject: "jetson-xavier-agx: Update sources.list to 32.5"
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.16
 - date: 2021-08-04T14:14:50.000Z
 - commits:
@@ -853,9 +880,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'jetson-tx2-nx-devkit: Add new device type'
+    - subject: "jetson-tx2-nx-devkit: Add new device type"
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.15
 - date: 2021-07-22T12:45:01.000Z
 - commits:
@@ -869,9 +896,9 @@
     - footers:
         signed-off-by: Florin Sarbu <florin@balena.io>
 - commits:
-    - subject: 'rockpi-4b-rk3399: Add new device type'
+    - subject: "rockpi-4b-rk3399: Add new device type"
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.14
 - date: 2021-07-02T19:10:29.000Z
 - commits:
@@ -903,7 +930,7 @@
 - commits:
     - subject: Fix openjdk 16 template
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: ea2695483c120e335ea7351d90eb3e268cdbfc09
 - commits:
@@ -917,7 +944,7 @@
 - commits:
     - subject: Add node v14.17.1
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.12
 - date: 2021-06-25T16:40:12.000Z
 - commits:
@@ -933,7 +960,7 @@
 - commits:
     - subject: Add golang v1.16.5 and v1.15.13
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 5a3311ac550d8a51ae27f595076a823b2e57c3d7
 - commits:
@@ -947,7 +974,7 @@
 - commits:
     - subject: Update python-dbus to v1.2.16
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 3c43cbad3ba81e0fe6bbbfcab9b7879da4adbcec
 - commits:
@@ -961,7 +988,7 @@
 - commits:
     - subject: Add node v16.4.0
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: d6e0c14217d8ad42ead459029ff1a341ced64b2a
 - commits:
@@ -975,7 +1002,7 @@
 - commits:
     - subject: Add support for Alpine Linux 3.14
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 2236b5ef3a18fbbb36d0148269b2580531709a9b
 - commits:
@@ -989,7 +1016,7 @@
 - commits:
     - subject: Add openjdk-16 for amd64 and aarch64 Debian Buster
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.11
 - date: 2021-06-14T14:07:23.000Z
 - commits:
@@ -1003,9 +1030,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'hw.device-type: Add community Xavier NX SD ReSpeaker-2MIC'
+    - subject: "hw.device-type: Add community Xavier NX SD ReSpeaker-2MIC"
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.10
 - date: 2021-06-09T11:41:27.000Z
 - commits:
@@ -1019,9 +1046,9 @@
     - footers:
         signed-off-by: Florin Sarbu <florin@balena.io>
 - commits:
-    - subject: 'asus-tinker-edge-t: Add new device type'
+    - subject: "asus-tinker-edge-t: Add new device type"
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.9
 - date: 2021-06-02T12:03:17.000Z
 - commits:
@@ -1037,7 +1064,7 @@
 - commits:
     - subject: Update checksum for Python v3.9.5 and v3.8.10
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: d09ce299265120c5fa3551276b51ee7ef54a4211
 - commits:
@@ -1063,11 +1090,10 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: >-
-        Update dotnet SDK to v5.0.3 and v3.1.409 and runtime to v5.0.6 and
+    - subject: Update dotnet SDK to v5.0.3 and v3.1.409 and runtime to v5.0.6 and
         v3.1.15
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.8
 - date: 2021-06-01T10:37:17.000Z
 - commits:
@@ -1081,7 +1107,7 @@
     - footers:
         signed-off-by: Michal Toman <michalt@balena.io>
 - commits:
-    - subject: 'generic-amd64: add device type'
+    - subject: "generic-amd64: add device type"
 - commits:
     - body: Make it private until we figure out what to do about genericx86-64-ext
 - version: 1.13.7
@@ -1097,7 +1123,7 @@
     - footers:
         signed-off-by: Michal Toman <michalt@balena.io>
 - commits:
-    - subject: 'generic-amd64-fde: add device type'
+    - subject: "generic-amd64-fde: add device type"
 - commits:
     - body: x86 device type with secure boot and full disk encryption.
 - version: 1.13.6
@@ -1115,7 +1141,7 @@
 - commits:
     - subject: Add node v16.1.0
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 46eb8ef9558edaa343ce99a95d71bdae4de574dc
 - commits:
@@ -1129,7 +1155,7 @@
 - commits:
     - subject: Add Python v3.9.5 and v3.8.10
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.5
 - date: 2021-04-20T09:45:17.000Z
 - commits:
@@ -1145,7 +1171,7 @@
 - commits:
     - subject: Add node v15.14.0 v14.16.1 v12.22.1 and v10.24.1
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: f46e804a97015a11ca1da03e6731c9c1ed6f6e89
 - commits:
@@ -1159,7 +1185,7 @@
 - commits:
     - subject: Add Python v3.9.4 and v3.8.9
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 227f13954e319e12b913b0ff70c1da37645e4283
 - commits:
@@ -1173,7 +1199,7 @@
 - commits:
     - subject: Add Go v1.16.3 and v1.15.11
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.4
 - date: 2021-04-05T15:07:14.000Z
 - commits:
@@ -1187,7 +1213,7 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'device: Update name for Floyd Nano'
+    - subject: "device: Update name for Floyd Nano"
 - commits:
     - body: |-
         We've updated the name in the coffee file
@@ -1207,7 +1233,7 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'floyd-nano: Add device type'
+    - subject: "floyd-nano: Add device type"
 - commits:
     - body: This contract is for the BB02 Rev. A variant
 - version: 1.13.2
@@ -1223,7 +1249,7 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'raspberrypicm4-ioboard: Add device type'
+    - subject: "raspberrypicm4-ioboard: Add device type"
 - commits:
     - body: |-
         This adds the contract for the Raspberry Pi
@@ -1241,9 +1267,9 @@
     - footers:
         signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
 - commits:
-    - subject: 'iot-gate-imx8: Add new device type'
+    - subject: "iot-gate-imx8: Add new device type"
 - commits:
-    - body: null
+    - ? body
 - version: 1.13.0
 - date: 2021-03-01T17:27:22.000Z
 - commits:
@@ -1259,7 +1285,7 @@
 - commits:
     - subject: Add UP board family and manufacturer info
 - commits:
-    - body: null
+    - ? body
 - version: 1.12.19
 - date: 2021-02-26T13:50:31.000Z
 - commits:
@@ -1273,9 +1299,9 @@
     - footers:
         signed-off-by: Florin Sarbu <florin@balena.io>
 - commits:
-    - subject: 'nebra-hnt: Make device private'
+    - subject: "nebra-hnt: Make device private"
 - commits:
-    - body: null
+    - ? body
 - version: 1.12.18
 - date: 2021-02-26T13:29:50.000Z
 - commits:
@@ -1289,9 +1315,9 @@
     - footers:
         signed-off-by: Florin Sarbu <florin@balena.io>
 - commits:
-    - subject: 'nebra-hnt: Add new device type'
+    - subject: "nebra-hnt: Add new device type"
 - commits:
-    - body: null
+    - ? body
 - version: 1.12.17
 - date: 2021-02-25T17:28:34.000Z
 - commits:
@@ -1305,7 +1331,7 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'jetson-tx2: Update repositories to 32.4'
+    - subject: "jetson-tx2: Update repositories to 32.4"
 - commits:
     - body: |-
         We updated the hostOS to 32.4.4 in BalenaOS
@@ -1326,7 +1352,7 @@
 - commits:
     - subject: Add node v15.9.0
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: e77b0fe8eb00f22f36f8dc306ac3fcc894f7b958
 - commits:
@@ -1340,7 +1366,7 @@
 - commits:
     - subject: Update QEMU to v5.2.0+balena4
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 2f269ec1e1bd9f682df5aa1b4d9452604ea3a1a4
 - commits:
@@ -1354,7 +1380,7 @@
 - commits:
     - subject: Add Go v1.16 and v1.15.8
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 3bf69944a7f83776cce55a5c5afa7bf44861de3d
 - commits:
@@ -1368,7 +1394,7 @@
 - commits:
     - subject: Add dotnet v5.0.3 and v3.1.12
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 9ceffef1631d712e378318afa5b95f181557a9dd
 - commits:
@@ -1382,7 +1408,7 @@
 - commits:
     - subject: Add node v15.10.0 v14.16.0 v12.21.0 and v10.14.0
 - commits:
-    - body: null
+    - ? body
 - version: 1.12.15
 - date: 2021-02-10T11:07:17.000Z
 - commits:
@@ -1396,9 +1422,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'hw.device-type: Migrate SRD3 to private DT'
+    - subject: "hw.device-type: Migrate SRD3 to private DT"
 - commits:
-    - body: null
+    - ? body
 - version: 1.12.14
 - date: 2021-02-09T16:35:16.000Z
 - commits:
@@ -1412,7 +1438,7 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'jetson-xaviers: Update repositories to 32.4'
+    - subject: "jetson-xaviers: Update repositories to 32.4"
 - commits:
     - body: |-
         We updated the hostOS to 32.4.4 in BalenaOS
@@ -1433,7 +1459,7 @@
 - commits:
     - subject: Add sample device family and manufacturer contracts
 - commits:
-    - body: null
+    - ? body
 - version: 1.12.12
 - date: 2021-02-01T06:25:36.000Z
 - commits:
@@ -1449,7 +1475,7 @@
 - commits:
     - subject: Update QEMU to v5.2.0+balena1
 - commits:
-    - body: null
+    - ? body
 - version: 1.12.11
 - date: 2021-02-01T04:28:01.000Z
 - commits:
@@ -1476,7 +1502,7 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'jetson-nano: Update repositories to 32.4'
+    - subject: "jetson-nano: Update repositories to 32.4"
 - commits:
     - body: |-
         We updated the hostOS to 32.4.4 in BalenaOS
@@ -1497,7 +1523,7 @@
 - commits:
     - subject: Update QEMU to v5.2.0+balena
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 7fb0db2bfa0d7419972f04601cf53a8d73f3ccea
 - commits:
@@ -1511,7 +1537,7 @@
 - commits:
     - subject: Add node v15.7.0
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: ae001beba886a17a25d69ddc6feeed1930e6f321
 - commits:
@@ -1525,7 +1551,7 @@
 - commits:
     - subject: Add Go v1.15.7 and 1.14.14
 - commits:
-    - body: null
+    - ? body
 - version: 1.12.9
 - date: 2021-01-21T15:45:57.000Z
 - commits:
@@ -1539,7 +1565,7 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'jetson-nano-2gb-devkit: Add device type'
+    - subject: "jetson-nano-2gb-devkit: Add device type"
 - commits:
     - body: |-
         This adds the new jetson nano 2GB RAM
@@ -1559,9 +1585,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'smarc-px30: Add device type'
+    - subject: "smarc-px30: Add device type"
 - commits:
-    - body: null
+    - ? body
 - version: 1.12.7
 - date: 2021-01-19T02:05:15.000Z
 - commits:
@@ -1577,7 +1603,7 @@
 - commits:
     - subject: Add node v15.6.0
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: f258646c86513e878dfc99878efef8204e3fa807
 - commits:
@@ -1607,7 +1633,7 @@
 - commits:
     - subject: Add node v10.23.1 v12.20.1 v14.15.4 v15.5.1
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: a9ae91fb7cecd0ecba032baf921ef8fe389970e2
 - commits:
@@ -1621,7 +1647,7 @@
 - commits:
     - subject: Add partials for dotnet 5.0-aspnet
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 2dd368e43fd746550b015bcaf2f53bb54879b936
 - commits:
@@ -1635,7 +1661,7 @@
 - commits:
     - subject: Add partials for rapsberrypi400-64
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: f91702f7196b51391d25d521e5b65caf00272972
 - commits:
@@ -1649,7 +1675,7 @@
 - commits:
     - subject: Add partials for jetson-xavier-nx-devkit
 - commits:
-    - body: null
+    - ? body
 - version: 1.12.5
 - date: 2020-12-28T15:04:22.000Z
 - commits:
@@ -1665,7 +1691,7 @@
 - commits:
     - subject: Fix logo path for beaglebone green gateway
 - commits:
-    - body: null
+    - ? body
 - version: 1.12.4
 - date: 2020-12-28T13:35:10.000Z
 - commits:
@@ -1681,7 +1707,7 @@
 - commits:
     - subject: Fix mistaken logo path names
 - commits:
-    - body: null
+    - ? body
 - version: 1.12.3
 - date: 2020-12-17T14:09:36.000Z
 - commits:
@@ -1695,9 +1721,9 @@
     - footers:
         signed-off-by: Alex Gonzalez <alexg@balena.io>
 - commits:
-    - subject: 'ccimx8x-sbc-pro: Add device type'
+    - subject: "ccimx8x-sbc-pro: Add device type"
 - commits:
-    - body: null
+    - ? body
 - version: 1.12.2
 - date: 2020-12-16T17:56:44.000Z
 - commits:
@@ -1708,9 +1734,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'beaglebone-green-gateway: Add device type'
+    - subject: "beaglebone-green-gateway: Add device type"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 64ecba6d052fbbc3ae9f92dcb9d10897fbd882ee
 - commits:
@@ -1722,9 +1748,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'raspberrypi400-64: Add device type'
+    - subject: "raspberrypi400-64: Add device type"
 - commits:
-    - body: null
+    - ? body
 - version: 1.12.1
 - date: 2020-12-11T04:06:51.000Z
 - commits:
@@ -1740,7 +1766,7 @@
 - commits:
     - subject: Add Go v1.15.6 and v1.14.13
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 6c22e659c93834fab58bd9bfb3fb11f5b0b89b7e
 - commits:
@@ -1754,7 +1780,7 @@
 - commits:
     - subject: Add node v15.4.0
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 89db4fa6650bc713c007e96e2815d3173935c59c
 - commits:
@@ -1768,7 +1794,7 @@
 - commits:
     - subject: Add Python v3.9.1
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: db2d960ef3cb34dfeaa34bca64d91f54dd00b1c3
 - commits:
@@ -1782,7 +1808,7 @@
 - commits:
     - subject: Add dotnet v5.0 and update v3.x to latest version
 - commits:
-    - body: null
+    - ? body
 - version: 1.12.0
 - date: 2020-12-02T20:13:49.000Z
 - commits:
@@ -1798,7 +1824,7 @@
 - commits:
     - subject: Update the generic aarch64 logo with a smaller one
 - commits:
-    - body: null
+    - ? body
 - version: 1.11.0
 - date: 2020-12-02T18:18:27.000Z
 - commits:
@@ -1814,7 +1840,7 @@
 - commits:
     - subject: Update few large logos with better alternatives
 - commits:
-    - body: null
+    - ? body
 - version: 1.10.2
 - date: 2020-12-01T14:18:26.000Z
 - commits:
@@ -1830,7 +1856,7 @@
 - commits:
     - subject: Revert to object-based contracts
 - commits:
-    - body: null
+    - ? body
 - version: 1.10.1
 - date: 2020-12-01T11:47:30.000Z
 - commits:
@@ -1846,7 +1872,7 @@
 - commits:
     - subject: Turn assets for device types into an array
 - commits:
-    - body: null
+    - ? body
 - version: 1.10.0
 - date: 2020-12-01T09:59:13.000Z
 - commits:
@@ -1862,7 +1888,7 @@
 - commits:
     - subject: Add logos for each device type
 - commits:
-    - body: null
+    - ? body
 - version: 1.9.5
 - date: 2020-11-17T17:18:02.000Z
 - commits:
@@ -1878,7 +1904,7 @@
 - commits:
     - subject: Add node v15.2.1 v14.15.1 and v12.19.1
 - commits:
-    - body: null
+    - ? body
 - version: 1.9.4
 - date: 2020-11-10T10:53:19.000Z
 - commits:
@@ -1891,7 +1917,7 @@
 - commits:
     - subject: Remove Technologic TS-7700 and ARMv5E leftovers
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 138c2276c5848258a766c01302215bf2024938e3
 - commits:
@@ -1899,7 +1925,7 @@
 - commits:
     - subject: Merge branch 'master' into master
 - commits:
-    - body: null
+    - ? body
 - version: 1.9.3
 - date: 2020-11-10T08:51:59.000Z
 - commits:
@@ -1915,7 +1941,7 @@
 - commits:
     - subject: Add node v15.1.0
 - commits:
-    - body: null
+    - ? body
 - version: 1.9.2
 - date: 2020-10-30T15:33:25.000Z
 - commits:
@@ -1931,7 +1957,7 @@
 - commits:
     - subject: Add Golang v1.15.3 and v1.14.10
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: c4d8f9d954c57e312475ef234aae9f3008fbf625
 - commits:
@@ -1945,7 +1971,7 @@
 - commits:
     - subject: Add node v15.0.1 v14.15.0 and v10.23.0
 - commits:
-    - body: null
+    - ? body
 - version: 1.9.1
 - date: 2020-10-29T08:57:53.000Z
 - commits:
@@ -1959,9 +1985,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'jetson-xavier-nx-devkit: Add device type'
+    - subject: "jetson-xavier-nx-devkit: Add device type"
 - commits:
-    - body: null
+    - ? body
 - version: 1.9.0
 - date: 2020-10-21T07:54:56.000Z
 - commits:
@@ -1977,7 +2003,7 @@
 - commits:
     - subject: Remove DTs that are too specific and should be private
 - commits:
-    - body: null
+    - ? body
 - version: 1.8.0
 - date: 2020-10-13T09:06:00.000Z
 - commits:
@@ -1993,7 +2019,7 @@
 - commits:
     - subject: Update nitrogen8mm-dwe name to HUB3
 - commits:
-    - body: null
+    - ? body
 - version: 1.7.2
 - date: 2020-10-12T11:40:41.000Z
 - commits:
@@ -2009,7 +2035,7 @@
 - commits:
     - subject: Add node v14.13.0 and v12.18.4
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 2ca1dbc75c610bb6f51376aff1663e680a37f4a5
 - commits:
@@ -2023,7 +2049,7 @@
 - commits:
     - subject: Add Python v3.9.0 v3.8.6 v3.7.9 v3.6.12 and v3.5.10
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 40dd26682c5b23a6e0e17400f52ce04d5822e27d
 - commits:
@@ -2037,7 +2063,7 @@
 - commits:
     - subject: Add node v12.19.0 and v14.13.1
 - commits:
-    - body: null
+    - ? body
 - version: 1.7.1
 - date: 2020-09-30T09:19:19.000Z
 - commits:
@@ -2051,9 +2077,9 @@
     - footers:
         signed-off-by: Florin Sarbu <florin@balena.io>
 - commits:
-    - subject: 'revpi-connect: Add Revolution Pi Connect device type'
+    - subject: "revpi-connect: Add Revolution Pi Connect device type"
 - commits:
-    - body: null
+    - ? body
 - version: 1.7.0
 - date: 2020-09-22T14:20:10.000Z
 - commits:
@@ -2069,7 +2095,7 @@
 - commits:
     - subject: Update device type names to match the existing ones in balena API
 - commits:
-    - body: null
+    - ? body
 - version: 1.6.0
 - date: 2020-09-16T09:14:12.000Z
 - commits:
@@ -2085,7 +2111,7 @@
 - commits:
     - subject: Add private flag to device type contract
 - commits:
-    - body: null
+    - ? body
 - version: 1.5.0
 - date: 2020-09-14T13:17:52.000Z
 - commits:
@@ -2101,7 +2127,7 @@
 - commits:
     - subject: Add a couple of discontinued device types for completeness
 - commits:
-    - body: null
+    - ? body
 - version: 1.4.6
 - date: 2020-09-14T10:28:41.000Z
 - commits:
@@ -2117,7 +2143,7 @@
 - commits:
     - subject: Add node v14.10.1
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 44949c7401d0fd91699d32350d41e7ed95a9f77a
 - commits:
@@ -2131,7 +2157,7 @@
 - commits:
     - subject: Add golang v1.15.2 and v1.14.9
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 702b8aafd0b78a8c99ef1cd01340c3e11204f82f
 - commits:
@@ -2161,7 +2187,7 @@
 - commits:
     - subject: Add Golang v1.5 and v1.14.7
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 0b17edc443fffd37c3ba1407697609249cce9e7f
 - commits:
@@ -2175,7 +2201,7 @@
 - commits:
     - subject: Add l4t-core workaround for all Jetson images
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: c840c23bad7924bfd125b2046c1b72b17bd81a92
 - commits:
@@ -2189,7 +2215,7 @@
 - commits:
     - subject: Add repo.download.nvidia.com/jetson sources to Ubuntu base images
 - commits:
-    - body: null
+    - ? body
 - version: 1.4.4
 - date: 2020-08-31T10:53:47.000Z
 - commits:
@@ -2205,7 +2231,7 @@
 - commits:
     - subject: Add node v14.9.0
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 4488a168a04ea4bdf7b6f0eaa928c2fe280af2cc
 - commits:
@@ -2224,9 +2250,7 @@
 
         Drop Fedora 29, 28, 26 as they are removed from official repos.
 
-        Armv7hf Fedora is no longer maintained and will not have any new
-        releases for it but we should not drop it immediately. Removing all old
-        versions and only keeping the latest one (30).
+        Armv7hf Fedora is no longer maintained and will not have any new releases for it but we should not drop it immediately. Removing all old versions and only keeping the latest one (30).
 - version: 1.4.3
 - date: 2020-08-13T09:51:00.000Z
 - commits:
@@ -2254,11 +2278,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: >-
-        Add Nvidia package repositories to all Nvidia base images (jetson
-        family)
+    - subject: Add Nvidia package repositories to all Nvidia base images (jetson family)
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 5213c7350e9184062b0a1a296390877076a0ce95
 - commits:
@@ -2272,7 +2294,7 @@
 - commits:
     - subject: Add node v14.8.0
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 7ca6ba44de1489639b27f670a67b0750e46eb9fa
 - commits:
@@ -2280,7 +2302,7 @@
 - commits:
     - subject: Merge branch 'master' into base-images-updates
 - commits:
-    - body: null
+    - ? body
 - version: 1.4.2
 - date: 2020-08-12T16:18:39.000Z
 - commits:
@@ -2294,9 +2316,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'astro-tx2: Add CTI Astro TX2 G+ device type'
+    - subject: "astro-tx2: Add CTI Astro TX2 G+ device type"
 - commits:
-    - body: null
+    - ? body
 - version: 1.4.1
 - date: 2020-07-31T05:23:44.000Z
 - commits:
@@ -2312,7 +2334,7 @@
 - commits:
     - subject: Add archive.raspberrypi.org/debian package repository to rpi family
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 1f1994a87cf1e20d6e747c65cdf81d81567aa742
 - commits:
@@ -2326,7 +2348,7 @@
 - commits:
     - subject: Add node v14.7.0 v12.18.3 and v10.22.0
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 63a2ffb87a0283be6553d68aff26a3e21c01514e
 - commits:
@@ -2340,7 +2362,7 @@
 - commits:
     - subject: Add Go v1.14.6 and v1.13.14
 - commits:
-    - body: null
+    - ? body
 - version: 1.4.0
 - date: 2020-07-23T09:40:14.000Z
 - commits:
@@ -2356,7 +2378,7 @@
 - commits:
     - subject: Remove unused and outdated contracts
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 499eabecd0f823002c7a0409a9dd9d7f35f4d67b
 - commits:
@@ -2364,7 +2386,7 @@
 - commits:
     - subject: Merge branch 'master' into remove-unused-contracts
 - commits:
-    - body: null
+    - ? body
 - version: 1.3.3
 - date: 2020-07-23T08:47:34.000Z
 - commits:
@@ -2380,7 +2402,7 @@
 - commits:
     - subject: Add Python v3.8.5
 - commits:
-    - body: null
+    - ? body
 - version: 1.3.2
 - date: 2020-07-15T13:28:10.000Z
 - commits:
@@ -2410,9 +2432,8 @@
 - commits:
     - subject: Change latest Python to v3.8.3
 - commits:
-    - body: >-
-        As mentioned in the announcement, the latest tag for balenalib Python
-        base image will be changed to Python 3.x on July.
+    - body: As mentioned in the announcement, the latest tag for balenalib Python base
+        image will be changed to Python 3.x on July.
 - commits:
     - hash: 4444a38650c86d93d2be8ea23df99c8f5e36633f
 - commits:
@@ -2420,7 +2441,7 @@
 - commits:
     - subject: Merge branch 'master' into base-images-updates
 - commits:
-    - body: null
+    - ? body
 - version: 1.3.1
 - date: 2020-07-15T03:55:19.000Z
 - commits:
@@ -2434,7 +2455,7 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'jetson-nano: Update name to match dashboard'
+    - subject: "jetson-nano: Update name to match dashboard"
 - commits:
     - body: |-
         We have renamed this device in dashboard,
@@ -2447,9 +2468,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'jetson-nano-emmc: Add device type'
+    - subject: "jetson-nano-emmc: Add device type"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 62a5a689fb61b431318b3646946bf43f20be69ec
 - commits:
@@ -2458,9 +2479,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'jetson-xavier-nx-devkit-emmc: Add device type'
+    - subject: "jetson-xavier-nx-devkit-emmc: Add device type"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: dd49870a6967ce607d40eefdceef648804609d10
 - commits:
@@ -2469,9 +2490,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'photon-xavier-nx: Add CTI Photon Xavier NX device type'
+    - subject: "photon-xavier-nx: Add CTI Photon Xavier NX device type"
 - commits:
-    - body: null
+    - ? body
 - version: 1.3.0
 - date: 2020-07-10T09:44:31.000Z
 - commits:
@@ -2487,7 +2508,7 @@
 - commits:
     - subject: Add aliases field to every device type
 - commits:
-    - body: null
+    - ? body
 - version: 1.2.0
 - date: 2020-07-06T12:37:05.000Z
 - commits:
@@ -2503,7 +2524,7 @@
 - commits:
     - subject: Update mistaken dt contracts and remove unused partials
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.117
 - date: 2020-07-06T09:56:01.000Z
 - commits:
@@ -2519,7 +2540,7 @@
 - commits:
     - subject: Add node v14.5.0 and v12.18.2
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: e49f62005bb9e0072a5a7b73786df43e3b6e5fdc
 - commits:
@@ -2549,9 +2570,9 @@
     - footers:
         signed-off-by: Florin Sarbu <florin@balena.io>
 - commits:
-    - subject: 'device: Add support for Variscite DART MX8M Mini NRT'
+    - subject: "device: Add support for Variscite DART MX8M Mini NRT"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.115
 - date: 2020-06-04T15:23:06.000Z
 - commits:
@@ -2567,7 +2588,7 @@
 - commits:
     - subject: Add node v14.4.0 v12.18.0 and v10.21.0
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 5ef5da33c28aa3b4fd2fe5d990d6a9b4d22a66b8
 - commits:
@@ -2579,9 +2600,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'Drop support for EOL node versions (v13, v11, v9 and v8)'
+    - subject: Drop support for EOL node versions (v13, v11, v9 and v8)
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 66a8d8aff2780d390117775d25746d8e8f2f55c7
 - commits:
@@ -2595,7 +2616,7 @@
 - commits:
     - subject: Add Golang v1.14.4 and v1.13.12
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 9fa7c2e7cd305a65c2eb3a3d8014b3f3e539389a
 - commits:
@@ -2609,7 +2630,7 @@
 - commits:
     - subject: Drop support for EOL Golang versions (v1.12 v1.11 and v1.10)
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.114
 - date: 2020-06-02T15:46:10.000Z
 - commits:
@@ -2625,9 +2646,8 @@
 - commits:
     - subject: Add support for Alpine Linux v3.12 and drop few old versions
 - commits:
-    - body: >-
-        Alpine Linux v3.6 v3.7 and v3.8 will be dropped since they are pretty
-        old and no longer supported by official Alpine Linux Dockerhub repo.
+    - body: Alpine Linux v3.6 v3.7 and v3.8 will be dropped since they are pretty old
+        and no longer supported by official Alpine Linux Dockerhub repo.
 - version: 1.1.113
 - date: 2020-05-28T00:15:45.000Z
 - commits:
@@ -2643,7 +2663,7 @@
 - commits:
     - subject: Add node v14.3.0
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 41cbc8babac3bbbffb8812c0a8d42405765f69c8
 - commits:
@@ -2657,7 +2677,7 @@
 - commits:
     - subject: Add libatomic1 as runtime deps for ubuntu node
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: aab3c0104e5d269bcf0905161308a86c5d1b5db1
 - commits:
@@ -2671,7 +2691,7 @@
 - commits:
     - subject: Add node v12.17.0
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 44923b82cea3d3f97966a798b89135bb67068e74
 - commits:
@@ -2679,7 +2699,7 @@
 - commits:
     - subject: Merge branch 'master' into base-images-updates
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.112
 - date: 2020-05-27T12:07:14.000Z
 - commits:
@@ -2693,9 +2713,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'device: Add support for AIO 3288C community board'
+    - subject: "device: Add support for AIO 3288C community board"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 3a826d88bc1dcf050952e56f49f1282aca7aaf1f
 - commits:
@@ -2707,9 +2727,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'device: Add support for FireFly rk3288 community board'
+    - subject: "device: Add support for FireFly rk3288 community board"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 2ae6f8229a2666c19fac3e1c98b2554772dbe67c
 - commits:
@@ -2721,9 +2741,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'device: Add support for Photon Nano community board'
+    - subject: "device: Add support for Photon Nano community board"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.111
 - date: 2020-05-18T09:06:23.000Z
 - commits:
@@ -2739,7 +2759,7 @@
 - commits:
     - subject: Add node v14.2.0
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 2eeae51083a960e978551c474adb305d872de2e1
 - commits:
@@ -2753,7 +2773,7 @@
 - commits:
     - subject: Add Python v3.8.3
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.110
 - date: 2020-04-30T10:32:26.000Z
 - commits:
@@ -2769,7 +2789,7 @@
 - commits:
     - subject: Add node v12.16.3
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: b62b72bdd7a4ecd96ab6ff27ff28d96d6da56b58
 - commits:
@@ -2777,7 +2797,7 @@
 - commits:
     - subject: Merge branch 'master' into base-images-updates
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.109
 - date: 2020-04-29T22:36:59.000Z
 - commits:
@@ -2793,7 +2813,7 @@
 - commits:
     - subject: Update QEMU to v4.0.0+balena2
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.108
 - date: 2020-04-28T12:21:44.000Z
 - commits:
@@ -2807,12 +2827,10 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: >-
-        Fix wrong image-info partial is selected for Alpine and Fedora
+    - subject: Fix wrong image-info partial is selected for Alpine and Fedora
         Dockerfiles
 - commits:
-    - body: >-
-        A wrong image-info partial is selected when generating Dockerfiles for
+    - body: A wrong image-info partial is selected when generating Dockerfiles for
         Alpine Linux and Fedora (contrato selected the common image-info partial
         instead of specific partial for Alpine Linux and Fedora) so we have to
         add image-info partial for the combination of Alpine-<Stack> and
@@ -2836,9 +2854,7 @@
         doing `docker tag` so the `Device` and `Device-type` on the tagged
         images are not correct.
 
-        Users already know the device name from the base image name so these
-        information are not really important and we should remove them from the
-        messages, otherwise it can be confusing for users.
+        Users already know the device name from the base image name so these information are not really important and we should remove them from the messages, otherwise it can be confusing for users.
 - commits:
     - hash: d3f1179973b9f181efc31f1580d4012e1f309889
 - commits:
@@ -2852,7 +2868,7 @@
 - commits:
     - subject: Add details about `balena-idle` and `balena-info` to base image messages
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 245c245680fb67b261c1b42b5f3ebef736b68909
 - commits:
@@ -2860,7 +2876,7 @@
 - commits:
     - subject: Merge branch 'master' into fix-balena-info
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.107
 - date: 2020-04-28T10:20:56.000Z
 - commits:
@@ -2876,7 +2892,7 @@
 - commits:
     - subject: Add node v14.0.0 and v13.13.0
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 518af5e73d9701d2672abf617aacc2661994aecc
 - commits:
@@ -2890,7 +2906,7 @@
 - commits:
     - subject: Add golang v1.14.2 and v1.13.10
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: dfd3c642ac4f7c7b5959a39dd6757974a10cecc7
 - commits:
@@ -2904,7 +2920,7 @@
 - commits:
     - subject: Add Python v2.7.18 v3.7.7 and v3.8.2
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.106
 - date: 2020-04-20T14:37:58.000Z
 - commits:
@@ -2934,9 +2950,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'device: Add support for Variscite DART MX8M Mini PLT'
+    - subject: "device: Add support for Variscite DART MX8M Mini PLT"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.104
 - date: 2020-04-16T05:28:55.000Z
 - commits:
@@ -2950,9 +2966,9 @@
     - footers:
         signed-off-by: Florin Sarbu <florin@balena.io>
 - commits:
-    - subject: 'device: Add support for Generic x86_64'
+    - subject: "device: Add support for Generic x86_64"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.103
 - date: 2020-04-15T16:18:59.000Z
 - commits:
@@ -2966,9 +2982,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'baseImages: Store base image info in .balena/message/image-info'
+    - subject: "baseImages: Store base image info in .balena/message/image-info"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 5a1cdec3a2bbc2082224b3cfb17a48eed439b2c2
 - commits:
@@ -2980,9 +2996,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'python: Add Python 2 deprecation warning'
+    - subject: "python: Add Python 2 deprecation warning"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 12c16bca71718b7951c736cb82581eaad667e22b
 - commits:
@@ -2996,10 +3012,8 @@
 - commits:
     - subject: Add a fake shell to print onbuild messages
 - commits:
-    - body: >-
-        Add a fake shell (`sh-shim`) that replaces `/bin/sh`. `sh-shim` will
-        print the infomational messages on-build, then restore the real
-        `/bin/sh`.
+    - body: Add a fake shell (`sh-shim`) that replaces `/bin/sh`. `sh-shim` will print
+        the infomational messages on-build, then restore the real `/bin/sh`.
 - commits:
     - hash: 457d083cf94189046507b7a83dc162555ae224f1
 - commits:
@@ -3013,7 +3027,7 @@
 - commits:
     - subject: Add contract for balena-idle and balena-info
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 820032d60f3073253ea134997a48cdb75b2cb672
 - commits:
@@ -3035,7 +3049,7 @@
 - commits:
     - subject: Merge branch 'master' into balena-base-images
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.102
 - date: 2020-04-12T03:40:49.000Z
 - commits:
@@ -3051,7 +3065,7 @@
 - commits:
     - subject: Add node v12.16.2 and v10.20.0
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.101
 - date: 2020-04-03T12:45:59.000Z
 - commits:
@@ -3067,7 +3081,7 @@
 - commits:
     - subject: Add support for ubuntu focal (20.04)
 - commits:
-    - body: 'This release is only for armv7hf, aarch64 and amd64'
+    - body: This release is only for armv7hf, aarch64 and amd64
 - version: 1.1.100
 - date: 2020-03-27T15:31:04.000Z
 - commits:
@@ -3083,7 +3097,7 @@
 - commits:
     - subject: Add node v13.12.0
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.99
 - date: 2020-03-27T10:11:55.000Z
 - commits:
@@ -3097,9 +3111,9 @@
     - footers:
         signed-off-by: Florin Sarbu <florin@balena.io>
 - commits:
-    - subject: 'device: Add support for SKX2'
+    - subject: "device: Add support for SKX2"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.98
 - date: 2020-03-18T09:05:39.000Z
 - commits:
@@ -3115,7 +3129,7 @@
 - commits:
     - subject: Add Golang v1.14
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: c38d3e775a0d44b95a1f5df1d7475b5b6716ff79
 - commits:
@@ -3129,7 +3143,7 @@
 - commits:
     - subject: Drop support for armv5e architecture
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.97
 - date: 2020-03-12T14:53:22.000Z
 - commits:
@@ -3145,7 +3159,7 @@
 - commits:
     - subject: Add node v13.11.0 and update yarn to v1.22.4
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.96
 - date: 2020-02-28T08:42:40.000Z
 - commits:
@@ -3159,9 +3173,9 @@
     - footers:
         signed-off-by: Alexandru Costache  <alexandru@balena.io>
 - commits:
-    - subject: 'device: Add Variscite IMX8M Mini device type'
+    - subject: "device: Add Variscite IMX8M Mini device type"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: aad851dd5278b0602387a60dc4a329deef2870f0
 - commits:
@@ -3173,7 +3187,7 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'device: Remove device type Nvidia Jetson TX2 with PCIe M.2 Slot'
+    - subject: "device: Remove device type Nvidia Jetson TX2 with PCIe M.2 Slot"
 - commits:
     - body: |-
         Remove this contract since we will not deploy
@@ -3193,7 +3207,7 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add v13.9.0 and v12.16.1'
+    - subject: "node: Add v13.9.0 and v12.16.1"
 - commits:
     - body: Update yarn to v1.22.0
 - commits:
@@ -3207,9 +3221,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'golang: Add v1.13.8 and v1.12.17'
+    - subject: "golang: Add v1.13.8 and v1.12.17"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.94
 - date: 2020-02-12T18:12:09.000Z
 - commits:
@@ -3223,9 +3237,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'dotnet: Update dependencies for Debian buster and bullseye'
+    - subject: "dotnet: Update dependencies for Debian buster and bullseye"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 54443bfb73edb7026debc91d63c7d27d27bb7292
 - commits:
@@ -3237,9 +3251,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add node v12.16.0'
+    - subject: "node: Add node v12.16.0"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.93
 - date: 2020-02-07T02:44:56.000Z
 - commits:
@@ -3253,9 +3267,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add support for v13.8.0 v12.15.0 and v10.19.0'
+    - subject: "node: Add support for v13.8.0 v12.15.0 and v10.19.0"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 056e1ae100ed2e1efcfe47c4981950848dad19b5
 - commits:
@@ -3267,9 +3281,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'dotnet: Add support for v3.1.1 sdk/runtime/aspnet'
+    - subject: "dotnet: Add support for v3.1.1 sdk/runtime/aspnet"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 79c5f3d975988e619c0593a2d74eca806fd2edff
 - commits:
@@ -3281,9 +3295,8 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: >-
-        rpi: Remove raspbian/raspberrypi package repository from Debian bullseye
-        and sid
+    - subject: "rpi: Remove raspbian/raspberrypi package repository from Debian
+        bullseye and sid"
 - commits:
     - body: Since they are not available yet.
 - version: 1.1.92
@@ -3299,7 +3312,7 @@
     - footers:
         signed-off-by: Florin Sarbu <florin@balena.io>
 - commits:
-    - subject: 'device: Add Nvidia Jetson TX2 with PCIe M.2 Slot Enabled'
+    - subject: "device: Add Nvidia Jetson TX2 with PCIe M.2 Slot Enabled"
 - commits:
     - body: Add support for new device type - m2pcie-tx2
 - commits:
@@ -3309,7 +3322,7 @@
 - commits:
     - subject: Merge branch 'master' into add_m2pcie-tx2
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 9e8fd6f8a3d15a042f2df61b438e65fc147162f7
 - commits:
@@ -3317,7 +3330,7 @@
 - commits:
     - subject: Merge branch 'master' into add_m2pcie-tx2
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: ae4b91de4ae054cc242806ef1aeeac292a8495ef
 - commits:
@@ -3325,7 +3338,7 @@
 - commits:
     - subject: Merge branch 'master' into add_m2pcie-tx2
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.91
 - date: 2020-02-03T03:42:23.000Z
 - commits:
@@ -3339,7 +3352,7 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'device: Add Nitrogen8MM DWE board'
+    - subject: "device: Add Nitrogen8MM DWE board"
 - commits:
     - body: Add support for new device type - Nitrogen8MM DWE
 - commits:
@@ -3349,7 +3362,7 @@
 - commits:
     - subject: Merge branch 'master' into contract_n8mm-dwe
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.90
 - date: 2020-01-24T14:57:11.000Z
 - commits:
@@ -3363,7 +3376,7 @@
     - footers:
         signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
 - commits:
-    - subject: 'contract.json: Update wifi,bt and storage fields'
+    - subject: "contract.json: Update wifi,bt and storage fields"
 - commits:
     - body: |-
         Update the wifi, bluetooth and storage fields of the
@@ -3381,9 +3394,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'alpine: Change latest Alpine Linux to 3.11'
+    - subject: "alpine: Change latest Alpine Linux to 3.11"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 2a433eb6067d41dec0bf3275116ca58baec9f0cb
 - commits:
@@ -3395,9 +3408,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'debian: Add support for Debian Bullseye'
+    - subject: "debian: Add support for Debian Bullseye"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: aab9f0cac9dde3ca55926c18ccfbbd351d9281b7
 - commits:
@@ -3409,9 +3422,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add v13.6.0 v12.14.1 and v10.18.1'
+    - subject: "node: Add v13.6.0 v12.14.1 and v10.18.1"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: d96c45eb756a758b341e3dc058d642c4d01179d4
 - commits:
@@ -3423,9 +3436,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'go: Add v1.13.6 and v1.12.15'
+    - subject: "go: Add v1.13.6 and v1.12.15"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: e3db06f0f99491056c6a94a2f1ffad204aff93fe
 - commits:
@@ -3437,9 +3450,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'python: Add v3.8.1 v3.7.6 and v3.6.10'
+    - subject: "python: Add v3.8.1 v3.7.6 and v3.6.10"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 8fd57c1b80742dcd2e75dd720da87390dd9c2307
 - commits:
@@ -3451,9 +3464,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'alpine: Remove i386-nlp from Alpine Linux supported archs'
+    - subject: "alpine: Remove i386-nlp from Alpine Linux supported archs"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.88
 - date: 2019-12-23T10:45:40.000Z
 - commits:
@@ -3467,9 +3480,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'alpine: Add support for Alpine Linux v3.11'
+    - subject: "alpine: Add support for Alpine Linux v3.11"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: dc0487a1e23c356fa32dd3e616bdd5799db59967
 - commits:
@@ -3481,7 +3494,7 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add support for latest node releases'
+    - subject: "node: Add support for latest node releases"
 - commits:
     - body: |-
         Add v13.5.0 v12.14.0 v10.18.0 and v8.17.0
@@ -3499,9 +3512,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'dotnet: Add v3.1.0 v2.2.8 and v2.1.14'
+    - subject: "dotnet: Add v3.1.0 v2.2.8 and v2.1.14"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 3df1fb0835f0fb40ceae88335a15999933cb8684
 - commits:
@@ -3509,7 +3522,7 @@
 - commits:
     - subject: Merge branch 'master' into base-image-updates
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.86
 - date: 2019-12-04T22:24:42.000Z
 - commits:
@@ -3523,7 +3536,7 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'device: Add Google Coral Dev Board'
+    - subject: "device: Add Google Coral Dev Board"
 - commits:
     - body: Add support for new device type - coral-dev
 - version: 1.1.85
@@ -3539,9 +3552,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add v13.1.0'
+    - subject: "node: Add v13.1.0"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: a24d447453288bb721033113332939b870f8f398
 - commits:
@@ -3553,9 +3566,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'golang: Add v1.12.13 and v1.13.4'
+    - subject: "golang: Add v1.12.13 and v1.13.4"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 87e59bf419b27761967cc3d8325aa26dc376f0a3
 - commits:
@@ -3567,9 +3580,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'xbuild: Various updates'
+    - subject: "xbuild: Various updates"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.84
 - date: 2019-11-15T09:58:56.000Z
 - commits:
@@ -3583,7 +3596,7 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'device: Add suport for Auvidea JN30B Nano'
+    - subject: "device: Add suport for Auvidea JN30B Nano"
 - commits:
     - body: |-
         JN30B carrier board for Jetson Nano from
@@ -3602,9 +3615,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'device: Add support for Surface Go'
+    - subject: "device: Add support for Surface Go"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.82
 - date: 2019-11-06T10:44:45.000Z
 - commits:
@@ -3618,9 +3631,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'test: Update OS version test'
+    - subject: "test: Update OS version test"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.81
 - date: 2019-10-30T15:25:58.000Z
 - commits:
@@ -3634,9 +3647,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add v13.0.1 v12.13.0 and v10.17.0 with Yarn v1.19.1'
+    - subject: "node: Add v13.0.1 v12.13.0 and v10.17.0 with Yarn v1.19.1"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 231b8d8f61d377c376db215e48ac3e057e952cea
 - commits:
@@ -3648,9 +3661,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'python: Add v2.7.17 v3.7.5 and v3.8.0'
+    - subject: "python: Add v2.7.17 v3.7.5 and v3.8.0"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: cfc4bb4f2e0f960fb836933aefe42ce1195318aa
 - commits:
@@ -3662,11 +3675,10 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'curl: Fix curl not working on latest Ubuntu releases'
+    - subject: "curl: Fix curl not working on latest Ubuntu releases"
 - commits:
-    - body: >-
-        Due to missing CA vert hashes (see:
-        https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=923479)
+    - body: "Due to missing CA vert hashes (see:
+        https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=923479)"
 - version: 1.1.80
 - date: 2019-10-25T13:28:35.000Z
 - commits:
@@ -3680,9 +3692,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'test: Update latest test scripts'
+    - subject: "test: Update latest test scripts"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 0a01ebd31f0cad4b346c8029f0e427f6ca794177
 - commits:
@@ -3694,9 +3706,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'golang: Add v1.13.3 and v1.12.12'
+    - subject: "golang: Add v1.13.3 and v1.12.12"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.79
 - date: 2019-10-21T11:03:00.000Z
 - commits:
@@ -3710,10 +3722,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'install_packages: Fix cleanup command'
+    - subject: "install_packages: Fix cleanup command"
 - commits:
-    - body: >-
-        Make sure the cleanup command will not fail when removing non-existent
+    - body: Make sure the cleanup command will not fail when removing non-existent
         directories
 - version: 1.1.78
 - date: 2019-10-11T03:14:03.000Z
@@ -3728,9 +3739,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'test: Add contract and partials for base images test'
+    - subject: "test: Add contract and partials for base images test"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 549d40ff388e1033cd342eab37cb5af108147de1
 - commits:
@@ -3738,7 +3749,7 @@
 - commits:
     - subject: Merge branch 'master' into contract-for-base-images-tests
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.77
 - date: 2019-10-09T10:42:52.000Z
 - commits:
@@ -3752,9 +3763,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'go: Add v1.13.1 and v1.12.10'
+    - subject: "go: Add v1.13.1 and v1.12.10"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.76
 - date: 2019-10-08T15:39:58.000Z
 - commits:
@@ -3770,7 +3781,7 @@
 - commits:
     - subject: Remove unused device types
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.75
 - date: 2019-10-02T12:07:57.000Z
 - commits:
@@ -3784,9 +3795,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add support for Node v12.11.0'
+    - subject: "node: Add support for Node v12.11.0"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.74
 - date: 2019-09-27T15:13:56.000Z
 - commits:
@@ -3800,10 +3811,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'ubuntu: Add support for new Ubuntu versions'
+    - subject: "ubuntu: Add support for new Ubuntu versions"
 - commits:
-    - body: >-
-        In sync with official Ubuntu docker images, adding support for Ubuntu
+    - body: In sync with official Ubuntu docker images, adding support for Ubuntu
         Disco and Ubuntu Eoan. Dropping support for Ubuntu Trusty and Ubuntu
         Artful
 - commits:
@@ -3817,9 +3827,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'dotnet: Add support for .NET Core v3.0.0'
+    - subject: "dotnet: Add support for .NET Core v3.0.0"
 - commits:
-    - body: 'As v3.0.0 is no longer preview, change the latest tag to `3.0-sdk`'
+    - body: As v3.0.0 is no longer preview, change the latest tag to `3.0-sdk`
 - version: 1.1.73
 - date: 2019-09-20T02:22:30.000Z
 - commits:
@@ -3833,7 +3843,7 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'rpi64: Use generic debian for 64-bit rpi images'
+    - subject: "rpi64: Use generic debian for 64-bit rpi images"
 - commits:
     - body: Since raspbian package repositories have not provided arm64 packages yet
 - commits:
@@ -3847,10 +3857,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'python: Fix Python not found when compile dbus-python'
+    - subject: "python: Fix Python not found when compile dbus-python"
 - commits:
-    - body: >-
-        This dbus-python version checks for Python using PYTHON_VERSION env
+    - body: This dbus-python version checks for Python using PYTHON_VERSION env
         instead of PYTHON so passing full Python version will break the
         `configure` script. Should pass major and minor version only.
 - commits:
@@ -3864,9 +3873,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'dotnet: Update latest .NET releases'
+    - subject: "dotnet: Update latest .NET releases"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.72
 - date: 2019-09-09T15:53:19.000Z
 - commits:
@@ -3880,9 +3889,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add support for v12.10.0'
+    - subject: "node: Add support for v12.10.0"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.71
 - date: 2019-08-28T08:23:36.000Z
 - commits:
@@ -3896,9 +3905,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add v12.9.1'
+    - subject: "node: Add v12.9.1"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: ec1987d56bfd3660ef23de0ebdced4094d4b26ac
 - commits:
@@ -3910,9 +3919,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'go: Add v1.12.9 and v1.11.13'
+    - subject: "go: Add v1.12.9 and v1.11.13"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.70
 - date: 2019-08-27T08:04:22.000Z
 - commits:
@@ -3926,9 +3935,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'device: Add support for raspberrypi4-64'
+    - subject: "device: Add support for raspberrypi4-64"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.69
 - date: 2019-08-19T11:38:09.000Z
 - commits:
@@ -3942,9 +3951,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add v12.8.1 10.16.3 and v8.16.1'
+    - subject: "node: Add v12.8.1 10.16.3 and v8.16.1"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 5446fc0f7149aff6e44d0cd72df272ec182c6082
 - commits:
@@ -3952,7 +3961,7 @@
 - commits:
     - subject: Merge branch 'master' into node-updates
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.68
 - date: 2019-08-19T04:45:01.000Z
 - commits:
@@ -3966,9 +3975,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'device: Add support for Auvidea j120 TX2'
+    - subject: "device: Add support for Auvidea j120 TX2"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.67
 - date: 2019-08-06T10:06:05.000Z
 - commits:
@@ -3982,9 +3991,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'fedora: Set Fedora 30 as latest and add Fedora 31'
+    - subject: "fedora: Set Fedora 30 as latest and add Fedora 31"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.66
 - date: 2019-08-06T07:42:50.000Z
 - commits:
@@ -3998,7 +4007,7 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add node v12.7.0 and v10.16.1'
+    - subject: "node: Add node v12.7.0 and v10.16.1"
 - commits:
     - body: Update Yarn to 1.17.3
 - commits:
@@ -4008,7 +4017,7 @@
 - commits:
     - subject: Merge branch 'master' into base-image-updates
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: cc05573dcea17eb05cd6ec65b59e7ec0ccbaba45
 - commits:
@@ -4016,7 +4025,7 @@
 - commits:
     - subject: Merge branch 'master' into base-image-updates
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.65
 - date: 2019-08-06T07:29:06.000Z
 - commits:
@@ -4030,9 +4039,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'cleanup: Clean up everything before making contracts public'
+    - subject: "cleanup: Clean up everything before making contracts public"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.64
 - date: 2019-07-25T11:02:58.000Z
 - commits:
@@ -4046,9 +4055,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'python: Add Python v3.7.4 and v3.6.9'
+    - subject: "python: Add Python v3.7.4 and v3.6.9"
 - commits:
-    - body: 'Update pip to v19.2.1, dbus to v1.2.8'
+    - body: Update pip to v19.2.1, dbus to v1.2.8
 - commits:
     - hash: e986ca969c0c9ac2437d63dafe74df409c1c744b
 - commits:
@@ -4060,10 +4069,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'install_updates: Remove /var/cache/apt/archives on clean up'
+    - subject: "install_updates: Remove /var/cache/apt/archives on clean up"
 - commits:
-    - body: >-
-        That directory contains the cached packages downloaded by apt. Running
+    - body: That directory contains the cached packages downloaded by apt. Running
         apt-get clean will remove them so the install_packages script should
         clean it up as well.
 - version: 1.1.63
@@ -4079,9 +4087,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'golang: Add v1.12.7 and v1.11.12'
+    - subject: "golang: Add v1.12.7 and v1.11.12"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: e8b65c279add2fd6be4a99d9a2b2db5f479de361
 - commits:
@@ -4093,7 +4101,7 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'debian: Use another workaround for broken certificates on buster'
+    - subject: "debian: Use another workaround for broken certificates on buster"
 - commits:
     - body: >-
         The ca-certificates package fails to create the hashes used by programs
@@ -4112,9 +4120,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add v12.6.0'
+    - subject: "node: Add v12.6.0"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.62
 - date: 2019-07-12T10:14:46.000Z
 - commits:
@@ -4128,9 +4136,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'debian: Move latest tag to Debian Buster'
+    - subject: "debian: Move latest tag to Debian Buster"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 16883762ac565084730a06b0f7caee41094bff07
 - commits:
@@ -4138,7 +4146,7 @@
 - commits:
     - subject: Merge branch 'master' into debian
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.61
 - date: 2019-07-11T17:01:08.000Z
 - commits:
@@ -4154,7 +4162,7 @@
 - commits:
     - subject: Jetson TX2's bluetooth should be true
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.60
 - date: 2019-07-05T08:15:34.000Z
 - commits:
@@ -4168,9 +4176,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'device: Add contract for Nitrogen8M Mini SBC'
+    - subject: "device: Add contract for Nitrogen8M Mini SBC"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: bae5abda4bed0c49699114c8ba9127165804561d
 - commits:
@@ -4182,9 +4190,10 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'debian: Fix SSL certificate problem when downloading with curl on Buster'
+    - subject: "debian: Fix SSL certificate problem when downloading with curl on
+        Buster"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.59
 - date: 2019-07-02T11:33:34.000Z
 - commits:
@@ -4198,9 +4207,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add node v12.5.0'
+    - subject: "node: Add node v12.5.0"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 20543963a77e809078f175fb63e31543fec3f762
 - commits:
@@ -4212,9 +4221,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'dotnet: Add latest sdk, runtime and aspnet releases'
+    - subject: "dotnet: Add latest sdk, runtime and aspnet releases"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.58
 - date: 2019-07-01T11:10:11.000Z
 - commits:
@@ -4228,9 +4237,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'alpine: Add support for Alpine Linux v3.10'
+    - subject: "alpine: Add support for Alpine Linux v3.10"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.57
 - date: 2019-06-29T02:36:18.000Z
 - commits:
@@ -4244,9 +4253,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'go: Add Go v1.12.6 and v1.11.11'
+    - subject: "go: Add Go v1.12.6 and v1.11.11"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.56
 - date: 2019-06-28T10:26:25.000Z
 - commits:
@@ -4260,14 +4269,13 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'alpine: Handling the CVE-2019-5021 vurnerability'
+    - subject: "alpine: Handling the CVE-2019-5021 vurnerability"
 - commits:
     - body: >-
         Drop support for v3.5 as it is EOL, other versions were fixed upstream
         so just need to rebuild all alpine images.
 
-        ref:
-        https://alpinelinux.org/posts/Docker-image-vulnerability-CVE-2019-5021.html
+        ref: https://alpinelinux.org/posts/Docker-image-vulnerability-CVE-2019-5021.html
 - version: 1.1.55
 - date: 2019-06-24T10:27:48.000Z
 - commits:
@@ -4281,9 +4289,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'device: Add contract for Up-core, Up-core-plus and Up-squared'
+    - subject: "device: Add contract for Up-core, Up-core-plus and Up-squared"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 44dede4d810af600dde6182f7935106f01a122b9
 - commits:
@@ -4295,9 +4303,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'up: Add partials for new UP boards'
+    - subject: "up: Add partials for new UP boards"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.54
 - date: 2019-06-17T15:33:07.000Z
 - commits:
@@ -4311,9 +4319,9 @@
     - footers:
         signed-off-by: Roman Mazur <roman@balena.io>
 - commits:
-    - subject: 'sw.stack: Fix golang version'
+    - subject: "sw.stack: Fix golang version"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.53
 - date: 2019-06-13T08:16:35.000Z
 - commits:
@@ -4327,9 +4335,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'device: Add contract for Nvidia Jetson Xavier'
+    - subject: "device: Add contract for Nvidia Jetson Xavier"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.52
 - date: 2019-06-12T15:50:23.000Z
 - commits:
@@ -4343,9 +4351,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add support for v12.4.0'
+    - subject: "node: Add support for v12.4.0"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 3f77825a62d6565d0cc67b767761428e96cc18e5
 - commits:
@@ -4357,9 +4365,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'golang: Add support for v1.12.5 and v1.11.10'
+    - subject: "golang: Add support for v1.12.5 and v1.11.10"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.51
 - date: 2019-06-12T08:54:17.000Z
 - commits:
@@ -4373,9 +4381,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'device: Add contract for NanoPC-T4'
+    - subject: "device: Add contract for NanoPC-T4"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.50
 - date: 2019-06-03T11:03:22.000Z
 - commits:
@@ -4389,9 +4397,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'device: Add support for BeagleBoard-XM'
+    - subject: "device: Add support for BeagleBoard-XM"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.49
 - date: 2019-05-29T09:18:38.000Z
 - commits:
@@ -4405,9 +4413,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add v12.3.1 and v10.16.0'
+    - subject: "node: Add v12.3.1 and v10.16.0"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 99f4706c1d25d96b170aea1cb9fde6473ac81ca9
 - commits:
@@ -4415,7 +4423,7 @@
 - commits:
     - subject: Merge branch 'master' into base-image-updates
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.48
 - date: 2019-05-29T07:43:14.000Z
 - commits:
@@ -4429,9 +4437,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'devices: Add support for MS Surface 6'
+    - subject: "devices: Add support for MS Surface 6"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.47
 - date: 2019-05-24T17:03:07.000Z
 - commits:
@@ -4445,9 +4453,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'openjdk: Fix missing javac in few Fedora OpenJDK images'
+    - subject: "openjdk: Fix missing javac in few Fedora OpenJDK images"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.46
 - date: 2019-05-21T18:00:31.000Z
 - commits:
@@ -4461,9 +4469,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'dotnet: Version update for dotnet sdk, runtime and aspnet'
+    - subject: "dotnet: Version update for dotnet sdk, runtime and aspnet"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 2703b115ef204761f305ea1534cfedb712a56c4a
 - commits:
@@ -4475,9 +4483,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'aspnet: Install .NET Runtime before aspnet for v3.0'
+    - subject: "aspnet: Install .NET Runtime before aspnet for v3.0"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.45
 - date: 2019-05-20T11:55:48.000Z
 - commits:
@@ -4491,9 +4499,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'device: Add contract for Nvidia blackboard TX2'
+    - subject: "device: Add contract for Nvidia blackboard TX2"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: bc5fef3f23a6e352ceac2418d07e30ed377f14a8
 - commits:
@@ -4505,9 +4513,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'device: Add contract for Orange Pi Lite'
+    - subject: "device: Add contract for Orange Pi Lite"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: fc7c64a6378827c6b274134711e59e4c26f53b41
 - commits:
@@ -4515,7 +4523,7 @@
 - commits:
     - subject: Merge branch 'master' into new-devices
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.44
 - date: 2019-05-20T11:33:21.000Z
 - commits:
@@ -4529,9 +4537,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add v12.2.0'
+    - subject: "node: Add v12.2.0"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.43
 - date: 2019-05-14T13:25:55.000Z
 - commits:
@@ -4545,10 +4553,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add glibc i386 binary for v10.15.3'
+    - subject: "node: Add glibc i386 binary for v10.15.3"
 - commits:
-    - body: >-
-        There are unofficial builds for i386 v10.x so we can add it back to
+    - body: There are unofficial builds for i386 v10.x so we can add it back to
         balenalib base images.
 - version: 1.1.42
 - date: 2019-05-11T11:06:33.000Z
@@ -4563,10 +4570,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'python: Fix wrong partials when generate Dockerfile'
+    - subject: "python: Fix wrong partials when generate Dockerfile"
 - commits:
-    - body: >-
-        New Python versions just added, however some partials still point to old
+    - body: New Python versions just added, however some partials still point to old
         version (v2.7.15) which breaks some symlinks in the Dockerfiles.
 - version: 1.1.41
 - date: 2019-05-07T12:00:48.000Z
@@ -4581,9 +4587,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'device: Add contract for Nvidia D3 TX2'
+    - subject: "device: Add contract for Nvidia D3 TX2"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.40
 - date: 2019-05-07T08:29:22.000Z
 - commits:
@@ -4597,7 +4603,7 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'device: Add contract for Beaglebone Fastenal'
+    - subject: "device: Add contract for Beaglebone Fastenal"
 - commits:
     - body: This device type is private
 - version: 1.1.39
@@ -4613,9 +4619,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add support for v12.1.0 and v11.15.0'
+    - subject: "node: Add support for v12.1.0 and v11.15.0"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 8bb17e3abfa84a58334682ed1ab0d5217fcc5a01
 - commits:
@@ -4627,9 +4633,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'python: Add support for v2.7.16 v3.7.3 v3.5.7 and v3.4.10'
+    - subject: "python: Add support for v2.7.16 v3.7.3 v3.5.7 and v3.4.10"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.38
 - date: 2019-05-03T09:37:30.000Z
 - commits:
@@ -4643,10 +4649,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'openJDK: Update latest openJDK version'
+    - subject: "openJDK: Update latest openJDK version"
 - commits:
-    - body: >-
-        This commit changes the latest tag for OpenJDK stack to 11-jdk and has
+    - body: This commit changes the latest tag for OpenJDK stack to 11-jdk and has
         some partial updates for 8-jdk/jre and 11-jdk/jre
 - commits:
     - hash: 3363ec9efd4f808c217d02b4ab4e973bed692612
@@ -4655,7 +4660,7 @@
 - commits:
     - subject: Merge branch 'master' into openjdk-updates
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: dd1e656272464dc76308aaa036be6c707ed7e873
 - commits:
@@ -4663,7 +4668,7 @@
 - commits:
     - subject: Merge branch 'master' into openjdk-updates
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.37
 - date: 2019-05-03T08:57:27.000Z
 - commits:
@@ -4677,9 +4682,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add v12.0.0 and v8.16.0'
+    - subject: "node: Add v12.0.0 and v8.16.0"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: aeca177e7f5fe620aacc41e56a2284de75881fff
 - commits:
@@ -4691,9 +4696,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Update yarn to v1.15.2'
+    - subject: "node: Update yarn to v1.15.2"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: ef7df7a07610cdaf0e83ab2c3671978dee133038
 - commits:
@@ -4705,7 +4710,7 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: v6.x EOL'
+    - subject: "node: v6.x EOL"
 - commits:
     - body: Remove v6.x from node contract
 - version: 1.1.36
@@ -4723,7 +4728,7 @@
 - commits:
     - subject: Modify orbitty-tx2 bluetooth property to true
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.35
 - date: 2019-04-29T09:23:45.000Z
 - commits:
@@ -4737,9 +4742,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'qemu: Update QEMU to v4.0.0+balena'
+    - subject: "qemu: Update QEMU to v4.0.0+balena"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.34
 - date: 2019-04-22T16:38:14.000Z
 - commits:
@@ -4753,9 +4758,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'dotnet: Add partials to generate dockerhub description'
+    - subject: "dotnet: Add partials to generate dockerhub description"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.33
 - date: 2019-04-19T12:30:37.000Z
 - commits:
@@ -4769,9 +4774,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add node v11.14.0 and v6.17.1'
+    - subject: "node: Add node v11.14.0 and v6.17.1"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 96b05d6fcd992526e304aaccd917b37761c60826
 - commits:
@@ -4783,9 +4788,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'golang: Add Go v1.12.4 and v1.11.9'
+    - subject: "golang: Add Go v1.12.4 and v1.11.9"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.32
 - date: 2019-04-19T04:57:55.000Z
 - commits:
@@ -4799,10 +4804,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'dotnet: Add contract for dotnet core stack'
+    - subject: "dotnet: Add contract for dotnet core stack"
 - commits:
-    - body: >-
-        This contract provides sdk, runtime and aspnet for 3.0, 2.2.x and 2.1.x
+    - body: This contract provides sdk, runtime and aspnet for 3.0, 2.2.x and 2.1.x
         series
 - commits:
     - hash: 5eb571e741f6c6aa1bb612b652949e930b29897d
@@ -4815,9 +4819,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'dotnet: Add partials for dotnet stack'
+    - subject: "dotnet: Add partials for dotnet stack"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.31
 - date: 2019-04-18T07:01:56.000Z
 - commits:
@@ -4831,7 +4835,7 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'dockerhub: Initial implementation of partials for dockerhub description'
+    - subject: "dockerhub: Initial implementation of partials for dockerhub description"
 - commits:
     - body: |-
         This commit contains necessary changes to generate the dockerhub
@@ -4847,7 +4851,7 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'dockerhub: Add partials for Golang stack'
+    - subject: "dockerhub: Add partials for Golang stack"
 - commits:
     - body: Add partials to generate dockerhub description for Golang stack.
 - commits:
@@ -4861,7 +4865,7 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'dockerhub: Add partials for Python stack'
+    - subject: "dockerhub: Add partials for Python stack"
 - commits:
     - body: Add partials to generate dockerhub description for Python stack.
 - commits:
@@ -4875,7 +4879,7 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'dockerhub: Add partials for OpenJDK stack'
+    - subject: "dockerhub: Add partials for OpenJDK stack"
 - commits:
     - body: Add partials to generate dockerhub description for OpenJDK stack.
 - commits:
@@ -4889,7 +4893,7 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'dockerhub: Add partials for OS base images'
+    - subject: "dockerhub: Add partials for OS base images"
 - commits:
     - body: Add partials to generate dockerhub description for OS base images.
 - commits:
@@ -4903,7 +4907,7 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'dockerhub: Move stack logo and introduction into the contract'
+    - subject: "dockerhub: Move stack logo and introduction into the contract"
 - commits:
     - body: So we can easily use that information in other docs
 - commits:
@@ -4917,9 +4921,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'stack: Update latest stack version in versionList'
+    - subject: "stack: Update latest stack version in versionList"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: edcc985e2dc64ff9effc92a159b872fe8003cbe1
 - commits:
@@ -4927,7 +4931,7 @@
 - commits:
     - subject: Merge branch 'master' into dockerhub-description
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 0baa1c873cefe239d9c877206d832761f5e91f0c
 - commits:
@@ -4939,9 +4943,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'dockerhub: Reorganize dockerhub partials to respect contracts structure'
+    - subject: "dockerhub: Reorganize dockerhub partials to respect contracts structure"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 7d68517d14f9f5cb30f369794a4b17f63cb75b13
 - commits:
@@ -4949,7 +4953,7 @@
 - commits:
     - subject: Merge branch 'master' into dockerhub-description
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.30
 - date: 2019-04-15T09:58:28.000Z
 - commits:
@@ -4963,7 +4967,7 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'newDevice: Add contract for BepMarine DL-PM6X'
+    - subject: "newDevice: Add contract for BepMarine DL-PM6X"
 - commits:
     - body: This particular device type is private
 - commits:
@@ -4977,9 +4981,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'newDevice: Add contract for Nvidia Jetson Nano'
+    - subject: "newDevice: Add contract for Nvidia Jetson Nano"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.29
 - date: 2019-04-01T10:23:33.000Z
 - commits:
@@ -4993,9 +4997,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'alpine: Add armv7hf golang binary for Alpine Linux'
+    - subject: "alpine: Add armv7hf golang binary for Alpine Linux"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: f405f18e16d223f640088fcf244eeb773cf70129
 - commits:
@@ -5007,9 +5011,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'alpine: Add armv7hf python binary for Alpine Linux'
+    - subject: "alpine: Add armv7hf python binary for Alpine Linux"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 4e995e96fc4d7d2a381911115359ba86946d909e
 - commits:
@@ -5021,9 +5025,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'alpine: Add armv7hf node binary for Alpine Linux'
+    - subject: "alpine: Add armv7hf node binary for Alpine Linux"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: f46a8e17cb8b3e0d56d864a89300e2e643491bad
 - commits:
@@ -5035,9 +5039,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Fix wrong checksums in node v11.12.0'
+    - subject: "node: Fix wrong checksums in node v11.12.0"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 4922f6abca7650162a2cbb52b1d33c8fb0ba1278
 - commits:
@@ -5045,7 +5049,7 @@
 - commits:
     - subject: Merge branch 'master' into base-image-updates
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.28
 - date: 2019-03-29T18:28:43.000Z
 - commits:
@@ -5059,10 +5063,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'alpine: Change Alpine Linux v3.9 and edge from arm32v6 to arm32v7'
+    - subject: "alpine: Change Alpine Linux v3.9 and edge from arm32v6 to arm32v7"
 - commits:
-    - body: >-
-        Armv7 Alpine Linux v3.9 and edge released so start using the new Alpine
+    - body: Armv7 Alpine Linux v3.9 and edge released so start using the new Alpine
         Linux images for balenalib base images.
 - commits:
     - hash: 023cf102b23d30bacaf066f8936e97b0c3c18681
@@ -5071,7 +5074,7 @@
 - commits:
     - subject: Merge branch 'master' into alpine-update
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.27
 - date: 2019-03-27T09:14:19.000Z
 - commits:
@@ -5085,9 +5088,8 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: >-
-        node: Set node v6.x and v8.x for i386 Alpine to last known working
-        version
+    - subject: "node: Set node v6.x and v8.x for i386 Alpine to last known working
+        version"
 - commits:
     - body: |-
         Set to v6.14.1 and v8.11.1 for i386 Alpine v3.8 and older releases.
@@ -5104,9 +5106,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add info node v11.12.0'
+    - subject: "node: Add info node v11.12.0"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 5e1fa7edf23f5c5f91ea76ca58382380f91cb04e
 - commits:
@@ -5118,9 +5120,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'golang: Add info for v1.12.1 and v1.11.6'
+    - subject: "golang: Add info for v1.12.1 and v1.11.6"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 713579edd3174d2318b553d1b177c2e953627593
 - commits:
@@ -5132,21 +5134,17 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: >-
-        debian: Add workaround for missing `-updates` package repo in Debian
-        Jessie
+    - subject: "debian: Add workaround for missing `-updates` package repo in Debian
+        Jessie"
 - commits:
     - body: >-
         Debian Jessie is now LTS so `-updates` repository is removed from all
         mirrors, this fix will remove it from sources.list as a workaround until
         it is fixed upstream.
 
-        Aarch64 will use archive.debian.org instead of normal mirrors since only
-        Jessie i386, amd64, armel and armhf will continue to be hosted on the
-        normal mirrors.
+        Aarch64 will use archive.debian.org instead of normal mirrors since only Jessie i386, amd64, armel and armhf will continue to be hosted on the normal mirrors.
 
-        ref:
-        https://lists.debian.org/debian-devel-announce/2019/03/msg00006.html
+        ref: https://lists.debian.org/debian-devel-announce/2019/03/msg00006.html
 - version: 1.1.26
 - date: 2019-03-21T16:14:06.000Z
 - commits:
@@ -5160,9 +5158,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'device: Add contract for Aetina N510 TX2'
+    - subject: "device: Add contract for Aetina N510 TX2"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: dd60ccbbc76e42046b1440dd1c1c2b30698cc674
 - commits:
@@ -5174,9 +5172,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'device: Add contract for Nitrogen 6X Quad 2GB'
+    - subject: "device: Add contract for Nitrogen 6X Quad 2GB"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 44308b4d5802f2c7da04f1c9e4c89544d046b7d0
 - commits:
@@ -5188,9 +5186,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'device: Add contract for NPE X500 M3'
+    - subject: "device: Add contract for NPE X500 M3"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.25
 - date: 2019-03-08T06:15:12.000Z
 - commits:
@@ -5204,9 +5202,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add v11.10.1 v10.15.3 v8.15.1 and v6.17.0'
+    - subject: "node: Add v11.10.1 v10.15.3 v8.15.1 and v6.17.0"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.24
 - date: 2019-03-01T10:09:29.000Z
 - commits:
@@ -5220,9 +5218,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'go: Add v1.12 to Golang contract'
+    - subject: "go: Add v1.12 to Golang contract"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.23
 - date: 2019-02-27T11:42:56.000Z
 - commits:
@@ -5236,9 +5234,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add v11.10.0 to Node contract'
+    - subject: "node: Add v11.10.0 to Node contract"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 2976f351eea8425390b220d77f2643adaf4f585a
 - commits:
@@ -5250,9 +5248,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'golang: Add v1.11.5 and v1.10.8 to Golang contract'
+    - subject: "golang: Add v1.11.5 and v1.10.8 to Golang contract"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 87509032c3f133c11c36f264ee73f147c494c63c
 - commits:
@@ -5264,10 +5262,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'device: Add contract for Raspberry Pi 3 64bits'
+    - subject: "device: Add contract for Raspberry Pi 3 64bits"
 - commits:
-    - body: >-
-        The base images for this device will be the same as generic aarch64 base
+    - body: The base images for this device will be the same as generic aarch64 base
         images as raspbian driver packages for aarch64 are not available yet.
 - version: 1.1.22
 - date: 2019-02-26T10:33:49.000Z
@@ -5282,11 +5279,10 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'alpineLinux: Install libssl1.1 on latest Alpine Linux'
+    - subject: "alpineLinux: Install libssl1.1 on latest Alpine Linux"
 - commits:
-    - body: >-
-        libssl1.0 is not available in Alpine Linux version 3.9 or edge so we
-        need to install libssl1.1 instead.
+    - body: libssl1.0 is not available in Alpine Linux version 3.9 or edge so we need
+        to install libssl1.1 instead.
 - commits:
     - hash: 87d6ad421043dd2699fc01e1b950a67068722ca0
 - commits:
@@ -5298,11 +5294,10 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'fedora: Add suppor for Fedora 29 and 30'
+    - subject: "fedora: Add suppor for Fedora 29 and 30"
 - commits:
-    - body: >-
-        Fedora 29 will be the latest tag (the same with official Docker
-        library), Fedora 30 for armv7hf is not available yet.
+    - body: Fedora 29 will be the latest tag (the same with official Docker library),
+        Fedora 30 for armv7hf is not available yet.
 - commits:
     - hash: 0f0c61ed31ee537a5c6cb9b486f9404e20d74914
 - commits:
@@ -5314,7 +5309,7 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'openjdk: Update Fedora openjdk images'
+    - subject: "openjdk: Update Fedora openjdk images"
 - commits:
     - body: |-
         - Add support for new Fedora versions.
@@ -5330,9 +5325,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'device: Add support for Orange Pi One'
+    - subject: "device: Add support for Orange Pi One"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.21
 - date: 2019-02-19T10:06:57.000Z
 - commits:
@@ -5346,9 +5341,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'newDevice: Add contract for Orange Pi Zero'
+    - subject: "newDevice: Add contract for Orange Pi Zero"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.20
 - date: 2019-02-15T14:25:57.000Z
 - commits:
@@ -5362,9 +5357,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add v11.9.0 and v10.15.1 to node contract'
+    - subject: "node: Add v11.9.0 and v10.15.1 to node contract"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 18d34fb8018feb16c05e6da5cde146d500a25dca
 - commits:
@@ -5376,10 +5371,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'debian: Add procps to the default package list for Debian images'
+    - subject: "debian: Add procps to the default package list for Debian images"
 - commits:
-    - body: >-
-        Debian buster does not have this package installed by default (previous
+    - body: Debian buster does not have this package installed by default (previous
         releases do have it) that will potentially  break user application as
         they expect some essential commands (like ps) from procps package are
         installed.
@@ -5396,9 +5390,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'python: Update pip to v19.0.1 and setuptools v40.6.3'
+    - subject: "python: Update pip to v19.0.1 and setuptools v40.6.3"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 5c122a7a86a0aeffc16341de1638a9d60ae7a368
 - commits:
@@ -5410,9 +5404,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'alpine: Add support for Alpine Linux 3.9'
+    - subject: "alpine: Add support for Alpine Linux 3.9"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: d245368f6c8b41f3283a8d4d11f0cd22486b3c66
 - commits:
@@ -5424,9 +5418,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'rpi: Add ui component to rpi family base images sources list'
+    - subject: "rpi: Add ui component to rpi family base images sources list"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 302cf5d0335174ffd26b0fd62835b8744afaa305
 - commits:
@@ -5434,7 +5428,7 @@
 - commits:
     - subject: Merge branch 'master' into base-image-updates
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 30f17e74f26a2fc8a642ca0a40fb199d1dab0c27
 - commits:
@@ -5442,7 +5436,7 @@
 - commits:
     - subject: Merge branch 'master' into base-image-updates
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.18
 - date: 2019-02-13T02:36:37.000Z
 - commits:
@@ -5456,9 +5450,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'imx8m-var-dart: Add identification led support'
+    - subject: "imx8m-var-dart: Add identification led support"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.17
 - date: 2019-01-23T15:06:34.000Z
 - commits:
@@ -5472,9 +5466,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add support for node v11.6.0 v10.15.0 v8.15.0 and v6.16.0'
+    - subject: "node: Add support for node v11.6.0 v10.15.0 v8.15.0 and v6.16.0"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 20f753315b251f34f917e6bceb428df841b7f6b9
 - commits:
@@ -5486,9 +5480,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'python: Update the checksum for Python v2.7.15 armv6hf binary'
+    - subject: "python: Update the checksum for Python v2.7.15 armv6hf binary"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.16
 - date: 2019-01-18T10:08:40.000Z
 - commits:
@@ -5502,9 +5496,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'newDevice: Add info for cl-som-imx8'
+    - subject: "newDevice: Add info for cl-som-imx8"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.15
 - date: 2019-01-16T12:28:50.000Z
 - commits:
@@ -5518,9 +5512,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'python: Add support for python v3.7.2 and v3.6.8'
+    - subject: "python: Add support for python v3.7.2 and v3.6.8"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 3dd63b0a0fa2e3f34d55947821e3032cf9be0df8
 - commits:
@@ -5532,10 +5526,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'mraa: Fix mraa build dependencies'
+    - subject: "mraa: Fix mraa build dependencies"
 - commits:
-    - body: >-
-        Fix the case when some pre-installed packages in build variant
+    - body: Fix the case when some pre-installed packages in build variant
         accidentally removed since they are added to mraa build deps which will
         be removed after installing
 - commits:
@@ -5549,9 +5542,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'mraa: Update mraa to v2.0.0 and upm to v1.7.1'
+    - subject: "mraa: Update mraa to v2.0.0 and upm to v1.7.1"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.14
 - date: 2019-01-11T13:08:04.000Z
 - commits:
@@ -5565,9 +5558,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'newDevice: Add info for imx8m-var-dart'
+    - subject: "newDevice: Add info for imx8m-var-dart"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.13
 - date: 2018-12-07T10:57:07.000Z
 - commits:
@@ -5581,16 +5574,12 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'debianImages: Invoke gpg with --batch'
+    - subject: "debianImages: Invoke gpg with --batch"
 - commits:
     - body: >-
         A recent gpg update causes gpg to fail when run in an environment
 
-        without a tty
-        (https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=913614#27). To
-        mitigate this issue on Debian images, run gpg in --batch mode as
-        recommended
-        (https://github.com/docker-library/postgres/issues/526#issuecomment-438818847)
+        without a tty (https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=913614#27). To mitigate this issue on Debian images, run gpg in --batch mode as recommended (https://github.com/docker-library/postgres/issues/526#issuecomment-438818847)
 - commits:
     - hash: d7594b02289002cd26fccc37eb8d3cd3f8b06815
 - commits:
@@ -5602,7 +5591,7 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'golang: Add info for Golang v1.11.2 and v1.10.5'
+    - subject: "golang: Add info for Golang v1.11.2 and v1.10.5"
 - commits:
     - body: Golang v1.11.2 will be set as latest version
 - commits:
@@ -5616,9 +5605,8 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: >-
-        Revert "baseImages: Add ONBUILD log output that lists base image
-        features"
+    - subject: 'Revert "baseImages: Add ONBUILD log output that lists base image
+        features"'
 - commits:
     - body: |-
         Since we must rethink how to properly implement this feature
@@ -5634,9 +5622,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add info for node v11.3.0, v10.14.0, v8.14.0 and v6.15.0'
+    - subject: "node: Add info for node v11.3.0, v10.14.0, v8.14.0 and v6.15.0"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 403799568808beebe76c7b44d032fb7e85927f73
 - commits:
@@ -5648,9 +5636,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'yarn: Update yarn to v1.12.3'
+    - subject: "yarn: Update yarn to v1.12.3"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.12
 - date: 2018-11-28T04:20:55.000Z
 - commits:
@@ -5664,9 +5652,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'baseImages: Set latest Go version to 1.11.1'
+    - subject: "baseImages: Set latest Go version to 1.11.1"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 0a9a26e40adaa0b148190acd22cedd7733488a09
 - commits:
@@ -5678,11 +5666,10 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: >-
-        baseImages: Remove curl from some partials since it is installed in
-        previous layer
+    - subject: "baseImages: Remove curl from some partials since it is installed in
+        previous layer"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 65d63db4e74386406a5f8761d2f2ba9a4e416219
 - commits:
@@ -5694,9 +5681,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'baseImages: Add i386-nlp arch to openJDK stack'
+    - subject: "baseImages: Add i386-nlp arch to openJDK stack"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 75499571851665eab55ccefd5b1498c21f139ff4
 - commits:
@@ -5708,9 +5695,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'baseImages: Add ONBUILD log output that lists base image features'
+    - subject: "baseImages: Add ONBUILD log output that lists base image features"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: ea0a562545293a0963bc0346d9949bb6f0a2b8e5
 - commits:
@@ -5718,7 +5705,7 @@
 - commits:
     - subject: Merge branch 'master' into balena-base-images
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.11
 - date: 2018-11-24T08:11:37.000Z
 - commits:
@@ -5732,9 +5719,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'newDevice: Add info for PocketBeagle'
+    - subject: "newDevice: Add info for PocketBeagle"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.10
 - date: 2018-11-19T15:39:05.000Z
 - commits:
@@ -5748,9 +5735,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'newDevice: Add info for imx7-var-som'
+    - subject: "newDevice: Add info for imx7-var-som"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: cea64c7f30cdcf9adcb26fa28a886db243337027
 - commits:
@@ -5762,9 +5749,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'var-som-mx6: Mention wifi support'
+    - subject: "var-som-mx6: Mention wifi support"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: de5d04a6f1d3fd3ebd3202758091397aa439da99
 - commits:
@@ -5776,9 +5763,9 @@
     - footers:
         signed-off-by: Alexandru Costache <alexandru@balena.io>
 - commits:
-    - subject: 'nanopi-neo-air: Mention wifi support'
+    - subject: "nanopi-neo-air: Mention wifi support"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.9
 - date: 2018-11-13T08:22:35.000Z
 - commits:
@@ -5792,9 +5779,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'newDevice: Add info for nanopi-neo-air'
+    - subject: "newDevice: Add info for nanopi-neo-air"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.8
 - date: 2018-11-09T21:15:07.000Z
 - commits:
@@ -5808,9 +5795,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'golang: Add info for Golang v1.11.1'
+    - subject: "golang: Add info for Golang v1.11.1"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 7dc1f3455f09ffd7c6a4eab0aea15a797d3514c7
 - commits:
@@ -5822,11 +5809,10 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: >-
-        python: Add info of openssl1.1 supported binary for python v2.7.15
-        v3.4.9 v3.5.6 and v3.6.6
+    - subject: "python: Add info of openssl1.1 supported binary for python v2.7.15
+        v3.4.9 v3.5.6 and v3.6.6"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.7
 - date: 2018-11-06T13:05:38.000Z
 - commits:
@@ -5840,17 +5826,17 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'circleci: Update circleci config 2.0'
+    - subject: "circleci: Update circleci config 2.0"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: f8ebce0b0349506d0fd28b3b0ddb38c3dbdc5cca
 - commits:
     - author: Trong Nghia Nguyen
 - commits:
-    - subject: 'Merge branch ''master'' of https://github.com/resin-io/contracts'
+    - subject: Merge branch 'master' of https://github.com/resin-io/contracts
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 3930516281b92e703532e78542a116377f6caeac
 - commits:
@@ -5862,9 +5848,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'new-device: Add contract for var-som-mx6'
+    - subject: "new-device: Add contract for var-som-mx6"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.6
 - date: 2018-11-05T19:07:37.000Z
 - commits:
@@ -5878,9 +5864,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'baseImages: Add gnupg to base dependencies for Alpine and Fedora'
+    - subject: "baseImages: Add gnupg to base dependencies for Alpine and Fedora"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 00bc023cd6ba2af51d1c9abddad39cdd7344703c
 - commits:
@@ -5892,9 +5878,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'baseImages: Fix install_packages on Alpine and Fedora partials'
+    - subject: "baseImages: Fix install_packages on Alpine and Fedora partials"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 79ae3a3ccd4409a1ebecc66395a1be34c787ca99
 - commits:
@@ -5906,9 +5892,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'circleci: Update circleci config 2.0'
+    - subject: "circleci: Update circleci config 2.0"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.5
 - date: 2018-10-29T02:40:01.000Z
 - commits:
@@ -5922,11 +5908,10 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'beaglebone: No longer install package from oldstable replease'
+    - subject: "beaglebone: No longer install package from oldstable replease"
 - commits:
-    - body: >-
-        since systemd was removed, we no longer need to specify oldstable
-        release when install package for Beaglebone Debian images
+    - body: since systemd was removed, we no longer need to specify oldstable release
+        when install package for Beaglebone Debian images
 - commits:
     - hash: 2d47172b66c44d1325dab2069d8460fc5e3d8d25
 - commits:
@@ -5938,10 +5923,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'fedora: Remove fedora 27 due to dnf issue'
+    - subject: "fedora: Remove fedora 27 due to dnf issue"
 - commits:
-    - body: >-
-        dnf is broken on armvhf fedora 27 so it should be temporarily removed
+    - body: dnf is broken on armvhf fedora 27 so it should be temporarily removed
         until this issue is fixed
 - commits:
     - hash: 8dc953621b0fd73c8e9455438498781f58dd981f
@@ -5954,9 +5938,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'rpi: Change raspbian key server in rpi debian images'
+    - subject: "rpi: Change raspbian key server in rpi debian images"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.4
 - date: 2018-10-25T13:47:24.000Z
 - commits:
@@ -5970,11 +5954,10 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'contracts: Use `this` in template reference inside contract'
+    - subject: "contracts: Use `this` in template reference inside contract"
 - commits:
-    - body: >-
-        Since contrato v0.0.6, reference to current contract must be qualified
-        via `this`
+    - body: Since contrato v0.0.6, reference to current contract must be qualified via
+        `this`
 - commits:
     - hash: 5bcbfed78d900bfe777169ff97aa4937e9be5ac1
 - commits:
@@ -5986,9 +5969,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'fedora: Some os-config must be applied before installing packages'
+    - subject: "fedora: Some os-config must be applied before installing packages"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: b1042925dc34c4c1a865a13a4465340c1e59e976
 - commits:
@@ -6000,9 +5983,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'namechange: Rename some stuff from resin to balena'
+    - subject: "namechange: Rename some stuff from resin to balena"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.3
 - date: 2018-10-24T15:20:03.000Z
 - commits:
@@ -6016,9 +5999,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'baseImages: Remove deprecation warning for resin base images'
+    - subject: "baseImages: Remove deprecation warning for resin base images"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.2
 - date: 2018-10-24T13:54:16.000Z
 - commits:
@@ -6032,9 +6015,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'os: Update default env vars'
+    - subject: "os: Update default env vars"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 48d1f50978dbab0e6faf05e2e1d80e6304700480
 - commits:
@@ -6046,9 +6029,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'os: add install_packages script to os partials'
+    - subject: "os: add install_packages script to os partials"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: abe36c2685673a4d3f27ff8b44c287848abaa6b6
 - commits:
@@ -6060,9 +6043,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'blob: Remove tini contracts'
+    - subject: "blob: Remove tini contracts"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 2cc547b95af7a0085bb32bb066946e792497516d
 - commits:
@@ -6074,9 +6057,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'os: Remove tini and initsystem related partials'
+    - subject: "os: Remove tini and initsystem related partials"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 17764e1029f7c10104b309bb4c6e4bbd9bbba236
 - commits:
@@ -6088,9 +6071,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'node: Add contracts and partials for nodejs base image stack'
+    - subject: "node: Add contracts and partials for nodejs base image stack"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 1a706de025819fc416a8bb5d1467b266662a31f5
 - commits:
@@ -6099,9 +6082,9 @@
     - footers:
         change-type: patch
 - commits:
-    - subject: 'debian: Drop support for Debian Wheezy'
+    - subject: "debian: Drop support for Debian Wheezy"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 211b12928f6916d65785b4311f8cdec36320bb89
 - commits:
@@ -6113,9 +6096,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'entry-script: Update entry script contract for balena base images'
+    - subject: "entry-script: Update entry script contract for balena base images"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: eefde025045ea1b7628391816f9896d7c5dbdaaf
 - commits:
@@ -6127,9 +6110,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'balena-xbuild: Change resin-xbuild to balena-xbuild'
+    - subject: "balena-xbuild: Change resin-xbuild to balena-xbuild"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 032a565f4f90e64b6afd021be510d7ee273fa055
 - commits:
@@ -6138,9 +6121,9 @@
     - footers:
         change-type: patch
 - commits:
-    - subject: 'version: Add latest version for some contracts'
+    - subject: "version: Add latest version for some contracts"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 5bbf29a0a182684dc80408851ea564ab0764d9f6
 - commits:
@@ -6149,9 +6132,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'namechange: Change resin to balena in some partials'
+    - subject: "namechange: Change resin to balena in some partials"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: eee4cf60808dc24a623452b4def433345a571b5b
 - commits:
@@ -6163,9 +6146,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'partials: Few partial updates for node stack'
+    - subject: "partials: Few partial updates for node stack"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 47dcba5e9282550d237718e0be241c49567dc522
 - commits:
@@ -6177,9 +6160,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'namechange: Change xbuild partial to balena-xbuild'
+    - subject: "namechange: Change xbuild partial to balena-xbuild"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: f10911c7ce989c9445ebc032feed47158c0c65ce
 - commits:
@@ -6188,9 +6171,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'rpi: Add missing contract and partial for rpi'
+    - subject: "rpi: Add missing contract and partial for rpi"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 6557736908d38930880b53a7f4f164411ed2208c
 - commits:
@@ -6202,9 +6185,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'python: Add contract and partials for Python stack'
+    - subject: "python: Add contract and partials for Python stack"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: c0042ba870ab09019ae6227d2881c8f663843eb1
 - commits:
@@ -6213,9 +6196,9 @@
     - footers:
         change-type: patch
 - commits:
-    - subject: 'golang: Add contract and partials for golang stack'
+    - subject: "golang: Add contract and partials for golang stack"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 5ba4ad3d77c35c00f3050432d6caa06e1297dc99
 - commits:
@@ -6227,9 +6210,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'openjdk: Add contracts and partials for OpenJDK stack'
+    - subject: "openjdk: Add contracts and partials for OpenJDK stack"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 29373ddc0d459e24f0fd31eb823444935fc4407b
 - commits:
@@ -6237,7 +6220,7 @@
 - commits:
     - subject: Merge branch 'master' into balena-base-images
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 0bf0925e2026cdfcc7be5a449ab689dca264aa9f
 - commits:
@@ -6246,9 +6229,9 @@
     - footers:
         change-type: patch
 - commits:
-    - subject: 'contracts: various small updates'
+    - subject: "contracts: various small updates"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: e75c5c4cdf09430a547965cfa54328dc20bb585e
 - commits:
@@ -6260,9 +6243,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'os: Update default env vars'
+    - subject: "os: Update default env vars"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 48d1f50978dbab0e6faf05e2e1d80e6304700480
 - commits:
@@ -6274,9 +6257,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'os: add install_packages script to os partials'
+    - subject: "os: add install_packages script to os partials"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: abe36c2685673a4d3f27ff8b44c287848abaa6b6
 - commits:
@@ -6288,9 +6271,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'blob: Remove tini contracts'
+    - subject: "blob: Remove tini contracts"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 2cc547b95af7a0085bb32bb066946e792497516d
 - commits:
@@ -6302,9 +6285,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'os: Remove tini and initsystem related partials'
+    - subject: "os: Remove tini and initsystem related partials"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.1
 - date: 2018-10-23T11:08:50.000Z
 - commits:
@@ -6318,9 +6301,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'base-images: Add deprecation warning when using resin base images'
+    - subject: "base-images: Add deprecation warning when using resin base images"
 - commits:
-    - body: null
+    - ? body
 - version: 1.1.0
 - date: 2018-09-25T16:56:16.000Z
 - commits:
@@ -6334,9 +6317,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'device: Add contract for asus-tinker-board and asus-tinker-board-s'
+    - subject: "device: Add contract for asus-tinker-board and asus-tinker-board-s"
 - commits:
-    - body: null
+    - ? body
 - version: 1.0.0
 - date: 2018-09-07T15:02:34.000Z
 - commits:
@@ -6350,9 +6333,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'device: Add new contract for Stem x86 32bit'
+    - subject: "device: Add new contract for Stem x86 32bit"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 92c84f8641b7a5d691ef22510a39014f19909f60
 - commits:
@@ -6364,9 +6347,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'device: Add new contract for Revolution Pi Core 3'
+    - subject: "device: Add new contract for Revolution Pi Core 3"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 5c29f7ddcf39b388635c1a1eec2d7daaa7d36040
 - commits:
@@ -6378,9 +6361,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'package.json: Add private: true to stop publishing to npm'
+    - subject: "package.json: Add private: true to stop publishing to npm"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: b0838799f419e888730825bf75bbc20593f52edc
 - commits:
@@ -6392,9 +6375,9 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'qemu: Update qemu to v3.0.0+resin'
+    - subject: "qemu: Update qemu to v3.0.0+resin"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: e561658f83519df8e83a809144699ca175f45797
 - commits:
@@ -6406,7 +6389,7 @@
     - footers:
         signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
 - commits:
-    - subject: 'base-image: Specify package repository when installing default packages'
+    - subject: "base-image: Specify package repository when installing default packages"
 - commits:
     - body: |-
         Install all default packages from oldstable (Jessie)
@@ -6418,7 +6401,7 @@
 - commits:
     - subject: Merge branch 'master' into base-image-updates
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: ef637bbd74597872695dd23232cfcb136463ee7d
 - commits:
@@ -6427,9 +6410,9 @@
     - footers:
         change-type: minor
 - commits:
-    - subject: 'Device: add contract for new device - CTI Spacely TX2'
+    - subject: "Device: add contract for new device - CTI Spacely TX2"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: cba9d79841d612fdd420e081cd3c03bd437e6d1b
 - commits:
@@ -6438,9 +6421,9 @@
     - footers:
         change-type: minor
 - commits:
-    - subject: 'Add contract for new device: CTI Orbitty TX2'
+    - subject: "Add contract for new device: CTI Orbitty TX2"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 05a9dbe73ecb7e598d06fe37ea6a9ca89ed21e8f
 - commits:
@@ -6448,7 +6431,7 @@
 - commits:
     - subject: Add support for Alpine Linux v3.8
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 3190fef0a5587314a414b7eaf14c0ba7412c6918
 - commits:
@@ -6456,8 +6439,7 @@
 - commits:
     - subject: Remove Debian security repository from Debian aarch64 base images.
 - commits:
-    - body: >-
-        Since there is no aarch64 security repo in Debian Jessie so removing it
+    - body: Since there is no aarch64 security repo in Debian Jessie so removing it
         from sources.list
 - commits:
     - hash: 793de5e0a80555da4518a9ef4ea6bc9b13e6b210
@@ -6466,7 +6448,7 @@
 - commits:
     - subject: Set MRAA and UPM version for Intel Edison and Up-board base images
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: b5bcad3ed75e739bf45144a2945936e94f8e632b
 - commits:
@@ -6474,7 +6456,7 @@
 - commits:
     - subject: Fix incorrect arch and device name for artik710 and kitra710
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 93fd7de4d0825e2808fae0b5ba9eda73a1c0dd52
 - commits:
@@ -6482,7 +6464,7 @@
 - commits:
     - subject: Add partials for ubuntu device-specific base images
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: bc4c119c466901c8f70412ee91afc143c0bfc3fb
 - commits:
@@ -6491,11 +6473,10 @@
     - footers:
         change-type: major
 - commits:
-    - subject: >-
-        Remove armhf from architecture contracts (Only keeps what /config
+    - subject: Remove armhf from architecture contracts (Only keeps what /config
         endpoint returns).
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: d4827f78c0c9c2fab81511f594bc3c42c66fcf92
 - commits:
@@ -6506,9 +6487,8 @@
 - commits:
     - subject: Add rpi and armv7hf to the supported architecture list of Alpine Linux.
 - commits:
-    - body: >-
-        They are identical (based on arm32v6/alpine) but kept separate to
-        support mixed-device fleet.
+    - body: They are identical (based on arm32v6/alpine) but kept separate to support
+        mixed-device fleet.
 - commits:
     - hash: f7631b83dc47b626a76472ed233625c1a6500aa3
 - commits:
@@ -6519,7 +6499,7 @@
 - commits:
     - subject: Add contract and partials for ubuntu.
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 3e10414d86934c8d6b2593998d4ddc5aaed9fdeb
 - commits:
@@ -6530,7 +6510,7 @@
 - commits:
     - subject: Add orangepi-plus2 contract to hw.device-type.
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: bf3fd6e08119d9c34a05b63cba8b5cca29d55351
 - commits:
@@ -6541,7 +6521,7 @@
 - commits:
     - subject: Add fincm3 contract to hw.device-type.
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 3bf6f94b0bc1921341a5ebb283e56fb22441f867
 - commits:
@@ -6552,7 +6532,7 @@
 - commits:
     - subject: Add artik533s contract to hw.device-type.
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: b9c789d4e9fc373da8807e8b501be41cbaaae173
 - commits:
@@ -6563,7 +6543,7 @@
 - commits:
     - subject: Add artik530 contract to hw.device-type.
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: fa894cc77deb5d333f6fdddc1adc0484ee76b7e3
 - commits:
@@ -6571,7 +6551,7 @@
 - commits:
     - subject: Add fincm3 partials
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 7d36244d2e1c02d5334c5e9176f4aaffc083a62b
 - commits:
@@ -6579,7 +6559,7 @@
 - commits:
     - subject: Add partials for artik devices
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 17926b432dfbe8f32844541de1f2f7478fa7bb90
 - commits:
@@ -6587,7 +6567,7 @@
 - commits:
     - subject: Merge branch 'master' into new-devices
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: bf6bfe0ac5511cdb56dba88b8bcdd5611ef5502e
 - commits:
@@ -6595,27 +6575,25 @@
 - commits:
     - subject: Change armel to armv5e as /config endpoint returns
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 15d9b2e1f13e5cf1943f1f4cf6322755416dd01e
 - commits:
     - author: Trong Nghia Nguyen
 - commits:
-    - subject: >-
-        Add new architecture i386-nlp (Intel 32-bit (x86) for Intel Quark)as
+    - subject: Add new architecture i386-nlp (Intel 32-bit (x86) for Intel Quark)as
         /config endpoint returns
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 452f1821578ade81e0452f926a48213e74bcc3eb
 - commits:
     - author: Trong Nghia Nguyen
 - commits:
-    - subject: >-
-        Fix debian dockerfile template. Install iproute2 instead if iproute
+    - subject: Fix debian dockerfile template. Install iproute2 instead if iproute
         package is not available
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 1e35ee6330f63b70dc7c9ada928bbce848ad366e
 - commits:
@@ -6629,7 +6607,7 @@
 - commits:
     - subject: Add bananapi-m1-plus contract to hw.device-type
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 577187c968658ae74a4be72c9fa06dfefa9aa093
 - commits:
@@ -6637,9 +6615,8 @@
 - commits:
     - subject: Update contracts schema.
 - commits:
-    - body: >-
-        All contracts now must have these mandatory properties: slug, version,
-        type, name, data, requires, variants.
+    - body: "All contracts now must have these mandatory properties: slug, version,
+        type, name, data, requires, variants."
 - commits:
     - hash: 2c7d93ea5bf9b24942e7ca0b16922a3508f3636f
 - commits:
@@ -6647,7 +6624,7 @@
 - commits:
     - subject: Re-organize contracts directory structure
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: ef1720077a9e7297a87d17d615398f06989d530f
 - commits:
@@ -6655,7 +6632,7 @@
 - commits:
     - subject: Update scripts to check new contract file structure.
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 9807f1805c3298da7a87eaba2323d554ae569d7f
 - commits:
@@ -6663,7 +6640,7 @@
 - commits:
     - subject: Add CircleCI configuration file
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 6f091f1063cfbe94272443dad709efc05cbf99dc
 - commits:
@@ -6671,7 +6648,7 @@
 - commits:
     - subject: Merge remote-tracking branch 'origin' into new-contract-schema
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: eaa8a8ecec0b623a34bba2c749cea6b85d370ce3
 - commits:
@@ -6682,7 +6659,7 @@
 - commits:
     - subject: Add LED property to hw.device-type
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 99b870d9fb974a2af091e851ec662aef9a18534d
 - commits:
@@ -6690,7 +6667,7 @@
 - commits:
     - subject: Update Fedora partials
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: ed108d8f394d524fbaf306aa4a09e3c196024059
 - commits:
@@ -6698,7 +6675,7 @@
 - commits:
     - subject: Update Debian partials
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 8c0394b728f3f25582a5933cdc2cfd5f4219f089
 - commits:
@@ -6706,7 +6683,7 @@
 - commits:
     - subject: Merge branch 'master' into update-debian-partials
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 5e814b6cde0dc3d38e2c8bb9f63baac815fb23c3
 - commits:
@@ -6714,7 +6691,7 @@
 - commits:
     - subject: Update Alpine Linux partials
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: d1747d40edae83f580a8836a8017b786d2804fcd
 - commits:
@@ -6722,7 +6699,7 @@
 - commits:
     - subject: Add contract for resin entry script
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 5c5a50529d3b538b99d3f6a5ccbaffb58f55b20a
 - commits:
@@ -6730,7 +6707,7 @@
 - commits:
     - subject: Update Raspberrypi specific partials
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: cae897036a9a1aae2f844daf4f4b26faecf1ca66
 - commits:
@@ -6738,17 +6715,16 @@
 - commits:
     - subject: Update latest OS versions to current contracts
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 5577d56fe84ea91d0dcdeccb0409e7b1de25bcaa
 - commits:
     - author: Trong Nghia Nguyen
 - commits:
-    - subject: >-
-        Add new device-types: kitra520 jetson-tx2 jetson-tx1 iot2000
-        generic-aarch64 generic-armv7ahf
+    - subject: "Add new device-types: kitra520 jetson-tx2 jetson-tx1 iot2000
+        generic-aarch64 generic-armv7ahf"
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: fa011aa1039d65399e6da478cc63f7edb5cc58b3
 - commits:
@@ -6756,7 +6732,7 @@
 - commits:
     - subject: Update intel-edison specific partials
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: ebb6a70ff1537bf4f4250afe00e168b94cb0f543
 - commits:
@@ -6764,7 +6740,7 @@
 - commits:
     - subject: Update Cybertan specific partials
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: de46cc485d233340f489056158d6660563af818b
 - commits:
@@ -6772,7 +6748,7 @@
 - commits:
     - subject: Add missing `name` field in certain blob contracts
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: b841d6e2e5a7bc70f15fc6e6aa622651cdcf9b93
 - commits:
@@ -6780,7 +6756,7 @@
 - commits:
     - subject: Update url for blobs live in local fs
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 155c8bd436dbf2b0b2710a8c7c8ec76b1e3ba0bd
 - commits:
@@ -6788,7 +6764,7 @@
 - commits:
     - subject: Update Beaglebone specific partials
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 0f7a0e7e03a2b0b480b16706c56fcfd415d6652c
 - commits:
@@ -6796,7 +6772,7 @@
 - commits:
     - subject: Correct ARM descriptive name version of archs
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 2a7d8134fe95808ed63a68fde155475629167316
 - commits:
@@ -6804,7 +6780,7 @@
 - commits:
     - subject: Few corrections for arch.sw contract
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 751a01081afcef774d789268ab9b378497bf0dad
 - commits:
@@ -6812,7 +6788,7 @@
 - commits:
     - subject: Update artik specific partials
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: f365b97c4795a847f133918e4543d8287834b694
 - commits:
@@ -6820,7 +6796,7 @@
 - commits:
     - subject: Update up-board specific partials
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: e509438cc2fdc4fbeb121e48571133646e78cb66
 - commits:
@@ -6828,4 +6804,4 @@
 - commits:
     - subject: Update Iot2000 specific partials
 - commits:
-    - body: null
+    - ? body
