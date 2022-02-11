@@ -1,5 +1,20 @@
 - commits:
     - subject: "hw.device-type: Update sources.list to L4T 32.6.1"
+      hash: 16febaa15e4e9345ae195affaeaab4af90f343a6
+      body: |
+        This is part two of the update, which sets the base images to
+        l4t 32.6 for the Jetson Xavier AGX
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 1.13.52
+  title: "'hw.device-type: Update sources.list to L4T 32.6.1'"
+  date: 2022-02-11T10:21:46.658Z
+- commits:
+    - subject: "hw.device-type: Update sources.list to L4T 32.6.1"
       hash: 76c3702653e268cccaf9059d0d26a8f9c30c58f8
       body: |
         This is part one which updates the base images for
