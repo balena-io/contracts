@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add node v17.5.0 and v16.14.0
+      hash: 8f0607af1fcc42137bfba3c75cd14c4aff5ced68
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 1.13.53
+  title: "'Add node v17.5.0 and v16.14.0'"
+  date: 2022-02-12T00:56:34.266Z
+- commits:
     - subject: "hw.device-type: Update sources.list to L4T 32.6.1"
       hash: 16febaa15e4e9345ae195affaeaab4af90f343a6
       body: |
