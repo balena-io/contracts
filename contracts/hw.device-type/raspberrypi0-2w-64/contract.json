@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Raspberry Pi Zero 2 Wifi (64bit)",
+  "name": "Raspberry Pi Zero 2 W (64bit)",
   "assets": {
     "logo": {
       "url": "./raspberrypi0-2w-64.svg",
