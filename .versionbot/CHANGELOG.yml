@@ -1,4 +1,13 @@
 - commits:
+    - subject: "patch: Update RPi0 2 W's name"
+      hash: 9a4c415efc401289baad72207d61acb24fe300d2
+      body: ""
+      footer: {}
+      author: Vipul Gupta
+  version: 1.13.54
+  title: "'patch: Update RPi0 2 W's name'"
+  date: 2022-02-16T06:20:17.935Z
+- commits:
     - subject: Add node v17.5.0 and v16.14.0
       hash: 8f0607af1fcc42137bfba3c75cd14c4aff5ced68
       body: ""

@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.54
+## (2022-02-16)
+
+* patch: Update RPi0 2 W's name [Vipul Gupta]
+
 # v1.13.53
 ## (2022-02-12)
 
