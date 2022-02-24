@@ -1,4 +1,26 @@
 - commits:
+    - subject: Add Golang v1.17.7 and v1.16.14
+      hash: c52f8c608a26db7ac2e79d09ce245ba4170292ac
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+    - subject: Add node v17.6.0
+      hash: 3f5affec1f604ca398aa8271823ca899c92fb841
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 1.13.55
+  title: "'Few base images updates'"
+  date: 2022-02-24T08:26:50.342Z
+- commits:
     - subject: "patch: Update RPi0 2 W's name"
       hash: 9a4c415efc401289baad72207d61acb24fe300d2
       body: ""
