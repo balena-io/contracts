@@ -1,4 +1,18 @@
 - commits:
+    - subject: "hw.device-type: Correct NanoPi R2C device contract"
+      hash: 834d1c0f9cc513a074e9e44c91c3093ac5e3c68a
+      body: |
+        The device does not have any WiFi chipset so let's correct that
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 1.13.56
+  title: "'hw.device-type: Correct NanoPi R2C device contract'"
+  date: 2022-02-28T10:27:52.024Z
+- commits:
     - subject: Add Golang v1.17.7 and v1.16.14
       hash: c52f8c608a26db7ac2e79d09ce245ba4170292ac
       body: ""
