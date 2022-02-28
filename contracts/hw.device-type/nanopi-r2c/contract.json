@@ -16,7 +16,7 @@
     "led": true,
     "connectivity": {
       "bluetooth": false,
-      "wifi": true
+      "wifi": false
     },
     "storage": {
       "internal": false
