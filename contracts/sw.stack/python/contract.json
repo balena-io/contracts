@@ -260,6 +260,8 @@
                     { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                     { "type": "sw.os", "slug": "debian", "version": "bookworm" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "impish" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "hirsute" },
                     { "type": "sw.os", "slug": "fedora" }
                   ]
                 }
@@ -628,6 +630,8 @@
                     { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                     { "type": "sw.os", "slug": "debian", "version": "bookworm" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "impish" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "hirsute" },
                     { "type": "sw.os", "slug": "fedora" }
                   ]
                 }
@@ -996,6 +1000,8 @@
                     { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
                     { "type": "sw.os", "slug": "debian", "version": "bookworm" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "impish" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "hirsute" },
                     { "type": "sw.os", "slug": "fedora" }
                   ]
                 }
