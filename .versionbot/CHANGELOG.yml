@@ -1,4 +1,35 @@
 - commits:
+    - subject: Add Ubuntu impish and hirsute to Python contract
+      hash: 2c64921b95ed9fceecc7ed65d3ce3a4f66549e24
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+    - subject: Add golang v1.17.8 and v1.16.15
+      hash: b32963299f087d9d6a2471f998d71ff2980965f5
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+    - subject: Add node v17.7.1
+      hash: 54aa2edfa16c92058286940a0fd9695ad059fba6
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 1.13.57
+  title: "'Few base images updates'"
+  date: 2022-03-11T11:17:44.894Z
+- commits:
     - subject: "hw.device-type: Correct NanoPi R2C device contract"
       hash: 834d1c0f9cc513a074e9e44c91c3093ac5e3c68a
       body: |

@@ -5,6 +5,13 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.57
+## (2022-03-11)
+
+* Add Ubuntu impish and hirsute to Python contract [Trong Nghia Nguyen]
+* Add golang v1.17.8 and v1.16.15 [Trong Nghia Nguyen]
+* Add node v17.7.1 [Trong Nghia Nguyen]
+
 # v1.13.56
 ## (2022-02-28)
 
