@@ -1,4 +1,26 @@
 - commits:
+    - subject: Update dotnet v6, v5 and v3 to latest versions
+      hash: 852c44366642d733566285f64b0aea96dd2fd366
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+    - subject: Add node v16.14.1
+      hash: f9e211c07f2e85e3fcdbaebd22c8b22f5b837596
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 1.13.58
+  title: "'Few base images updates'"
+  date: 2022-03-17T12:15:29.300Z
+- commits:
     - subject: Add Ubuntu impish and hirsute to Python contract
       hash: 2c64921b95ed9fceecc7ed65d3ce3a4f66549e24
       body: ""
