@@ -1,4 +1,26 @@
 - commits:
+    - subject: Add go v1.18
+      hash: 0f00d07068477c733ea8de1085ffcba0e41e2078
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+    - subject: Add node v17.7.2 v16.14.2 v14.19.1 and v12.22.11
+      hash: 6e825ab8bb6c5d2589b23bfaaaf57c1c97d438bd
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 1.13.59
+  title: "'Few base images updates'"
+  date: 2022-03-18T17:37:17.297Z
+- commits:
     - subject: Update dotnet v6, v5 and v3 to latest versions
       hash: 852c44366642d733566285f64b0aea96dd2fd366
       body: ""
