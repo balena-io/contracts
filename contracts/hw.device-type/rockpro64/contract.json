@@ -1,0 +1,29 @@
+{
+  "slug": "rockpro64",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "ROCKPro64",
+  "assets": {
+    "logo": {
+      "url": "./rockpro64",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": true,
+    "connectivity": {
+      "bluetooth": false,
+      "wifi": false
+    },
+    "storage": {
+      "internal": false
+    },
+    "media": {
+      "installation": "sdcard"
+    },
+    "is_private": false
+  }
+}
