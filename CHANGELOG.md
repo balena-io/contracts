@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.60
+## (2022-04-01)
+
+* rockpro64: Add new device type [Florin Sarbu]
+
 # v1.13.59
 ## (2022-03-18)
 
