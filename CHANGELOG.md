@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.61
+## (2022-04-04)
+
+* hw.device-type: Fix rockpro64 logo path [Thodoris Greasidis]
+
 # v1.13.60
 ## (2022-04-01)
 
