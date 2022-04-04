@@ -6,7 +6,7 @@
   "name": "ROCKPro64",
   "assets": {
     "logo": {
-      "url": "./rockpro64",
+      "url": "./rockpro64.svg",
       "name": "logo"
     }
   },
