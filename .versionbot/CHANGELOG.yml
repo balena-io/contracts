@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: Add NanoPi R2S device"
+      hash: 83cd7a66e5da40a9e04b50658b5b7b3a21b0bacf
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 1.13.63
+  title: "'hw.device-type: Add NanoPi R2S device'"
+  date: 2022-04-13T20:08:34.966Z
+- commits:
     - subject: Add python v3.10.4 v3.9.12 v3.8.13 and v3.7.13
       hash: 53db535c3d0ec76cb2e1fe224d72e827046fb01c
       body: |
