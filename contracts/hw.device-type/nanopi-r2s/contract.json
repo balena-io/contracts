@@ -1,0 +1,29 @@
+{
+  "slug": "nanopi-r2s",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "NanoPi R2S",
+  "assets": {
+    "logo": {
+      "url": "./nanopi-r2s.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": false,
+    "led": true,
+    "connectivity": {
+      "bluetooth": false,
+      "wifi": false
+    },
+    "storage": {
+      "internal": false
+    },
+    "media": {
+      "installation": "sdcard"
+    },
+    "is_private": false
+  }
+}
