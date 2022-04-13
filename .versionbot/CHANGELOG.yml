@@ -1,4 +1,27 @@
 - commits:
+    - subject: Add python v3.10.4 v3.9.12 v3.8.13 and v3.7.13
+      hash: 53db535c3d0ec76cb2e1fe224d72e827046fb01c
+      body: |
+        Update pip to v22.0.4 and setuptools to v62.1.0
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+    - subject: Add node v17.9.0 and v12.22.12
+      hash: 0f9c38a4d22b048ca99d04b53437c0d6305c2bfd
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 1.13.62
+  title: "'Few base images updates'"
+  date: 2022-04-13T17:19:17.341Z
+- commits:
     - subject: "hw.device-type: Fix rockpro64 logo path"
       hash: 961b84741ae1e6db36c86aee4af35d84bb525676
       body: ""
