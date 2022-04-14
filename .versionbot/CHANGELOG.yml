@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: Update NanoPi R2S device logo"
+      hash: b76bad3aef36b1da1ecc25673316a65d1ce9c38b
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Andrea Rosci <andrear@balena.io>
+        signed-off-by: Andrea Rosci <andrear@balena.io>
+      author: JSReds
+  version: 1.13.64
+  title: "'hw.device-type: Update NanoPi R2S device logo'"
+  date: 2022-04-14T07:47:47.487Z
+- commits:
     - subject: "hw.device-type: Add NanoPi R2S device"
       hash: 83cd7a66e5da40a9e04b50658b5b7b3a21b0bacf
       body: ""
