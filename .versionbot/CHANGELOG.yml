@@ -1,4 +1,17 @@
 - commits:
+    - subject: Install pip and setuptools using get-pip.py
+      hash: a21e80553049df136d7853497c86b85da0bf1557
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 1.13.65
+  title: "'Install pip and setuptools using get-pip.py'"
+  date: 2022-04-15T07:29:37.632Z
+- commits:
     - subject: "hw.device-type: Update NanoPi R2S device logo"
       hash: b76bad3aef36b1da1ecc25673316a65d1ce9c38b
       body: ""

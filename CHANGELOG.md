@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.65
+## (2022-04-15)
+
+* Install pip and setuptools using get-pip.py [Trong Nghia Nguyen]
+
 # v1.13.64
 ## (2022-04-14)
 
