@@ -24,13 +24,15 @@ RUN set -x \
 	&& tar -xzf "{{sw.stack.assets.bin.name}}" --strip-components=1 \
 	&& rm -rf "{{sw.stack.assets.bin.name}}" \
 	&& ldconfig \
-	&& if [ ! -e /usr/local/bin/{{sw.stack.assets.pip.command}} ]; then : \
-		&& curl -SLO "https://raw.githubusercontent.com/pypa/get-pip/430ba37776ae2ad89f794c7a43b90dc23bac334c/get-pip.py" \
-		&& echo "19dae841a150c86e2a09d475b5eb0602861f2a5b7761ec268049a662dbd2bd0c  get-pip.py" | sha256sum -c - \
-		&& {{sw.stack.assets.command}} get-pip.py \
-		&& rm get-pip.py \
-	; fi \
-	&& {{sw.stack.assets.pip.command}} install --no-cache-dir --upgrade --force-reinstall pip=="$PYTHON_PIP_VERSION" setuptools=="$SETUPTOOLS_VERSION" \
+	&& curl -SL "{{sw.stack.assets.getPip.url}}" -o get-pip.py \
+    && echo "{{sw.stack.assets.getPip.checksum}} *get-pip.py" | sha256sum -c - \
+    && python3 get-pip.py \
+        --disable-pip-version-check \
+        --no-cache-dir \
+        --no-compile \
+        "pip==$PYTHON_PIP_VERSION" \
+        "setuptools==$SETUPTOOLS_VERSION" \
+	&& rm -f get-pip.py \
 	&& find /usr/local \
 		\( -type d -a -name test -o -name tests \) \
 		-o \( -type f -a -name '*.pyc' -o -name '*.pyo' \) \
