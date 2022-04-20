@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: Add Radxa Zero device"
+      hash: 5291c89d7d8fcfdea33591ef664cc5ceb3b7c8ac
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 1.13.66
+  title: "'hw.device-type: Add Radxa Zero device'"
+  date: 2022-04-20T13:01:22.667Z
+- commits:
     - subject: Install pip and setuptools using get-pip.py
       hash: a21e80553049df136d7853497c86b85da0bf1557
       body: ""

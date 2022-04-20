@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.66
+## (2022-04-20)
+
+* hw.device-type: Add Radxa Zero device [Florin Sarbu]
+
 # v1.13.65
 ## (2022-04-15)
 
