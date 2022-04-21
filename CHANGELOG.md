@@ -5,6 +5,13 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.66
+## (2022-04-21)
+
+* Add golang 1.18.1 and 1.17.9 [Trong Nghia Nguyen]
+* Add node v18.0.0 [Trong Nghia Nguyen]
+* hw.device-type: Add Radxa Zero device [Florin Sarbu]
+
 # v1.13.65
 ## (2022-04-15)
 

@@ -1,4 +1,35 @@
 - commits:
+    - subject: Add golang 1.18.1 and 1.17.9
+      hash: 5b87dabfbbc39012db11778f4afd34980a89c366
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+    - subject: Add node v18.0.0
+      hash: cf65476af45d789032483676185e33e11c9f45bc
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+    - subject: "hw.device-type: Add Radxa Zero device"
+      hash: 5291c89d7d8fcfdea33591ef664cc5ceb3b7c8ac
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 1.13.66
+  title: "'Few base images update'"
+  date: 2022-04-21T05:04:57.492Z
+- commits:
     - subject: Install pip and setuptools using get-pip.py
       hash: a21e80553049df136d7853497c86b85da0bf1557
       body: ""
