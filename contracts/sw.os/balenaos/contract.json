@@ -1,0 +1,21 @@
+{
+  "slug": "balena-os",
+  "name": "Balena OS",
+  "type": "sw.os",
+  "version": "2",
+  "externalVersion": "",
+  "data": { "libc": "glibc" },
+  "requires": [
+    { "type": "sw.blob", "slug": "qemu" },
+    {
+      "or": [
+        { "type": "arch.sw", "slug": "armv7hf" },
+        { "type": "arch.sw", "slug": "rpi" },
+        { "type": "arch.sw", "slug": "aarch64" },
+        { "type": "arch.sw", "slug": "i386" },
+        { "type": "arch.sw", "slug": "amd64" }
+      ]
+    },
+    { "type": "sw.os-image", "slug": "balena-image" }
+  ]
+}
