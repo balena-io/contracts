@@ -1,0 +1,12 @@
+{
+  "slug": "balena-image",
+  "name": "Balena OS raw image",
+  "type": "sw.os-image",
+  "version": "1",
+  "assets": {
+    "s3": {
+      "type:": "bucket",
+      "url": "https://resin-production-img-cloudformation.s3.amazonaws.com/"
+    }
+  }
+}
