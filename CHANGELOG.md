@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.69
+## (2022-05-10)
+
+* sw.os+hw.device-type: Update Jetson TX2 NX to 32.7.1 [Alexandru Costache]
+* sw.os+hw.device-type: Update Jetson Nano SD, eMMC and 2GB devkit to 32.7 [Alexandru Costache]
+
 # v1.13.68
 ## (2022-05-06)
 

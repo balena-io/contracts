@@ -1,4 +1,27 @@
 - commits:
+    - subject: "sw.os+hw.device-type: Update Jetson TX2 NX to 32.7.1"
+      hash: 362031d817948dc31223f0eb2a5d03330ce508f9
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+    - subject: "sw.os+hw.device-type: Update Jetson Nano SD, eMMC and 2GB devkit to
+        32.7"
+      hash: 3303d70de7edadb1bff56d0d87bcf5b665a90b29
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 1.13.69
+  title: "'sw.os+hw.device-type: Update Jetson Nano SD, eMMC and 2GB devkit to 32.7'"
+  date: 2022-05-10T16:25:47.635Z
+- commits:
     - subject: Add node v18.1.0 and v14.19.2
       hash: 7ae0845a44e527f0c7ece29861d6926ac49edecf
       body: ""
