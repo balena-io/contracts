@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add Go v1.18.2 and v1.17.10
+      hash: 3b9ea22bb63ba1526600298ef6939bbeacaca97b
+      body: |
+        Drop v1.16.x
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 1.13.70
+  title: "'Add Go v1.18.2 and v1.17.10'"
+  date: 2022-05-11T12:39:20.272Z
+- commits:
     - subject: "sw.os+hw.device-type: Update Jetson TX2 NX to 32.7.1"
       hash: 362031d817948dc31223f0eb2a5d03330ce508f9
       body: ""
