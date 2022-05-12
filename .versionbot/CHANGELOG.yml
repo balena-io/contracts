@@ -1,4 +1,19 @@
 - commits:
+    - subject: Do not install jetson package repository on Debian Stretch
+      hash: fa6f4b84820655713011bc2fa300f967b8fa4392
+      body: >
+        It will hang when trying to download from jetson package repository with
+        Debian Stretch as base image
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 1.13.71
+  title: "'Do not install jetson package repository on Debian Stretch'"
+  date: 2022-05-12T17:30:44.204Z
+- commits:
     - subject: Add Go v1.18.2 and v1.17.10
       hash: 3b9ea22bb63ba1526600298ef6939bbeacaca97b
       body: |

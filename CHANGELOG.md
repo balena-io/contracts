@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.71
+## (2022-05-12)
+
+* Do not install jetson package repository on Debian Stretch [Trong Nghia Nguyen]
+
 # v1.13.70
 ## (2022-05-11)
 
