@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.72
+## (2022-05-15)
+
+* hw.device-type: Add SolidSense N6G device [Florin Sarbu]
+
 # v1.13.71
 ## (2022-05-12)
 

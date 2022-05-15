@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: Add SolidSense N6G device"
+      hash: d45dae084daca8d4a6195877e05f670f63037617
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 1.13.72
+  title: "'hw.device-type: Add SolidSense N6G device'"
+  date: 2022-05-15T12:00:02.246Z
+- commits:
     - subject: Do not install jetson package repository on Debian Stretch
       hash: fa6f4b84820655713011bc2fa300f967b8fa4392
       body: >
