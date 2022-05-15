@@ -1,0 +1,29 @@
+{
+  "slug": "solidrun-n6g",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "SolidSense N6G",
+  "assets": {
+    "logo": {
+      "url": "./solidrun-n6g.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "armv7hf",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": false
+    },
+    "media": {
+      "installation": "sdcard"
+    },
+    "is_private": false
+  }
+}
