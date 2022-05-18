@@ -1,0 +1,29 @@
+{
+  "slug": "tdpzu9",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Topic Florida Plus V1R2 (tdpzu9)",
+  "assets": {
+    "logo": {
+      "url": "./tdpzu9.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": false,
+    "led": true,
+    "connectivity": {
+      "bluetooth": false,
+      "wifi": true
+    },
+    "storage": {
+      "internal": false
+    },
+    "media": {
+      "installation": "sdcard"
+    },
+    "is_private": false
+  }
+}
