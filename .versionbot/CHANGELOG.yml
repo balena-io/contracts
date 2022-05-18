@@ -1,4 +1,29 @@
 - commits:
+    - subject: Add dotnet-sdk v6.0.105 and v3.1.419
+      hash: 7d17e02aafe2f87316f467f6f9948cf84a39793c
+      body: |
+        Add aspnetcore/runtime v6.0.5 and v3.1.25
+        Drop v5.x
+        Temporarily remove arm and aarch64 images due to QEMU and dotnet issue
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+    - subject: Add node v18.2.0 and v14.19.3
+      hash: 36a95679f6422a0d0236226b5dd7c1af5881ddce
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 1.13.73
+  title: "'Few base images updates'"
+  date: 2022-05-18T17:56:57.145Z
+- commits:
     - subject: "hw.device-type: Add SolidSense N6G device"
       hash: d45dae084daca8d4a6195877e05f670f63037617
       body: ""

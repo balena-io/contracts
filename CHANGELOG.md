@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.73
+## (2022-05-18)
+
+* Add dotnet-sdk v6.0.105 and v3.1.419 [Trong Nghia Nguyen]
+* Add node v18.2.0 and v14.19.3 [Trong Nghia Nguyen]
+
 # v1.13.72
 ## (2022-05-15)
 
