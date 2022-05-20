@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: Add Topic tdpzu9 device"
+      hash: 2ae943a46316f71da324dbfaa8c855cafc8eb0ae
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Francois Loubser <francois.loubser@topic.nl>
+        signed-off-by: Francois Loubser <francois.loubser@topic.nl>
+      author: Francois
+  version: 1.13.74
+  title: "'hw.device-type: Add Topic tdpzu9 device'"
+  date: 2022-05-20T14:27:05.871Z
+- commits:
     - subject: Add dotnet-sdk v6.0.105 and v3.1.419
       hash: 7d17e02aafe2f87316f467f6f9948cf84a39793c
       body: |
