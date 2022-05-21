@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.75
+## (2022-05-21)
+
+* jetson-xavier-agx: Update L4T in base images [Alexandru Costache]
+
 # v1.13.74
 ## (2022-05-20)
 

@@ -1,4 +1,17 @@
 - commits:
+    - subject: "jetson-xavier-agx: Update L4T in base images"
+      hash: 029d39073ebc6136c5797526fbcdfe1525f5d950
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 1.13.75
+  title: "'jetson-xavier-agx: Update L4T in base images'"
+  date: 2022-05-21T10:51:21.212Z
+- commits:
     - subject: "hw.device-type: Add Topic tdpzu9 device"
       hash: 2ae943a46316f71da324dbfaa8c855cafc8eb0ae
       body: ""
