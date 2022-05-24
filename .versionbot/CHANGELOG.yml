@@ -1,4 +1,33 @@
 - commits:
+    - subject: "sw.os-image: Add balena-image software image"
+      hash: 4473a99902a3793a33b63300778ad0118b8366cf
+      body: >
+        This is used by the OS builders to deploy releases. This contract
+        contains
+
+        details related to the balena-image artifact generated in the balenaOS
+
+        build.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+    - subject: "sw.os: Add balenaOS contract"
+      hash: 29b697e2a05e026d9b92ee67cdf6dc47f8cc2488
+      body: |
+        This is uded by the OS builder to deploy balenaOS.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+  version: 1.13.76
+  title: "'Add sw.os and sw.os-image contracts'"
+  date: 2022-05-23T11:09:26.128Z
+- commits:
     - subject: "jetson-xavier-agx: Update L4T in base images"
       hash: 029d39073ebc6136c5797526fbcdfe1525f5d950
       body: ""

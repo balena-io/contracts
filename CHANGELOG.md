@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.13.76
+## (2022-05-23)
+
+* sw.os-image: Add balena-image software image [Alex Gonzalez]
+* sw.os: Add balenaOS contract [Alex Gonzalez]
+
 # v1.13.75
 ## (2022-05-21)
 
