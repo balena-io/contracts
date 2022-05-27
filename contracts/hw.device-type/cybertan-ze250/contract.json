@@ -21,8 +21,16 @@
       "internal": false
     },
     "media": {
-      "installation": "usbkey"
+      "defaultBoot": "internal",
+      "altBoot": ["usb_mass_storage"]
     },
     "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+      "Connect your {{name}} to the internet, then power it up"
+    ],
+    "flashIndicator": ["all LEDs are off"],
+    "bootDevice": ["Remove and re-connect power to the {{name}}"]
   }
 }

@@ -23,8 +23,20 @@
       "internal": true
     },
     "media": {
-      "installation": "sdcard"
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
     },
     "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+      "Make sure that the jumper between the 5V power supply and the HDMI connect is in the MASKROM mode as illustrated on the <a href=\"https://tinkerboarding.co.uk/wiki/index.php/Setup\">Tinker Board Wiki</a>",
+      "Connect power to the {{name}}"
+    ],
+    "flashIndicator": ["all LEDs are off"],
+    "bootDevice": [
+      "Make sure that the jumper between the 5V power supply and the HDMI connect is in the parking (no function) mode as illustrated on the <a href=\"https://tinkerboarding.co.uk/wiki/index.php/Setup\">Tinker Board Wiki</a>",
+      "Remove and re-connect power to the {{name}}"
+    ]
   }
 }

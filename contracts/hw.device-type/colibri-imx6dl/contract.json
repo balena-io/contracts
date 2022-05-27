@@ -22,8 +22,17 @@
       "internal": true
     },
     "media": {
-      "installation": "sdcard"
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
     },
     "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+      "Connect the {{name}} carrier board to a host computer using a serial cable. (This step may differ based on what carrier board you have)",
+      "Power the module. Press SPACE when prompted by U-Boot to stop execution and run the following command <code>run sdboot</code>"
+    ],
+    "flashIndicator": ["all LEDs are off"],
+    "bootDevice": ["Remove and re-connect the power to the {{name}}"]
   }
 }

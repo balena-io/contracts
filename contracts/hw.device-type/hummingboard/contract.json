@@ -2,7 +2,7 @@
   "slug": "hummingboard",
   "version": "1",
   "type": "hw.device-type",
-  "aliases": ["solidrun-imx6","cubox-i","hummingboard2"],
+  "aliases": ["solidrun-imx6", "cubox-i", "hummingboard2"],
   "name": "Hummingboard",
   "assets": {
     "logo": {
@@ -22,8 +22,11 @@
       "internal": false
     },
     "media": {
-      "installation": "sdcard"
+      "defaultBoot": "sdcard"
     },
     "is_private": false
+  },
+  "partials": {
+    "bootDevice": ["Connect your {{name}} to the internet, then power it up."]
   }
 }

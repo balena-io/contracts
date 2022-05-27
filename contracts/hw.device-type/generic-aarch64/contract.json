@@ -22,8 +22,15 @@
       "internal": false
     },
     "media": {
-      "installation": "sdcard"
+      "defaultBoot": "image"
     },
     "is_private": false
+  },
+  "partials": {
+    "instructions": [
+      "Download/pull the following docker image on the target machine: <code>{{ dockerImage }}</code> .",
+      "Download the configuration file and deploy it on target.",
+      "Run the resinOS container using <a href=\"https://github.com/resin-os/resinos-in-container\">resinos-in-container</a>. This tool/script will reference the image and the configuration file (downloaded above) as command line arguments. Example: <code>./resinos-in-container.sh --config ./config.json --image {{ dockerImage }}</code>. Tweak the <code>--config</code> argument based on the filename set for the downloaded configuration file."
+    ]
   }
 }

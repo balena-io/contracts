@@ -22,8 +22,20 @@
       "internal": true
     },
     "media": {
-      "installation": "sdcard"
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
     },
     "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+      "Set the SW7 BOOT-SELECT switch to EXT",
+      "Connect power to the {{name}}"
+    ],
+    "flashIndicator": ["all LEDs are off"],
+    "bootDevice": [
+      "Set the SW7 BOOT-SELECT switch to INT",
+      "Remove and re-connect power to the {{name}}"
+    ]
   }
 }

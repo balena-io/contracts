@@ -21,9 +21,17 @@
     "storage": {
       "internal": true
     },
+    "flashProtocol": "RPIBOOT",
     "media": {
-      "installation": "dfu"
+      "defaultBoot": "internal"
     },
     "is_private": false
+  },
+  "partials": {
+    "connectDevice": [
+      "Connect the {{name}} to your computer with a USB-C cable"
+    ],
+    "disconnectDevice": ["Unplug the USB-C cable from the {{name}}."],
+    "bootDevice": ["Remove and re-connect power to the {{name}}"]
   }
 }

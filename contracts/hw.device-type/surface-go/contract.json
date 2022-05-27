@@ -22,8 +22,17 @@
       "internal": true
     },
     "media": {
-      "installation": "usbkey"
+      "defaultBoot": "internal",
+      "altBoot": ["usb_mass_storage"]
     },
     "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+      "Press and hold the Volume Down button and press the Power button",
+      "Release the power button but keep pressing the Volume Down button until the windows logo disappears"
+    ],
+    "flashIndicator": ["all LEDs are off"],
+    "bootDevice": ["Press the Power button on the {{name}}"]
   }
 }

@@ -23,8 +23,18 @@
       "internal": true
     },
     "media": {
-      "installation": "usbkey"
+      "defaultBoot": "internal",
+      "altBoot": ["usb_mass_storage"]
     },
     "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+      "Power on the {{name}} with a keyboard connected",
+      "Press the F7 key whie BIOS is loading to enter the boot menu",
+      "Select the \"UEFI:\" option from the boot menu"
+    ],
+    "flashIndicator": ["all LEDs are off"],
+    "bootDevice": ["Power up the {{name}}"]
   }
 }

@@ -21,8 +21,16 @@
       "internal": true
     },
     "media": {
-      "installation": "sdcard"
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
     },
     "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+      "Connect power to the {{name}} and then press the SW3 Power On button"
+    ],
+    "flashIndicator": ["all LEDs are off"],
+    "bootDevice": ["Remove and re-connect the power to the {{name}}"]
   }
 }

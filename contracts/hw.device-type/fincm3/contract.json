@@ -21,9 +21,20 @@
     "storage": {
       "internal": true
     },
+    "flashProtocol": "RPIBOOT",
     "media": {
-      "installation": "dfu"
+      "defaultBoot": "internal"
     },
     "is_private": false
+  },
+  "partials": {
+    "connectDevice": [
+      "While not having the {{name}} board powered, connect your system to the board's DBG/PRG port via a micro-USB cable.",
+      "<em>Note: for the {{name}} v1.1, only power the board from the PRG port for flashing. For the {{name}} v1.0, power on the board by attaching power to either the Barrel or the Phoenix connector.</em>"
+    ],
+    "disconnectDevice": [
+      "Power off the {{name}} by detaching the power if connected and unplug the DGB micro-USB cable."
+    ],
+    "bootDevice": ["Remove and re-connect power to the {{name}}"]
   }
 }
