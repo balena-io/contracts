@@ -1,4 +1,17 @@
 - commits:
+    - subject: Clean up installation method and add instruction partials
+      hash: 62794cb042ab3dc70628d81fca0b1903b78c1f06
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Micah Halter <micah@balena.io>
+        signed-off-by: Micah Halter <micah@balena.io>
+      author: Micah Halter
+  version: 2.0.0
+  title: "'Add instruction partials to etcher supported device types'"
+  date: 2022-05-27T15:01:39.154Z
+- commits:
     - subject: "sw.os-image: Add balena-image software image"
       hash: 4473a99902a3793a33b63300778ad0118b8366cf
       body: >

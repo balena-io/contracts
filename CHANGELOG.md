@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.0
+## (2022-05-27)
+
+* Clean up installation method and add instruction partials [Micah Halter]
+
 # v1.13.76
 ## (2022-05-23)
 
