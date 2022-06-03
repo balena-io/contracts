@@ -5,6 +5,14 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.1
+## (2022-06-03)
+
+* Update QEMU to v7.0.0+balena1 [Trong Nghia Nguyen]
+* Remove the wrapper shim that base images have around sh on first run [Trong Nghia Nguyen]
+* Add golang v1.18.3 and v1.17.11 [Trong Nghia Nguyen]
+* Add node v18.3.0 v17.9.1 and v16.15.1 [Trong Nghia Nguyen]
+
 # v2.0.0
 ## (2022-05-27)
 
