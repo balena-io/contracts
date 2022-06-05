@@ -1,4 +1,19 @@
 - commits:
+    - subject: "sw.os - hw.device-type: Update Xavier NX SD and Xavier NX eMMC to
+        32.7.1"
+      hash: 5550fdff88e0f6c4c93af3ceec5936f937791dd7
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.2
+  title: "'sw.os - hw.device-type: Update Xavier NX SD and Xavier NX eMMC to L4T
+    32.7.1'"
+  date: 2022-06-05T12:34:53.567Z
+- commits:
     - subject: Update QEMU to v7.0.0+balena1
       hash: 09da1dcdad42b7ea6aba665549e022029bb2860b
       body: ""
