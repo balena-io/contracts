@@ -4,8 +4,8 @@
   "version": "1",
   "data": {
     "libc": "glibc",
-    "latest": "focal",
-    "versionList": "`focal (latest)`, `hirsute`, `impish`, `xenial`, `bionic`"
+    "latest": "jammy",
+    "versionList": "`jammy (latest)`, `focal`, `impish`, `xenial`, `bionic`, `kinetic`"
   },
   "name": "Ubuntu {{this.version}}",
   "requires": [
@@ -34,9 +34,10 @@
         }
       ],
       "variants": [
+        { "version": "kinetic" },
+        { "version": "jammy" },
         { "version": "focal" },
         { "version": "xenial" },
-        { "version": "hirsute" },
         { "version": "impish" },
         { "version": "bionic" }
       ]
@@ -55,9 +56,10 @@
         { "type": "arch.sw", "slug": "amd64" }
       ],
       "variants": [
+        { "version": "kinetic" },
+        { "version": "jammy" },
         { "version": "focal" },
         { "version": "xenial" },
-        { "version": "hirsute" },
         { "version": "impish" },
         { "version": "bionic" }
       ]

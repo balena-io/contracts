@@ -34,7 +34,8 @@
           "data": { "libc": "musl-libc" },
           "requires": [
             { "type": "sw.os", "slug": "alpine", "version": "3.14" },
-            { "type": "sw.os", "slug": "alpine", "version": "3.15" }
+            { "type": "sw.os", "slug": "alpine", "version": "3.15" },
+            { "type": "sw.os", "slug": "alpine", "version": "3.16" }
           ],
           "variants": [
             {
@@ -58,7 +59,8 @@
               "or": [
                 { "type": "sw.os", "slug": "ubuntu", "version": "focal" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "impish" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "hirsute" },
+                { "type": "sw.os", "slug": "ubuntu" , "version": "kinetic" },
+                { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" },
                 { "type": "sw.os", "slug": "debian", "version": "bullseye" },
                 { "type": "sw.os", "slug": "debian", "version": "bookworm" },
                 { "type": "sw.os", "slug": "debian", "version": "buster" }
@@ -89,6 +91,7 @@
         {
           "data": { "libc": "musl-libc" },
           "requires": [
+            { "type": "sw.os", "slug": "alpine", "version": "3.16" },
             { "type": ",sw.os", "slug": "alpine", "version": "3.15" },
             { "type": "sw.os", "slug": "alpine", "version": "3.14" },
             { "type": "sw.os", "slug": "alpine", "version": "3.13" }
@@ -146,6 +149,7 @@
         {
           "data": { "libc": "musl-libc" },
           "requires": [
+            { "type": "sw.os", "slug": "alpine", "version": "3.16" },
             { "type": ",sw.os", "slug": "alpine", "version": "3.15" },
             { "type": "sw.os", "slug": "alpine", "version": "3.14" },
             { "type": "sw.os", "slug": "alpine", "version": "3.13" }
@@ -203,6 +207,7 @@
         {
           "data": { "libc": "musl-libc" },
           "requires": [
+            { "type": "sw.os", "slug": "alpine", "version": "3.16" },
             { "type": ",sw.os", "slug": "alpine", "version": "3.15" },
             { "type": "sw.os", "slug": "alpine", "version": "3.14" }
           ],
@@ -228,7 +233,8 @@
               "or": [
                 { "type": "sw.os", "slug": "ubuntu", "version": "focal" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "impish" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "hirsute" },
+                { "type": "sw.os", "slug": "ubuntu" , "version": "kinetic" },
+                { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" },
                 { "type": "sw.os", "slug": "debian", "version": "bullseye" },
                 { "type": "sw.os", "slug": "debian", "version": "bookworm" },
                 { "type": "sw.os", "slug": "debian", "version": "buster" }
@@ -259,6 +265,7 @@
         {
           "data": { "libc": "musl-libc" },
           "requires": [
+            { "type": "sw.os", "slug": "alpine", "version": "3.16" },
             { "type": ",sw.os", "slug": "alpine", "version": "3.15" },
             { "type": "sw.os", "slug": "alpine", "version": "3.14" },
             { "type": "sw.os", "slug": "alpine", "version": "3.13" }
@@ -332,6 +339,7 @@
         {
           "data": { "libc": "musl-libc" },
           "requires": [
+            { "type": "sw.os", "slug": "alpine", "version": "3.16" },
             { "type": ",sw.os", "slug": "alpine", "version": "3.15" },
             { "type": "sw.os", "slug": "alpine", "version": "3.14" }
           ],
@@ -365,7 +373,8 @@
               "or": [
                 { "type": "sw.os", "slug": "ubuntu", "version": "focal" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "impish" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "hirsute" },
+                { "type": "sw.os", "slug": "ubuntu" , "version": "kinetic" },
+                { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" },
                 { "type": "sw.os", "slug": "debian", "version": "bullseye" },
                 { "type": "sw.os", "slug": "debian", "version": "bookworm" },
                 { "type": "sw.os", "slug": "debian", "version": "buster" }
