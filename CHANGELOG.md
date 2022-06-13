@@ -5,6 +5,13 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.3
+## (2022-06-13)
+
+* Add Python v3.10.5 and v3.9.13 [Trong Nghia Nguyen]
+* Add support for Alpine Linux 3.16 [Trong Nghia Nguyen]
+* Add support for Ubuntu Jammy and Kinetic [Trong Nghia Nguyen]
+
 # v2.0.2
 ## (2022-06-05)
 

@@ -1,4 +1,38 @@
 - commits:
+    - subject: Add Python v3.10.5 and v3.9.13
+      hash: 971223d30b9bf7391ffe57b36182c4857bf4c3aa
+      body: >
+        Update checksum for v3.8.13 and v3.7.13 since they were rebuilt to add
+        tkinter modules
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+    - subject: Add support for Alpine Linux 3.16
+      hash: 49617527cd147d2013158786ee22f8489340143c
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+    - subject: Add support for Ubuntu Jammy and Kinetic
+      hash: 143ad01883d861aba4f6359a4386634eb9592684
+      body: |
+        Drop support for Ubuntu Hirsute
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 2.0.3
+  title: "'Few base images updates'"
+  date: 2022-06-13T20:38:36.573Z
+- commits:
     - subject: "sw.os - hw.device-type: Update Xavier NX SD and Xavier NX eMMC to
         32.7.1"
       hash: 5550fdff88e0f6c4c93af3ceec5936f937791dd7
