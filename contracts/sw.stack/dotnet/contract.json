@@ -34,7 +34,8 @@
           "data": { "libc": "musl-libc" },
           "requires": [
             { "type": "sw.os", "slug": "alpine", "version": "3.14" },
-            { "type": "sw.os", "slug": "alpine", "version": "3.15" }
+            { "type": "sw.os", "slug": "alpine", "version": "3.15" },
+            { "type": "sw.os", "slug": "alpine", "version": "3.16" }
           ],
           "variants": [
             {
@@ -90,6 +91,7 @@
         {
           "data": { "libc": "musl-libc" },
           "requires": [
+            { "type": "sw.os", "slug": "alpine", "version": "3.16" },
             { "type": ",sw.os", "slug": "alpine", "version": "3.15" },
             { "type": "sw.os", "slug": "alpine", "version": "3.14" },
             { "type": "sw.os", "slug": "alpine", "version": "3.13" }
@@ -147,6 +149,7 @@
         {
           "data": { "libc": "musl-libc" },
           "requires": [
+            { "type": "sw.os", "slug": "alpine", "version": "3.16" },
             { "type": ",sw.os", "slug": "alpine", "version": "3.15" },
             { "type": "sw.os", "slug": "alpine", "version": "3.14" },
             { "type": "sw.os", "slug": "alpine", "version": "3.13" }
@@ -204,6 +207,7 @@
         {
           "data": { "libc": "musl-libc" },
           "requires": [
+            { "type": "sw.os", "slug": "alpine", "version": "3.16" },
             { "type": ",sw.os", "slug": "alpine", "version": "3.15" },
             { "type": "sw.os", "slug": "alpine", "version": "3.14" }
           ],
@@ -261,6 +265,7 @@
         {
           "data": { "libc": "musl-libc" },
           "requires": [
+            { "type": "sw.os", "slug": "alpine", "version": "3.16" },
             { "type": ",sw.os", "slug": "alpine", "version": "3.15" },
             { "type": "sw.os", "slug": "alpine", "version": "3.14" },
             { "type": "sw.os", "slug": "alpine", "version": "3.13" }
@@ -334,6 +339,7 @@
         {
           "data": { "libc": "musl-libc" },
           "requires": [
+            { "type": "sw.os", "slug": "alpine", "version": "3.16" },
             { "type": ",sw.os", "slug": "alpine", "version": "3.15" },
             { "type": "sw.os", "slug": "alpine", "version": "3.14" }
           ],

@@ -69,6 +69,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -108,6 +109,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -147,6 +149,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -186,6 +189,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -225,6 +229,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -440,6 +445,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -479,6 +485,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -518,6 +525,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -557,6 +565,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -596,6 +605,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -811,6 +821,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -850,6 +861,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -889,6 +901,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -928,6 +941,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -967,6 +981,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -1182,6 +1197,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -1221,6 +1237,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -1260,6 +1277,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -1299,6 +1317,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -1338,6 +1357,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -1550,6 +1570,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -1589,6 +1610,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -1628,6 +1650,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -1667,6 +1690,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
@@ -1706,6 +1730,7 @@
                         { "type": "sw.os", "slug": "alpine" , "version": "3.12" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.14" },
                         { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
+                        { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
                         { "type": "sw.os", "slug": "alpine" , "version": "edge" }
                       ]
                     }
