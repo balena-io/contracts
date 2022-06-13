@@ -58,7 +58,8 @@
               "or": [
                 { "type": "sw.os", "slug": "ubuntu", "version": "focal" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "impish" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "hirsute" },
+                { "type": "sw.os", "slug": "ubuntu" , "version": "kinetic" },
+                { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" },
                 { "type": "sw.os", "slug": "debian", "version": "bullseye" },
                 { "type": "sw.os", "slug": "debian", "version": "bookworm" },
                 { "type": "sw.os", "slug": "debian", "version": "buster" }
@@ -228,7 +229,8 @@
               "or": [
                 { "type": "sw.os", "slug": "ubuntu", "version": "focal" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "impish" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "hirsute" },
+                { "type": "sw.os", "slug": "ubuntu" , "version": "kinetic" },
+                { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" },
                 { "type": "sw.os", "slug": "debian", "version": "bullseye" },
                 { "type": "sw.os", "slug": "debian", "version": "bookworm" },
                 { "type": "sw.os", "slug": "debian", "version": "buster" }
@@ -365,7 +367,8 @@
               "or": [
                 { "type": "sw.os", "slug": "ubuntu", "version": "focal" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "impish" },
-                { "type": "sw.os", "slug": "ubuntu" , "version": "hirsute" },
+                { "type": "sw.os", "slug": "ubuntu" , "version": "kinetic" },
+                { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" },
                 { "type": "sw.os", "slug": "debian", "version": "bullseye" },
                 { "type": "sw.os", "slug": "debian", "version": "bookworm" },
                 { "type": "sw.os", "slug": "debian", "version": "buster" }
