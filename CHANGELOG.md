@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.4
+## (2022-06-21)
+
+* Add libffi3.4 linked python binaries [Trong Nghia Nguyen]
+
 # v2.0.3
 ## (2022-06-13)
 

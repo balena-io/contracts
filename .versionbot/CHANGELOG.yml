@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add libffi3.4 linked python binaries
+      hash: 29fc985046aa9aeca97be260d09e026ad1319da1
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 2.0.4
+  title: "'Add libffi3.4 linked python binaries'"
+  date: 2022-06-21T18:55:56.538Z
+- commits:
     - subject: Add Python v3.10.5 and v3.9.13
       hash: 971223d30b9bf7391ffe57b36182c4857bf4c3aa
       body: >
