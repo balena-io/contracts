@@ -1,4 +1,13 @@
 - commits:
+    - subject: "patch: Assume hdmi false for generic-aarch64 devices"
+      hash: cb5c225ea4d81f6e83eda0df31777eacfed06938
+      body: ""
+      footer: {}
+      author: Kyle Harding
+  version: 2.0.5
+  title: "'patch: Assume hdmi false for generic-aarch64 devices'"
+  date: 2022-06-30T20:06:32.714Z
+- commits:
     - subject: Add libffi3.4 linked python binaries
       hash: 29fc985046aa9aeca97be260d09e026ad1319da1
       body: ""
