@@ -12,7 +12,7 @@
   },
   "data": {
     "arch": "aarch64",
-    "hdmi": true,
+    "hdmi": false,
     "led": false,
     "connectivity": {
       "bluetooth": false,
