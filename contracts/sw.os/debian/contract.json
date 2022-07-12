@@ -5,7 +5,7 @@
   "data": {
     "libc": "glibc",
     "latest": "bullseye",
-    "versionList": "`bullseye (latest)`, `bookworm`, `buster`, `stretch`, `sid`"
+    "versionList": "`bullseye (latest)`, `bookworm`, `buster`, `sid`"
   },
   "name": "Debian {{this.version}}",
   "requires": [
@@ -34,7 +34,6 @@
         { "type": "sw.blob", "slug": "qemu" }
       ],
       "variants": [
-        { "version": "stretch", "name": "Debian Stretch" },
         { "version": "buster", "name": "Debian Buster" },
         { "version": "bullseye", "name": "Debian Bullseye" },
         { "version": "bookworm", "name": "Debian Bookworm" },
@@ -47,7 +46,6 @@
         { "type": "sw.blob", "slug": "qemu" }
       ],
       "variants": [
-        { "version": "stretch", "name": "Debian Stretch" },
         { "version": "bullseye", "name": "Debian Bullseye" },
         { "version": "bookworm", "name": "Debian Bookworm" },
         { "version": "buster", "name": "Debian Buster" }
@@ -63,7 +61,6 @@
         }
       ],
       "variants": [
-        { "version": "stretch", "name": "Debian Stretch" },
         { "version": "buster", "name": "Debian Buster" },
         { "version": "bullseye", "name": "Debian Bullseye" },
         { "version": "bookworm", "name": "Debian Bookworm" },
