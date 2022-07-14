@@ -5,6 +5,14 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.5
+## (2022-07-14)
+
+* Add node v18.6.0 [Trong Nghia Nguyen]
+* Add golang v1.8.4 and v1.17.12 [Trong Nghia Nguyen]
+* Add node v18.5.0 v16.16.0 and v14.20.0 [Trong Nghia Nguyen]
+* Remove Debian Stretch as it is EOL [Trong Nghia Nguyen]
+
 # v2.0.4
 ## (2022-06-21)
 
