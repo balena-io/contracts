@@ -488,7 +488,6 @@
               "requires": [
                 {
                   "or": [
-                    { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                     { "type": "sw.os", "slug": "debian" , "version": "buster" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
@@ -1009,7 +1008,6 @@
               "requires": [
                 {
                   "or": [
-                    { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                     { "type": "sw.os", "slug": "debian" , "version": "buster" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
@@ -1530,7 +1528,6 @@
               "requires": [
                 {
                   "or": [
-                    { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                     { "type": "sw.os", "slug": "debian" , "version": "buster" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
@@ -2051,7 +2048,6 @@
               "requires": [
                 {
                   "or": [
-                    { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                     { "type": "sw.os", "slug": "debian" , "version": "buster" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
@@ -2424,7 +2420,6 @@
               "requires": [
                 {
                   "or": [
-                    { "type": "sw.os", "slug": "debian" , "version": "stretch" },
                     { "type": "sw.os", "slug": "debian" , "version": "buster" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }

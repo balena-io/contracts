@@ -41,7 +41,6 @@
       "requires": [
         {
           "or": [
-            { "type": "sw.os", "slug": "debian", "version": "stretch" },
             { "type": "sw.os", "slug": "ubuntu", "version": "xenial" },
             { "type": "sw.os", "slug": "ubuntu", "version": "bionic" },
             { "type": "sw.os", "slug": "alpine" },
@@ -55,7 +54,6 @@
       "requires": [
         {
           "or": [
-            { "type": "sw.os", "slug": "debian", "version": "stretch" },
             { "type": "sw.os", "slug": "alpine" },
             { "type": "sw.os", "slug": "fedora" },
             { "type": "sw.os", "slug": "ubuntu", "version": "xenial" },
@@ -69,7 +67,6 @@
       "requires": [
         {
           "or": [
-            { "type": "sw.os", "slug": "debian", "version": "stretch" },
             { "type": "sw.os", "slug": "debian", "version": "buster" },
             { "type": "sw.os", "slug": "debian", "version": "bullseye" },
             { "type": "sw.os", "slug": "debian", "version": "bookworm" },
@@ -87,7 +84,6 @@
       "requires": [
         {
           "or": [
-            { "type": "sw.os", "slug": "debian", "version": "stretch" },
             { "type": "sw.os", "slug": "debian", "version": "buster" },
             { "type": "sw.os", "slug": "debian", "version": "bullseye" },
             { "type": "sw.os", "slug": "debian", "version": "bookworm" },
