@@ -1,4 +1,19 @@
 - commits:
+    - subject: "hw.device-type: Add correct tdpzu9 board"
+      hash: 854890e2c4516145bd8e92e9d2f8f8066cb364a5
+      body: |
+        There was a mismatch in between the dir name
+        and the actual slug name.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.0.6
+  title: "'hw.device-type: Add correct tdpzu9 board'"
+  date: 2022-07-17T12:40:20.750Z
+- commits:
     - subject: Add node v18.6.0
       hash: 9c2c0aeb2570a4c34e02d118c82d0ab548c01832
       body: ""
