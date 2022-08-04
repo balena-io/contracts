@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Generic AMD64 (x86-64)",
+  "name": "Generic x86_64 (GPT)",
   "assets": {
     "logo": {
       "url": "./generic-amd64.svg",
