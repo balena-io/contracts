@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Generic x86_64",
+  "name": "Generic x86_64 (legacy MBR)",
   "assets": {
     "logo": {
       "url": "./genericx86-64-ext.svg",
