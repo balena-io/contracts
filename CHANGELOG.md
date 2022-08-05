@@ -5,6 +5,13 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.9
+## (2022-08-04)
+
+* generic-amd64: match genericx86-64-ext connectivity [Joseph Kogut]
+* generic-amd64: update name to include GPT qualifier [Joseph Kogut]
+* genericx86-64-ext: update name to include MBR qualifier [Joseph Kogut]
+
 # v2.0.8
 ## (2022-08-03)
 

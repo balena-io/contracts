@@ -1,4 +1,44 @@
 - commits:
+    - subject: "generic-amd64: match genericx86-64-ext connectivity"
+      hash: ed449edbd6504f97e94f11f1f97075582cf27e7b
+      body: |
+        Disable bluetooth/wifi in generic-amd64 to match genericx86-64-ext.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Joseph Kogut <joseph@balena.io>
+        signed-off-by: Joseph Kogut <joseph@balena.io>
+      author: Joseph Kogut
+    - subject: "generic-amd64: update name to include GPT qualifier"
+      hash: ab8af4bff6ccff7d650c794ec8dc3e31be6f1671
+      body: |
+        Update the long name for generic-amd64 to include the MBR qualifier,
+        matching the device type coffeescript file.
+
+        https://github.com/balena-os/balena-generic/pull/122
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Joseph Kogut <joseph@balena.io>
+        signed-off-by: Joseph Kogut <joseph@balena.io>
+      author: Joseph Kogut
+    - subject: "genericx86-64-ext: update name to include MBR qualifier"
+      hash: d511fa372a606ddbc1814b35d109c4cc0aef57e2
+      body: |
+        Update the long name for genericx86-64-ext to include the MBR qualifier,
+        matching the device type coffeescript file.
+
+        Related: https://github.com/balena-os/balena-intel/pull/534
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Joseph Kogut <joseph@balena.io>
+        signed-off-by: Joseph Kogut <joseph@balena.io>
+      author: Joseph Kogut
+  version: 2.0.9
+  title: "'x86-64 device types rename'"
+  date: 2022-08-04T15:36:26.752Z
+- commits:
     - subject: Update dotnet contract to latest v6.x and v3.x
       hash: 8723082c3e626e277d24a6ed4e8667fc2324377a
       body: ""
