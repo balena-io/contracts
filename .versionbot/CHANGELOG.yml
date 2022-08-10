@@ -1,4 +1,18 @@
 - commits:
+    - subject: "generic-amd64: disable private"
+      hash: fecb953bc4ea8162f476fb0f498febd9ce332813
+      body: |
+        This device type should be public
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Joseph Kogut <joseph@balena.io>
+        signed-off-by: Joseph Kogut <joseph@balena.io>
+      author: Joseph Kogut
+  version: 2.0.10
+  title: "'generic-amd64: disable private'"
+  date: 2022-08-10T23:34:11.931Z
+- commits:
     - subject: "generic-amd64: match genericx86-64-ext connectivity"
       hash: ed449edbd6504f97e94f11f1f97075582cf27e7b
       body: |

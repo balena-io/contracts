@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.10
+## (2022-08-10)
+
+* generic-amd64: disable private [Joseph Kogut]
+
 # v2.0.9
 ## (2022-08-04)
 
