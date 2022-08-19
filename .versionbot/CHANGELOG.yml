@@ -1,4 +1,26 @@
 - commits:
+    - subject: Add golang v1.19 and v1.18.5
+      hash: 8894fddc2adcac1fb33ed221af5e31133b743f4c
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+    - subject: Add node v16.17.0
+      hash: 37bcbeb9968c3f92a12b303523cccb15ee3b315a
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 2.0.12
+  title: "'Few base images updates'"
+  date: 2022-08-19T06:01:15.871Z
+- commits:
     - subject: "generic-amd64: update logo to be vendor agnostic"
       hash: 77be9ac931237432f35a993cfe30395c04f4c27e
       body: ""
