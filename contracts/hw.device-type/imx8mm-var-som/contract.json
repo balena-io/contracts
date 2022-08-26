@@ -1,0 +1,41 @@
+{
+  "slug": "imx8mm-var-som",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Variscite VAR-SOM-MX8M-MINI Devkit",
+  "assets": {
+    "logo": {
+      "url": "./imx8mm-var-som.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": false,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
+    },
+    "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+      "Set the BOOT-SELECT switch to EXT",
+      "Connect power to the {{name}}"
+    ],
+    "flashIndicator": ["all LEDs are off"],
+    "bootDevice": [
+      "Set the BOOT-SELECT switch to INT",
+      "Remove and re-connect power to the {{name}}"
+    ]
+  }
+}
