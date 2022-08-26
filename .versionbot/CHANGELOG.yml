@@ -1,4 +1,17 @@
 - commits:
+    - subject: "imx8mm-var-som: Add device type"
+      hash: a26ca290387c3c250b59d1b49df45c8a9ea9a89a
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.13
+  title: "'imx8mm-var-som: Add imx8mm-var-som devkit device type'"
+  date: 2022-08-26T11:11:21.899Z
+- commits:
     - subject: Add golang v1.19 and v1.18.5
       hash: 8894fddc2adcac1fb33ed221af5e31133b743f4c
       body: ""
