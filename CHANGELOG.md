@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.15
+## (2022-09-14)
+
+* hw.device-type: Set LED to false for rockpi-4b [Alexandru Costache]
+
 # v2.0.14
 ## (2022-09-06)
 

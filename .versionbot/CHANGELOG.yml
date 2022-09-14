@@ -1,4 +1,20 @@
 - commits:
+    - subject: "hw.device-type: Set LED to false for rockpi-4b"
+      hash: a3ba8781439427390d2dbd21d01b66cc6f33c027
+      body: |
+        LED is not supported for this DT in the device
+        repository, let's set it to false here so that
+        the tests are aware of this being unsupported.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.15
+  title: "'hw.device-type: Set LED to false for rockpi-4b'"
+  date: 2022-09-14T14:17:49.155Z
+- commits:
     - subject: Add node v18.8.0
       hash: 22cc7c47e7582fa9ecf05d0b607b0e8619b5ac4e
       body: ""
