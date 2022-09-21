@@ -1,4 +1,20 @@
 - commits:
+    - subject: "hw.device-type: Remove led for RockPro64"
+      hash: 4b807a312743b4896c80fb865b2dbe3c7d303b43
+      body: |
+        This DT does not set a led in the device
+        repository, let's remove this option
+        from here for testbot.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.16
+  title: "'hw.device-type: Remove led for RockPro64'"
+  date: 2022-09-21T07:48:51.253Z
+- commits:
     - subject: "hw.device-type: Set LED to false for rockpi-4b"
       hash: a3ba8781439427390d2dbd21d01b66cc6f33c027
       body: |
