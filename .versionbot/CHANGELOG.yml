@@ -1,4 +1,25 @@
 - commits:
+    - subject: Add node v18.9.1, v16.17.1 and v14.20.1
+      hash: 3d17a04da87495bc26f6aaabb4e90baaa8f0a349
+      body: ""
+      footer:
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+    - subject: Add Golang v1.19.1 and v1.18.6
+      hash: 1f985fb82514dbeb8c9cddaa66efc8eb31ab9a30
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 2.0.17
+  title: "'Few base images updates'"
+  date: 2022-09-27T20:03:39.091Z
+- commits:
     - subject: "hw.device-type: Remove led for RockPro64"
       hash: 4b807a312743b4896c80fb865b2dbe3c7d303b43
       body: |
