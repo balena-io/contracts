@@ -28,7 +28,7 @@
   "variants": [
     {
       "version": "6.0-sdk",
-      "data": { "fullVersion": "6.0.107" },
+      "data": { "fullVersion": "6.0.109" },
       "variants": [
         {
           "data": { "libc": "musl-libc" },
@@ -41,7 +41,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "171de172825103635229bb7870a1aa86ab30943ad82fd423693264735f5af8c54bdb2f1669cfbca51bb0327266e66885b42382539ca68754cebc2a5ed26521f0",
+                  "checksum": "7620f7eb93f77e03ab24a00521085d4469978e9324af1be6fb8fa05bd8fcbbc6ee869ddee995c717f4bb00a2f582756a17450301def4f4c392186cfd803af13a",
                   "name": "dotnet-sdk-$DOTNET_SDK_VERSION-linux-musl-x64.tar.gz",
                   "url": "https://dotnetcli.blob.core.windows.net/dotnet/Sdk/$DOTNET_SDK_VERSION/{{this.assets.bin.name}}"
                 }
@@ -71,7 +71,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "cd03b0a04230371c5c6cc9368722123771a80e38f9a7dad9f831263b319821139d68e37f6e0321487f5fde86e96985965a12f0b3a74fe05d1e917d587775950f",
+                  "checksum": "3bc9f437a512a72a4ee8e5502f425bb7bf9f3d91db726fcf8052217eec7aea8bd68bfbf17db7a1a4bf3a7559cac85f0fc5e5893f27f8da83719930f65f563022",
                   "name": "dotnet-sdk-$DOTNET_SDK_VERSION-linux-x64.tar.gz",
                   "url": "https://dotnetcli.blob.core.windows.net/dotnet/Sdk/$DOTNET_SDK_VERSION/{{this.assets.bin.name}}"
                 }
@@ -86,7 +86,7 @@
     },
     {
       "version": "3.1-sdk",
-      "data": { "fullVersion": "3.1.421" },
+      "data": { "fullVersion": "3.1.423" },
       "variants": [
         {
           "data": { "libc": "musl-libc" },
@@ -100,7 +100,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "189a7cfed48be012d90828bbbf83bdb8970c3dfeeb2cf4d5a746c13c49dccbe336842639a8877073e4b02c961f93be584c87bcf964cb37f15092f8f7e5064567",
+                  "checksum": "e3e887c029535c7566437e5e6bb3a2cac44cdf103c247ac528e02c535b3efd860ee9bbd0ef9c570daac91e4012ddc84dca509e1ce23ab293ed7c744edbc9107b",
                   "name": "dotnet-sdk-$DOTNET_SDK_VERSION-linux-musl-x64.tar.gz",
                   "url": "https://dotnetcli.blob.core.windows.net/dotnet/Sdk/$DOTNET_SDK_VERSION/{{this.assets.bin.name}}"
                 }
@@ -128,7 +128,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "9f592db89ddfdfa3254d59c39f227109e0f87f156a8ab00595bcf332fdebd3e873fb9e07c875905aaa8ba5022e6e551e2d9516cfb855d04ec781313521595431",
+                  "checksum": "bcb0efcc066a668eb390b57fd2c944abe73234fdbed57a4b1d21af5b880d102b765f2a790bb137d4b9f3d0d4e24fc53d39dc7666e665624c12e07d503c54ceae",
                   "name": "dotnet-sdk-$DOTNET_SDK_VERSION-linux-x64.tar.gz",
                   "url": "https://dotnetcli.blob.core.windows.net/dotnet/Sdk/$DOTNET_SDK_VERSION/{{this.assets.bin.name}}"
                 }
@@ -143,7 +143,7 @@
     },
     {
       "version": "3.1-runtime",
-      "data": { "fullVersion": "3.1.27" },
+      "data": { "fullVersion": "3.1.29" },
       "variants": [
         {
           "data": { "libc": "musl-libc" },
@@ -157,7 +157,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "20fed726e85ff1aed1f53afb4a193fdac83275636f8a9370b0de8498689e0f82919c45df5aa128e68f5323d2cedc8b4ecafff192ac8765f2e2cdacd6ecb8a920",
+                  "checksum": "a005ac073face06883172dca52a3b4cb94a60213533ad9ec4889b27c9588eeb397014af346d27bbbeae015907550d7cfa0f402c995594bc73f2bc45279e56adc",
                   "name": "dotnet-runtime-$DOTNET_VERSION-linux-musl-x64.tar.gz",
                   "url": "https://dotnetcli.blob.core.windows.net/dotnet/Runtime/$DOTNET_VERSION/{{this.assets.bin.name}}"
                 }
@@ -185,7 +185,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "288fe52b68e02d33bddf7a27ceaf49bd7db795e9dee56930b52978c5d856bf38c0aa3010bb3acfd25313114a3837587f1efe8f7aa248f6e71e4659589d7be097",
+                  "checksum": "5c5ef6022abb5437e148c1cb22944eca7471a20a6a61300c6737c5f6e3ab0d95ba22d1ce55857e033c826a06359b601478228e3ef62cd321707911ad9d96bf67",
                   "name": "dotnet-runtime-$DOTNET_VERSION-linux-x64.tar.gz",
                   "url": "https://dotnetcli.blob.core.windows.net/dotnet/Runtime/$DOTNET_VERSION/{{this.assets.bin.name}}"
                 }
@@ -200,7 +200,7 @@
     },
     {
       "version": "6.0-runtime",
-      "data": { "fullVersion": "6.0.7" },
+      "data": { "fullVersion": "6.0.9" },
       "variants": [
         {
           "data": { "libc": "musl-libc" },
@@ -213,7 +213,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "dc8374ff31d4ae29094815a8df48c777614153820a0ed47454c882fed596aa485010eeb852543e3974bb8d3b37df143bf1c6a3a22305835907c350c2d40017cb",
+                  "checksum": "e3eb4804dddbc34be37e3d984c13a668605ef7eea6b2daca95ea3fa7ca51b2fe4845df1ad0d343de9075796bf0d4474d7e14e5b3b4b515005d0e24ec53237ad3",
                   "name": "dotnet-runtime-$DOTNET_VERSION-linux-musl-x64.tar.gz",
                   "url": "https://dotnetcli.blob.core.windows.net/dotnet/Runtime/$DOTNET_VERSION/{{this.assets.bin.name}}"
                 }
@@ -243,7 +243,7 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "996bdaf33be0a9c0f1e2d309b997e3a84a31e28d2424853d7fb1600212f4ce600ebe1b9615de5e46c17652f08ad0d7ecd4b3619217c9624b875a26a553f370d8",
+                  "checksum": "a6df2cfef73047247bd36f51eaf696f616c6aa9b428e42f219bf91dcf05c03dff817a8ec826740002c8aa83df2fce8a7ace562ad2e2956789542f0b8ab8b1173",
                   "name": "dotnet-runtime-$DOTNET_VERSION-linux-x64.tar.gz",
                   "url": "https://dotnetcli.blob.core.windows.net/dotnet/Runtime/$DOTNET_VERSION/{{this.assets.bin.name}}"
                 }
@@ -258,7 +258,7 @@
     },
     {
       "version": "3.1-aspnet",
-      "data": { "fullVersion": "3.1.27" },
+      "data": { "fullVersion": "3.1.29" },
       "variants": [
         {
           "data": { "libc": "musl-libc" },
@@ -272,14 +272,14 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "5d73545eab4293d64e8904b9205bc63b1f9c702f391b038209e55ab5d83d1e44517c12a9e0b8dbc7d445a4703a0780ca0f85b077db5a006cda9208441d24f6fc",
+                  "checksum": "d7b4bb21592338ea9c6f3441a01ca538799fcfa047670923100545f8e6c3c6fa9cc11dcea6c130c871146ab1875853a2ccee78ed4e907ca897adfeb9241eaaa8",
                   "name": "aspnetcore-runtime-$ASPNETCORE_VERSION-linux-musl-x64.tar.gz",
                   "url": "https://dotnetcli.blob.core.windows.net/dotnet/aspnetcore/Runtime/$ASPNETCORE_VERSION/{{this.assets.bin.name}}"
                 },
                 "runtime": {
-                  "fullVersion": "3.1.27",
+                  "fullVersion": "3.1.29",
                   "bin": {
-                    "checksum": "20fed726e85ff1aed1f53afb4a193fdac83275636f8a9370b0de8498689e0f82919c45df5aa128e68f5323d2cedc8b4ecafff192ac8765f2e2cdacd6ecb8a920",
+                    "checksum": "a005ac073face06883172dca52a3b4cb94a60213533ad9ec4889b27c9588eeb397014af346d27bbbeae015907550d7cfa0f402c995594bc73f2bc45279e56adc",
                     "name": "dotnet-runtime-$DOTNET_VERSION-linux-musl-x64.tar.gz",
                     "url": "https://dotnetcli.blob.core.windows.net/dotnet/Runtime/$DOTNET_VERSION/{{this.assets.runtime.bin.name}}"
                   }
@@ -308,14 +308,14 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "80f300c9081d66ecf911707f39772c437e5e6a4d6603fef48300b7e94c29d5520de08ab2b6b687786e22460381477ed30a2a69245364d1b4cc0753b124caaceb",
+                  "checksum": "991918a89c1372d8d1eef967777cc9dd55d0cef827d940f068e701ca877dd6e14045c3a309e6e9c4a7f843eef6d1b192b9ae1257141947f999f4e8dd6b0d43e3",
                   "name": "aspnetcore-runtime-$ASPNETCORE_VERSION-linux-x64.tar.gz",
                   "url": "https://dotnetcli.blob.core.windows.net/dotnet/aspnetcore/Runtime/$ASPNETCORE_VERSION/{{this.assets.bin.name}}"
                 },
                 "runtime": {
-                  "fullVersion": "3.1.27",
+                  "fullVersion": "3.1.29",
                   "bin": {
-                    "checksum": "288fe52b68e02d33bddf7a27ceaf49bd7db795e9dee56930b52978c5d856bf38c0aa3010bb3acfd25313114a3837587f1efe8f7aa248f6e71e4659589d7be097",
+                    "checksum": "5c5ef6022abb5437e148c1cb22944eca7471a20a6a61300c6737c5f6e3ab0d95ba22d1ce55857e033c826a06359b601478228e3ef62cd321707911ad9d96bf67",
                     "name": "dotnet-runtime-$DOTNET_VERSION-linux-x64.tar.gz",
                     "url": "https://dotnetcli.blob.core.windows.net/dotnet/Runtime/$DOTNET_VERSION/{{this.assets.runtime.bin.name}}"
                   }
@@ -331,7 +331,7 @@
     },
     {
       "version": "6.0-aspnet",
-      "data": { "fullVersion": "6.0.7" },
+      "data": { "fullVersion": "6.0.9" },
       "variants": [
         {
           "data": { "libc": "musl-libc" },
@@ -344,14 +344,14 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "676864175e8ac286b83ce231a5a218050998e8f0903521c7667e1e8b58b035dba45f90c8894e164f70480fc55e32a623b0fad229f28f59d692c53ca97b695092",
+                  "checksum": "eb8013608488e7a15dfa847229b7a3d0771312bcf63ddd099846c0ceaf7b506b8a2acb41de40affc8e72adb0526d5c6daf0a059e19e73436f4b3bdc258e153a4",
                   "name": "aspnetcore-runtime-$ASPNETCORE_VERSION-linux-musl-x64.tar.gz",
                   "url": "https://dotnetcli.blob.core.windows.net/dotnet/aspnetcore/Runtime/$ASPNETCORE_VERSION/{{this.assets.bin.name}}"
                 },
                 "runtime": {
-                  "fullVersion": "6.0.7",
+                  "fullVersion": "6.0.9",
                   "bin": {
-                    "checksum": "dc8374ff31d4ae29094815a8df48c777614153820a0ed47454c882fed596aa485010eeb852543e3974bb8d3b37df143bf1c6a3a22305835907c350c2d40017cb",
+                    "checksum": "e3eb4804dddbc34be37e3d984c13a668605ef7eea6b2daca95ea3fa7ca51b2fe4845df1ad0d343de9075796bf0d4474d7e14e5b3b4b515005d0e24ec53237ad3",
                     "name": "dotnet-runtime-$DOTNET_VERSION-linux-musl-x64.tar.gz",
                     "url": "https://dotnetcli.blob.core.windows.net/dotnet/Runtime/$DOTNET_VERSION/{{this.assets.runtime.bin.name}}"
                   }
@@ -382,14 +382,14 @@
             {
               "assets": {
                 "bin": {
-                  "checksum": "d210e2afd009746d2c4d98c07077b89ce174f462c2bdaae9afea107a5b1c9c4ab63460ae3d9ae38c5388f591c0a95d8712359326013b23325b7be19b51835455",
+                  "checksum": "e808036155bc324335c309aaf948b2be1940a62eaf0135752989644698653c8f3a5ce310c3ee6742e3af73dbe175c6e529298eedf6eeb31cc38bfeab628f6d7b",
                   "name": "aspnetcore-runtime-$ASPNETCORE_VERSION-linux-x64.tar.gz",
                   "url": "https://dotnetcli.blob.core.windows.net/dotnet/aspnetcore/Runtime/$ASPNETCORE_VERSION/{{this.assets.bin.name}}"
                 },
                 "runtime": {
                   "fullVersion": "6.0.7",
                   "bin": {
-                    "checksum": "996bdaf33be0a9c0f1e2d309b997e3a84a31e28d2424853d7fb1600212f4ce600ebe1b9615de5e46c17652f08ad0d7ecd4b3619217c9624b875a26a553f370d8",
+                    "checksum": "a6df2cfef73047247bd36f51eaf696f616c6aa9b428e42f219bf91dcf05c03dff817a8ec826740002c8aa83df2fce8a7ace562ad2e2956789542f0b8ab8b1173",
                     "name": "dotnet-runtime-$DOTNET_VERSION-linux-x64.tar.gz",
                     "url": "https://dotnetcli.blob.core.windows.net/dotnet/Runtime/$DOTNET_VERSION/{{this.assets.runtime.bin.name}}"
                   }
