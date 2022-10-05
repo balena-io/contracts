@@ -1,4 +1,17 @@
 - commits:
+    - subject: Switch from balenaCI to flowzone
+      hash: 9e06ba17acf1c3333c6c2ef7f0ba6a7b7bf088f9
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 2.0.18
+  title: ""
+  date: 2022-10-05T09:07:08.310Z
+- commits:
     - subject: Add node v18.9.1, v16.17.1 and v14.20.1
       hash: 3d17a04da87495bc26f6aaabb4e90baaa8f0a349
       body: ""

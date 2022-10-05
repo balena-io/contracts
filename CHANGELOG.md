@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.18
+## (2022-10-05)
+
+* Switch from balenaCI to flowzone [Trong Nghia Nguyen]
+
 # v2.0.17
 ## (2022-09-27)
 
