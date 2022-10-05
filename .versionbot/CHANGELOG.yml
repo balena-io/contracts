@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update dotnet 6.0 and 3.1 to latest version
+      hash: e6e9c6d41b73dbbf15ea777d7fb54761389c16d8
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+    - subject: Add Python v3.10.7 v3.9.14 v3.8.14 and v3.7.14
+      hash: 238cdd69f9e48dd1b8192ec90dc9bca37a97f2a6
+      body: |
+        Update pip to v22.2.2
+        Update setuptools to v65.4.1
+        Update dbus-python to v1.3.2
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 2.0.19
+  title: ""
+  date: 2022-10-05T09:13:06.785Z
+- commits:
     - subject: Switch from balenaCI to flowzone
       hash: 9e06ba17acf1c3333c6c2ef7f0ba6a7b7bf088f9
       body: ""
