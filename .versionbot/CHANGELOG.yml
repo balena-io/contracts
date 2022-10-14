@@ -1,4 +1,27 @@
 - commits:
+    - subject: Add Golang v1.19.2 and v1.18.7
+      hash: 1e430f1bbf3deb491540dca04057452f01cfbcfb
+      body: |
+        Drop v1.17.x
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+    - subject: Add node v18.11.0 and v16.18.0
+      hash: 6a6274f5e56535ff82d84bd7fad788b64ae96289
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 2.0.20
+  title: ""
+  date: 2022-10-14T09:22:14.221Z
+- commits:
     - subject: Update dotnet 6.0 and 3.1 to latest version
       hash: e6e9c6d41b73dbbf15ea777d7fb54761389c16d8
       body: ""
@@ -417,8 +440,7 @@
     - subject: "sw.os-image: Add balena-image software image"
       hash: 4473a99902a3793a33b63300778ad0118b8366cf
       body: >
-        This is used by the OS builders to deploy releases. This contract
-        contains
+        This is used by the OS builders to deploy releases. This contract contains
 
         details related to the balena-image artifact generated in the balenaOS
 
@@ -1134,7 +1156,7 @@
 - commits:
     - subject: "raspberrypi0-2w-64: Add device type"
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.36
 - date: 2021-11-19T03:46:03.000Z
 - commits:
@@ -1150,7 +1172,7 @@
 - commits:
     - subject: Fix wrong version number in dotnet contract
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.35
 - date: 2021-11-16T09:23:21.000Z
 - commits:
@@ -1186,7 +1208,7 @@
 - commits:
     - subject: Add node v16.13.0 and v17.0.1
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: fb1a4e71fe5eb27e7aae9333ee478aa90e8dcaba
 - commits:
@@ -1200,7 +1222,7 @@
 - commits:
     - subject: Add golang v1.17.2 and v1.16.9
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.33
 - date: 2021-10-14T06:06:27.000Z
 - commits:
@@ -1216,7 +1238,7 @@
 - commits:
     - subject: Add node v16.11.1 v14.18.1 and v12.22.7
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.32
 - date: 2021-10-08T15:29:30.000Z
 - commits:
@@ -1232,7 +1254,7 @@
 - commits:
     - subject: "hw.device-type: Add Auvidea CNX100 Xavier NX community device"
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.31
 - date: 2021-10-07T05:36:56.000Z
 - commits:
@@ -1248,7 +1270,7 @@
 - commits:
     - subject: Add Python v3.10.0
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.30
 - date: 2021-10-05T09:21:10.000Z
 - commits:
@@ -1264,7 +1286,7 @@
 - commits:
     - subject: "hw.device-type: Add Rocktech ISG 503 community device"
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.29
 - date: 2021-09-29T13:50:44.000Z
 - commits:
@@ -1280,7 +1302,7 @@
 - commits:
     - subject: Add node v14.18.0
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.28
 - date: 2021-09-23T08:28:23.000Z
 - commits:
@@ -1296,7 +1318,7 @@
 - commits:
     - subject: Add node v16.10.0
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 5fec282b16beff278320e750e66848393e94f5fc
 - commits:
@@ -1310,7 +1332,7 @@
 - commits:
     - subject: Add golang v1.17.1 and v1.16.8
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.27
 - date: 2021-09-12T09:30:07.000Z
 - commits:
@@ -1326,7 +1348,7 @@
 - commits:
     - subject: Add support for Debian Bookworm
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: b154f659a7299091a1958c8d8a576f5e5227b073
 - commits:
@@ -1340,7 +1362,7 @@
 - commits:
     - subject: Add support for Ubuntu Hirsute and Impish
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 93d1557ece22ecd28ede3b50b2115ffd5c1a5997
 - commits:
@@ -1354,7 +1376,7 @@
 - commits:
     - subject: Add support for Fedora 35
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 9ebf0543975ec6736df03550161c0698986b6032
 - commits:
@@ -1368,7 +1390,7 @@
 - commits:
     - subject: Add node v16.9.1
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 3e2f9830ac3684cecb8929e79ceaa368bc19c1bc
 - commits:
@@ -1382,7 +1404,7 @@
 - commits:
     - subject: Update checksum for Python contracts
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.26
 - date: 2021-09-06T15:35:15.000Z
 - commits:
@@ -1440,7 +1462,7 @@
 - commits:
     - subject: Add node v12.22.6 and v14.17.6
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 900a9f132e66471de3ccc7cdc4724456db0650ae
 - commits:
@@ -1470,7 +1492,7 @@
 - commits:
     - subject: Add node v16.8.0
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 6259de646db80816b2cfa564e2254ff7d725094e
 - commits:
@@ -1500,7 +1522,7 @@
 - commits:
     - subject: "photon-tx2-nx: Add new community Device type"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 15f3a6d5ae9aa07dcc854af22627ec283dde89c7
 - commits:
@@ -1529,7 +1551,7 @@
 - commits:
     - subject: Update test script for Golang base images
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.22
 - date: 2021-08-25T07:52:41.000Z
 - commits:
@@ -1545,7 +1567,7 @@
 - commits:
     - subject: Set Alpine Linux 3.14 as the latest tag
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: e2fc02056973825e30371b02d4c74606da623454
 - commits:
@@ -1559,7 +1581,7 @@
 - commits:
     - subject: Update contracts to v6.0.0-balena1
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 39f06f419b6e3af124f9a5ac3a74fd531f1191f8
 - commits:
@@ -1573,7 +1595,7 @@
 - commits:
     - subject: Add Golang v1.17
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.21
 - date: 2021-08-20T14:43:29.000Z
 - commits:
@@ -1622,7 +1644,7 @@
 - commits:
     - subject: Add latest dotnet releases
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: f987aa8d5d392d28822256989b39fb9b17b4cae3
 - commits:
@@ -1636,7 +1658,7 @@
 - commits:
     - subject: Add node v16.6.2 v14.17.5 and v12.22.5
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: cb8e8db0c8e67ff5c89cf9a94c01f897096ad2b2
 - commits:
@@ -1650,7 +1672,7 @@
 - commits:
     - subject: Add golang v1.16.7 and v1.15.15
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.19
 - date: 2021-08-11T15:50:48.000Z
 - commits:
@@ -1685,7 +1707,7 @@
 - commits:
     - subject: Add support for node v16.6.1 v14.17.4 and v12.22.4
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 185e12565047512cbcf6dcc84559d2ee4702c3db
 - commits:
@@ -1699,7 +1721,7 @@
 - commits:
     - subject: Add support for golang v1.16.6 and 1.15.4
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.17
 - date: 2021-08-05T18:08:12.000Z
 - commits:
@@ -1715,7 +1737,7 @@
 - commits:
     - subject: "jetson-nano: Updte sources.list to 32.5"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 5cc63cbfb0289e899e34577c87deffd6ac33bf70
 - commits:
@@ -1726,7 +1748,7 @@
 - commits:
     - subject: "jetson-xavier-agx: Update sources.list to 32.5"
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.16
 - date: 2021-08-04T14:14:50.000Z
 - commits:
@@ -1742,7 +1764,7 @@
 - commits:
     - subject: "jetson-tx2-nx-devkit: Add new device type"
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.15
 - date: 2021-07-22T12:45:01.000Z
 - commits:
@@ -1758,7 +1780,7 @@
 - commits:
     - subject: "rockpi-4b-rk3399: Add new device type"
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.14
 - date: 2021-07-02T19:10:29.000Z
 - commits:
@@ -1790,7 +1812,7 @@
 - commits:
     - subject: Fix openjdk 16 template
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: ea2695483c120e335ea7351d90eb3e268cdbfc09
 - commits:
@@ -1804,7 +1826,7 @@
 - commits:
     - subject: Add node v14.17.1
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.12
 - date: 2021-06-25T16:40:12.000Z
 - commits:
@@ -1820,7 +1842,7 @@
 - commits:
     - subject: Add golang v1.16.5 and v1.15.13
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 5a3311ac550d8a51ae27f595076a823b2e57c3d7
 - commits:
@@ -1834,7 +1856,7 @@
 - commits:
     - subject: Update python-dbus to v1.2.16
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 3c43cbad3ba81e0fe6bbbfcab9b7879da4adbcec
 - commits:
@@ -1848,7 +1870,7 @@
 - commits:
     - subject: Add node v16.4.0
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: d6e0c14217d8ad42ead459029ff1a341ced64b2a
 - commits:
@@ -1862,7 +1884,7 @@
 - commits:
     - subject: Add support for Alpine Linux 3.14
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 2236b5ef3a18fbbb36d0148269b2580531709a9b
 - commits:
@@ -1876,7 +1898,7 @@
 - commits:
     - subject: Add openjdk-16 for amd64 and aarch64 Debian Buster
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.11
 - date: 2021-06-14T14:07:23.000Z
 - commits:
@@ -1892,7 +1914,7 @@
 - commits:
     - subject: "hw.device-type: Add community Xavier NX SD ReSpeaker-2MIC"
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.10
 - date: 2021-06-09T11:41:27.000Z
 - commits:
@@ -1908,7 +1930,7 @@
 - commits:
     - subject: "asus-tinker-edge-t: Add new device type"
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.9
 - date: 2021-06-02T12:03:17.000Z
 - commits:
@@ -1924,7 +1946,7 @@
 - commits:
     - subject: Update checksum for Python v3.9.5 and v3.8.10
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: d09ce299265120c5fa3551276b51ee7ef54a4211
 - commits:
@@ -1953,7 +1975,7 @@
     - subject: Update dotnet SDK to v5.0.3 and v3.1.409 and runtime to v5.0.6 and
         v3.1.15
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.8
 - date: 2021-06-01T10:37:17.000Z
 - commits:
@@ -2001,7 +2023,7 @@
 - commits:
     - subject: Add node v16.1.0
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 46eb8ef9558edaa343ce99a95d71bdae4de574dc
 - commits:
@@ -2015,7 +2037,7 @@
 - commits:
     - subject: Add Python v3.9.5 and v3.8.10
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.5
 - date: 2021-04-20T09:45:17.000Z
 - commits:
@@ -2031,7 +2053,7 @@
 - commits:
     - subject: Add node v15.14.0 v14.16.1 v12.22.1 and v10.24.1
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: f46e804a97015a11ca1da03e6731c9c1ed6f6e89
 - commits:
@@ -2045,7 +2067,7 @@
 - commits:
     - subject: Add Python v3.9.4 and v3.8.9
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 227f13954e319e12b913b0ff70c1da37645e4283
 - commits:
@@ -2059,7 +2081,7 @@
 - commits:
     - subject: Add Go v1.16.3 and v1.15.11
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.4
 - date: 2021-04-05T15:07:14.000Z
 - commits:
@@ -2129,7 +2151,7 @@
 - commits:
     - subject: "iot-gate-imx8: Add new device type"
 - commits:
-    - ? body
+    - body: null
 - version: 1.13.0
 - date: 2021-03-01T17:27:22.000Z
 - commits:
@@ -2145,7 +2167,7 @@
 - commits:
     - subject: Add UP board family and manufacturer info
 - commits:
-    - ? body
+    - body: null
 - version: 1.12.19
 - date: 2021-02-26T13:50:31.000Z
 - commits:
@@ -2161,7 +2183,7 @@
 - commits:
     - subject: "nebra-hnt: Make device private"
 - commits:
-    - ? body
+    - body: null
 - version: 1.12.18
 - date: 2021-02-26T13:29:50.000Z
 - commits:
@@ -2177,7 +2199,7 @@
 - commits:
     - subject: "nebra-hnt: Add new device type"
 - commits:
-    - ? body
+    - body: null
 - version: 1.12.17
 - date: 2021-02-25T17:28:34.000Z
 - commits:
@@ -2212,7 +2234,7 @@
 - commits:
     - subject: Add node v15.9.0
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: e77b0fe8eb00f22f36f8dc306ac3fcc894f7b958
 - commits:
@@ -2226,7 +2248,7 @@
 - commits:
     - subject: Update QEMU to v5.2.0+balena4
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 2f269ec1e1bd9f682df5aa1b4d9452604ea3a1a4
 - commits:
@@ -2240,7 +2262,7 @@
 - commits:
     - subject: Add Go v1.16 and v1.15.8
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 3bf69944a7f83776cce55a5c5afa7bf44861de3d
 - commits:
@@ -2254,7 +2276,7 @@
 - commits:
     - subject: Add dotnet v5.0.3 and v3.1.12
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 9ceffef1631d712e378318afa5b95f181557a9dd
 - commits:
@@ -2268,7 +2290,7 @@
 - commits:
     - subject: Add node v15.10.0 v14.16.0 v12.21.0 and v10.14.0
 - commits:
-    - ? body
+    - body: null
 - version: 1.12.15
 - date: 2021-02-10T11:07:17.000Z
 - commits:
@@ -2284,7 +2306,7 @@
 - commits:
     - subject: "hw.device-type: Migrate SRD3 to private DT"
 - commits:
-    - ? body
+    - body: null
 - version: 1.12.14
 - date: 2021-02-09T16:35:16.000Z
 - commits:
@@ -2319,7 +2341,7 @@
 - commits:
     - subject: Add sample device family and manufacturer contracts
 - commits:
-    - ? body
+    - body: null
 - version: 1.12.12
 - date: 2021-02-01T06:25:36.000Z
 - commits:
@@ -2335,7 +2357,7 @@
 - commits:
     - subject: Update QEMU to v5.2.0+balena1
 - commits:
-    - ? body
+    - body: null
 - version: 1.12.11
 - date: 2021-02-01T04:28:01.000Z
 - commits:
@@ -2383,7 +2405,7 @@
 - commits:
     - subject: Update QEMU to v5.2.0+balena
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 7fb0db2bfa0d7419972f04601cf53a8d73f3ccea
 - commits:
@@ -2397,7 +2419,7 @@
 - commits:
     - subject: Add node v15.7.0
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: ae001beba886a17a25d69ddc6feeed1930e6f321
 - commits:
@@ -2411,7 +2433,7 @@
 - commits:
     - subject: Add Go v1.15.7 and 1.14.14
 - commits:
-    - ? body
+    - body: null
 - version: 1.12.9
 - date: 2021-01-21T15:45:57.000Z
 - commits:
@@ -2447,7 +2469,7 @@
 - commits:
     - subject: "smarc-px30: Add device type"
 - commits:
-    - ? body
+    - body: null
 - version: 1.12.7
 - date: 2021-01-19T02:05:15.000Z
 - commits:
@@ -2463,7 +2485,7 @@
 - commits:
     - subject: Add node v15.6.0
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: f258646c86513e878dfc99878efef8204e3fa807
 - commits:
@@ -2493,7 +2515,7 @@
 - commits:
     - subject: Add node v10.23.1 v12.20.1 v14.15.4 v15.5.1
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: a9ae91fb7cecd0ecba032baf921ef8fe389970e2
 - commits:
@@ -2507,7 +2529,7 @@
 - commits:
     - subject: Add partials for dotnet 5.0-aspnet
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 2dd368e43fd746550b015bcaf2f53bb54879b936
 - commits:
@@ -2521,7 +2543,7 @@
 - commits:
     - subject: Add partials for rapsberrypi400-64
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: f91702f7196b51391d25d521e5b65caf00272972
 - commits:
@@ -2535,7 +2557,7 @@
 - commits:
     - subject: Add partials for jetson-xavier-nx-devkit
 - commits:
-    - ? body
+    - body: null
 - version: 1.12.5
 - date: 2020-12-28T15:04:22.000Z
 - commits:
@@ -2551,7 +2573,7 @@
 - commits:
     - subject: Fix logo path for beaglebone green gateway
 - commits:
-    - ? body
+    - body: null
 - version: 1.12.4
 - date: 2020-12-28T13:35:10.000Z
 - commits:
@@ -2567,7 +2589,7 @@
 - commits:
     - subject: Fix mistaken logo path names
 - commits:
-    - ? body
+    - body: null
 - version: 1.12.3
 - date: 2020-12-17T14:09:36.000Z
 - commits:
@@ -2583,7 +2605,7 @@
 - commits:
     - subject: "ccimx8x-sbc-pro: Add device type"
 - commits:
-    - ? body
+    - body: null
 - version: 1.12.2
 - date: 2020-12-16T17:56:44.000Z
 - commits:
@@ -2596,7 +2618,7 @@
 - commits:
     - subject: "beaglebone-green-gateway: Add device type"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 64ecba6d052fbbc3ae9f92dcb9d10897fbd882ee
 - commits:
@@ -2610,7 +2632,7 @@
 - commits:
     - subject: "raspberrypi400-64: Add device type"
 - commits:
-    - ? body
+    - body: null
 - version: 1.12.1
 - date: 2020-12-11T04:06:51.000Z
 - commits:
@@ -2626,7 +2648,7 @@
 - commits:
     - subject: Add Go v1.15.6 and v1.14.13
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 6c22e659c93834fab58bd9bfb3fb11f5b0b89b7e
 - commits:
@@ -2640,7 +2662,7 @@
 - commits:
     - subject: Add node v15.4.0
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 89db4fa6650bc713c007e96e2815d3173935c59c
 - commits:
@@ -2654,7 +2676,7 @@
 - commits:
     - subject: Add Python v3.9.1
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: db2d960ef3cb34dfeaa34bca64d91f54dd00b1c3
 - commits:
@@ -2668,7 +2690,7 @@
 - commits:
     - subject: Add dotnet v5.0 and update v3.x to latest version
 - commits:
-    - ? body
+    - body: null
 - version: 1.12.0
 - date: 2020-12-02T20:13:49.000Z
 - commits:
@@ -2684,7 +2706,7 @@
 - commits:
     - subject: Update the generic aarch64 logo with a smaller one
 - commits:
-    - ? body
+    - body: null
 - version: 1.11.0
 - date: 2020-12-02T18:18:27.000Z
 - commits:
@@ -2700,7 +2722,7 @@
 - commits:
     - subject: Update few large logos with better alternatives
 - commits:
-    - ? body
+    - body: null
 - version: 1.10.2
 - date: 2020-12-01T14:18:26.000Z
 - commits:
@@ -2716,7 +2738,7 @@
 - commits:
     - subject: Revert to object-based contracts
 - commits:
-    - ? body
+    - body: null
 - version: 1.10.1
 - date: 2020-12-01T11:47:30.000Z
 - commits:
@@ -2732,7 +2754,7 @@
 - commits:
     - subject: Turn assets for device types into an array
 - commits:
-    - ? body
+    - body: null
 - version: 1.10.0
 - date: 2020-12-01T09:59:13.000Z
 - commits:
@@ -2748,7 +2770,7 @@
 - commits:
     - subject: Add logos for each device type
 - commits:
-    - ? body
+    - body: null
 - version: 1.9.5
 - date: 2020-11-17T17:18:02.000Z
 - commits:
@@ -2764,7 +2786,7 @@
 - commits:
     - subject: Add node v15.2.1 v14.15.1 and v12.19.1
 - commits:
-    - ? body
+    - body: null
 - version: 1.9.4
 - date: 2020-11-10T10:53:19.000Z
 - commits:
@@ -2777,7 +2799,7 @@
 - commits:
     - subject: Remove Technologic TS-7700 and ARMv5E leftovers
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 138c2276c5848258a766c01302215bf2024938e3
 - commits:
@@ -2785,7 +2807,7 @@
 - commits:
     - subject: Merge branch 'master' into master
 - commits:
-    - ? body
+    - body: null
 - version: 1.9.3
 - date: 2020-11-10T08:51:59.000Z
 - commits:
@@ -2801,7 +2823,7 @@
 - commits:
     - subject: Add node v15.1.0
 - commits:
-    - ? body
+    - body: null
 - version: 1.9.2
 - date: 2020-10-30T15:33:25.000Z
 - commits:
@@ -2817,7 +2839,7 @@
 - commits:
     - subject: Add Golang v1.15.3 and v1.14.10
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: c4d8f9d954c57e312475ef234aae9f3008fbf625
 - commits:
@@ -2831,7 +2853,7 @@
 - commits:
     - subject: Add node v15.0.1 v14.15.0 and v10.23.0
 - commits:
-    - ? body
+    - body: null
 - version: 1.9.1
 - date: 2020-10-29T08:57:53.000Z
 - commits:
@@ -2847,7 +2869,7 @@
 - commits:
     - subject: "jetson-xavier-nx-devkit: Add device type"
 - commits:
-    - ? body
+    - body: null
 - version: 1.9.0
 - date: 2020-10-21T07:54:56.000Z
 - commits:
@@ -2863,7 +2885,7 @@
 - commits:
     - subject: Remove DTs that are too specific and should be private
 - commits:
-    - ? body
+    - body: null
 - version: 1.8.0
 - date: 2020-10-13T09:06:00.000Z
 - commits:
@@ -2879,7 +2901,7 @@
 - commits:
     - subject: Update nitrogen8mm-dwe name to HUB3
 - commits:
-    - ? body
+    - body: null
 - version: 1.7.2
 - date: 2020-10-12T11:40:41.000Z
 - commits:
@@ -2895,7 +2917,7 @@
 - commits:
     - subject: Add node v14.13.0 and v12.18.4
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 2ca1dbc75c610bb6f51376aff1663e680a37f4a5
 - commits:
@@ -2909,7 +2931,7 @@
 - commits:
     - subject: Add Python v3.9.0 v3.8.6 v3.7.9 v3.6.12 and v3.5.10
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 40dd26682c5b23a6e0e17400f52ce04d5822e27d
 - commits:
@@ -2923,7 +2945,7 @@
 - commits:
     - subject: Add node v12.19.0 and v14.13.1
 - commits:
-    - ? body
+    - body: null
 - version: 1.7.1
 - date: 2020-09-30T09:19:19.000Z
 - commits:
@@ -2939,7 +2961,7 @@
 - commits:
     - subject: "revpi-connect: Add Revolution Pi Connect device type"
 - commits:
-    - ? body
+    - body: null
 - version: 1.7.0
 - date: 2020-09-22T14:20:10.000Z
 - commits:
@@ -2955,7 +2977,7 @@
 - commits:
     - subject: Update device type names to match the existing ones in balena API
 - commits:
-    - ? body
+    - body: null
 - version: 1.6.0
 - date: 2020-09-16T09:14:12.000Z
 - commits:
@@ -2971,7 +2993,7 @@
 - commits:
     - subject: Add private flag to device type contract
 - commits:
-    - ? body
+    - body: null
 - version: 1.5.0
 - date: 2020-09-14T13:17:52.000Z
 - commits:
@@ -2987,7 +3009,7 @@
 - commits:
     - subject: Add a couple of discontinued device types for completeness
 - commits:
-    - ? body
+    - body: null
 - version: 1.4.6
 - date: 2020-09-14T10:28:41.000Z
 - commits:
@@ -3003,7 +3025,7 @@
 - commits:
     - subject: Add node v14.10.1
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 44949c7401d0fd91699d32350d41e7ed95a9f77a
 - commits:
@@ -3017,7 +3039,7 @@
 - commits:
     - subject: Add golang v1.15.2 and v1.14.9
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 702b8aafd0b78a8c99ef1cd01340c3e11204f82f
 - commits:
@@ -3047,7 +3069,7 @@
 - commits:
     - subject: Add Golang v1.5 and v1.14.7
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 0b17edc443fffd37c3ba1407697609249cce9e7f
 - commits:
@@ -3061,7 +3083,7 @@
 - commits:
     - subject: Add l4t-core workaround for all Jetson images
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: c840c23bad7924bfd125b2046c1b72b17bd81a92
 - commits:
@@ -3075,7 +3097,7 @@
 - commits:
     - subject: Add repo.download.nvidia.com/jetson sources to Ubuntu base images
 - commits:
-    - ? body
+    - body: null
 - version: 1.4.4
 - date: 2020-08-31T10:53:47.000Z
 - commits:
@@ -3091,7 +3113,7 @@
 - commits:
     - subject: Add node v14.9.0
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 4488a168a04ea4bdf7b6f0eaa928c2fe280af2cc
 - commits:
@@ -3140,7 +3162,7 @@
 - commits:
     - subject: Add Nvidia package repositories to all Nvidia base images (jetson family)
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 5213c7350e9184062b0a1a296390877076a0ce95
 - commits:
@@ -3154,7 +3176,7 @@
 - commits:
     - subject: Add node v14.8.0
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 7ca6ba44de1489639b27f670a67b0750e46eb9fa
 - commits:
@@ -3162,7 +3184,7 @@
 - commits:
     - subject: Merge branch 'master' into base-images-updates
 - commits:
-    - ? body
+    - body: null
 - version: 1.4.2
 - date: 2020-08-12T16:18:39.000Z
 - commits:
@@ -3178,7 +3200,7 @@
 - commits:
     - subject: "astro-tx2: Add CTI Astro TX2 G+ device type"
 - commits:
-    - ? body
+    - body: null
 - version: 1.4.1
 - date: 2020-07-31T05:23:44.000Z
 - commits:
@@ -3194,7 +3216,7 @@
 - commits:
     - subject: Add archive.raspberrypi.org/debian package repository to rpi family
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 1f1994a87cf1e20d6e747c65cdf81d81567aa742
 - commits:
@@ -3208,7 +3230,7 @@
 - commits:
     - subject: Add node v14.7.0 v12.18.3 and v10.22.0
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 63a2ffb87a0283be6553d68aff26a3e21c01514e
 - commits:
@@ -3222,7 +3244,7 @@
 - commits:
     - subject: Add Go v1.14.6 and v1.13.14
 - commits:
-    - ? body
+    - body: null
 - version: 1.4.0
 - date: 2020-07-23T09:40:14.000Z
 - commits:
@@ -3238,7 +3260,7 @@
 - commits:
     - subject: Remove unused and outdated contracts
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 499eabecd0f823002c7a0409a9dd9d7f35f4d67b
 - commits:
@@ -3246,7 +3268,7 @@
 - commits:
     - subject: Merge branch 'master' into remove-unused-contracts
 - commits:
-    - ? body
+    - body: null
 - version: 1.3.3
 - date: 2020-07-23T08:47:34.000Z
 - commits:
@@ -3262,7 +3284,7 @@
 - commits:
     - subject: Add Python v3.8.5
 - commits:
-    - ? body
+    - body: null
 - version: 1.3.2
 - date: 2020-07-15T13:28:10.000Z
 - commits:
@@ -3301,7 +3323,7 @@
 - commits:
     - subject: Merge branch 'master' into base-images-updates
 - commits:
-    - ? body
+    - body: null
 - version: 1.3.1
 - date: 2020-07-15T03:55:19.000Z
 - commits:
@@ -3330,7 +3352,7 @@
 - commits:
     - subject: "jetson-nano-emmc: Add device type"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 62a5a689fb61b431318b3646946bf43f20be69ec
 - commits:
@@ -3341,7 +3363,7 @@
 - commits:
     - subject: "jetson-xavier-nx-devkit-emmc: Add device type"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: dd49870a6967ce607d40eefdceef648804609d10
 - commits:
@@ -3352,7 +3374,7 @@
 - commits:
     - subject: "photon-xavier-nx: Add CTI Photon Xavier NX device type"
 - commits:
-    - ? body
+    - body: null
 - version: 1.3.0
 - date: 2020-07-10T09:44:31.000Z
 - commits:
@@ -3368,7 +3390,7 @@
 - commits:
     - subject: Add aliases field to every device type
 - commits:
-    - ? body
+    - body: null
 - version: 1.2.0
 - date: 2020-07-06T12:37:05.000Z
 - commits:
@@ -3384,7 +3406,7 @@
 - commits:
     - subject: Update mistaken dt contracts and remove unused partials
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.117
 - date: 2020-07-06T09:56:01.000Z
 - commits:
@@ -3400,7 +3422,7 @@
 - commits:
     - subject: Add node v14.5.0 and v12.18.2
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: e49f62005bb9e0072a5a7b73786df43e3b6e5fdc
 - commits:
@@ -3432,7 +3454,7 @@
 - commits:
     - subject: "device: Add support for Variscite DART MX8M Mini NRT"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.115
 - date: 2020-06-04T15:23:06.000Z
 - commits:
@@ -3448,7 +3470,7 @@
 - commits:
     - subject: Add node v14.4.0 v12.18.0 and v10.21.0
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 5ef5da33c28aa3b4fd2fe5d990d6a9b4d22a66b8
 - commits:
@@ -3462,7 +3484,7 @@
 - commits:
     - subject: Drop support for EOL node versions (v13, v11, v9 and v8)
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 66a8d8aff2780d390117775d25746d8e8f2f55c7
 - commits:
@@ -3476,7 +3498,7 @@
 - commits:
     - subject: Add Golang v1.14.4 and v1.13.12
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 9fa7c2e7cd305a65c2eb3a3d8014b3f3e539389a
 - commits:
@@ -3490,7 +3512,7 @@
 - commits:
     - subject: Drop support for EOL Golang versions (v1.12 v1.11 and v1.10)
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.114
 - date: 2020-06-02T15:46:10.000Z
 - commits:
@@ -3523,7 +3545,7 @@
 - commits:
     - subject: Add node v14.3.0
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 41cbc8babac3bbbffb8812c0a8d42405765f69c8
 - commits:
@@ -3537,7 +3559,7 @@
 - commits:
     - subject: Add libatomic1 as runtime deps for ubuntu node
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: aab3c0104e5d269bcf0905161308a86c5d1b5db1
 - commits:
@@ -3551,7 +3573,7 @@
 - commits:
     - subject: Add node v12.17.0
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 44923b82cea3d3f97966a798b89135bb67068e74
 - commits:
@@ -3559,7 +3581,7 @@
 - commits:
     - subject: Merge branch 'master' into base-images-updates
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.112
 - date: 2020-05-27T12:07:14.000Z
 - commits:
@@ -3575,7 +3597,7 @@
 - commits:
     - subject: "device: Add support for AIO 3288C community board"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 3a826d88bc1dcf050952e56f49f1282aca7aaf1f
 - commits:
@@ -3589,7 +3611,7 @@
 - commits:
     - subject: "device: Add support for FireFly rk3288 community board"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 2ae6f8229a2666c19fac3e1c98b2554772dbe67c
 - commits:
@@ -3603,7 +3625,7 @@
 - commits:
     - subject: "device: Add support for Photon Nano community board"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.111
 - date: 2020-05-18T09:06:23.000Z
 - commits:
@@ -3619,7 +3641,7 @@
 - commits:
     - subject: Add node v14.2.0
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 2eeae51083a960e978551c474adb305d872de2e1
 - commits:
@@ -3633,7 +3655,7 @@
 - commits:
     - subject: Add Python v3.8.3
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.110
 - date: 2020-04-30T10:32:26.000Z
 - commits:
@@ -3649,7 +3671,7 @@
 - commits:
     - subject: Add node v12.16.3
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: b62b72bdd7a4ecd96ab6ff27ff28d96d6da56b58
 - commits:
@@ -3657,7 +3679,7 @@
 - commits:
     - subject: Merge branch 'master' into base-images-updates
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.109
 - date: 2020-04-29T22:36:59.000Z
 - commits:
@@ -3673,7 +3695,7 @@
 - commits:
     - subject: Update QEMU to v4.0.0+balena2
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.108
 - date: 2020-04-28T12:21:44.000Z
 - commits:
@@ -3728,7 +3750,7 @@
 - commits:
     - subject: Add details about `balena-idle` and `balena-info` to base image messages
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 245c245680fb67b261c1b42b5f3ebef736b68909
 - commits:
@@ -3736,7 +3758,7 @@
 - commits:
     - subject: Merge branch 'master' into fix-balena-info
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.107
 - date: 2020-04-28T10:20:56.000Z
 - commits:
@@ -3752,7 +3774,7 @@
 - commits:
     - subject: Add node v14.0.0 and v13.13.0
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 518af5e73d9701d2672abf617aacc2661994aecc
 - commits:
@@ -3766,7 +3788,7 @@
 - commits:
     - subject: Add golang v1.14.2 and v1.13.10
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: dfd3c642ac4f7c7b5959a39dd6757974a10cecc7
 - commits:
@@ -3780,7 +3802,7 @@
 - commits:
     - subject: Add Python v2.7.18 v3.7.7 and v3.8.2
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.106
 - date: 2020-04-20T14:37:58.000Z
 - commits:
@@ -3812,7 +3834,7 @@
 - commits:
     - subject: "device: Add support for Variscite DART MX8M Mini PLT"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.104
 - date: 2020-04-16T05:28:55.000Z
 - commits:
@@ -3828,7 +3850,7 @@
 - commits:
     - subject: "device: Add support for Generic x86_64"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.103
 - date: 2020-04-15T16:18:59.000Z
 - commits:
@@ -3844,7 +3866,7 @@
 - commits:
     - subject: "baseImages: Store base image info in .balena/message/image-info"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 5a1cdec3a2bbc2082224b3cfb17a48eed439b2c2
 - commits:
@@ -3858,7 +3880,7 @@
 - commits:
     - subject: "python: Add Python 2 deprecation warning"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 12c16bca71718b7951c736cb82581eaad667e22b
 - commits:
@@ -3887,7 +3909,7 @@
 - commits:
     - subject: Add contract for balena-idle and balena-info
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 820032d60f3073253ea134997a48cdb75b2cb672
 - commits:
@@ -3909,7 +3931,7 @@
 - commits:
     - subject: Merge branch 'master' into balena-base-images
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.102
 - date: 2020-04-12T03:40:49.000Z
 - commits:
@@ -3925,7 +3947,7 @@
 - commits:
     - subject: Add node v12.16.2 and v10.20.0
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.101
 - date: 2020-04-03T12:45:59.000Z
 - commits:
@@ -3957,7 +3979,7 @@
 - commits:
     - subject: Add node v13.12.0
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.99
 - date: 2020-03-27T10:11:55.000Z
 - commits:
@@ -3973,7 +3995,7 @@
 - commits:
     - subject: "device: Add support for SKX2"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.98
 - date: 2020-03-18T09:05:39.000Z
 - commits:
@@ -3989,7 +4011,7 @@
 - commits:
     - subject: Add Golang v1.14
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: c38d3e775a0d44b95a1f5df1d7475b5b6716ff79
 - commits:
@@ -4003,7 +4025,7 @@
 - commits:
     - subject: Drop support for armv5e architecture
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.97
 - date: 2020-03-12T14:53:22.000Z
 - commits:
@@ -4019,7 +4041,7 @@
 - commits:
     - subject: Add node v13.11.0 and update yarn to v1.22.4
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.96
 - date: 2020-02-28T08:42:40.000Z
 - commits:
@@ -4035,7 +4057,7 @@
 - commits:
     - subject: "device: Add Variscite IMX8M Mini device type"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: aad851dd5278b0602387a60dc4a329deef2870f0
 - commits:
@@ -4083,7 +4105,7 @@
 - commits:
     - subject: "golang: Add v1.13.8 and v1.12.17"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.94
 - date: 2020-02-12T18:12:09.000Z
 - commits:
@@ -4099,7 +4121,7 @@
 - commits:
     - subject: "dotnet: Update dependencies for Debian buster and bullseye"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 54443bfb73edb7026debc91d63c7d27d27bb7292
 - commits:
@@ -4113,7 +4135,7 @@
 - commits:
     - subject: "node: Add node v12.16.0"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.93
 - date: 2020-02-07T02:44:56.000Z
 - commits:
@@ -4129,7 +4151,7 @@
 - commits:
     - subject: "node: Add support for v13.8.0 v12.15.0 and v10.19.0"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 056e1ae100ed2e1efcfe47c4981950848dad19b5
 - commits:
@@ -4143,7 +4165,7 @@
 - commits:
     - subject: "dotnet: Add support for v3.1.1 sdk/runtime/aspnet"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 79c5f3d975988e619c0593a2d74eca806fd2edff
 - commits:
@@ -4182,7 +4204,7 @@
 - commits:
     - subject: Merge branch 'master' into add_m2pcie-tx2
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 9e8fd6f8a3d15a042f2df61b438e65fc147162f7
 - commits:
@@ -4190,7 +4212,7 @@
 - commits:
     - subject: Merge branch 'master' into add_m2pcie-tx2
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: ae4b91de4ae054cc242806ef1aeeac292a8495ef
 - commits:
@@ -4198,7 +4220,7 @@
 - commits:
     - subject: Merge branch 'master' into add_m2pcie-tx2
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.91
 - date: 2020-02-03T03:42:23.000Z
 - commits:
@@ -4222,7 +4244,7 @@
 - commits:
     - subject: Merge branch 'master' into contract_n8mm-dwe
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.90
 - date: 2020-01-24T14:57:11.000Z
 - commits:
@@ -4256,7 +4278,7 @@
 - commits:
     - subject: "alpine: Change latest Alpine Linux to 3.11"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 2a433eb6067d41dec0bf3275116ca58baec9f0cb
 - commits:
@@ -4270,7 +4292,7 @@
 - commits:
     - subject: "debian: Add support for Debian Bullseye"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: aab9f0cac9dde3ca55926c18ccfbbd351d9281b7
 - commits:
@@ -4284,7 +4306,7 @@
 - commits:
     - subject: "node: Add v13.6.0 v12.14.1 and v10.18.1"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: d96c45eb756a758b341e3dc058d642c4d01179d4
 - commits:
@@ -4298,7 +4320,7 @@
 - commits:
     - subject: "go: Add v1.13.6 and v1.12.15"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: e3db06f0f99491056c6a94a2f1ffad204aff93fe
 - commits:
@@ -4312,7 +4334,7 @@
 - commits:
     - subject: "python: Add v3.8.1 v3.7.6 and v3.6.10"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 8fd57c1b80742dcd2e75dd720da87390dd9c2307
 - commits:
@@ -4326,7 +4348,7 @@
 - commits:
     - subject: "alpine: Remove i386-nlp from Alpine Linux supported archs"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.88
 - date: 2019-12-23T10:45:40.000Z
 - commits:
@@ -4342,7 +4364,7 @@
 - commits:
     - subject: "alpine: Add support for Alpine Linux v3.11"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: dc0487a1e23c356fa32dd3e616bdd5799db59967
 - commits:
@@ -4374,7 +4396,7 @@
 - commits:
     - subject: "dotnet: Add v3.1.0 v2.2.8 and v2.1.14"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 3df1fb0835f0fb40ceae88335a15999933cb8684
 - commits:
@@ -4382,7 +4404,7 @@
 - commits:
     - subject: Merge branch 'master' into base-image-updates
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.86
 - date: 2019-12-04T22:24:42.000Z
 - commits:
@@ -4414,7 +4436,7 @@
 - commits:
     - subject: "node: Add v13.1.0"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: a24d447453288bb721033113332939b870f8f398
 - commits:
@@ -4428,7 +4450,7 @@
 - commits:
     - subject: "golang: Add v1.12.13 and v1.13.4"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 87e59bf419b27761967cc3d8325aa26dc376f0a3
 - commits:
@@ -4442,7 +4464,7 @@
 - commits:
     - subject: "xbuild: Various updates"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.84
 - date: 2019-11-15T09:58:56.000Z
 - commits:
@@ -4477,7 +4499,7 @@
 - commits:
     - subject: "device: Add support for Surface Go"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.82
 - date: 2019-11-06T10:44:45.000Z
 - commits:
@@ -4493,7 +4515,7 @@
 - commits:
     - subject: "test: Update OS version test"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.81
 - date: 2019-10-30T15:25:58.000Z
 - commits:
@@ -4509,7 +4531,7 @@
 - commits:
     - subject: "node: Add v13.0.1 v12.13.0 and v10.17.0 with Yarn v1.19.1"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 231b8d8f61d377c376db215e48ac3e057e952cea
 - commits:
@@ -4523,7 +4545,7 @@
 - commits:
     - subject: "python: Add v2.7.17 v3.7.5 and v3.8.0"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: cfc4bb4f2e0f960fb836933aefe42ce1195318aa
 - commits:
@@ -4554,7 +4576,7 @@
 - commits:
     - subject: "test: Update latest test scripts"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 0a01ebd31f0cad4b346c8029f0e427f6ca794177
 - commits:
@@ -4568,7 +4590,7 @@
 - commits:
     - subject: "golang: Add v1.13.3 and v1.12.12"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.79
 - date: 2019-10-21T11:03:00.000Z
 - commits:
@@ -4601,7 +4623,7 @@
 - commits:
     - subject: "test: Add contract and partials for base images test"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 549d40ff388e1033cd342eab37cb5af108147de1
 - commits:
@@ -4609,7 +4631,7 @@
 - commits:
     - subject: Merge branch 'master' into contract-for-base-images-tests
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.77
 - date: 2019-10-09T10:42:52.000Z
 - commits:
@@ -4625,7 +4647,7 @@
 - commits:
     - subject: "go: Add v1.13.1 and v1.12.10"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.76
 - date: 2019-10-08T15:39:58.000Z
 - commits:
@@ -4641,7 +4663,7 @@
 - commits:
     - subject: Remove unused device types
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.75
 - date: 2019-10-02T12:07:57.000Z
 - commits:
@@ -4657,7 +4679,7 @@
 - commits:
     - subject: "node: Add support for Node v12.11.0"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.74
 - date: 2019-09-27T15:13:56.000Z
 - commits:
@@ -4735,7 +4757,7 @@
 - commits:
     - subject: "dotnet: Update latest .NET releases"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.72
 - date: 2019-09-09T15:53:19.000Z
 - commits:
@@ -4751,7 +4773,7 @@
 - commits:
     - subject: "node: Add support for v12.10.0"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.71
 - date: 2019-08-28T08:23:36.000Z
 - commits:
@@ -4767,7 +4789,7 @@
 - commits:
     - subject: "node: Add v12.9.1"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: ec1987d56bfd3660ef23de0ebdced4094d4b26ac
 - commits:
@@ -4781,7 +4803,7 @@
 - commits:
     - subject: "go: Add v1.12.9 and v1.11.13"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.70
 - date: 2019-08-27T08:04:22.000Z
 - commits:
@@ -4797,7 +4819,7 @@
 - commits:
     - subject: "device: Add support for raspberrypi4-64"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.69
 - date: 2019-08-19T11:38:09.000Z
 - commits:
@@ -4813,7 +4835,7 @@
 - commits:
     - subject: "node: Add v12.8.1 10.16.3 and v8.16.1"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 5446fc0f7149aff6e44d0cd72df272ec182c6082
 - commits:
@@ -4821,7 +4843,7 @@
 - commits:
     - subject: Merge branch 'master' into node-updates
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.68
 - date: 2019-08-19T04:45:01.000Z
 - commits:
@@ -4837,7 +4859,7 @@
 - commits:
     - subject: "device: Add support for Auvidea j120 TX2"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.67
 - date: 2019-08-06T10:06:05.000Z
 - commits:
@@ -4853,7 +4875,7 @@
 - commits:
     - subject: "fedora: Set Fedora 30 as latest and add Fedora 31"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.66
 - date: 2019-08-06T07:42:50.000Z
 - commits:
@@ -4877,7 +4899,7 @@
 - commits:
     - subject: Merge branch 'master' into base-image-updates
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: cc05573dcea17eb05cd6ec65b59e7ec0ccbaba45
 - commits:
@@ -4885,7 +4907,7 @@
 - commits:
     - subject: Merge branch 'master' into base-image-updates
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.65
 - date: 2019-08-06T07:29:06.000Z
 - commits:
@@ -4901,7 +4923,7 @@
 - commits:
     - subject: "cleanup: Clean up everything before making contracts public"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.64
 - date: 2019-07-25T11:02:58.000Z
 - commits:
@@ -4949,7 +4971,7 @@
 - commits:
     - subject: "golang: Add v1.12.7 and v1.11.12"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: e8b65c279add2fd6be4a99d9a2b2db5f479de361
 - commits:
@@ -4982,7 +5004,7 @@
 - commits:
     - subject: "node: Add v12.6.0"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.62
 - date: 2019-07-12T10:14:46.000Z
 - commits:
@@ -4998,7 +5020,7 @@
 - commits:
     - subject: "debian: Move latest tag to Debian Buster"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 16883762ac565084730a06b0f7caee41094bff07
 - commits:
@@ -5006,7 +5028,7 @@
 - commits:
     - subject: Merge branch 'master' into debian
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.61
 - date: 2019-07-11T17:01:08.000Z
 - commits:
@@ -5022,7 +5044,7 @@
 - commits:
     - subject: Jetson TX2's bluetooth should be true
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.60
 - date: 2019-07-05T08:15:34.000Z
 - commits:
@@ -5038,7 +5060,7 @@
 - commits:
     - subject: "device: Add contract for Nitrogen8M Mini SBC"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: bae5abda4bed0c49699114c8ba9127165804561d
 - commits:
@@ -5053,7 +5075,7 @@
     - subject: "debian: Fix SSL certificate problem when downloading with curl on
         Buster"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.59
 - date: 2019-07-02T11:33:34.000Z
 - commits:
@@ -5069,7 +5091,7 @@
 - commits:
     - subject: "node: Add node v12.5.0"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 20543963a77e809078f175fb63e31543fec3f762
 - commits:
@@ -5083,7 +5105,7 @@
 - commits:
     - subject: "dotnet: Add latest sdk, runtime and aspnet releases"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.58
 - date: 2019-07-01T11:10:11.000Z
 - commits:
@@ -5099,7 +5121,7 @@
 - commits:
     - subject: "alpine: Add support for Alpine Linux v3.10"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.57
 - date: 2019-06-29T02:36:18.000Z
 - commits:
@@ -5115,7 +5137,7 @@
 - commits:
     - subject: "go: Add Go v1.12.6 and v1.11.11"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.56
 - date: 2019-06-28T10:26:25.000Z
 - commits:
@@ -5132,8 +5154,8 @@
     - subject: "alpine: Handling the CVE-2019-5021 vurnerability"
 - commits:
     - body: >-
-        Drop support for v3.5 as it is EOL, other versions were fixed upstream
-        so just need to rebuild all alpine images.
+        Drop support for v3.5 as it is EOL, other versions were fixed upstream so
+        just need to rebuild all alpine images.
 
         ref: https://alpinelinux.org/posts/Docker-image-vulnerability-CVE-2019-5021.html
 - version: 1.1.55
@@ -5151,7 +5173,7 @@
 - commits:
     - subject: "device: Add contract for Up-core, Up-core-plus and Up-squared"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 44dede4d810af600dde6182f7935106f01a122b9
 - commits:
@@ -5165,7 +5187,7 @@
 - commits:
     - subject: "up: Add partials for new UP boards"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.54
 - date: 2019-06-17T15:33:07.000Z
 - commits:
@@ -5181,7 +5203,7 @@
 - commits:
     - subject: "sw.stack: Fix golang version"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.53
 - date: 2019-06-13T08:16:35.000Z
 - commits:
@@ -5197,7 +5219,7 @@
 - commits:
     - subject: "device: Add contract for Nvidia Jetson Xavier"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.52
 - date: 2019-06-12T15:50:23.000Z
 - commits:
@@ -5213,7 +5235,7 @@
 - commits:
     - subject: "node: Add support for v12.4.0"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 3f77825a62d6565d0cc67b767761428e96cc18e5
 - commits:
@@ -5227,7 +5249,7 @@
 - commits:
     - subject: "golang: Add support for v1.12.5 and v1.11.10"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.51
 - date: 2019-06-12T08:54:17.000Z
 - commits:
@@ -5243,7 +5265,7 @@
 - commits:
     - subject: "device: Add contract for NanoPC-T4"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.50
 - date: 2019-06-03T11:03:22.000Z
 - commits:
@@ -5259,7 +5281,7 @@
 - commits:
     - subject: "device: Add support for BeagleBoard-XM"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.49
 - date: 2019-05-29T09:18:38.000Z
 - commits:
@@ -5275,7 +5297,7 @@
 - commits:
     - subject: "node: Add v12.3.1 and v10.16.0"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 99f4706c1d25d96b170aea1cb9fde6473ac81ca9
 - commits:
@@ -5283,7 +5305,7 @@
 - commits:
     - subject: Merge branch 'master' into base-image-updates
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.48
 - date: 2019-05-29T07:43:14.000Z
 - commits:
@@ -5299,7 +5321,7 @@
 - commits:
     - subject: "devices: Add support for MS Surface 6"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.47
 - date: 2019-05-24T17:03:07.000Z
 - commits:
@@ -5315,7 +5337,7 @@
 - commits:
     - subject: "openjdk: Fix missing javac in few Fedora OpenJDK images"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.46
 - date: 2019-05-21T18:00:31.000Z
 - commits:
@@ -5331,7 +5353,7 @@
 - commits:
     - subject: "dotnet: Version update for dotnet sdk, runtime and aspnet"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 2703b115ef204761f305ea1534cfedb712a56c4a
 - commits:
@@ -5345,7 +5367,7 @@
 - commits:
     - subject: "aspnet: Install .NET Runtime before aspnet for v3.0"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.45
 - date: 2019-05-20T11:55:48.000Z
 - commits:
@@ -5361,7 +5383,7 @@
 - commits:
     - subject: "device: Add contract for Nvidia blackboard TX2"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: bc5fef3f23a6e352ceac2418d07e30ed377f14a8
 - commits:
@@ -5375,7 +5397,7 @@
 - commits:
     - subject: "device: Add contract for Orange Pi Lite"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: fc7c64a6378827c6b274134711e59e4c26f53b41
 - commits:
@@ -5383,7 +5405,7 @@
 - commits:
     - subject: Merge branch 'master' into new-devices
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.44
 - date: 2019-05-20T11:33:21.000Z
 - commits:
@@ -5399,7 +5421,7 @@
 - commits:
     - subject: "node: Add v12.2.0"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.43
 - date: 2019-05-14T13:25:55.000Z
 - commits:
@@ -5449,7 +5471,7 @@
 - commits:
     - subject: "device: Add contract for Nvidia D3 TX2"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.40
 - date: 2019-05-07T08:29:22.000Z
 - commits:
@@ -5481,7 +5503,7 @@
 - commits:
     - subject: "node: Add support for v12.1.0 and v11.15.0"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 8bb17e3abfa84a58334682ed1ab0d5217fcc5a01
 - commits:
@@ -5495,7 +5517,7 @@
 - commits:
     - subject: "python: Add support for v2.7.16 v3.7.3 v3.5.7 and v3.4.10"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.38
 - date: 2019-05-03T09:37:30.000Z
 - commits:
@@ -5520,7 +5542,7 @@
 - commits:
     - subject: Merge branch 'master' into openjdk-updates
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: dd1e656272464dc76308aaa036be6c707ed7e873
 - commits:
@@ -5528,7 +5550,7 @@
 - commits:
     - subject: Merge branch 'master' into openjdk-updates
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.37
 - date: 2019-05-03T08:57:27.000Z
 - commits:
@@ -5544,7 +5566,7 @@
 - commits:
     - subject: "node: Add v12.0.0 and v8.16.0"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: aeca177e7f5fe620aacc41e56a2284de75881fff
 - commits:
@@ -5558,7 +5580,7 @@
 - commits:
     - subject: "node: Update yarn to v1.15.2"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: ef7df7a07610cdaf0e83ab2c3671978dee133038
 - commits:
@@ -5588,7 +5610,7 @@
 - commits:
     - subject: Modify orbitty-tx2 bluetooth property to true
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.35
 - date: 2019-04-29T09:23:45.000Z
 - commits:
@@ -5604,7 +5626,7 @@
 - commits:
     - subject: "qemu: Update QEMU to v4.0.0+balena"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.34
 - date: 2019-04-22T16:38:14.000Z
 - commits:
@@ -5620,7 +5642,7 @@
 - commits:
     - subject: "dotnet: Add partials to generate dockerhub description"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.33
 - date: 2019-04-19T12:30:37.000Z
 - commits:
@@ -5636,7 +5658,7 @@
 - commits:
     - subject: "node: Add node v11.14.0 and v6.17.1"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 96b05d6fcd992526e304aaccd917b37761c60826
 - commits:
@@ -5650,7 +5672,7 @@
 - commits:
     - subject: "golang: Add Go v1.12.4 and v1.11.9"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.32
 - date: 2019-04-19T04:57:55.000Z
 - commits:
@@ -5681,7 +5703,7 @@
 - commits:
     - subject: "dotnet: Add partials for dotnet stack"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.31
 - date: 2019-04-18T07:01:56.000Z
 - commits:
@@ -5783,7 +5805,7 @@
 - commits:
     - subject: "stack: Update latest stack version in versionList"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: edcc985e2dc64ff9effc92a159b872fe8003cbe1
 - commits:
@@ -5791,7 +5813,7 @@
 - commits:
     - subject: Merge branch 'master' into dockerhub-description
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 0baa1c873cefe239d9c877206d832761f5e91f0c
 - commits:
@@ -5805,7 +5827,7 @@
 - commits:
     - subject: "dockerhub: Reorganize dockerhub partials to respect contracts structure"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 7d68517d14f9f5cb30f369794a4b17f63cb75b13
 - commits:
@@ -5813,7 +5835,7 @@
 - commits:
     - subject: Merge branch 'master' into dockerhub-description
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.30
 - date: 2019-04-15T09:58:28.000Z
 - commits:
@@ -5843,7 +5865,7 @@
 - commits:
     - subject: "newDevice: Add contract for Nvidia Jetson Nano"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.29
 - date: 2019-04-01T10:23:33.000Z
 - commits:
@@ -5859,7 +5881,7 @@
 - commits:
     - subject: "alpine: Add armv7hf golang binary for Alpine Linux"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: f405f18e16d223f640088fcf244eeb773cf70129
 - commits:
@@ -5873,7 +5895,7 @@
 - commits:
     - subject: "alpine: Add armv7hf python binary for Alpine Linux"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 4e995e96fc4d7d2a381911115359ba86946d909e
 - commits:
@@ -5887,7 +5909,7 @@
 - commits:
     - subject: "alpine: Add armv7hf node binary for Alpine Linux"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: f46a8e17cb8b3e0d56d864a89300e2e643491bad
 - commits:
@@ -5901,7 +5923,7 @@
 - commits:
     - subject: "node: Fix wrong checksums in node v11.12.0"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 4922f6abca7650162a2cbb52b1d33c8fb0ba1278
 - commits:
@@ -5909,7 +5931,7 @@
 - commits:
     - subject: Merge branch 'master' into base-image-updates
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.28
 - date: 2019-03-29T18:28:43.000Z
 - commits:
@@ -5934,7 +5956,7 @@
 - commits:
     - subject: Merge branch 'master' into alpine-update
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.27
 - date: 2019-03-27T09:14:19.000Z
 - commits:
@@ -5968,7 +5990,7 @@
 - commits:
     - subject: "node: Add info node v11.12.0"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 5e1fa7edf23f5c5f91ea76ca58382380f91cb04e
 - commits:
@@ -5982,7 +6004,7 @@
 - commits:
     - subject: "golang: Add info for v1.12.1 and v1.11.6"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 713579edd3174d2318b553d1b177c2e953627593
 - commits:
@@ -6020,7 +6042,7 @@
 - commits:
     - subject: "device: Add contract for Aetina N510 TX2"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: dd60ccbbc76e42046b1440dd1c1c2b30698cc674
 - commits:
@@ -6034,7 +6056,7 @@
 - commits:
     - subject: "device: Add contract for Nitrogen 6X Quad 2GB"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 44308b4d5802f2c7da04f1c9e4c89544d046b7d0
 - commits:
@@ -6048,7 +6070,7 @@
 - commits:
     - subject: "device: Add contract for NPE X500 M3"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.25
 - date: 2019-03-08T06:15:12.000Z
 - commits:
@@ -6064,7 +6086,7 @@
 - commits:
     - subject: "node: Add v11.10.1 v10.15.3 v8.15.1 and v6.17.0"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.24
 - date: 2019-03-01T10:09:29.000Z
 - commits:
@@ -6080,7 +6102,7 @@
 - commits:
     - subject: "go: Add v1.12 to Golang contract"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.23
 - date: 2019-02-27T11:42:56.000Z
 - commits:
@@ -6096,7 +6118,7 @@
 - commits:
     - subject: "node: Add v11.10.0 to Node contract"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 2976f351eea8425390b220d77f2643adaf4f585a
 - commits:
@@ -6110,7 +6132,7 @@
 - commits:
     - subject: "golang: Add v1.11.5 and v1.10.8 to Golang contract"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 87509032c3f133c11c36f264ee73f147c494c63c
 - commits:
@@ -6187,7 +6209,7 @@
 - commits:
     - subject: "device: Add support for Orange Pi One"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.21
 - date: 2019-02-19T10:06:57.000Z
 - commits:
@@ -6203,7 +6225,7 @@
 - commits:
     - subject: "newDevice: Add contract for Orange Pi Zero"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.20
 - date: 2019-02-15T14:25:57.000Z
 - commits:
@@ -6219,7 +6241,7 @@
 - commits:
     - subject: "node: Add v11.9.0 and v10.15.1 to node contract"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 18d34fb8018feb16c05e6da5cde146d500a25dca
 - commits:
@@ -6252,7 +6274,7 @@
 - commits:
     - subject: "python: Update pip to v19.0.1 and setuptools v40.6.3"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 5c122a7a86a0aeffc16341de1638a9d60ae7a368
 - commits:
@@ -6266,7 +6288,7 @@
 - commits:
     - subject: "alpine: Add support for Alpine Linux 3.9"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: d245368f6c8b41f3283a8d4d11f0cd22486b3c66
 - commits:
@@ -6280,7 +6302,7 @@
 - commits:
     - subject: "rpi: Add ui component to rpi family base images sources list"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 302cf5d0335174ffd26b0fd62835b8744afaa305
 - commits:
@@ -6288,7 +6310,7 @@
 - commits:
     - subject: Merge branch 'master' into base-image-updates
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 30f17e74f26a2fc8a642ca0a40fb199d1dab0c27
 - commits:
@@ -6296,7 +6318,7 @@
 - commits:
     - subject: Merge branch 'master' into base-image-updates
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.18
 - date: 2019-02-13T02:36:37.000Z
 - commits:
@@ -6312,7 +6334,7 @@
 - commits:
     - subject: "imx8m-var-dart: Add identification led support"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.17
 - date: 2019-01-23T15:06:34.000Z
 - commits:
@@ -6328,7 +6350,7 @@
 - commits:
     - subject: "node: Add support for node v11.6.0 v10.15.0 v8.15.0 and v6.16.0"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 20f753315b251f34f917e6bceb428df841b7f6b9
 - commits:
@@ -6342,7 +6364,7 @@
 - commits:
     - subject: "python: Update the checksum for Python v2.7.15 armv6hf binary"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.16
 - date: 2019-01-18T10:08:40.000Z
 - commits:
@@ -6358,7 +6380,7 @@
 - commits:
     - subject: "newDevice: Add info for cl-som-imx8"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.15
 - date: 2019-01-16T12:28:50.000Z
 - commits:
@@ -6374,7 +6396,7 @@
 - commits:
     - subject: "python: Add support for python v3.7.2 and v3.6.8"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 3dd63b0a0fa2e3f34d55947821e3032cf9be0df8
 - commits:
@@ -6404,7 +6426,7 @@
 - commits:
     - subject: "mraa: Update mraa to v2.0.0 and upm to v1.7.1"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.14
 - date: 2019-01-11T13:08:04.000Z
 - commits:
@@ -6420,7 +6442,7 @@
 - commits:
     - subject: "newDevice: Add info for imx8m-var-dart"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.13
 - date: 2018-12-07T10:57:07.000Z
 - commits:
@@ -6484,7 +6506,7 @@
 - commits:
     - subject: "node: Add info for node v11.3.0, v10.14.0, v8.14.0 and v6.15.0"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 403799568808beebe76c7b44d032fb7e85927f73
 - commits:
@@ -6498,7 +6520,7 @@
 - commits:
     - subject: "yarn: Update yarn to v1.12.3"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.12
 - date: 2018-11-28T04:20:55.000Z
 - commits:
@@ -6514,7 +6536,7 @@
 - commits:
     - subject: "baseImages: Set latest Go version to 1.11.1"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 0a9a26e40adaa0b148190acd22cedd7733488a09
 - commits:
@@ -6529,7 +6551,7 @@
     - subject: "baseImages: Remove curl from some partials since it is installed in
         previous layer"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 65d63db4e74386406a5f8761d2f2ba9a4e416219
 - commits:
@@ -6543,7 +6565,7 @@
 - commits:
     - subject: "baseImages: Add i386-nlp arch to openJDK stack"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 75499571851665eab55ccefd5b1498c21f139ff4
 - commits:
@@ -6557,7 +6579,7 @@
 - commits:
     - subject: "baseImages: Add ONBUILD log output that lists base image features"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: ea0a562545293a0963bc0346d9949bb6f0a2b8e5
 - commits:
@@ -6565,7 +6587,7 @@
 - commits:
     - subject: Merge branch 'master' into balena-base-images
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.11
 - date: 2018-11-24T08:11:37.000Z
 - commits:
@@ -6581,7 +6603,7 @@
 - commits:
     - subject: "newDevice: Add info for PocketBeagle"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.10
 - date: 2018-11-19T15:39:05.000Z
 - commits:
@@ -6597,7 +6619,7 @@
 - commits:
     - subject: "newDevice: Add info for imx7-var-som"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: cea64c7f30cdcf9adcb26fa28a886db243337027
 - commits:
@@ -6611,7 +6633,7 @@
 - commits:
     - subject: "var-som-mx6: Mention wifi support"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: de5d04a6f1d3fd3ebd3202758091397aa439da99
 - commits:
@@ -6625,7 +6647,7 @@
 - commits:
     - subject: "nanopi-neo-air: Mention wifi support"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.9
 - date: 2018-11-13T08:22:35.000Z
 - commits:
@@ -6641,7 +6663,7 @@
 - commits:
     - subject: "newDevice: Add info for nanopi-neo-air"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.8
 - date: 2018-11-09T21:15:07.000Z
 - commits:
@@ -6657,7 +6679,7 @@
 - commits:
     - subject: "golang: Add info for Golang v1.11.1"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 7dc1f3455f09ffd7c6a4eab0aea15a797d3514c7
 - commits:
@@ -6672,7 +6694,7 @@
     - subject: "python: Add info of openssl1.1 supported binary for python v2.7.15
         v3.4.9 v3.5.6 and v3.6.6"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.7
 - date: 2018-11-06T13:05:38.000Z
 - commits:
@@ -6688,7 +6710,7 @@
 - commits:
     - subject: "circleci: Update circleci config 2.0"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: f8ebce0b0349506d0fd28b3b0ddb38c3dbdc5cca
 - commits:
@@ -6696,7 +6718,7 @@
 - commits:
     - subject: Merge branch 'master' of https://github.com/resin-io/contracts
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 3930516281b92e703532e78542a116377f6caeac
 - commits:
@@ -6710,7 +6732,7 @@
 - commits:
     - subject: "new-device: Add contract for var-som-mx6"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.6
 - date: 2018-11-05T19:07:37.000Z
 - commits:
@@ -6726,7 +6748,7 @@
 - commits:
     - subject: "baseImages: Add gnupg to base dependencies for Alpine and Fedora"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 00bc023cd6ba2af51d1c9abddad39cdd7344703c
 - commits:
@@ -6740,7 +6762,7 @@
 - commits:
     - subject: "baseImages: Fix install_packages on Alpine and Fedora partials"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 79ae3a3ccd4409a1ebecc66395a1be34c787ca99
 - commits:
@@ -6754,7 +6776,7 @@
 - commits:
     - subject: "circleci: Update circleci config 2.0"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.5
 - date: 2018-10-29T02:40:01.000Z
 - commits:
@@ -6800,7 +6822,7 @@
 - commits:
     - subject: "rpi: Change raspbian key server in rpi debian images"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.4
 - date: 2018-10-25T13:47:24.000Z
 - commits:
@@ -6831,7 +6853,7 @@
 - commits:
     - subject: "fedora: Some os-config must be applied before installing packages"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: b1042925dc34c4c1a865a13a4465340c1e59e976
 - commits:
@@ -6845,7 +6867,7 @@
 - commits:
     - subject: "namechange: Rename some stuff from resin to balena"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.3
 - date: 2018-10-24T15:20:03.000Z
 - commits:
@@ -6861,7 +6883,7 @@
 - commits:
     - subject: "baseImages: Remove deprecation warning for resin base images"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.2
 - date: 2018-10-24T13:54:16.000Z
 - commits:
@@ -6877,7 +6899,7 @@
 - commits:
     - subject: "os: Update default env vars"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 48d1f50978dbab0e6faf05e2e1d80e6304700480
 - commits:
@@ -6891,7 +6913,7 @@
 - commits:
     - subject: "os: add install_packages script to os partials"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: abe36c2685673a4d3f27ff8b44c287848abaa6b6
 - commits:
@@ -6905,7 +6927,7 @@
 - commits:
     - subject: "blob: Remove tini contracts"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 2cc547b95af7a0085bb32bb066946e792497516d
 - commits:
@@ -6919,7 +6941,7 @@
 - commits:
     - subject: "os: Remove tini and initsystem related partials"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 17764e1029f7c10104b309bb4c6e4bbd9bbba236
 - commits:
@@ -6933,7 +6955,7 @@
 - commits:
     - subject: "node: Add contracts and partials for nodejs base image stack"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 1a706de025819fc416a8bb5d1467b266662a31f5
 - commits:
@@ -6944,7 +6966,7 @@
 - commits:
     - subject: "debian: Drop support for Debian Wheezy"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 211b12928f6916d65785b4311f8cdec36320bb89
 - commits:
@@ -6958,7 +6980,7 @@
 - commits:
     - subject: "entry-script: Update entry script contract for balena base images"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: eefde025045ea1b7628391816f9896d7c5dbdaaf
 - commits:
@@ -6972,7 +6994,7 @@
 - commits:
     - subject: "balena-xbuild: Change resin-xbuild to balena-xbuild"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 032a565f4f90e64b6afd021be510d7ee273fa055
 - commits:
@@ -6983,7 +7005,7 @@
 - commits:
     - subject: "version: Add latest version for some contracts"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 5bbf29a0a182684dc80408851ea564ab0764d9f6
 - commits:
@@ -6994,7 +7016,7 @@
 - commits:
     - subject: "namechange: Change resin to balena in some partials"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: eee4cf60808dc24a623452b4def433345a571b5b
 - commits:
@@ -7008,7 +7030,7 @@
 - commits:
     - subject: "partials: Few partial updates for node stack"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 47dcba5e9282550d237718e0be241c49567dc522
 - commits:
@@ -7022,7 +7044,7 @@
 - commits:
     - subject: "namechange: Change xbuild partial to balena-xbuild"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: f10911c7ce989c9445ebc032feed47158c0c65ce
 - commits:
@@ -7033,7 +7055,7 @@
 - commits:
     - subject: "rpi: Add missing contract and partial for rpi"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 6557736908d38930880b53a7f4f164411ed2208c
 - commits:
@@ -7047,7 +7069,7 @@
 - commits:
     - subject: "python: Add contract and partials for Python stack"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: c0042ba870ab09019ae6227d2881c8f663843eb1
 - commits:
@@ -7058,7 +7080,7 @@
 - commits:
     - subject: "golang: Add contract and partials for golang stack"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 5ba4ad3d77c35c00f3050432d6caa06e1297dc99
 - commits:
@@ -7072,7 +7094,7 @@
 - commits:
     - subject: "openjdk: Add contracts and partials for OpenJDK stack"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 29373ddc0d459e24f0fd31eb823444935fc4407b
 - commits:
@@ -7080,7 +7102,7 @@
 - commits:
     - subject: Merge branch 'master' into balena-base-images
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 0bf0925e2026cdfcc7be5a449ab689dca264aa9f
 - commits:
@@ -7091,7 +7113,7 @@
 - commits:
     - subject: "contracts: various small updates"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: e75c5c4cdf09430a547965cfa54328dc20bb585e
 - commits:
@@ -7105,7 +7127,7 @@
 - commits:
     - subject: "os: Update default env vars"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 48d1f50978dbab0e6faf05e2e1d80e6304700480
 - commits:
@@ -7119,7 +7141,7 @@
 - commits:
     - subject: "os: add install_packages script to os partials"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: abe36c2685673a4d3f27ff8b44c287848abaa6b6
 - commits:
@@ -7133,7 +7155,7 @@
 - commits:
     - subject: "blob: Remove tini contracts"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 2cc547b95af7a0085bb32bb066946e792497516d
 - commits:
@@ -7147,7 +7169,7 @@
 - commits:
     - subject: "os: Remove tini and initsystem related partials"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.1
 - date: 2018-10-23T11:08:50.000Z
 - commits:
@@ -7163,7 +7185,7 @@
 - commits:
     - subject: "base-images: Add deprecation warning when using resin base images"
 - commits:
-    - ? body
+    - body: null
 - version: 1.1.0
 - date: 2018-09-25T16:56:16.000Z
 - commits:
@@ -7179,7 +7201,7 @@
 - commits:
     - subject: "device: Add contract for asus-tinker-board and asus-tinker-board-s"
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.0
 - date: 2018-09-07T15:02:34.000Z
 - commits:
@@ -7195,7 +7217,7 @@
 - commits:
     - subject: "device: Add new contract for Stem x86 32bit"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 92c84f8641b7a5d691ef22510a39014f19909f60
 - commits:
@@ -7209,7 +7231,7 @@
 - commits:
     - subject: "device: Add new contract for Revolution Pi Core 3"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 5c29f7ddcf39b388635c1a1eec2d7daaa7d36040
 - commits:
@@ -7223,7 +7245,7 @@
 - commits:
     - subject: "package.json: Add private: true to stop publishing to npm"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: b0838799f419e888730825bf75bbc20593f52edc
 - commits:
@@ -7237,7 +7259,7 @@
 - commits:
     - subject: "qemu: Update qemu to v3.0.0+resin"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: e561658f83519df8e83a809144699ca175f45797
 - commits:
@@ -7261,7 +7283,7 @@
 - commits:
     - subject: Merge branch 'master' into base-image-updates
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: ef637bbd74597872695dd23232cfcb136463ee7d
 - commits:
@@ -7272,7 +7294,7 @@
 - commits:
     - subject: "Device: add contract for new device - CTI Spacely TX2"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: cba9d79841d612fdd420e081cd3c03bd437e6d1b
 - commits:
@@ -7283,7 +7305,7 @@
 - commits:
     - subject: "Add contract for new device: CTI Orbitty TX2"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 05a9dbe73ecb7e598d06fe37ea6a9ca89ed21e8f
 - commits:
@@ -7291,7 +7313,7 @@
 - commits:
     - subject: Add support for Alpine Linux v3.8
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 3190fef0a5587314a414b7eaf14c0ba7412c6918
 - commits:
@@ -7308,7 +7330,7 @@
 - commits:
     - subject: Set MRAA and UPM version for Intel Edison and Up-board base images
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: b5bcad3ed75e739bf45144a2945936e94f8e632b
 - commits:
@@ -7316,7 +7338,7 @@
 - commits:
     - subject: Fix incorrect arch and device name for artik710 and kitra710
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 93fd7de4d0825e2808fae0b5ba9eda73a1c0dd52
 - commits:
@@ -7324,7 +7346,7 @@
 - commits:
     - subject: Add partials for ubuntu device-specific base images
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: bc4c119c466901c8f70412ee91afc143c0bfc3fb
 - commits:
@@ -7336,7 +7358,7 @@
     - subject: Remove armhf from architecture contracts (Only keeps what /config
         endpoint returns).
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: d4827f78c0c9c2fab81511f594bc3c42c66fcf92
 - commits:
@@ -7359,7 +7381,7 @@
 - commits:
     - subject: Add contract and partials for ubuntu.
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 3e10414d86934c8d6b2593998d4ddc5aaed9fdeb
 - commits:
@@ -7370,7 +7392,7 @@
 - commits:
     - subject: Add orangepi-plus2 contract to hw.device-type.
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: bf3fd6e08119d9c34a05b63cba8b5cca29d55351
 - commits:
@@ -7381,7 +7403,7 @@
 - commits:
     - subject: Add fincm3 contract to hw.device-type.
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 3bf6f94b0bc1921341a5ebb283e56fb22441f867
 - commits:
@@ -7392,7 +7414,7 @@
 - commits:
     - subject: Add artik533s contract to hw.device-type.
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: b9c789d4e9fc373da8807e8b501be41cbaaae173
 - commits:
@@ -7403,7 +7425,7 @@
 - commits:
     - subject: Add artik530 contract to hw.device-type.
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: fa894cc77deb5d333f6fdddc1adc0484ee76b7e3
 - commits:
@@ -7411,7 +7433,7 @@
 - commits:
     - subject: Add fincm3 partials
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 7d36244d2e1c02d5334c5e9176f4aaffc083a62b
 - commits:
@@ -7419,7 +7441,7 @@
 - commits:
     - subject: Add partials for artik devices
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 17926b432dfbe8f32844541de1f2f7478fa7bb90
 - commits:
@@ -7427,7 +7449,7 @@
 - commits:
     - subject: Merge branch 'master' into new-devices
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: bf6bfe0ac5511cdb56dba88b8bcdd5611ef5502e
 - commits:
@@ -7435,7 +7457,7 @@
 - commits:
     - subject: Change armel to armv5e as /config endpoint returns
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 15d9b2e1f13e5cf1943f1f4cf6322755416dd01e
 - commits:
@@ -7444,7 +7466,7 @@
     - subject: Add new architecture i386-nlp (Intel 32-bit (x86) for Intel Quark)as
         /config endpoint returns
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 452f1821578ade81e0452f926a48213e74bcc3eb
 - commits:
@@ -7453,7 +7475,7 @@
     - subject: Fix debian dockerfile template. Install iproute2 instead if iproute
         package is not available
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 1e35ee6330f63b70dc7c9ada928bbce848ad366e
 - commits:
@@ -7467,7 +7489,7 @@
 - commits:
     - subject: Add bananapi-m1-plus contract to hw.device-type
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 577187c968658ae74a4be72c9fa06dfefa9aa093
 - commits:
@@ -7484,7 +7506,7 @@
 - commits:
     - subject: Re-organize contracts directory structure
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: ef1720077a9e7297a87d17d615398f06989d530f
 - commits:
@@ -7492,7 +7514,7 @@
 - commits:
     - subject: Update scripts to check new contract file structure.
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 9807f1805c3298da7a87eaba2323d554ae569d7f
 - commits:
@@ -7500,7 +7522,7 @@
 - commits:
     - subject: Add CircleCI configuration file
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 6f091f1063cfbe94272443dad709efc05cbf99dc
 - commits:
@@ -7508,7 +7530,7 @@
 - commits:
     - subject: Merge remote-tracking branch 'origin' into new-contract-schema
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: eaa8a8ecec0b623a34bba2c749cea6b85d370ce3
 - commits:
@@ -7519,7 +7541,7 @@
 - commits:
     - subject: Add LED property to hw.device-type
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 99b870d9fb974a2af091e851ec662aef9a18534d
 - commits:
@@ -7527,7 +7549,7 @@
 - commits:
     - subject: Update Fedora partials
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: ed108d8f394d524fbaf306aa4a09e3c196024059
 - commits:
@@ -7535,7 +7557,7 @@
 - commits:
     - subject: Update Debian partials
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 8c0394b728f3f25582a5933cdc2cfd5f4219f089
 - commits:
@@ -7543,7 +7565,7 @@
 - commits:
     - subject: Merge branch 'master' into update-debian-partials
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 5e814b6cde0dc3d38e2c8bb9f63baac815fb23c3
 - commits:
@@ -7551,7 +7573,7 @@
 - commits:
     - subject: Update Alpine Linux partials
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: d1747d40edae83f580a8836a8017b786d2804fcd
 - commits:
@@ -7559,7 +7581,7 @@
 - commits:
     - subject: Add contract for resin entry script
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 5c5a50529d3b538b99d3f6a5ccbaffb58f55b20a
 - commits:
@@ -7567,7 +7589,7 @@
 - commits:
     - subject: Update Raspberrypi specific partials
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: cae897036a9a1aae2f844daf4f4b26faecf1ca66
 - commits:
@@ -7575,7 +7597,7 @@
 - commits:
     - subject: Update latest OS versions to current contracts
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 5577d56fe84ea91d0dcdeccb0409e7b1de25bcaa
 - commits:
@@ -7584,7 +7606,7 @@
     - subject: "Add new device-types: kitra520 jetson-tx2 jetson-tx1 iot2000
         generic-aarch64 generic-armv7ahf"
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: fa011aa1039d65399e6da478cc63f7edb5cc58b3
 - commits:
@@ -7592,7 +7614,7 @@
 - commits:
     - subject: Update intel-edison specific partials
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: ebb6a70ff1537bf4f4250afe00e168b94cb0f543
 - commits:
@@ -7600,7 +7622,7 @@
 - commits:
     - subject: Update Cybertan specific partials
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: de46cc485d233340f489056158d6660563af818b
 - commits:
@@ -7608,7 +7630,7 @@
 - commits:
     - subject: Add missing `name` field in certain blob contracts
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: b841d6e2e5a7bc70f15fc6e6aa622651cdcf9b93
 - commits:
@@ -7616,7 +7638,7 @@
 - commits:
     - subject: Update url for blobs live in local fs
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 155c8bd436dbf2b0b2710a8c7c8ec76b1e3ba0bd
 - commits:
@@ -7624,7 +7646,7 @@
 - commits:
     - subject: Update Beaglebone specific partials
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 0f7a0e7e03a2b0b480b16706c56fcfd415d6652c
 - commits:
@@ -7632,7 +7654,7 @@
 - commits:
     - subject: Correct ARM descriptive name version of archs
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 2a7d8134fe95808ed63a68fde155475629167316
 - commits:
@@ -7640,7 +7662,7 @@
 - commits:
     - subject: Few corrections for arch.sw contract
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: 751a01081afcef774d789268ab9b378497bf0dad
 - commits:
@@ -7648,7 +7670,7 @@
 - commits:
     - subject: Update artik specific partials
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: f365b97c4795a847f133918e4543d8287834b694
 - commits:
@@ -7656,7 +7678,7 @@
 - commits:
     - subject: Update up-board specific partials
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: e509438cc2fdc4fbeb121e48571133646e78cb66
 - commits:
@@ -7664,4 +7686,4 @@
 - commits:
     - subject: Update Iot2000 specific partials
 - commits:
-    - ? body
+    - body: null
