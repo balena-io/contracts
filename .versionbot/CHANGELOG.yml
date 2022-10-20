@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add node v19.0.0
+      hash: 2b5239255d31f2d33c808a6149064f1861b8a07f
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 2.0.21
+  title: ""
+  date: 2022-10-20T12:03:45.573Z
+- commits:
     - subject: Add Golang v1.19.2 and v1.18.7
       hash: 1e430f1bbf3deb491540dca04057452f01cfbcfb
       body: |
