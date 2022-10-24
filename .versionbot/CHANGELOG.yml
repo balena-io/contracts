@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw+device-type: Add jetson-agx-orin-devkit device type"
+      hash: 9b5a7433a5965ed3152a63b9cab756e9cc68c015
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.22
+  title: ""
+  date: 2022-10-24T14:57:49.013Z
+- commits:
     - subject: Add node v19.0.0
       hash: 2b5239255d31f2d33c808a6149064f1861b8a07f
       body: ""
