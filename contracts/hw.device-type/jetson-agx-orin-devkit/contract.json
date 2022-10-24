@@ -1,0 +1,33 @@
+{
+  "slug": "jetson-agx-orin-devkit",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Nvidia Jetson AGX Orin Devkit",
+  "assets": {
+    "logo": {
+      "url": "./jetson-agx-orin-devkit.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": false,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "flashProtocol": "jetsonFlash",
+    "media": {
+      "defaultBoot": "internal"
+    },
+    "is_private": false
+  },
+  "partials": {
+    "bootDevice": ["Connect power to the {{name}}"]
+  }
+}
