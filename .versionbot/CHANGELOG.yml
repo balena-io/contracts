@@ -1,4 +1,17 @@
 - commits:
+    - subject: "sw.os+hw.device-type: Add distro-config.tpl for jetson-agx-orin-devkit"
+      hash: 76dfd72bece570ec8fdf96006135603d2e81b699
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.23
+  title: ""
+  date: 2022-10-25T15:58:44.499Z
+- commits:
     - subject: "hw+device-type: Add jetson-agx-orin-devkit device type"
       hash: 9b5a7433a5965ed3152a63b9cab756e9cc68c015
       body: ""
