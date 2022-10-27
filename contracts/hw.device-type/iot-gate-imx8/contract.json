@@ -23,7 +23,7 @@
     },
     "media": {
       "defaultBoot": "internal",
-      "altBoot": ["sdcard"]
+      "altBoot": ["usb_mass_storage"]
     },
     "is_private": false
   },
