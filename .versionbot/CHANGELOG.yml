@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add node v18.12.0
+      hash: 76cc4e57fb052486256f3b8f2c2b0239b11c2856
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 2.0.24
+  title: ""
+  date: 2022-10-27T11:18:14.564Z
+- commits:
     - subject: "sw.os+hw.device-type: Add distro-config.tpl for jetson-agx-orin-devkit"
       hash: 76dfd72bece570ec8fdf96006135603d2e81b699
       body: ""
