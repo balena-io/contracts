@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.25
+## (2022-10-27)
+
+* Fix incorrect partials in device type contracts [Micah Halter]
+
 # v2.0.24
 ## (2022-10-27)
 

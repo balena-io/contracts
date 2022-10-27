@@ -1,4 +1,17 @@
 - commits:
+    - subject: Fix incorrect partials in device type contracts
+      hash: 23b23bf963943277e5d5c02bc78d2fb52b4ba7fd
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Micah Halter <micah@balena.io>
+        signed-off-by: Micah Halter <micah@balena.io>
+      author: Micah Halter
+  version: 2.0.25
+  title: ""
+  date: 2022-10-27T16:05:36.897Z
+- commits:
     - subject: Add node v18.12.0
       hash: 76cc4e57fb052486256f3b8f2c2b0239b11c2856
       body: ""
