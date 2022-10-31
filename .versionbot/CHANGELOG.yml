@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add Python v3.11.0 v3.10.8 v3.9.15 v3.8.15 and v3.7.15
+      hash: fbabb315a61ab269458acd051d91e848e2e81cc3
+      body: |
+        Update pip to v22.3 and setuptools to v65.5.0.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 2.0.26
+  title: ""
+  date: 2022-10-31T01:49:50.638Z
+- commits:
     - subject: Fix incorrect partials in device type contracts
       hash: 23b23bf963943277e5d5c02bc78d2fb52b4ba7fd
       body: ""
