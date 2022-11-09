@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add node v18.12.1
+      hash: ec1ce7e89c1882f531e394ebf7f815ae3f9af94f
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 2.0.28
+  title: ""
+  date: 2022-11-09T07:37:26.681Z
+- commits:
     - subject: Add go v1.19.3 and v1.18.8
       hash: 7c66a3e29c17db2ac969d4f26b35eba4284aca8d
       body: ""
