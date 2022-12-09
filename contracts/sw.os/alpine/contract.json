@@ -4,8 +4,8 @@
   "version": "1",
   "data": { 
     "libc": "musl-libc",
-    "latest": "3.16",
-    "versionList": "`3.15 (latest)`, `3.15`, `3.14`, `3.13`, `3.12`, `edge`"
+    "latest": "3.17",
+    "versionList": "`3.17 (latest)`, `3.16`, `3.15`, `3.14`, `3.13`, `3.12`, `edge`"
   },
   "name": "Alpine Linux {{this.version}}",
   "requires": [
@@ -38,6 +38,7 @@
         { "version": "edge" },
         { "version": "3.14" },
         { "version": "3.16" },
+        { "version": "3.17" },
         { "version": "3.13" },
         { "version": "3.12" },
         { "version": "3.15" }
@@ -56,6 +57,7 @@
         { "version": "edge" },
         { "version": "3.14" },
         { "version": "3.16" },
+        { "version": "3.17" },
         { "version": "3.13" },
         { "version": "3.12" },
         { "version": "3.15" }
