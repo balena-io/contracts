@@ -74,18 +74,6 @@
               "requires": [
                 { "type": "arch.sw", "slug": "rpi" }
               ]
-            },
-            {
-              "assets": {
-                "bin": {
-                  "checksum": "d20eb719224df5a09b0f17a67434d2a0bfa758a20c69b3af87fec105da5d4f29",
-                  "name": "node-v$NODE_VERSION-linux-alpine-armv7hf.tar.gz",
-                  "url": "http://resin-packages.s3.amazonaws.com/node/v$NODE_VERSION/{{this.assets.bin.name}}"
-                }
-              },
-              "requires": [
-                { "type": "arch.sw", "slug": "armv7hf" }
-              ]
             }
           ]
         },
