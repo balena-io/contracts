@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add partials for dotnet v7
+      hash: b6e275498276319e59b8210e5d62f8c86804919d
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 2.0.31
+  title: ""
+  date: 2022-12-10T03:49:36.476Z
+- commits:
     - subject: Add support for Alpine Linux v3.17
       hash: 245c201a06d03eb89210654d1d44f0f156ccb790
       body: ""
