@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.32
+## (2022-12-15)
+
+* Add node v19.3.0 v16.19.0 and v14.21.2 [Trong Nghia Nguyen]
+
 # v2.0.31
 ## (2022-12-10)
 
