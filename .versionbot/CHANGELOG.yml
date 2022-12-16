@@ -1,4 +1,18 @@
 - commits:
+    - subject: "Flowzone: Allow external contributions"
+      hash: bb2226cc9e36d056d33c70cb3926ce58b9e47e28
+      body: |
+        Update the flowzone workflow to allow external PRs from forks
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.0.34
+  title: ""
+  date: 2022-12-16T15:12:18.550Z
+- commits:
     - subject: "Flowzone: Use inherited secrets"
       hash: 8d5f9d9f28de663b32b58999f076dd7932dbaa3b
       body: ""
