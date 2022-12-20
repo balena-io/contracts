@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: Add Owasys owa5X device"
+      hash: d92fb422d14da698061c53422ae7bfb4fdd64b03
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alvaro Guzman <alvaro.guzman@owasys.com>
+        signed-off-by: Alvaro Guzman <alvaro.guzman@owasys.com>
+      author: Alvaro Guzman
+  version: 2.0.35
+  title: ""
+  date: 2022-12-20T11:53:50.722Z
+- commits:
     - subject: "Flowzone: Allow external contributions"
       hash: bb2226cc9e36d056d33c70cb3926ce58b9e47e28
       body: |
