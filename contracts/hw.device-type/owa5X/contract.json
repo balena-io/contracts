@@ -1,0 +1,38 @@
+{
+  "slug": "owa5X",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Owasys owa5X",
+  "assets": {
+    "logo": {
+      "url": "./owa5X.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": false,
+    "led": true,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
+    },
+    "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+      "Erase internal NAND content using bootloader command $nand erase.chip",
+      "Insert an SD card with a boootable image"
+    ],
+    "flashIndicator": ["all LEDs are off"],
+    "bootDevice": ["Remove and re-connect power to the {{name}}"]
+  }
+}
