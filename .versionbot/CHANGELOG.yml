@@ -1,4 +1,15 @@
 - commits:
+    - subject: "hw.device-type: Add imx8plus"
+      hash: 7aa36514a18f20ad26fadafabca8787e790bd875
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anuj Deshpande
+  version: 2.0.35
+  title: ""
+  date: 2022-12-22T14:58:44.120Z
+- commits:
     - subject: "Flowzone: Allow external contributions"
       hash: bb2226cc9e36d056d33c70cb3926ce58b9e47e28
       body: |

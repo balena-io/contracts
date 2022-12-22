@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.35
+## (2022-12-22)
+
+* hw.device-type: Add imx8plus [Anuj Deshpande]
+
 # v2.0.34
 ## (2022-12-16)
 
