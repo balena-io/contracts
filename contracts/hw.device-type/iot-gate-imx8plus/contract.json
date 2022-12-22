@@ -1,0 +1,35 @@
+{
+  "slug": "iot-gate-imx8plus",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Compulab IOT-gate-imx8plus",
+  "assets": {
+    "logo": {
+      "url": "./iot-gate-imx8plus.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": false,
+    "led": true,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "defaultBoot": "internal",
+      "altBoot": ["usb_mass_storage"]
+    },
+    "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": ["Connect power to the {{name}}"],
+    "flashIndicator": ["all LEDs are off"],
+    "bootDevice": ["Remove and re-connect power to the {{name}}"]
+  }
+}
