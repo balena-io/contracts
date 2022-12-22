@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.36
+## (2022-12-22)
+
+* Fix owa5x slug [Trong Nghia Nguyen]
+
 # v2.0.35
 ## (2022-12-20)
 
