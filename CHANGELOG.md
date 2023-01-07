@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.38
+## (2023-01-07)
+
+* Forecr DSBOARD NX2 Xavier NX eMMC: Add community device-type [Alexandru Costache]
+
 # v2.0.37
 ## (2023-01-07)
 
