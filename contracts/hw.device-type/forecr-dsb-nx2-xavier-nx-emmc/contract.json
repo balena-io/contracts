@@ -1,0 +1,33 @@
+{
+  "slug": "forecr-dsb-nx2-xavier-nx-emmc",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Forecr DSBOARD NX2 Xavier NX eMMC",
+  "assets": {
+    "logo": {
+      "url": "./forecr-dsb-nx2-xavier-nx-emmc.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": false,
+      "wifi": false
+    },
+    "storage": {
+      "internal": true
+    },
+    "flashProtocol": "jetsonFlash",
+    "media": {
+      "defaultBoot": "internal"
+    },
+    "is_private": false
+  },
+  "partials": {
+    "bootDevice": ["Connect power to the {{name}}"]
+  }
+}
