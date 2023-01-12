@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: Add Radxa CM3 on Raspberry Pi Compute Module 4 IO Board"
+      hash: 8672125211a475b2f4742fff0d64273c25bf8421
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.0.39
+  title: ""
+  date: 2023-01-12T21:09:27.997Z
+- commits:
     - subject: "Forecr DSBOARD NX2 Xavier NX eMMC: Add community device-type"
       hash: 9845bc4266923d6f66c118f14f976780a3b925a6
       body: ""
