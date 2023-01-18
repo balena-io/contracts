@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add golang v1.19.5 and v1.18.10
+      hash: 367a8d6f1782238ab4895b8a626256f8d5ae9f88
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+        signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+      author: Trong Nghia Nguyen
+  version: 2.0.40
+  title: ""
+  date: 2023-01-18T04:50:10.276Z
+- commits:
     - subject: "hw.device-type: Add Radxa CM3 on Raspberry Pi Compute Module 4 IO Board"
       hash: 8672125211a475b2f4742fff0d64273c25bf8421
       body: ""
