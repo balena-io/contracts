@@ -4,8 +4,8 @@
   "version": "1",
   "data" : {
     "libc": "glibc",
-    "latest": "35",
-    "versionList": "`35 (latest)`, `36`, `34`, `33`"
+    "latest": "37",
+    "versionList": "`37 (latest)`, `36`, `38`"
   },
   "name": "Fedora {{this.version}}",
   "requires": [
@@ -26,9 +26,8 @@
     {
       "variants": [
         { "version": "36" },
-        { "version": "33" },
-        { "version": "35" },
-        { "version": "34" }
+        { "version": "37" },
+        { "version": "38" }
       ],
       "requires": [
         { "type": "sw.blob", "slug": "qemu" },
@@ -37,10 +36,7 @@
     },
     {
       "variants": [
-        { "version": "36" },
-        { "version": "33" },
-        { "version": "35" },
-        { "version": "34" }
+        { "version": "36" }
       ],
       "requires": [
         { "type": "sw.blob", "slug": "qemu" },
@@ -50,9 +46,8 @@
     {
       "variants": [
         { "version": "36" },
-        { "version": "33" },
-        { "version": "35" },
-        { "version": "34" }
+        { "version": "37" },
+        { "version": "38" }
       ],
       "requires": [
         { "type": "arch.sw", "slug": "amd64" }
