@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.43
+## (2023-02-10)
+
+* Add Fedora 37 (latest) and 38 [Trong Nghia Nguyen]
+* Add Python v3.11.2 and v3.10.10 [Trong Nghia Nguyen]
+
 # v2.0.42
 ## (2023-02-06)
 
