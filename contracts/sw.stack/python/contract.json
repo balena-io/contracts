@@ -4,18 +4,18 @@
   "name": "Python v{{this.version}}",
   "version": "1",
   "data": {
-    "latest": "3.11.1",
-    "versionList": "`3.11.1 (latest)`, `3.10.9`, `3.9.16`, `3.8.16`, `3.7.16`",
+    "latest": "3.11.2",
+    "versionList": "`3.11.2 (latest)`, `3.10.10`, `3.9.16`, `3.8.16`, `3.7.16`",
     "introduction": "Python is an interpreted, interactive, object-oriented, open-source programming language. It incorporates modules, exceptions, dynamic typing, very high level dynamic data types, and classes. Python combines remarkable power with very clear syntax. It has interfaces to many system calls and libraries, as well as to various window systems, and is extensible in C or C++. It is also usable as an extension language for applications that need a programmable interface. Finally, Python is portable: it runs on many Unix variants, on the Mac, and on Windows 2000 and later.",
     "logo": "https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/python/logo.png"
 
   },
   "assets": {
     "pip": {
-      "version": "22.3.1"
+      "version": "23.0"
     },
     "setuptools": {
-      "version": "65.6.3"
+      "version": "67.2.0"
     },
     "dbus": {
       "version": "1.3.2"
@@ -42,7 +42,7 @@
   ],
   "variants": [
     {
-      "version": "3.11.1",
+      "version": "3.11.2",
       "assets" : {
         "pip": {
           "command": "pip3"
@@ -74,7 +74,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "bf04375e2e62e69b3e1b0edc92d18ea2402a2821a2d070c58e75dd3a8b1e79d1",
+                      "checksum": "cd51851140072721e2d6f1d463e6d140d13ae19563fc7c5fd2161268f3aa1b39",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-libffi3.4.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -92,7 +92,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "eb3e381c50ac94a21b8557bcd8253645ce554ada28bcd9a803922d26f90341eb",
+                      "checksum": "8f9a02153dccba7cab5e93f1769c4280c3990c6497f2e1f6aa16302b7305ca25",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-libffi3.3.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -118,7 +118,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "3a9066af6b3060caf1c4be808640534774065b7b2c9e8ddb9623adac29ba0429",
+                      "checksum": "1e26edfb7b9fc3747fd36c52fe2109228409a722078411fd8552c45149c1a13f",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-libffi3.4.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -136,7 +136,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "9b233dd26acfb86f9bf68ba5674a6f905156538ecfb1429de31c9cf208cc900e",
+                      "checksum": "5b1ee48c993f86814d79e50b386ee50df4de18532635018d1152c0240fc2deb8",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-libffi3.3.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -162,7 +162,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "85172c793cb6d3cce0573542bc9979655f8c2145dba157bd18f628069a242ceb",
+                      "checksum": "fde09f9491fdd5b2d48f6ebb925edeca34356f0635f7bdeeb097470ef513c044",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-i386-libffi3.4.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -180,7 +180,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "2d5f16387c6baabdf33cd8adf6302b8c127bbbec68c75c39dee082b4972e4fbc",
+                      "checksum": "b712467c4848a30ced5ebc6f7f21e72d145358631838e135b842727fa8501c83",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-i386-libffi3.3.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -206,7 +206,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "9f3c7c752247d2c6ed453481ca73aba202e0d3fa53fae2efafc6dff59dae4bf0",
+                      "checksum": "61bd597dbf5d6dc0f9a078f5f87cc5835efd84ab3df360429d580349ca4a8632",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-libffi3.4.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -224,7 +224,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "15252f69cafd3775d0b7ea6d50b6c39812b6e59d0c4998b4240c3aab7406d4f2",
+                      "checksum": "de5a1243b45af26da4cd1b1923073933b7a66e8957eefb4ce0e4ab32ae66a3d8",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-libffi3.3.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -250,7 +250,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "f288c1b059585d73f38b70e305613ba7f7ac55a04449d7610db68a49ba2b6c0e",
+                      "checksum": "acc0b82e67d80ccd416d68047443c937c611b73daa455baf3fc67b4299a6c816",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf-libffi3.4.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -268,7 +268,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "cb95d9cdd49045f07580a72761fbd2b33b6f6874c68910c71a4ea5ffff4298a2",
+                      "checksum": "3089bdb1a05e4c5e76f00210c05401dbb1444705153a03cf03274ea7efbd2b05",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf-libffi3.3.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -297,7 +297,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "70144bf9774453de4782e691d89446f0b0747fe53ff119c2fc3d8230b9a46eed",
+                      "checksum": "28a44090c26aeb2b55591d5fc479d9e3f7bdea5de28f242b7495012e7d9cbf88",
                       "name": "Python-$PYTHON_VERSION.linux-armv6hf-libffi3.4.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -309,7 +309,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "118594c86c7a703d5088fc381799ec31349916073f940f09aee4af3f86cd6322",
+                      "checksum": "9a93867d827276d1192755070f9c3e7390d828bbf3c6a249184ff79fc5c9f1ef",
                       "name": "Python-$PYTHON_VERSION.linux-armv7hf-libffi3.4.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -321,7 +321,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "488e81411f28b465e708c2f088a59d67aa26d3492a3684b6e02fd799750001e9",
+                      "checksum": "a3374cdeeaf36f241d6f4014f70cb892f92c62a8ca4561cee0fffdb306bbb1e3",
                       "name": "Python-$PYTHON_VERSION.linux-amd64-libffi3.4.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -333,7 +333,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "2da32ee1e21abd387f5d24f6df78dcafeebb5cbb7290560c5c697f178ef3a26b",
+                      "checksum": "0a2552afbc6cc329d510fe5a3677056a078da6a5ab75d78b1fb961f7ea246e92",
                       "name": "Python-$PYTHON_VERSION.linux-aarch64-libffi3.4.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -345,7 +345,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "7838ca73f57909aaa2a93949c8be3bdbf16a22a7814065d4c471135fb1a83fc5",
+                      "checksum": "c3596fe3c82d1c0ce9eb885bbaa9d58b0adf32d44182f3fc1e0fad98db2d177a",
                       "name": "Python-$PYTHON_VERSION.linux-i386-libffi3.4.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -370,7 +370,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "459d5e4430db76ef1759d7e57167b17976cdbb7baa27b051f1be9acbbae23bd1",
+                      "checksum": "403feacce08e3ca4e94657e3cd5be0a71062311afc2548410f17f4562a8309bb",
                       "name": "Python-$PYTHON_VERSION.linux-armv6hf-libffi3.3.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -382,7 +382,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "929d1284c27312413dd1b7c54068ad9cfef7d616c98944532d3b04870784d9c9",
+                      "checksum": "4b3adc7a6cde607576001fef0e3140a16ed6772e950843d94f5fcf0a32d7ceff",
                       "name": "Python-$PYTHON_VERSION.linux-armv7hf-libffi3.3.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -394,7 +394,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "d1d52b6d39ea4bc3800691d841cc12f79203ff94898e159a31d406ab8e67bbc8",
+                      "checksum": "dff3c05672f07f5b0e1f1a85990ed97953bd5f6f697f2fd0d615788531f7febd",
                       "name": "Python-$PYTHON_VERSION.linux-amd64-libffi3.3.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -406,7 +406,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "76255d42ee44279a0f613304ccedb121a3cc0788abd0f9895cecb76a01dcaaf4",
+                      "checksum": "581dfb4378dfe74c0dffd2828a961ba9977e66d141b17c6f2d7cfc3de514a985",
                       "name": "Python-$PYTHON_VERSION.linux-aarch64-libffi3.3.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -418,7 +418,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "8071d13529357a30a7d6e41d4a1733562a2dea002f6f7b0c5d4a3e1a58dffa5a",
+                      "checksum": "8d085d2952e0cbbd42fda1eb6e2046a3ee1a76152ee8a454f73e0166457b6bfd",
                       "name": "Python-$PYTHON_VERSION.linux-i386-libffi3.3.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -443,7 +443,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "b8ad9369e6b40232a071009cbc2ab96e494ba5fb6439fd0b96ce21cb3edf9d0e",
+                      "checksum": "00b9a25015ed43cf6940cb8964168724dfe916fdc7df85c09fad988ffb1d3114",
                       "name": "Python-$PYTHON_VERSION.linux-armv6hf-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -455,7 +455,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "dbd4ff88f68480e276f216289a02c213e346a2f262d8ccda750e3cc07490abb4",
+                      "checksum": "a45f5be42db183512984d9d011186bdb2c6065034b982cd8d6a8026b2c9c22d3",
                       "name": "Python-$PYTHON_VERSION.linux-armv7hf-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -467,7 +467,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "ab9f6c6a46e2bd26bc1a8c980be52299df91e34f0ad130753c66a9f1f13278dd",
+                      "checksum": "7d9803d598008aa082cdbe0a88dc36f3e2be626096115a52d76e33c08365e4fa",
                       "name": "Python-$PYTHON_VERSION.linux-amd64-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -479,7 +479,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "d716a3b935c9d7259b40b7167a623ed8750eb52cb9aab1fb2e325530af9fcd52",
+                      "checksum": "2abf420a5e007558c22be3fc37640972f61167519c3369e2fb55f85fa014c3dd",
                       "name": "Python-$PYTHON_VERSION.linux-aarch64-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -491,7 +491,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "5228b6cb8036903fd626b8561bccb7471b394bea124bd6e6fe7768795e81719d",
+                      "checksum": "79e446ee0bb8bab1c0af262c4b143bfd278a4d48161de758a6b4b5f3a6ec9ea2",
                       "name": "Python-$PYTHON_VERSION.linux-i386-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -507,7 +507,7 @@
       ]
     },
     {
-      "version": "3.10.9",
+      "version": "3.10.10",
       "assets" : {
         "pip": {
           "command": "pip3"
@@ -539,7 +539,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "6977c2e89cf175e3a7ec23cac36160f76aa8c219cfb5c57413ee0edba971acf4",
+                      "checksum": "2a05f55dec18dc0d1200a8c8880a4556ef3078740860b44526202c022039d51d",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-libffi3.4.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -557,7 +557,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "f9e7cccd5dd905d833ffe41853948c03ad8d27df3e81f4a7f57054bce6cb212b",
+                      "checksum": "d1233bf960137f2485f912d609a499e22d5d35a4e2effaf702448eacb5a86c4b",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-armv6hf-libffi3.3.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -583,7 +583,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "d76f22eb101b5a5f5819dc41322cb40547c2593933384f18d97f092d02703249",
+                      "checksum": "d49e5e024dcc9ba0c67fb0665ec716a295e670e12c0e7efe683bbcc113af4943",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-libffi3.4.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -601,7 +601,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "51dd3648519977863a242987f9797aa8cc1ee882cf15192cfddec3db8fb2c652",
+                      "checksum": "3a6680dd07341acdf20bb8f85aa7951435333ce9b95375c2075f590f3e1050b4",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-amd64-libffi3.3.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -627,7 +627,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "23bbab4c1b9fa5fa7fb77a719d9065b591f86980d491732b3fa54e5d83237765",
+                      "checksum": "79ab2819afda52008e69e289244087984ea7193dd21f2d2dbf1c90aa6004c8fc",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-i386-libffi3.4.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -645,7 +645,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "fba2a1204f8f0be05e00db10cfc6192561b4ff85de776c1fbf41bbe5e7852575",
+                      "checksum": "3e95f9b1f79abcf247078ee6e5f98c84c70444bad75c6581f95bf82e9aefa656",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-i386-libffi3.3.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -671,7 +671,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "9be54a162cbf17121b085991006491d8d5dcc76676075f246a207375c921a969",
+                      "checksum": "5780d8f440195bbd1bf385822d6ab27a6119b9905604a15d2f215f732d6e15a0",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-libffi3.4.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -689,7 +689,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "7ba092807043360e966356f9616e480dfb8327fd9f750e0e9586db4a4b29ba90",
+                      "checksum": "fca0f137b0ba7edd2afd6e606f3e9045f66125b1b6422b0de53f234a1cbaaedf",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-aarch64-libffi3.3.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -715,7 +715,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "de84bf2d2d9c246af7cf4013eb8a9a8d7e99ccae688031a1d2a3676aafec7f80",
+                      "checksum": "310b9d71a61b4122320f704cf24fc066e02e42a139de147eae21dee782c49513",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf-libffi3.4.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -733,7 +733,7 @@
                   ],
                   "assets": {
                     "bin": {
-                      "checksum": "fbf2415fbfa96b44c817e8fbb3b345ed4a45b8c032e52e1337da8aea5a1bd354",
+                      "checksum": "7c90c35086a9510926bac26752b4cc94d6bb878d30422c5d05b308c4a4f96c41",
                       "name": "Python-$PYTHON_VERSION.linux-alpine-armv7hf-libffi3.3.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -762,7 +762,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "64e4ee9b8fda8196a4f4c14af208fdb0b35323d674f0aba91db6598874ee9ba7",
+                      "checksum": "a37be2f0bca4959909383cc658fede1d51bde046a9536648130a0b2eaa64e3cb",
                       "name": "Python-$PYTHON_VERSION.linux-armv6hf-libffi3.4.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -774,7 +774,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "9c7da639c241845786b706d260c77379976a6d9e73a79aa720b7f59d503670c3",
+                      "checksum": "916c51116145a74e6e3b7a3bde2b4673519dcb6b089b92243336e70074d94cea",
                       "name": "Python-$PYTHON_VERSION.linux-armv7hf-libffi3.4.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -786,7 +786,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "c964332658dd55a56965e14fa9456a691e5fd04a291fde016c316a86ad82b062",
+                      "checksum": "4042699da764ad790f69475f2e6d6a7e8050332d0db6ef4f01daba546769ba0d",
                       "name": "Python-$PYTHON_VERSION.linux-amd64-libffi3.4.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -798,7 +798,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "e436dcd009e1b6581f8d88fecdd2eef9e51412ea59e8553635cc49d5cea8b73b",
+                      "checksum": "e9c125875afb24db2cac9984f10d481b9a708863437103599374def7bacc5f8c",
                       "name": "Python-$PYTHON_VERSION.linux-aarch64-libffi3.4.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -810,7 +810,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "7e5f1e99b950da18e824e8fdc9939ab91b33b778585059401d736ec1578372d9",
+                      "checksum": "92f3f32704dae1231219935791d6eb7a599814a919e2c4f1ff195ff7c1a2cd3a",
                       "name": "Python-$PYTHON_VERSION.linux-i386-libffi3.4.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -835,7 +835,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "89e3e1a2ae63ca27c5039878f2b048fb052c54a1c39bd4051e904b88689b085b",
+                      "checksum": "783203ebbd036460597210af2a5c4869aae9be6004b1532acddd6d5148bfe9ae",
                       "name": "Python-$PYTHON_VERSION.linux-armv6hf-libffi3.3.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -847,7 +847,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "a3c13c5cc7cfacdb97745b0e422921eaf4425a9e17cd68e4997baa95bc69d8b8",
+                      "checksum": "fdc0c9ca99c244d0b1ab9c4d83608599396094e1c3f5777efdf42b47abc49d3e",
                       "name": "Python-$PYTHON_VERSION.linux-armv7hf-libffi3.3.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -859,7 +859,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "5f7cd35e067dc1ca440dfe7b4773997ef65c258956772e92b7da25a0c125bc47",
+                      "checksum": "2a1d2d110960cf987afdad497f9b00d06454222761eb3b307907cc12a1a01631",
                       "name": "Python-$PYTHON_VERSION.linux-amd64-libffi3.3.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -871,7 +871,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "a749031099b9336859e6d8c07e8310303155c628569f392ccd0e0d1b4d01c337",
+                      "checksum": "c0638397f9638f13542218ed014cf3bdefc9cd2f63d5740ba05ca5d527621dcb",
                       "name": "Python-$PYTHON_VERSION.linux-aarch64-libffi3.3.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -896,7 +896,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "fa12543fab993ada545e575eed9fe8eb63e3602c798fa91d93b12b2c055c36b5",
+                      "checksum": "280ad95cd2d09f590fb40f506711f4491226618d2e38b55d2e12692c4db50197",
                       "name": "Python-$PYTHON_VERSION.linux-armv6hf-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -908,7 +908,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "dacf42ab059b36dddd859f362da2745f8b59ef453df6240c94f30a052b42e556",
+                      "checksum": "0b7cc89fc2deddd5c16e6cf936a77504c8b22556e576ce3bedf45e2456d3a24d",
                       "name": "Python-$PYTHON_VERSION.linux-armv7hf-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -920,7 +920,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "55f3de6bef7e7acf4eed6b4df13d3d516be2877a04185ef1c28bcc994703c016",
+                      "checksum": "365d0344229e40e93de0ac8fee792c2ccb504fdc105688602e280fb9c3e4a6df",
                       "name": "Python-$PYTHON_VERSION.linux-amd64-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -932,7 +932,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "29b27291e1b170789d5b9504583afaecbf7eb4d18aafe9d2d3db002ce50fa03d",
+                      "checksum": "6f1edd090c601b40a59de5dded1b6b377a3979a293d06d573e2cd31cb55ef716",
                       "name": "Python-$PYTHON_VERSION.linux-aarch64-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
@@ -944,7 +944,7 @@
                 {
                   "assets": {
                     "bin": {
-                      "checksum": "bf3cbd5c0d74ace1d605dd4689a8378b5582b83aadbd694b6b6fd3b0ccb23972",
+                      "checksum": "67ca5d953661c71eeb1640f70678e2f8f7d612f4b111b20e3ec0a8b05b9069e4",
                       "name": "Python-$PYTHON_VERSION.linux-i386-libffi3.2.tar.gz",
                       "url": "http://resin-packages.s3.amazonaws.com/python/v$PYTHON_VERSION/{{this.assets.bin.name}}"
                     }
