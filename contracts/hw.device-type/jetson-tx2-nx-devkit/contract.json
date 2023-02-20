@@ -23,7 +23,7 @@
     },
     "flashProtocol": "jetsonFlash",
     "media": {
-      "defaultBoot": "sdcard"
+      "defaultBoot": "internal"
     },
     "is_private": false
   },

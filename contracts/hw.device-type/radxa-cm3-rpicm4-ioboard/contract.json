@@ -21,7 +21,7 @@
     "storage": {
       "internal": true
     },
-    "flashProtocol": "RPIBOOT",
+    "flashProtocol": "radxaFlash",
     "media": {
       "defaultBoot": "internal"
     },

@@ -19,12 +19,12 @@
       "wifi": true
     },
     "storage": {
-      "internal": false
+      "internal": true
     },
     "flashProtocol": "RPIBOOT",
     "media": {
       "defaultBoot": "internal",
-      "altBoot": ["sdcard"]
+      "altBoot": ["sdcard", "usb_mass_storage", "nvme"]
     },
     "is_private": false
   },
