@@ -60,6 +60,52 @@ sw.os+arch.sw/<os>+<arch>/download.tpl
 sw.os+arch.sw/<os>/download.tpl
 ```
 
+## Instruction Partials
+
+With a [recent change](https://github.com/balena-io/contracts/pull/236), several changes were made to the overall contract spec to be able to work around problems happening and being able generate accurate provisioning instructions for device types using contracts. Some information is present below: 
+
+### flashProtocol
+
+If there is a `flashProtocol` defined then we know that we need to flash directly to the device. This process will require no storage media to be attached. After identifying which protocols etcher can or can't support will determine flash protocol for that device type and subsequently the instructions for the device type as well. 
+
+Example, in this case `jetsonFlash` is not supported by etcher so we will need to give jetson flashing specific instructions:
+
+```
+    "flashProtocol": "jetsonFlash",
+    "media": {
+      "defaultBoot": "internal",
+      "altBoot": []
+    },
+```
+
+On the other hand, another example of a `flashProtocol` that Etcher does supports would be `RPIBOOT` which is a flash protocol utilized by balena Fin.
+
+## defaultBoot
+
+>  Defines the medium from which the device boots at runtime.
+
+If the `defaultBoot` is `internal` and there is an alternative boot method like `sdcard` and no `flashProtocol` defined, then we know this is an installation where we need to flash to the `sdcard` with etcher and that sd card will have a flasher image to write to the internal storage
+```
+    "media": {
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
+    },
+```
+
+If the `defaultBoot` is something not `internal` and there is no `flashProtocol` then we know the device will need to boot off of an external media in which we flash BalenaOS onto directly like a raspberry pi might have this definition:
+```
+    "media": {
+      "defaultBoot": "sdcard",
+      "altBoot": []
+    },
+```
+
+There are other defaultBoot implementations as well that are available. 
+
+## altBoot
+
+`altBoot` describes the list of external mediums from which the device can be provisioned, if any of them are available for the DT.
+
 Contribute
 ----------
 
