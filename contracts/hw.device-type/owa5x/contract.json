@@ -30,7 +30,7 @@
   "partials": {
     "bootDeviceExternal": [
       "Erase internal NAND content",
-      "Insert an SD card with a boootable image"
+      "Insert an SD card with a bootable image"
     ],
     "flashIndicator": ["all LEDs are off"],
     "bootDevice": ["Remove and re-connect power to the {{name}}"]
