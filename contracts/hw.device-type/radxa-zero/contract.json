@@ -21,7 +21,7 @@
     "storage": {
       "internal": true
     },
-    "flashProtocol": "radxaFlash",
+    "flashProtocol": "usbMassStorage",
     "media": {
       "defaultBoot": "internal"
     },
