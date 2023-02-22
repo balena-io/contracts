@@ -1,0 +1,39 @@
+{
+  "slug": "iot-gate-imx8plus",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Compulab IOT-GATE-iMX8PLUS 4GB",
+  "assets": {
+    "logo": {
+      "url": "./iot-gate-imx8plus.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": false,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "flashProtocol": "usbMassStorage",
+    "media": {
+      "defaultBoot": "internal"
+    },
+    "is_private": false
+  },
+  "partials": {
+    "instructions": [
+      "Connect the PROG port to your PC using a micro USB cable.",
+      "Download imx-boot.bin from the device repository and use imx uuu to boot this binary on the IOT-GATE-IMX8PLUS",
+      "Once imx-boot is running on the IOT-GATE-IMX8PLUS, the eMMC will be exposed as a USB MASS STORAGE device on your PC",
+      "Write the image downloaded from balena cloud to the device. We recommend using <a href=http://www.etcher.io/>Etcher</a>.",
+      "After flashing is completed, disconnect the micro USB cable from the PROG port and reboot the device"
+    ]
+  }
+}
