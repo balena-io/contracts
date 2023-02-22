@@ -1,4 +1,30 @@
 - commits:
+    - subject: "hw.device-type: Various fixes"
+      hash: c475248de7096aabe7845dc2c1da5ce1d9bbeb7c
+      body: >
+        - The Jetson TX2 NX has an eMMC and no SD-CARD slot
+
+        - The JN30B Nano uses the eMMC module and not the SD-CARD one
+
+        - The Radxa CM3 on RPI CM4 IOBoard as well as the Radxa zero use
+          rockchip software tools in order to put the eMMC in mass-storage mode
+        - The CM4 module comes in two flavors: one with eMMC and the Lite version
+          which uses the carrier board sd-card slot to load the image. Both use the
+          same balenaOS image.
+          I switched the storage to internal for this DT because it *may* have
+          one, but this solely depends on the actual module.
+          Another consideration is that this DT can also boot from a USB stick
+          or a NVME drive connected to the mPCIE port.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.48
+  title: ""
+  date: 2023-02-22T10:12:35.263Z
+- commits:
     - subject: "patch: Add docs to contracts for instructions partials"
       hash: c444d6388b2acc39eab04efc1a13703d654693e5
       body: ""
