@@ -1,4 +1,21 @@
 - commits:
+    - subject: "hw.device-type: Rename radxaFlash protocol to usbMassStorage"
+      hash: bcc0d053a941add7e64b5f8628e3ad7c33eedd6a
+      body: |
+        becase the devices need to be put in USB MASS STORAGE
+        mode prior to flashing of the eMMC, and the Radxa
+        flashing tools are actually included in the contract
+        partials.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.50
+  title: ""
+  date: 2023-02-22T14:53:31.323Z
+- commits:
     - subject: "patch: Fix spelling for eMMC in Radxa-zero contract"
       hash: e9e6e36541edb814ec751bc31f30a1845f0a0dc1
       body: ""

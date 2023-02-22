@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.50
+## (2023-02-22)
+
+* hw.device-type: Rename radxaFlash protocol to usbMassStorage [Alexandru Costache]
+
 # v2.0.49
 ## (2023-02-22)
 
