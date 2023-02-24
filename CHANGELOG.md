@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.51
+## (2023-02-24)
+
+* node: do not set unsafe-perm with npm 9 and newer [Michal Toman]
+
 # v2.0.50
 ## (2023-02-22)
 

@@ -1,4 +1,24 @@
 - commits:
+    - subject: "node: do not set unsafe-perm with npm 9 and newer"
+      hash: c1950ce76e44b48196c44874e09c8857651bddd8
+      body: >
+        The unsafe-perm config option has been dropped in npm 9, trying to set it
+
+        ends with an error and therefore fails the build. With this patch
+
+        the build script parses the major version from `npm --version` and only
+
+        sets unsafe-perm on npm 8 and older.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Michal Toman <michalt@balena.io>
+        signed-off-by: Michal Toman <michalt@balena.io>
+      author: Michal Toman
+  version: 2.0.51
+  title: ""
+  date: 2023-02-24T21:25:17.414Z
+- commits:
     - subject: "hw.device-type: Rename radxaFlash protocol to usbMassStorage"
       hash: bcc0d053a941add7e64b5f8628e3ad7c33eedd6a
       body: |
