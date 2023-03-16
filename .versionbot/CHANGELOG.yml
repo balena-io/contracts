@@ -1,4 +1,15 @@
 - commits:
+    - subject: "patch: Remove CircleCI in favor of Flowzone"
+      hash: 9bed27db936f4ad6acffa4a74cd0fcad72cc313d
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+      author: Vipul Gupta (@vipulgupta2048)
+  version: 2.0.54
+  title: ""
+  date: 2023-03-16T15:05:25.391Z
+- commits:
     - subject: "patch: Fix fluid tags for revpi-core-3"
       hash: 9ec5bf22c8e0d5033a8b08a432b7651da8616360
       body: ""

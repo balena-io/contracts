@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.54
+## (2023-03-16)
+
+* patch: Remove CircleCI in favor of Flowzone [Vipul Gupta (@vipulgupta2048)]
+
 # v2.0.53
 ## (2023-03-16)
 
