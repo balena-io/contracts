@@ -5,6 +5,13 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.52
+## (2023-03-16)
+
+* patch: Fix punctuation in partials [Vipul Gupta (@vipulgupta2048)]
+* patch: Fix spelling of eMMC [Vipul Gupta (@vipulgupta2048)]
+* patch: Fix spelling of while [Vipul Gupta (@vipulgupta2048)]
+
 # v2.0.51
 ## (2023-02-24)
 

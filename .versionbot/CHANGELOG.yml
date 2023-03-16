@@ -1,4 +1,29 @@
 - commits:
+    - subject: "patch: Fix punctuation in partials"
+      hash: 5062b5bb7b22233ea8851996151834fa0554ea2a
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+      author: Vipul Gupta (@vipulgupta2048)
+    - subject: "patch: Fix spelling of eMMC"
+      hash: 044cc4865a8997e40f3ee4724a3592ce2ae42cbf
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+      author: Vipul Gupta (@vipulgupta2048)
+    - subject: "patch: Fix spelling of while"
+      hash: 95fbb009bb43ef40b77c61961571c64308685aff
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+      author: Vipul Gupta (@vipulgupta2048)
+  version: 2.0.52
+  title: ""
+  date: 2023-03-16T12:46:31.310Z
+- commits:
     - subject: "node: do not set unsafe-perm with npm 9 and newer"
       hash: c1950ce76e44b48196c44874e09c8857651bddd8
       body: >
