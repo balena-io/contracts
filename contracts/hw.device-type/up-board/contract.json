@@ -31,7 +31,7 @@
   "partials": {
     "bootDeviceExternal": [
       "Power on the {{name}} with a keyboard connected",
-      "Press the F7 key whie BIOS is loading to enter the boot menu",
+      "Press the F7 key while BIOS is loading to enter the boot menu",
       "Select the \"UEFI:\" option from the boot menu"
     ],
     "flashIndicator": ["all LEDs are off"],
