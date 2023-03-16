@@ -30,7 +30,7 @@
   "partials": {
     "connectDevice": [
       "While not having the {{name}} board powered, connect your system to the board's USB port via a micro-USB cable.",
-      "Power on the {{name}."
+      "Power on the {{name}}."
     ],
     "disconnectDevice": [
       "Power off the {{name}} and unplug the micro-USB cable."
