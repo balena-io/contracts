@@ -29,13 +29,13 @@
   },
   "partials": {
     "bootDeviceExternal": [
-      "Enable the SD boot jumper on the {{name}}",
-      "Connect power to the {{name}}"
+      "Enable the SD boot jumper on the {{name}}.",
+      "Connect power to the {{name}}."
     ],
     "flashIndicator": ["all LEDs are off"],
     "bootDevice": [
-      "Disable the SD boot jumper on the {{name}}",
-      "Remove and re-connect power to the {{name}}"
+      "Disable the SD boot jumper on the {{name}}.",
+      "Remove and re-connect power to the {{name}}."
     ]
   }
 }

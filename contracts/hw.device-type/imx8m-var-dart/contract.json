@@ -29,13 +29,13 @@
   },
   "partials": {
     "bootDeviceExternal": [
-      "Set the SW7 BOOT-SELECT switch to SD-CARD",
-      "Connect power to the {{name}}"
+      "Set the SW7 BOOT-SELECT switch to SD-CARD.",
+      "Connect power to the {{name}}."
     ],
     "flashIndicator": ["all LEDs are off"],
     "bootDevice": [
-      "Set the SW7 BOOT-SELECT switch to eMMC",
-      "Remove and re-connect power to the {{name}}"
+      "Set the SW7 BOOT-SELECT switch to eMMC.",
+      "Remove and re-connect power to the {{name}}."
     ]
   }
 }

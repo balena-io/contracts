@@ -32,8 +32,8 @@
       "Press the power switch PSW1 to the on position. Press and hold for 1 second the SW3 POWER push button."
     ],
     "bootDevice": [
-      "Set SW2 dip switch to position 1:off, 2:off",
-      "Press the power switch PSW1 to the on position. Press and hold for 1 second the SW3 POWER push button"
+      "Set SW2 dip switch to position 1:off, 2:off.",
+      "Press the power switch PSW1 to the on position. Press and hold for 1 second the SW3 POWER push button."
     ]
   }
 }

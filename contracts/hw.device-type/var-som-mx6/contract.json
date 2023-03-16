@@ -29,8 +29,8 @@
   },
   "partials": {
     "bootDeviceExternal": [
-      "Set the BOOT-SELECT switch to MMC",
-      "Connect power to the {{name}}"
+      "Set the BOOT-SELECT switch to eMMC.",
+      "Connect power to the {{name}}."
     ],
     "flashIndicator": ["all LEDs are off"],
     "bootDevice": [
