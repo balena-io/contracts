@@ -30,10 +30,10 @@
   },
   "partials": {
     "connectDevice": [
-      "Fit the jumper to disable eMMC boot on J2 and connect the {{name}}'s microUSB port to your PC",
-      "Power the board and use <a href='https://github.com/raspberrypi/usbboot'>usbboot</a> to put the eMMC in mass storage mode"
+      "Fit the jumper to disable eMMC boot on J2 and connect the {{name}}'s microUSB port to your PC.",
+      "Power the board and use <a href='https://github.com/raspberrypi/usbboot'>usbboot</a> to put the eMMC in mass storage mode."
     ],
-    "disconnectDevice": ["Disconnect the power source and eMMC boot jumper"],
-    "bootDevice": ["Remove and re-connect power to the {{name}}"]
+    "disconnectDevice": ["Disconnect the power source and eMMC boot jumper."],
+    "bootDevice": ["Remove and re-connect power to the {{name}}."]
   }
 }

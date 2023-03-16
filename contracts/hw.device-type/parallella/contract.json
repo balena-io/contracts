@@ -27,6 +27,6 @@
     "is_private": false
   },
   "partials": {
-    "bootDevice": ["Connect the {{name}} to the internet and power it up"]
+    "bootDevice": ["Connect the {{name}} to the internet and power it up."]
   }
 }

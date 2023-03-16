@@ -29,10 +29,10 @@
   },
   "partials": {
     "bootDeviceExternal": [
-      "Ensure there are no other USB keys are inserted",
-      "Power on the {{name}} with a keyboard connected",
-      "Press the F10 key while BIOS is loading to enter the boot menu",
-      "Select the USB key from the boot menu"
+      "Ensure there are no other USB keys are inserted.",
+      "Power on the {{name}} with a keyboard connected.",
+      "Press the F10 key while BIOS is loading to enter the boot menu.",
+      "Select the USB key from the boot menu."
     ],
     "flashIndicator": ["all LEDs are off"],
     "bootDevice": ["Power up the {{name}}"]

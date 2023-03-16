@@ -30,10 +30,10 @@
   },
   "partials": {
     "bootDeviceExternal": [
-      "Ensure there are no other USB keys are inserted",
-      "Power on the {{name}} with a keyboard connected",
-      "Press the F7 key while BIOS is loading to enter the boot menu",
-      "Select the 'UEFI' option"
+      "Ensure there are no other USB keys are inserted.",
+      "Power on the {{name}} with a keyboard connected.",
+      "Press the F7 key while BIOS is loading to enter the boot menu.",
+      "Select the 'UEFI' option."
     ],
     "flashIndicator": ["all LEDs are off"],
     "bootDevice": ["Disconnect and reconnect the power to the {{name}}"]

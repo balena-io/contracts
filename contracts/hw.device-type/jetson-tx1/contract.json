@@ -29,7 +29,7 @@
   },
   "partials": {
     "bootDeviceExternal": [
-      "Connect power to the {{name}} and press and hold the POWER push button for 1 second"
+      "Connect power to the {{name}} and press and hold the POWER push button for 1 second."
     ],
     "flashIndicator": ["all LEDs are off"],
     "bootDevice": ["Remove and re-connect power to the {{name}}"]

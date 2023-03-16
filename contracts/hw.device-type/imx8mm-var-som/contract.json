@@ -29,13 +29,13 @@
   },
   "partials": {
     "bootDeviceExternal": [
-      "Set the BOOT-SELECT switch to EXT",
-      "Connect power to the {{name}}"
+      "Set the BOOT-SELECT switch to EXT.",
+      "Connect power to the {{name}}."
     ],
     "flashIndicator": ["all LEDs are off"],
     "bootDevice": [
-      "Set the BOOT-SELECT switch to INT",
-      "Remove and re-connect power to the {{name}}"
+      "Set the BOOT-SELECT switch to INT.",
+      "Remove and re-connect power to the {{name}}."
     ]
   }
 }
