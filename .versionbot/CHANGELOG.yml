@@ -1,4 +1,15 @@
 - commits:
+    - subject: "patch: Fix fluid tags for revpi-core-3"
+      hash: 9ec5bf22c8e0d5033a8b08a432b7651da8616360
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+      author: Vipul Gupta (@vipulgupta2048)
+  version: 2.0.53
+  title: ""
+  date: 2023-03-16T13:25:57.856Z
+- commits:
     - subject: "patch: Fix punctuation in partials"
       hash: 5062b5bb7b22233ea8851996151834fa0554ea2a
       body: ""
