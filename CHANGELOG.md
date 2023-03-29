@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.55
+## (2023-03-29)
+
+* iot-gate-imx8plus: Update provisioning instructions [Alexandru]
+
 # v2.0.54
 ## (2023-03-16)
 
