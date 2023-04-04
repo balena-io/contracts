@@ -1,0 +1,38 @@
+{
+  "slug": "jetson-orin-nx-xavier-nx-devkit",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Nvidia Jetson Orin NX in Xavier NX Devkit NVME",
+  "assets": {
+    "logo": {
+      "url": "./jetson-orin-nx-xavier-nx-devkit.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "defaultBoot": "internal",
+      "altBoot": ["usb_mass_storage"]
+    },
+    "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+        "Insert a NVME drive in the carrier board and put the device in force recovery mode.",
+        "Connect the micro-USB port of the carrier board to the Host PC."
+    ],
+    "flashIndicator": ["power LED is off"],
+    "bootDevice": ["Remove recovery mode jumper and power up the {{name}}"]
+  }
+}
