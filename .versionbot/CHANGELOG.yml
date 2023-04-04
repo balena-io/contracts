@@ -1,4 +1,20 @@
 - commits:
+    - subject: "jetson-orin-nx-xavier-nx-devkit: Add contract for device type"
+      hash: ddae0174c36b0893d723308d948d72c276787ed5
+      body: |
+        The provisioning instructions are incomplete at this time, they
+        will be updated once the balenaOS integration is complete. The
+        device needs to be inspected in staging first.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.56
+  title: ""
+  date: 2023-04-04T08:46:42.967Z
+- commits:
     - subject: "iot-gate-imx8plus: Update provisioning instructions"
       hash: 25cbb9cb1c96a96367a1d35615f6b679e4a20df5
       body: |
