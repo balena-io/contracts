@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.57
+## (2023-04-07)
+
+* debian/ubuntu jetson-orin-nx-xavier-nx-devkit: Add distro configs [Alexandru Costache]
+* Orin NX: Update flashing steps [Alexandru Costache]
+
 # v2.0.56
 ## (2023-04-04)
 

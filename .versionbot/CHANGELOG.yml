@@ -1,4 +1,25 @@
 - commits:
+    - subject: "debian/ubuntu jetson-orin-nx-xavier-nx-devkit: Add distro configs"
+      hash: ad9d69f447d9091f1ae2a582b02941472efb0539
+      body: |
+        The Orin NX modules uses L4T 35.2
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Alexandru Costache
+    - subject: "Orin NX: Update flashing steps"
+      hash: c7e77638474694870874afa17a453b727b3797d3
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.57
+  title: ""
+  date: 2023-04-07T12:53:58.620Z
+- commits:
     - subject: "jetson-orin-nx-xavier-nx-devkit: Add contract for device type"
       hash: ddae0174c36b0893d723308d948d72c276787ed5
       body: |
