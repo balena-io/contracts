@@ -29,8 +29,9 @@
   },
   "partials": {
     "bootDeviceExternal": [
-        "Insert a NVME drive in the carrier board and put the device in force recovery mode.",
-        "Connect the micro-USB port of the carrier board to the Host PC."
+        "Insert a NVME drive in the carrier board and put the device in <a href=\"https://github.com/balena-os/jetson-flash#recovery-mode\">force recovery</a> mode.",
+        "Connect the micro-USB port of the carrier board to the Host PC.",
+        "RCM boot the balenaOS kernel following the <a href=\"https://github.com/balena-os/jetson-flash#orin-nx-flashing\">Orin NX Flashing steps</a>."
     ],
     "flashIndicator": ["power LED is off"],
     "bootDevice": ["Remove recovery mode jumper and power up the {{name}}"]
