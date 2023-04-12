@@ -1,0 +1,37 @@
+{
+  "slug": "beaglebone-ai64",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": ["beaglebone-ai-64"],
+  "name": "BeagleBone IA-64",
+  "assets": {
+    "logo": {
+      "url": "./beaglebone-black.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "armv8a",
+    "hdmi": false,
+    "led": true,
+    "connectivity": {
+      "bluetooth": false,
+      "wifi": false
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
+    },
+    "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+      "FIXME Power up the {{name}} while holding down the small button near the SD slot. You need to keep it pressed until the blue LEDs start flashing wildly."
+    ],
+    "flashIndicator": ["all LEDs are off"],
+    "bootDevice": ["Remove and re-connect power to the {{name}}"]
+  }
+}
