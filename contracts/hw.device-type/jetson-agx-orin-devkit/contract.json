@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Nvidia Jetson AGX Orin Devkit",
+  "name": "Nvidia Jetson AGX Orin Devkit 32GB",
   "assets": {
     "logo": {
       "url": "./jetson-agx-orin-devkit.svg",
