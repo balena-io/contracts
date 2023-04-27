@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Nvidia Jetson Orin NX in Xavier NX Devkit NVME",
+  "name": "Nvidia Jetson Orin NX 16GB in Xavier NX Devkit NVME",
   "assets": {
     "logo": {
       "url": "./jetson-orin-nx-xavier-nx-devkit.svg",
