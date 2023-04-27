@@ -1,4 +1,22 @@
 - commits:
+    - subject: "jetson-agx-orin-devkit: Mention the RAM configuration in the device
+        name"
+      hash: 82d3a94938956376eeafa518a863a344acd2190b
+      body: |
+        By default the AGX Orin Devkit has 32GB RAM, however, new
+        production modules have been released with L4T 35.3.1 so we
+        should emphasize that newer modules may not work with this
+        image.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.58
+  title: ""
+  date: 2023-04-27T11:52:02.405Z
+- commits:
     - subject: "debian/ubuntu jetson-orin-nx-xavier-nx-devkit: Add distro configs"
       hash: ad9d69f447d9091f1ae2a582b02941472efb0539
       body: |
@@ -101,7 +119,8 @@
     - subject: "node: do not set unsafe-perm with npm 9 and newer"
       hash: c1950ce76e44b48196c44874e09c8857651bddd8
       body: >
-        The unsafe-perm config option has been dropped in npm 9, trying to set it
+        The unsafe-perm config option has been dropped in npm 9, trying to set
+        it
 
         ends with an error and therefore fails the build. With this patch
 
@@ -1036,7 +1055,8 @@
     - subject: "sw.os-image: Add balena-image software image"
       hash: 4473a99902a3793a33b63300778ad0118b8366cf
       body: >
-        This is used by the OS builders to deploy releases. This contract contains
+        This is used by the OS builders to deploy releases. This contract
+        contains
 
         details related to the balena-image artifact generated in the balenaOS
 
@@ -5750,8 +5770,8 @@
     - subject: "alpine: Handling the CVE-2019-5021 vurnerability"
 - commits:
     - body: >-
-        Drop support for v3.5 as it is EOL, other versions were fixed upstream so
-        just need to rebuild all alpine images.
+        Drop support for v3.5 as it is EOL, other versions were fixed upstream
+        so just need to rebuild all alpine images.
 
         ref: https://alpinelinux.org/posts/Docker-image-vulnerability-CVE-2019-5021.html
 - version: 1.1.55
