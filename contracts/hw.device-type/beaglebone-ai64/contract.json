@@ -29,7 +29,7 @@
   },
   "partials": {
     "bootDeviceExternal": [
-      "FIXME Power up the {{name}} while holding down the small button near the SD slot. You need to keep it pressed until the blue LEDs start flashing wildly."
+      "Insert the SD card while powered down. Power up the <%= TYPE_NAME %> while holding down the BOOT/SW1 button at the opposite side of the USB Type-C port. You need to keep it pressed until the LEDs start flashing wildly."
     ],
     "flashIndicator": ["all LEDs are off"],
     "bootDevice": ["Remove and re-connect power to the {{name}}"]
