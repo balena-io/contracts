@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.59
+## (2023-05-03)
+
+* hw.device-type: Add revpi-connect-s [Obaid Ch]
+
 # v2.0.58
 ## (2023-04-27)
 

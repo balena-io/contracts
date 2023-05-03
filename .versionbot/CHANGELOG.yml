@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: Add revpi-connect-s"
+      hash: d81ef3d12565d9c0e81d776a6a156f22f6322728
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Obaid Chemkhi obaid.chemkhi@voltstorage.com
+        signed-off-by: Obaid Chemkhi obaid.chemkhi@voltstorage.com
+      author: Obaid Ch
+  version: 2.0.59
+  title: ""
+  date: 2023-05-03T09:53:24.491Z
+- commits:
     - subject: "jetson-agx-orin-devkit: Mention the RAM configuration in the device
         name"
       hash: 82d3a94938956376eeafa518a863a344acd2190b

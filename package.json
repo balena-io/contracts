@@ -1,6 +1,6 @@
 {
   "name": "contracts",
-  "version": "2.0.58",
+  "version": "2.0.59",
   "description": "Balena Base Contracts",
   "repository": {
     "type": "git",
@@ -21,6 +21,6 @@
     "eslint-plugin-standard": "^3.0.1"
   },
   "versionist": {
-    "publishedAt": "2023-04-27T11:52:03.213Z"
+    "publishedAt": "2023-05-03T09:53:25.099Z"
   }
 }
