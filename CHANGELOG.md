@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.60
+## (2023-05-04)
+
+* Fix LED support for ISG-503 [Alexandru Costache]
+
 # v2.0.59
 ## (2023-05-03)
 
