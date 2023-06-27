@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.62
+## (2023-06-27)
+
+* hw.device-type: Add Jetson Orin Nano Devkit 8GB (SD) module [Alexandru Costache]
+
 # v2.0.61
 ## (2023-06-14)
 
