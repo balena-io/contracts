@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.63
+## (2023-06-29)
+
+* sw.os+hw.device-type: Add ubuntu and debian distro configs for Orin Nano [Alexandru Costache]
+
 # v2.0.62
 ## (2023-06-27)
 

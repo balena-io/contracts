@@ -1,4 +1,18 @@
 - commits:
+    - subject: "sw.os+hw.device-type: Add ubuntu and debian distro configs for Orin
+        Nano"
+      hash: e0d622addd9484046c2f77c6745adbb0e166709b
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.63
+  title: ""
+  date: 2023-06-29T14:15:50.808Z
+- commits:
     - subject: "hw.device-type: Add Jetson Orin Nano Devkit 8GB (SD) module"
       hash: ffa98b5a136997b6cc187751d0133a9e7d8fa8cd
       body: ""
