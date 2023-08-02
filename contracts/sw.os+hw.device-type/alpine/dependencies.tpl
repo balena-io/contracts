@@ -2,7 +2,7 @@ RUN apk add --update \
 		less \
 		nano \
 		net-tools \
-		ifupdown \
 		usbutils \
 		gnupg \
+	&& (apk add --no-cache ifupdown || apk add --no-cache ifupdown-ng) \
 	&& rm -rf /var/cache/apk/*
