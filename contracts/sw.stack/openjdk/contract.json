@@ -25,18 +25,6 @@
   ],
   "variants": [
     {
-      "version": "7-jdk",
-      "requires": [
-        { "type": "sw.os", "slug": "alpine" }
-      ]
-    },
-    {
-      "version": "7-jre",
-      "requires": [
-        { "type": "sw.os", "slug": "alpine" }
-      ]
-    },
-    {
       "version": "8-jdk",
       "requires": [
         {
