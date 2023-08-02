@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.64
+## (2023-08-02)
+
+* Remove OpenJDK v7 as it has been removed from alpine edge [Kyle Harding]
+
 # v2.0.63
 ## (2023-06-29)
 

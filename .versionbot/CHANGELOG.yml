@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove OpenJDK v7 as it has been removed from alpine edge
+      hash: 343a2f5d0a08de2f9bb5ad1013150e98f23feb2c
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+  version: 2.0.64
+  title: ""
+  date: 2023-08-02T20:02:24.824Z
+- commits:
     - subject: "sw.os+hw.device-type: Add ubuntu and debian distro configs for Orin
         Nano"
       hash: e0d622addd9484046c2f77c6745adbb0e166709b
