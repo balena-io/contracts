@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.66
+## (2023-08-03)
+
+* Fix a condition where /etc/nsswitch.conf exists and the build fails [Kyle Harding]
+
 # v2.0.65
 ## (2023-08-02)
 
