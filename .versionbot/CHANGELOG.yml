@@ -1,4 +1,17 @@
 - commits:
+    - subject: Fix conditional when installing libssl1.1
+      hash: 29e5a99050fb93fcea404fd48d2db029acf4acb3
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+  version: 2.0.67
+  title: ""
+  date: 2023-08-03T20:27:02.315Z
+- commits:
     - subject: Fix a condition where /etc/nsswitch.conf exists and the build fails
       hash: c8c521ae9fdb908fb37642154d5fbe73a2849985
       body: ""
