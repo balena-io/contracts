@@ -3,7 +3,7 @@ ENV YARN_VERSION {{sw.stack.assets.yarn.version}}
 
 # Install dependencies
 RUN apk add --no-cache libgcc libstdc++ libuv \
-	&& apk add --no-cache libssl1.0 || apk add --no-cache libssl1.1
+	&& (apk add --no-cache libssl1.0 || apk add --no-cache libssl1.1)
 
 RUN for key in \
 	6A010C5166006599AA17F08146C2130DFD2497F5 \

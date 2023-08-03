@@ -3,7 +3,7 @@ ENV YARN_VERSION {{sw.stack.assets.yarn.version}}
 
 # Install dependencies
 RUN apk add --no-cache libgcc libstdc++ libuv \
-	&& apk add --no-cache libssl1.0 || apk add --no-cache libssl1.1
+	&& (apk add --no-cache libssl1.0 || apk add --no-cache libssl1.1)
 
 RUN buildDeps='curl' \
 	&& set -x \
