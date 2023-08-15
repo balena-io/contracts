@@ -1,4 +1,17 @@
 - commits:
+    - subject: "iot-gate-imx8plus: Improve provisioning instructions for Windows"
+      hash: dbfd03e791d69c657a295d92cd823e32f4bf2369
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.68
+  title: ""
+  date: 2023-08-15T07:20:27.206Z
+- commits:
     - subject: Fix conditional when installing libssl1.1
       hash: 29e5a99050fb93fcea404fd48d2db029acf4acb3
       body: ""
