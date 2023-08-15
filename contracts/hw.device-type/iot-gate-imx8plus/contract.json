@@ -33,9 +33,9 @@
       "Connect the PROG port to your PC using a micro USB cable.",
       "Download <a href=https://github.com/balena-os/balena-iot-gate-imx8plus/raw/master/imx-boot_4g>imx-boot_4g</a> from the <a href=https://github.com/balena-os/balena-iot-gate-imx8plus>balena-iot-gate-imx8plus</a> repository",
       "Connect the debug UART and PROG ports to your PC. Use 'sudo <a href=https://github.com/nxp-imx/mfgtools>uuu</a> imx-boot_4g' to load imx-boot_4g on your device and then interrupt u-boot in cmdline. You can skip using uuu if your device already runs an u-boot that has console access and the ums command enabled.",
-      "Mount the device's boot partition using 'ums 0 mmc 2.1' and write imx-boot-iot-gate-imx8plus-sd.bin-flash_evk to this partition. The binary should be written at offset 0.",
-      "Mount the device's eMMC from u-boot using 'ums 0 mmc 2' and write the downloaded balenaOS image to it. Both the bootloader and the OS image should be written before any reboot.",
-      "We recommend using <a href=http://www.etcher.io/>Etcher</a> for flashing the bootloader and the operating system image to the device. If other flashing tools are used, ensure that the drives are properly synced after the images have been flashed",
+      "Mount the device's boot partition using 'ums 0 mmc 2.1' and write imx-boot-iot-gate-imx8plus-sd.bin-flash_evk to this partition. The binary should be written at offset 0 using Etcher or dd.",
+      "Mount the device's eMMC from u-boot using 'ums 0 mmc 2' and write the downloaded balenaOS image to it using Etcher or dd. Both the bootloader and the OS image should be written before any reboot.",
+      "We recommend using <a href=http://www.etcher.io/>Etcher</a> for flashing the bootloader and the operating system image to the device. Etcher writes the images at offset 0 by default. If other flashing tools are used, ensure that the drives are properly synced after the images have been flashed.",
       "After flashing is completed, disconnect the micro USB cable from the PROG port and reboot the device."
     ]
   }
