@@ -287,8 +287,7 @@
                   "or": [
                     { "type": "sw.os", "slug": "debian" , "version": "sid" },
                     { "type": "sw.os", "slug": "debian", "version": "bookworm" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "impish" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "kinetic" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "lunar" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" }
                   ]
                 }
@@ -752,8 +751,7 @@
                   "or": [
                     { "type": "sw.os", "slug": "debian" , "version": "sid" },
                     { "type": "sw.os", "slug": "debian", "version": "bookworm" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "impish" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "kinetic" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "lunar" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" }
                   ]
                 }
@@ -1205,8 +1203,7 @@
                   "or": [
                     { "type": "sw.os", "slug": "debian" , "version": "sid" },
                     { "type": "sw.os", "slug": "debian", "version": "bookworm" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "impish" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "kinetic" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "lunar" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" }
                   ]
                 }
@@ -1658,8 +1655,7 @@
                   "or": [
                     { "type": "sw.os", "slug": "debian" , "version": "sid" },
                     { "type": "sw.os", "slug": "debian", "version": "bookworm" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "impish" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "kinetic" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "lunar" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" }
                   ]
                 }
@@ -2111,8 +2107,7 @@
                   "or": [
                     { "type": "sw.os", "slug": "debian" , "version": "sid" },
                     { "type": "sw.os", "slug": "debian", "version": "bookworm" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "impish" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "kinetic" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "lunar" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" }
                   ]
                 }
