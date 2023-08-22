@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove Ubuntu Impish and Kinetic and add Lunar
+      hash: 44b45eae5a0e77c8cae05971aed7d1c4906221f9
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+  version: 2.0.69
+  title: ""
+  date: 2023-08-22T16:59:36.789Z
+- commits:
     - subject: "iot-gate-imx8plus: Improve provisioning instructions for Windows"
       hash: dbfd03e791d69c657a295d92cd823e32f4bf2369
       body: ""

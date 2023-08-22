@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.69
+## (2023-08-22)
+
+* Remove Ubuntu Impish and Kinetic and add Lunar [Kyle Harding]
+
 # v2.0.68
 ## (2023-08-15)
 
