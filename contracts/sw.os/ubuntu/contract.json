@@ -5,7 +5,7 @@
   "data": {
     "libc": "glibc",
     "latest": "jammy",
-    "versionList": "`jammy (latest)`, `focal`, `impish`, `xenial`, `bionic`, `kinetic`"
+    "versionList": "`jammy (latest)`, `focal`, `xenial`, `bionic`, `lunar`"
   },
   "name": "Ubuntu {{this.version}}",
   "requires": [
@@ -34,11 +34,10 @@
         }
       ],
       "variants": [
-        { "version": "kinetic" },
+        { "version": "lunar" },
         { "version": "jammy" },
         { "version": "focal" },
         { "version": "xenial" },
-        { "version": "impish" },
         { "version": "bionic" }
       ]
     },
@@ -56,11 +55,10 @@
         { "type": "arch.sw", "slug": "amd64" }
       ],
       "variants": [
-        { "version": "kinetic" },
+        { "version": "lunar" },
         { "version": "jammy" },
         { "version": "focal" },
         { "version": "xenial" },
-        { "version": "impish" },
         { "version": "bionic" }
       ]
     }
