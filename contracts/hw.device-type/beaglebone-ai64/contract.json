@@ -1,0 +1,37 @@
+{
+  "slug": "beaglebone-ai64",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [""],
+  "name": "BeagleBone AI64",
+  "assets": {
+    "logo": {
+      "url": "./beaglebone-ai64.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": true,
+    "connectivity": {
+      "bluetooth": false,
+      "wifi": false
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
+    },
+    "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+      "Power up the {{name}} while holding down the small button near the SD slot. You need to keep it pressed until the blue LEDs start flashing wildly."
+    ],
+    "flashIndicator": ["all LEDs are off"],
+    "bootDevice": ["Remove and re-connect power to the {{name}}"]
+  }
+}
