@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.71
+## (2023-08-29)
+
+* Add the BeagleBone AI-64. [Lisandro Damián Nicanor Pérez Meyer]
+
 # v2.0.70
 ## (2023-08-23)
 

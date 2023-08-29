@@ -1,4 +1,19 @@
 - commits:
+    - subject: Add the BeagleBone AI-64.
+      hash: 4296cf27d047c669da781c1c7b304bab5fa848fe
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Changelog-entry: Add the BeagleBone AI-64.
+        changelog-entry: Add the BeagleBone AI-64.
+        Signed-off-by: Lisandro Pérez Meyer <lperezmeyer@ics.com>
+        signed-off-by: Lisandro Pérez Meyer <lperezmeyer@ics.com>
+      author: Lisandro Damián Nicanor Pérez Meyer
+  version: 2.0.71
+  title: ""
+  date: 2023-08-29T11:19:00.577Z
+- commits:
     - subject: Add alpine 3.18
       hash: d0c33e6434de4e194a3e940a339f58d248b11709
       body: ""
