@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.72
+## (2023-09-04)
+
+* raspberrypi4-unipi-neuron: Add new device type [Florin Sarbu]
+
 # v2.0.71
 ## (2023-08-29)
 

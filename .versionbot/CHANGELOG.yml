@@ -1,4 +1,19 @@
 - commits:
+    - subject: "raspberrypi4-unipi-neuron: Add new device type"
+      hash: e45a691e7773e85f5b3db9f0d9050e7f39a1b2e0
+      body: |
+        This was moved from private to public as agreed with the initial
+        customer.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.0.72
+  title: ""
+  date: 2023-09-04T06:45:04.941Z
+- commits:
     - subject: Add the BeagleBone AI-64.
       hash: 4296cf27d047c669da781c1c7b304bab5fa848fe
       body: ""
