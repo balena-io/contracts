@@ -1,0 +1,32 @@
+{
+  "slug": "raspberrypi5",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Raspberry Pi 5 (using 64bit OS)",
+  "assets": {
+    "logo": {
+      "url": "./raspberrypi5.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": true,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": false
+    },
+    "media": {
+      "defaultBoot": "sdcard",
+      "altBoot": ["usb_mass_storage", "network"]
+    }
+  },
+  "partials": {
+    "bootDevice": ["Connect power to the {{name}}"]
+  }
+}
