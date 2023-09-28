@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Raspberry Pi 5 (using 64bit OS)",
+  "name": "Raspberry Pi 5",
   "assets": {
     "logo": {
       "url": "./raspberrypi5.svg",
