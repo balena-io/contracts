@@ -1,4 +1,18 @@
 - commits:
+    - subject: "raspberrypi5: remove reference to 64bits in display name"
+      hash: 5f7d9230b8ed3caffbfab717b2a197a5b6d83466
+      body: |
+        There won't be a 32bits OS for this device type.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+  version: 2.0.75
+  title: ""
+  date: 2023-09-28T14:04:28.190Z
+- commits:
     - subject: "raspberrypi5: Explicitly flag as public for the switch to apply"
       hash: da8c456a1aecb30dfe1ef3ad27e0ac59449ecac8
       body: |

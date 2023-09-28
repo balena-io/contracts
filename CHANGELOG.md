@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.75
+## (2023-09-28)
+
+* raspberrypi5: remove reference to 64bits in display name [Alex Gonzalez]
+
 # v2.0.74
 ## (2023-09-28)
 
