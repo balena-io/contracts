@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.74
+## (2023-09-28)
+
+* raspberrypi5: Explicitly flag as public for the switch to apply [Alex Gonzalez]
+
 # v2.0.73
 ## (2023-09-28)
 
