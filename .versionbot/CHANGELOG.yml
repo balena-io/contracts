@@ -1,4 +1,17 @@
 - commits:
+    - subject: "raspberrypi5: Add new device type"
+      hash: cde68c6076b7ed4277027f29778efac42109b0e8
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.0.73
+  title: ""
+  date: 2023-09-28T07:07:06.913Z
+- commits:
     - subject: "raspberrypi4-unipi-neuron: Add new device type"
       hash: e45a691e7773e85f5b3db9f0d9050e7f39a1b2e0
       body: |

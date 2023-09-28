@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.73
+## (2023-09-28)
+
+* raspberrypi5: Add new device type [Florin Sarbu]
+
 # v2.0.72
 ## (2023-09-04)
 
