@@ -24,7 +24,8 @@
     "media": {
       "defaultBoot": "sdcard",
       "altBoot": ["usb_mass_storage", "network"]
-    }
+    },
+    "is_private": false
   },
   "partials": {
     "bootDevice": ["Connect power to the {{name}}"]
