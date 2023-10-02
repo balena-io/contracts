@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: Add Eurotec Lowpad lcbzu9 device"
+      hash: dab4d718a6012af2774111fb00c0a4d2f3497d24
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Francois Loubser <francois.loubser@topic.nl>
+        signed-off-by: Francois Loubser <francois.loubser@topic.nl>
+      author: Francois Loubser
+  version: 2.0.76
+  title: ""
+  date: 2023-10-02T06:46:15.804Z
+- commits:
     - subject: "raspberrypi5: remove reference to 64bits in display name"
       hash: 5f7d9230b8ed3caffbfab717b2a197a5b6d83466
       body: |
