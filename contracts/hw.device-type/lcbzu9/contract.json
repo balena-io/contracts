@@ -1,0 +1,32 @@
+{
+  "slug": "lcbzu9",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Eurotec Lowpad (lcbzu9)",
+  "assets": {
+    "logo": {
+      "url": "./lcbzu9.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": false,
+    "led": true,
+    "connectivity": {
+      "bluetooth": false,
+      "wifi": true
+    },
+    "storage": {
+      "internal": false
+    },
+    "media": {
+      "defaultBoot": "sdcard"
+    },
+    "is_private": false
+  },
+  "partials": {
+    "bootDevice": ["Connect power to the {{name}}"]
+  }
+}
