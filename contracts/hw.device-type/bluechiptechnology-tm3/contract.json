@@ -1,0 +1,28 @@
+{
+  "slug": "bluechiptechnology-tm3",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Blue Chip Technology TM3",
+  "assets": {
+    "logo": {
+      "url": "./Blue-Chip-Technology.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "connectivity": {
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "defaultBoot": "sdcard",
+      "altBoot": ["internal"]
+    },
+    "is_private": false
+  }
+}
