@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: Add bluechiptechnology-tm3"
+      hash: 68790a8618f57524be7ea70b7502d65917de91ad
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Chris Richardson <crichardson@bluechiptechnology.com>
+        signed-off-by: Chris Richardson <crichardson@bluechiptechnology.com>
+      author: crichardson
+  version: 2.0.77
+  title: ""
+  date: 2023-10-09T06:33:17.864Z
+- commits:
     - subject: "hw.device-type: Add Eurotec Lowpad lcbzu9 device"
       hash: dab4d718a6012af2774111fb00c0a4d2f3497d24
       body: ""
