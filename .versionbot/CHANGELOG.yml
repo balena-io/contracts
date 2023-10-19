@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: Modify bluechiptechnology-tm3"
+      hash: 744605ce53f5091f1661c301962dba44c439481a
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Chris Richardson <crichardson@bluechiptechnology.com>
+        signed-off-by: Chris Richardson <crichardson@bluechiptechnology.com>
+      author: crichardson
+  version: 2.0.78
+  title: ""
+  date: 2023-10-19T07:29:25.960Z
+- commits:
     - subject: "hw.device-type: Add bluechiptechnology-tm3"
       hash: 68790a8618f57524be7ea70b7502d65917de91ad
       body: ""
