@@ -1,0 +1,39 @@
+{
+  "slug": "ucm-imx93",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Compulab UCM-iMX93 Devkit",
+  "assets": {
+    "logo": {
+      "url": "./ucm-imx93.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": false,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
+    },
+    "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+      "Connect power to the {{name}}",
+      "Press and hold SW3 followed by SW4",
+      "Release SW3 followed by SW4"
+    ],
+    "flashIndicator": ["ethernet LEDs are off for more than 5 seconds. An Ethernet cable needs pe plugged in for the LEDs to stay on during provisioning."],
+    "bootDevice": ["Remove and re-connect power to the {{name}}"]
+  }
+}
