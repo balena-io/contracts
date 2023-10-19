@@ -1,4 +1,17 @@
 - commits:
+    - subject: "device: Add Compulab UCM-iMX93"
+      hash: 2bbde3e92d6e1a6c3f9d63e9e79b14b70b755f80
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexnadru Costache <alexandru@balena.io>
+        signed-off-by: Alexnadru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.79
+  title: ""
+  date: 2023-10-19T12:44:49.999Z
+- commits:
     - subject: "hw.device-type: Modify bluechiptechnology-tm3"
       hash: 744605ce53f5091f1661c301962dba44c439481a
       body: ""
