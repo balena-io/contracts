@@ -24,5 +24,10 @@
       "altBoot": ["internal"]
     },
     "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": ["Connect power to the {{name}}"],
+    "flashIndicator": ["Screen and ethernet green LED are off"],
+    "bootDevice": ["Remove and re-connect power to the {{name}}"]
   }
 }
