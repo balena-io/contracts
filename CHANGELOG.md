@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.80
+## (2023-10-20)
+
+* hw.device-type: Modify bluechiptechnology-tm3 [crichardson]
+
 # v2.0.79
 ## (2023-10-19)
 
