@@ -20,9 +20,14 @@
       "internal": true
     },
     "media": {
-      "defaultBoot": "sdcard",
-      "altBoot": ["internal"]
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
     },
     "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": ["Connect power to the {{name}}"],
+    "flashIndicator": ["Screen and ethernet green LED are off"],
+    "bootDevice": ["Remove and re-connect power to the {{name}}"]
   }
 }

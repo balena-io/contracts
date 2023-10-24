@@ -1,4 +1,43 @@
 - commits:
+    - subject: "hw.device-type: Modify bluechiptechnology-tm3"
+      hash: 3d2002c5e35f4d20fc5ef5307f52f1cfbb91d6ab
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Chris Richardson <crichardson@bluechiptechnology.com>
+        signed-off-by: Chris Richardson <crichardson@bluechiptechnology.com>
+      author: crichardson
+  version: 2.0.80
+  title: ""
+  date: 2023-10-20T05:40:17.796Z
+- commits:
+    - subject: "device: Add Compulab UCM-iMX93"
+      hash: 2bbde3e92d6e1a6c3f9d63e9e79b14b70b755f80
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexnadru Costache <alexandru@balena.io>
+        signed-off-by: Alexnadru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.79
+  title: ""
+  date: 2023-10-19T12:44:49.999Z
+- commits:
+    - subject: "hw.device-type: Modify bluechiptechnology-tm3"
+      hash: 744605ce53f5091f1661c301962dba44c439481a
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Chris Richardson <crichardson@bluechiptechnology.com>
+        signed-off-by: Chris Richardson <crichardson@bluechiptechnology.com>
+      author: crichardson
+  version: 2.0.78
+  title: ""
+  date: 2023-10-19T07:29:25.960Z
+- commits:
     - subject: "hw.device-type: Add bluechiptechnology-tm3"
       hash: 68790a8618f57524be7ea70b7502d65917de91ad
       body: ""
