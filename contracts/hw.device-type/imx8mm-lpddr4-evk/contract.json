@@ -1,0 +1,34 @@
+{
+  "slug": "imx8mm-lpddr4-evk",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "NXP i.MX8M Mini LPDDR4 EVK",
+  "assets": {
+    "logo": {
+      "url": "./imx8mm-lpddr4-evk.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": true,
+    "connectivity": {
+      "bluetooth": false,
+      "wifi": false
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
+    },
+    "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": ["Connect power to the {{name}}"],
+    "bootDevice": ["Remove and re-connect power to the {{name}}"]
+  }
+}
