@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.81
+## (2023-10-26)
+
+* hw.device-type: Add imx8mm-lpddr4-evk device [Alex J Lennon]
+
 # v2.0.80
 ## (2023-10-20)
 
