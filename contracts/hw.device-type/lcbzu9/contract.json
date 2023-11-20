@@ -19,10 +19,11 @@
       "wifi": true
     },
     "storage": {
-      "internal": false
+      "internal": true
     },
     "media": {
-      "defaultBoot": "sdcard"
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
     },
     "is_private": false
   },
