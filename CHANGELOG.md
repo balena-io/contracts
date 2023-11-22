@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.82
+## (2023-11-22)
+
+* lcbzu9: boot from internal storage [Francois Loubser]
+
 # v2.0.81
 ## (2023-10-26)
 
