@@ -1,0 +1,40 @@
+{
+  "slug": "revpi-connect-4",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Revolution Pi Connect 4",
+  "assets": {
+    "logo": {
+      "url": "./revpi-connect-4.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": true,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "flashProtocol": "RPIBOOT",
+    "media": {
+      "defaultBoot": "internal"
+    },
+    "is_private": false
+  },
+  "partials": {
+    "connectDevice": [
+      "While not having the {{name}} board powered, connect your system to the board's USB port via a micro-USB cable.",
+      "Power on the {{name}}."
+    ],
+    "disconnectDevice": [
+      "Power off the {{name}} and unplug the micro-USB cable"
+    ],
+    "bootDevice": ["Remove and re-connect power to the {{name}}"]
+  }
+}
