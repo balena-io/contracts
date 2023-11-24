@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.83
+## (2023-11-24)
+
+* revpi-connect-4: Added contract files for revpi-connect-4 [Waqar Rashid]
+
 # v2.0.82
 ## (2023-11-22)
 
