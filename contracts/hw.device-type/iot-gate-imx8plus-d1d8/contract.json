@@ -1,9 +1,9 @@
 {
-  "slug": "iot-gate-imx8plus",
+  "slug": "iot-gate-imx8plus-d1d8",
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Compulab IOT-GATE-iMX8PLUS 2G-4G DRAM",
+  "name": "Compulab IOT-GATE-iMX8PLUS 1G-8G DRAM",
   "assets": {
     "logo": {
       "url": "./iot-gate-imx8plus.svg",
@@ -15,8 +15,8 @@
     "hdmi": false,
     "led": false,
     "connectivity": {
-      "bluetooth": true,
-      "wifi": true
+      "bluetooth": false,
+      "wifi": false
     },
     "storage": {
       "internal": true
