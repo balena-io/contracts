@@ -1,4 +1,19 @@
 - commits:
+    - subject: "iot-gate-imx8plus: Update flashing instructions and name"
+      hash: e390406c50b2ec6bb6ea631fcfaf817ceab69736
+      body: |
+        to reflect that this image can be used for both 2G and 4G DRAM
+        boards.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.84
+  title: ""
+  date: 2023-12-13T15:46:08.530Z
+- commits:
     - subject: "revpi-connect-4: Added contract files for revpi-connect-4"
       hash: 02568911b78335c520abb9cb1e0ce8e2cb25e095
       body: ""
