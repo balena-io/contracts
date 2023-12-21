@@ -1,4 +1,15 @@
 - commits:
+    - subject: "patch: Remove wiki link reference to flash Tinker Board"
+      hash: 2d9a5bbea64deda704298e8ee41834e9d180d4da
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+      author: Vipul Gupta (@vipulgupta2048)
+  version: 2.0.85
+  title: ""
+  date: 2023-12-21T13:26:59.714Z
+- commits:
     - subject: "iot-gate-imx8plus: Update flashing instructions and name"
       hash: e390406c50b2ec6bb6ea631fcfaf817ceab69736
       body: |

@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.85
+## (2023-12-21)
+
+* patch: Remove wiki link reference to flash Tinker Board [Vipul Gupta (@vipulgupta2048)]
+
 # v2.0.84
 ## (2023-12-13)
 
