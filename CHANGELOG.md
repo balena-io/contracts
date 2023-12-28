@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.86
+## (2023-12-28)
+
+* hw.device-type: Add Variscite DART-MX8M-PLUS [Florin Sarbu]
+
 # v2.0.85
 ## (2023-12-21)
 

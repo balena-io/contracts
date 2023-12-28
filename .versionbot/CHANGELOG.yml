@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: Add Variscite DART-MX8M-PLUS"
+      hash: dd4e9de9d010e49040adf8d9f4ce8a4d68c69cce
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.0.86
+  title: ""
+  date: 2023-12-28T11:16:43.472Z
+- commits:
     - subject: "patch: Remove wiki link reference to flash Tinker Board"
       hash: 2d9a5bbea64deda704298e8ee41834e9d180d4da
       body: ""
