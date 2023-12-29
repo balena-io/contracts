@@ -1,4 +1,19 @@
 - commits:
+    - subject: "hw.device-type: Fix device type is_private flag for imx8mp-var-dart"
+      hash: 31176adf167c7f9754c0f7f01f92c759d12b8c2b
+      body: >
+        This was added by mistake as private when it is supposed to be a public
+        dt.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.0.87
+  title: ""
+  date: 2023-12-29T14:04:58.033Z
+- commits:
     - subject: "hw.device-type: Add Variscite DART-MX8M-PLUS"
       hash: dd4e9de9d010e49040adf8d9f4ce8a4d68c69cce
       body: ""

@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.87
+## (2023-12-29)
+
+* hw.device-type: Fix device type is_private flag for imx8mp-var-dart [Florin Sarbu]
+
 # v2.0.86
 ## (2023-12-28)
 
