@@ -1,4 +1,19 @@
 - commits:
+    - subject: "jetson-orin-nx-seeed-j4012: Add Seeed J4012 device-type"
+      hash: 2f35889ca436bcb17cb8fba3e9192676b9872042
+      body: |
+        This is the initial commit, necessary to create the DT
+        in the API. The icon will need to be updated.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.88
+  title: ""
+  date: 2024-01-03T13:26:42.845Z
+- commits:
     - subject: "hw.device-type: Fix device type is_private flag for imx8mp-var-dart"
       hash: 31176adf167c7f9754c0f7f01f92c759d12b8c2b
       body: >

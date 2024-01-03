@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.88
+## (2024-01-03)
+
+* jetson-orin-nx-seeed-j4012: Add Seeed J4012 device-type [Alexandru Costache]
+
 # v2.0.87
 ## (2023-12-29)
 
