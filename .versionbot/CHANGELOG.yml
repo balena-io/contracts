@@ -1,4 +1,20 @@
 - commits:
+    - subject: "hw.device-type: Fix hyperlinks in provisioning instructions"
+      hash: 7ba9c9e03fe93110b2c8f3c866fbd4a3d7c8248b
+      body: |
+        If hyperlinks are unquoted, a target=blank is added and entire
+        link is broken in the dashboard. This doesn't happen for devices
+        which use quoted links, like for example the CM4.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.89
+  title: ""
+  date: 2024-01-05T11:04:31.513Z
+- commits:
     - subject: "jetson-orin-nx-seeed-j4012: Add Seeed J4012 device-type"
       hash: 2f35889ca436bcb17cb8fba3e9192676b9872042
       body: |
