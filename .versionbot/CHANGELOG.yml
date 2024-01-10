@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: Update svg icon for seeed-j4012"
+      hash: 26b20e8e64f1a52c042bf5974931fb3baaa5d8fb
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.90
+  title: ""
+  date: 2024-01-10T10:48:43.053Z
+- commits:
     - subject: "hw.device-type: Fix hyperlinks in provisioning instructions"
       hash: 7ba9c9e03fe93110b2c8f3c866fbd4a3d7c8248b
       body: |
