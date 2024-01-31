@@ -1,4 +1,18 @@
 - commits:
+    - subject: Remove generic-amd64-fde device type
+      hash: a9e475afc5c9a0cc02fe39293b83c2476af2a7e7
+      body: |
+        FDE is a feature, it does not need a separate device type.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Michal Toman <michalt@balena.io>
+        signed-off-by: Michal Toman <michalt@balena.io>
+      author: Michal Toman
+  version: 2.0.91
+  title: ""
+  date: 2024-01-31T10:51:22.461Z
+- commits:
     - subject: "hw.device-type: Update svg icon for seeed-j4012"
       hash: 26b20e8e64f1a52c042bf5974931fb3baaa5d8fb
       body: ""
