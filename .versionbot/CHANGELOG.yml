@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: Add phyboard-lyra-am62xx-2 device"
+      hash: d9e57b1f2432aac0ea4b6d9e6285e805e5359a6f
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Atanas Bunchev <atanas.bunchev@konsulko.com>
+        signed-off-by: Atanas Bunchev <atanas.bunchev@konsulko.com>
+      author: Atanas Bunchev
+  version: 2.0.92
+  title: ""
+  date: 2024-02-01T10:43:30.336Z
+- commits:
     - subject: Remove generic-amd64-fde device type
       hash: a9e475afc5c9a0cc02fe39293b83c2476af2a7e7
       body: |

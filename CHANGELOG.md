@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.92
+## (2024-02-01)
+
+* hw.device-type: Add phyboard-lyra-am62xx-2 device [Atanas Bunchev]
+
 # v2.0.91
 ## (2024-01-31)
 
