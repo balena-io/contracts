@@ -1,0 +1,37 @@
+{
+  "slug": "phyboard-lyra-am62xx-2",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "phyBOARD-AM62x",
+  "assets": {
+    "logo": {
+      "url": "./Phytec.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": true,
+    "connectivity": {
+      "bluetooth": false,
+      "wifi": false
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
+    },
+    "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+      "Configure S5 and S6 to set the boot mode to SD card. Plug in the microSD card and connect power to the {{name}}"
+    ],
+    "flashIndicator": ["LEDs D11 and D12 are off"],
+    "bootDevice": ["Configure S5 and S6 to set the boot mode to eMMC. Remove and re-connect power to the {{name}}."]
+  }
+}
