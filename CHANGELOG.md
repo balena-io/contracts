@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.93
+## (2024-02-08)
+
+* hw.device-type: Add Kontron i.MX8M Mini device [joris-bright]
+
 # v2.0.92
 ## (2024-02-01)
 

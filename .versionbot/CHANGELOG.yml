@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: Add Kontron i.MX8M Mini device"
+      hash: bfae3a09557f6bb7e3fffb888337339d9b900ebf
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: joris-bright <joris@bright-energy.eu>
+        signed-off-by: joris-bright <joris@bright-energy.eu>
+      author: joris-bright
+  version: 2.0.93
+  title: ""
+  date: 2024-02-08T08:40:46.444Z
+- commits:
     - subject: "hw.device-type: Add phyboard-lyra-am62xx-2 device"
       hash: d9e57b1f2432aac0ea4b6d9e6285e805e5359a6f
       body: ""
