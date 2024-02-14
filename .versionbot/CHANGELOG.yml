@@ -1,4 +1,17 @@
 - commits:
+    - subject: "odyssey-x86: Update icon to latest revision"
+      hash: 83ad917b2027f2a6fecd8d1422984987efc9da13
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.94
+  title: ""
+  date: 2024-02-14T10:35:34.159Z
+- commits:
     - subject: "hw.device-type: Add Kontron i.MX8M Mini device"
       hash: bfae3a09557f6bb7e3fffb888337339d9b900ebf
       body: ""

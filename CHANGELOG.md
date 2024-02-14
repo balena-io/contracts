@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.94
+## (2024-02-14)
+
+* odyssey-x86: Update icon to latest revision [Alexandru Costache]
+
 # v2.0.93
 ## (2024-02-08)
 
