@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.95
+## (2024-02-26)
+
+* sw.os+hw.device-type: Update Jetson Orin repositories [Alexandru Costache]
+* jetson-orin-nx-seeed-j4012: Add ubuntu and debian distro tpl files [Alexandru Costache]
+
 # v2.0.94
 ## (2024-02-14)
 
