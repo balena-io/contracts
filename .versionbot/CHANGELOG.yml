@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: Add beaglebone-play device"
+      hash: 67c4505e12b1ef6abfc37c9466470e062875bf00
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Sidd-Gupta sidd.gupta@zylum.in
+        signed-off-by: Sidd-Gupta sidd.gupta@zylum.in
+      author: delhiryder
+  version: 2.0.96
+  title: ""
+  date: 2024-03-14T16:14:23.733Z
+- commits:
     - subject: "sw.os+hw.device-type: Update Jetson Orin repositories"
       hash: 1e715e7850a856ce6fef42588d40a0e66d417081
       body: ""
@@ -686,7 +699,8 @@
 
         - The Radxa CM3 on RPI CM4 IOBoard as well as the Radxa zero use
           rockchip software tools in order to put the eMMC in mass-storage mode
-        - The CM4 module comes in two flavors: one with eMMC and the Lite version
+        - The CM4 module comes in two flavors: one with eMMC and the Lite
+        version
           which uses the carrier board sd-card slot to load the image. Both use the
           same balenaOS image.
           I switched the storage to internal for this DT because it *may* have
@@ -760,7 +774,8 @@
       body: >
         Drop support for Fedora 34 35.
 
-        Fedora 36 will be the last version for armv7 as it is no longer supported.
+        Fedora 36 will be the last version for armv7 as it is no longer
+        supported.
       footer:
         Change-type: patch
         change-type: patch
@@ -4260,7 +4275,9 @@
 
         Drop Fedora 29, 28, 26 as they are removed from official repos.
 
-        Armv7hf Fedora is no longer maintained and will not have any new releases for it but we should not drop it immediately. Removing all old versions and only keeping the latest one (30).
+        Armv7hf Fedora is no longer maintained and will not have any new
+        releases for it but we should not drop it immediately. Removing all old
+        versions and only keeping the latest one (30).
 - version: 1.4.3
 - date: 2020-08-13T09:51:00.000Z
 - commits:
@@ -4864,7 +4881,9 @@
         doing `docker tag` so the `Device` and `Device-type` on the tagged
         images are not correct.
 
-        Users already know the device name from the base image name so these information are not really important and we should remove them from the messages, otherwise it can be confusing for users.
+        Users already know the device name from the base image name so these
+        information are not really important and we should remove them from the
+        messages, otherwise it can be confusing for users.
 - commits:
     - hash: d3f1179973b9f181efc31f1580d4012e1f309889
 - commits:
@@ -6285,7 +6304,8 @@
         Drop support for v3.5 as it is EOL, other versions were fixed upstream
         so just need to rebuild all alpine images.
 
-        ref: https://alpinelinux.org/posts/Docker-image-vulnerability-CVE-2019-5021.html
+        ref:
+        https://alpinelinux.org/posts/Docker-image-vulnerability-CVE-2019-5021.html
 - version: 1.1.55
 - date: 2019-06-24T10:27:48.000Z
 - commits:
@@ -7152,9 +7172,12 @@
         mirrors, this fix will remove it from sources.list as a workaround until
         it is fixed upstream.
 
-        Aarch64 will use archive.debian.org instead of normal mirrors since only Jessie i386, amd64, armel and armhf will continue to be hosted on the normal mirrors.
+        Aarch64 will use archive.debian.org instead of normal mirrors since only
+        Jessie i386, amd64, armel and armhf will continue to be hosted on the
+        normal mirrors.
 
-        ref: https://lists.debian.org/debian-devel-announce/2019/03/msg00006.html
+        ref:
+        https://lists.debian.org/debian-devel-announce/2019/03/msg00006.html
 - version: 1.1.26
 - date: 2019-03-21T16:14:06.000Z
 - commits:
@@ -7589,7 +7612,11 @@
     - body: >-
         A recent gpg update causes gpg to fail when run in an environment
 
-        without a tty (https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=913614#27). To mitigate this issue on Debian images, run gpg in --batch mode as recommended (https://github.com/docker-library/postgres/issues/526#issuecomment-438818847)
+        without a tty
+        (https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=913614#27). To
+        mitigate this issue on Debian images, run gpg in --batch mode as
+        recommended
+        (https://github.com/docker-library/postgres/issues/526#issuecomment-438818847)
 - commits:
     - hash: d7594b02289002cd26fccc37eb8d3cd3f8b06815
 - commits:
