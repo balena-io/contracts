@@ -1,0 +1,37 @@
+{
+  "slug": "beaglebone-play",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": ["beagleplay"],
+  "name": "BeagleBone Play",
+  "assets": {
+    "logo": {
+      "url": "./beaglebone-play.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": true,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
+    },
+    "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+      "Power up the {{name}} after inserting the flasher image into the SDCard Slot. The device will power down automatically after the flashing is complete. Remove the SCCard and restart the device."
+    ],
+    "flashIndicator": ["all LEDs are off"],
+    "bootDevice": ["Remove the SDCard and re-connect power to the {{name}}"]
+  }
+}
