@@ -1,0 +1,38 @@
+{
+  "slug": "imx8mp-var-dart",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Variscite DART-MX8M-PLUS",
+  "assets": {
+    "logo": {
+      "url": "./imx8mp-var-dart.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
+    },
+    "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+      "Configure the SW7 boot dip switch to boot from SD Card (set it to EXT position) and power on the board. Let it boot and perform the automatic install of balenaOS onto the eMMC."
+    ],
+    "flashIndicator": ["all LEDs are off"],
+    "bootDeviceInternal": ["Configure the SW7 boot dip switch to boot from eMMC (set it to INT position)."],
+    "bootDevice": ["Remove and re-connect power to the {{name}}"]
+  }
+}

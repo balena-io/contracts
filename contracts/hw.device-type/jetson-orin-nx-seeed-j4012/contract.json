@@ -1,0 +1,39 @@
+{
+  "slug": "jetson-orin-nx-seeed-j4012",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Seeed reComputer J4012 16GB",
+  "assets": {
+    "logo": {
+      "url": "./jetson-orin-nx-seeed-j4012.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": false,
+      "wifi": false
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "defaultBoot": "internal",
+      "altBoot": ["usb_mass_storage"]
+    },
+    "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+        "Put the device in <a href=\"https://github.com/balena-os/jetson-flash#recovery-mode\">force recovery</a> mode.",
+        "Connect the USB-C port of the carrier board to the Host PC.",
+        "RCM boot the balenaOS kernel following the <a href=\"https://github.com/balena-os/jetson-flash#seeed-recomputer-j4012-flashing\">Seeed reComputer J4012 Flashing steps</a>."
+    ],
+    "flashIndicator": ["power LED is off"],
+    "bootDevice": ["Remove recovery mode jumper and power up the {{name}}"]
+  }
+}
