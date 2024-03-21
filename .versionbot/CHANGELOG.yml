@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: Add beagleplay device"
+      hash: 409c34db01a2bb6db66b82d8a1af2abed7f9f200
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Sidd-Gupta sidd.gupta@zylum.in
+        signed-off-by: Sidd-Gupta sidd.gupta@zylum.in
+      author: delhiryder
+  version: 2.0.97
+  title: ""
+  date: 2024-03-21T07:50:18.202Z
+- commits:
     - subject: "hw.device-type: Add beaglebone-play device"
       hash: 67c4505e12b1ef6abfc37c9466470e062875bf00
       body: ""

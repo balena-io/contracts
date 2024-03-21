@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.97
+## (2024-03-21)
+
+* hw.device-type: Add beagleplay device [delhiryder]
+
 # v2.0.96
 ## (2024-03-14)
 
