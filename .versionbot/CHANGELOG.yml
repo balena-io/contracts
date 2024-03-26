@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: Add bluechiptechnology-db1"
+      hash: 16e6a9606a0eddf4cfcc9f3fa18d539096d64e16
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Chris Richardson <crichardson@bluechiptechnology.com>
+        signed-off-by: Chris Richardson <crichardson@bluechiptechnology.com>
+      author: crichardson
+  version: 2.0.98
+  title: ""
+  date: 2024-03-26T12:30:34.277Z
+- commits:
     - subject: "hw.device-type: Add beagleplay device"
       hash: 409c34db01a2bb6db66b82d8a1af2abed7f9f200
       body: ""
