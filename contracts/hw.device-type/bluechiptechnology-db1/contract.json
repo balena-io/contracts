@@ -1,0 +1,32 @@
+{
+  "slug": "bluechiptechnology-db1",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Blue Chip Technology DB1",
+  "assets": {
+    "logo": {
+      "url": "./Blue-Chip-Technology.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "connectivity": {
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
+    },
+    "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": ["Connect power to the {{name}}"],
+    "flashIndicator": ["Screen and ethernet green LED are off"],
+    "bootDevice": ["Remove and re-connect power to the {{name}}"]
+  }
+}
