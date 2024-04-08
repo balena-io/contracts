@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add Advantech ECU1370 to hardware contract.
+      hash: 0dfe4758230bef9d6c97f533019aaba93cdc1520
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lisandro Pérez Meyer <lpmeyer@ics.com>
+        signed-off-by: Lisandro Pérez Meyer <lpmeyer@ics.com>
+      author: Lisandro Pérez Meyer
+  version: 2.0.100
+  title: ""
+  date: 2024-04-08T18:29:36.856Z
+- commits:
     - subject: Add node v20.12.0 for debian
       hash: 69bd96b9757959ebbcdffb0e45e0811567929bb6
       body: |

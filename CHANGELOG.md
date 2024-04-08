@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.100
+## (2024-04-08)
+
+* Add Advantech ECU1370 to hardware contract. [Lisandro Pérez Meyer]
+
 # v2.0.99
 ## (2024-04-07)
 
