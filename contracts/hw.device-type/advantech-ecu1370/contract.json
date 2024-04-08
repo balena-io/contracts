@@ -1,0 +1,38 @@
+{
+  "slug": "advantech-ecu1370",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Advantech ECU1370",
+  "assets": {
+    "logo": {
+      "url": "./advantech_logo.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": false,
+    "led": false,
+    "connectivity": {
+      "bluetooth": false,
+      "wifi": false
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
+    },
+    "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+      "Switch SW2 to 1: OFF, 2: ON. Insert SD card and power on the board. Wait for LP3 to blink for at least 10 seconds."
+    ],
+    "flashIndicator": ["LP3 blinks"],
+    "bootDeviceInternal": ["Remove SD card. Switch SW2 to 1: ON and 2: OFF."],
+    "bootDevice": ["Remove and re-connect power to the {{name}}"]
+  }
+}
