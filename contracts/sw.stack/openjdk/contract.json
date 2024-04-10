@@ -25,32 +25,6 @@
   ],
   "variants": [
     {
-      "version": "8-jdk",
-      "requires": [
-        {
-          "or": [
-            { "type": "sw.os", "slug": "ubuntu", "version": "xenial" },
-            { "type": "sw.os", "slug": "ubuntu", "version": "bionic" },
-            { "type": "sw.os", "slug": "alpine" },
-            { "type": "sw.os", "slug": "fedora" }
-          ]
-        }
-      ]
-    },
-    {
-      "version": "8-jre",
-      "requires": [
-        {
-          "or": [
-            { "type": "sw.os", "slug": "alpine" },
-            { "type": "sw.os", "slug": "fedora" },
-            { "type": "sw.os", "slug": "ubuntu", "version": "xenial" },
-            { "type": "sw.os", "slug": "ubuntu", "version": "bionic" }
-          ]
-        }
-      ]
-    },
-    {
       "version": "11-jdk",
       "requires": [
         {
