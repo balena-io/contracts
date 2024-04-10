@@ -5,6 +5,13 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.101
+## (2024-04-10)
+
+* Remove outdated jdk & jre 8 [Thodoris Greasidis]
+* Remove python 3.7.16 since it's in EOL [Thodoris Greasidis]
+* Remove node v14 & v16 since they are EOL [Thodoris Greasidis]
+
 # v2.0.100
 ## (2024-04-08)
 
