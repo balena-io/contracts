@@ -5,7 +5,7 @@
   "data" : {
     "libc": "glibc",
     "latest": "37",
-    "versionList": "`37 (latest)`, `36`, `38`"
+    "versionList": "`37 (latest)`, `38`"
   },
   "name": "Fedora {{this.version}}",
   "requires": [
@@ -25,7 +25,6 @@
   "variants": [
     {
       "variants": [
-        { "version": "36" },
         { "version": "37" },
         { "version": "38" }
       ],
@@ -36,16 +35,6 @@
     },
     {
       "variants": [
-        { "version": "36" }
-      ],
-      "requires": [
-        { "type": "sw.blob", "slug": "qemu" },
-        { "type": "arch.sw", "slug": "armv7hf" }
-      ]
-    },
-    {
-      "variants": [
-        { "version": "36" },
         { "version": "37" },
         { "version": "38" }
       ],
