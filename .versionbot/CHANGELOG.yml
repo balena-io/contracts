@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove Ubuntu Lunar 23.04 since it's EOL
+      hash: cac2042866f3e93d46b16a3e62cb65aeec43fac9
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        See: https://endoflife.date/ubuntu
+        see: https://endoflife.date/ubuntu
+      author: Thodoris Greasidis
+  version: 2.0.103
+  title: ""
+  date: 2024-04-11T12:22:51.474Z
+- commits:
     - subject: Remove Fedora 36 since it's EOL
       hash: 6c404c7f3e623650beb5c74ec0a4e31e9cac9c48
       body: ""
