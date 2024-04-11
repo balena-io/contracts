@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove Fedora 36 since it's EOL
+      hash: 6c404c7f3e623650beb5c74ec0a4e31e9cac9c48
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        See: https://endoflife.date/fedora
+        see: https://endoflife.date/fedora
+      author: Thodoris Greasidis
+  version: 2.0.102
+  title: ""
+  date: 2024-04-11T10:44:54.487Z
+- commits:
     - subject: Remove outdated jdk & jre 8
       hash: 1d3d5c74c32119bfb816e411d0d6a992e642d659
       body: ""

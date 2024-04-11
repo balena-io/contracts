@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.102
+## (2024-04-11)
+
+* Remove Fedora 36 since it's EOL [Thodoris Greasidis]
+
 # v2.0.101
 ## (2024-04-10)
 
