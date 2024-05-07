@@ -4,16 +4,22 @@
   "name": "Go v{{this.version}}",
   "version": "1",
   "data": {
-    "latest": "1.20.1",
-    "versionList": "`1.20.1 (latest)`, `1.19.6`, `1.18.10`",
+    "latest": "1.20.14",
+    "versionList": "`1.20.14 (latest)`, `1.19.6`, `1.18.10`",
     "introduction": "Go (a.k.a., Golang) is a programming language first developed at Google. It is a statically-typed language with syntax loosely derived from C, but with additional features such as garbage collection, type safety, some dynamic-typing capabilities, additional built-in types (e.g., variable-length arrays and key-value maps), and a large standard library.",
     "logo": "https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/golang/logo.png"
   },
   "requires": [
     {
       "or": [
-        { "type": "sw.stack-variant", "slug": "build" },
-        { "type": "sw.stack-variant", "slug": "run" }
+        {
+          "type": "sw.stack-variant",
+          "slug": "build"
+        },
+        {
+          "type": "sw.stack-variant",
+          "slug": "run"
+        }
       ]
     }
   ],
@@ -28,18 +34,40 @@
   },
   "variants": [
     {
-      "version": "1.20.1",
+      "version": "1.20.14",
       "variants": [
         {
-          "data": { "libc": "musl-libc" },
+          "data": {
+            "libc": "musl-libc"
+          },
           "requires": [
             {
               "or": [
-                { "type": "sw.os", "slug": "alpine" , "version": "3.15" },
-                { "type": "sw.os", "slug": "alpine" , "version": "3.16" },
-                { "type": "sw.os", "slug": "alpine" , "version": "edge" },
-                { "type": "sw.os", "slug": "alpine", "version": "3.17" },
-                { "type": "sw.os", "slug": "alpine", "version": "3.18" }
+                {
+                  "type": "sw.os",
+                  "slug": "alpine",
+                  "version": "3.15"
+                },
+                {
+                  "type": "sw.os",
+                  "slug": "alpine",
+                  "version": "3.16"
+                },
+                {
+                  "type": "sw.os",
+                  "slug": "alpine",
+                  "version": "edge"
+                },
+                {
+                  "type": "sw.os",
+                  "slug": "alpine",
+                  "version": "3.17"
+                },
+                {
+                  "type": "sw.os",
+                  "slug": "alpine",
+                  "version": "3.18"
+                }
               ]
             }
           ],
@@ -53,7 +81,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "rpi" }
+                {
+                  "type": "arch.sw",
+                  "slug": "rpi"
+                }
               ]
             },
             {
@@ -65,7 +96,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "amd64" }
+                {
+                  "type": "arch.sw",
+                  "slug": "amd64"
+                }
               ]
             },
             {
@@ -77,7 +111,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "i386" }
+                {
+                  "type": "arch.sw",
+                  "slug": "i386"
+                }
               ]
             },
             {
@@ -89,7 +126,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "aarch64" }
+                {
+                  "type": "arch.sw",
+                  "slug": "aarch64"
+                }
               ]
             },
             {
@@ -101,19 +141,33 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "armv7hf" }
+                {
+                  "type": "arch.sw",
+                  "slug": "armv7hf"
+                }
               ]
             }
           ]
         },
         {
-          "data": { "libc": "glibc" },
+          "data": {
+            "libc": "glibc"
+          },
           "requires": [
             {
               "or": [
-                { "type": "sw.os", "slug": "debian" },
-                { "type": "sw.os", "slug": "ubuntu" },
-                { "type": "sw.os", "slug": "fedora" }
+                {
+                  "type": "sw.os",
+                  "slug": "debian"
+                },
+                {
+                  "type": "sw.os",
+                  "slug": "ubuntu"
+                },
+                {
+                  "type": "sw.os",
+                  "slug": "fedora"
+                }
               ]
             }
           ],
@@ -127,7 +181,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "rpi" }
+                {
+                  "type": "arch.sw",
+                  "slug": "rpi"
+                }
               ]
             },
             {
@@ -139,7 +196,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "armv7hf" }
+                {
+                  "type": "arch.sw",
+                  "slug": "armv7hf"
+                }
               ]
             },
             {
@@ -151,7 +211,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "amd64" }
+                {
+                  "type": "arch.sw",
+                  "slug": "amd64"
+                }
               ]
             },
             {
@@ -163,7 +226,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "aarch64" }
+                {
+                  "type": "arch.sw",
+                  "slug": "aarch64"
+                }
               ]
             },
             {
@@ -175,7 +241,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "i386" }
+                {
+                  "type": "arch.sw",
+                  "slug": "i386"
+                }
               ]
             }
           ]
@@ -186,9 +255,14 @@
       "version": "1.19.6",
       "variants": [
         {
-          "data": { "libc": "musl-libc" },
+          "data": {
+            "libc": "musl-libc"
+          },
           "requires": [
-            { "type": "sw.os", "slug": "alpine" }
+            {
+              "type": "sw.os",
+              "slug": "alpine"
+            }
           ],
           "variants": [
             {
@@ -200,7 +274,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "rpi" }
+                {
+                  "type": "arch.sw",
+                  "slug": "rpi"
+                }
               ]
             },
             {
@@ -212,7 +289,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "amd64" }
+                {
+                  "type": "arch.sw",
+                  "slug": "amd64"
+                }
               ]
             },
             {
@@ -224,7 +304,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "i386" }
+                {
+                  "type": "arch.sw",
+                  "slug": "i386"
+                }
               ]
             },
             {
@@ -236,7 +319,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "aarch64" }
+                {
+                  "type": "arch.sw",
+                  "slug": "aarch64"
+                }
               ]
             },
             {
@@ -248,19 +334,33 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "armv7hf" }
+                {
+                  "type": "arch.sw",
+                  "slug": "armv7hf"
+                }
               ]
             }
           ]
         },
         {
-          "data": { "libc": "glibc" },
+          "data": {
+            "libc": "glibc"
+          },
           "requires": [
             {
               "or": [
-                { "type": "sw.os", "slug": "debian" },
-                { "type": "sw.os", "slug": "ubuntu" },
-                { "type": "sw.os", "slug": "fedora" }
+                {
+                  "type": "sw.os",
+                  "slug": "debian"
+                },
+                {
+                  "type": "sw.os",
+                  "slug": "ubuntu"
+                },
+                {
+                  "type": "sw.os",
+                  "slug": "fedora"
+                }
               ]
             }
           ],
@@ -274,7 +374,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "rpi" }
+                {
+                  "type": "arch.sw",
+                  "slug": "rpi"
+                }
               ]
             },
             {
@@ -286,7 +389,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "armv7hf" }
+                {
+                  "type": "arch.sw",
+                  "slug": "armv7hf"
+                }
               ]
             },
             {
@@ -298,7 +404,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "amd64" }
+                {
+                  "type": "arch.sw",
+                  "slug": "amd64"
+                }
               ]
             },
             {
@@ -310,7 +419,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "aarch64" }
+                {
+                  "type": "arch.sw",
+                  "slug": "aarch64"
+                }
               ]
             },
             {
@@ -322,7 +434,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "i386" }
+                {
+                  "type": "arch.sw",
+                  "slug": "i386"
+                }
               ]
             }
           ]
@@ -333,9 +448,14 @@
       "version": "1.18.10",
       "variants": [
         {
-          "data": { "libc": "musl-libc" },
+          "data": {
+            "libc": "musl-libc"
+          },
           "requires": [
-            { "type": "sw.os", "slug": "alpine" }
+            {
+              "type": "sw.os",
+              "slug": "alpine"
+            }
           ],
           "variants": [
             {
@@ -347,7 +467,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "rpi" }
+                {
+                  "type": "arch.sw",
+                  "slug": "rpi"
+                }
               ]
             },
             {
@@ -359,7 +482,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "amd64" }
+                {
+                  "type": "arch.sw",
+                  "slug": "amd64"
+                }
               ]
             },
             {
@@ -371,7 +497,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "i386" }
+                {
+                  "type": "arch.sw",
+                  "slug": "i386"
+                }
               ]
             },
             {
@@ -383,7 +512,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "aarch64" }
+                {
+                  "type": "arch.sw",
+                  "slug": "aarch64"
+                }
               ]
             },
             {
@@ -395,19 +527,33 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "armv7hf" }
+                {
+                  "type": "arch.sw",
+                  "slug": "armv7hf"
+                }
               ]
             }
           ]
         },
         {
-          "data": { "libc": "glibc" },
+          "data": {
+            "libc": "glibc"
+          },
           "requires": [
             {
               "or": [
-                { "type": "sw.os", "slug": "debian" },
-                { "type": "sw.os", "slug": "ubuntu" },
-                { "type": "sw.os", "slug": "fedora" }
+                {
+                  "type": "sw.os",
+                  "slug": "debian"
+                },
+                {
+                  "type": "sw.os",
+                  "slug": "ubuntu"
+                },
+                {
+                  "type": "sw.os",
+                  "slug": "fedora"
+                }
               ]
             }
           ],
@@ -421,7 +567,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "rpi" }
+                {
+                  "type": "arch.sw",
+                  "slug": "rpi"
+                }
               ]
             },
             {
@@ -433,7 +582,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "armv7hf" }
+                {
+                  "type": "arch.sw",
+                  "slug": "armv7hf"
+                }
               ]
             },
             {
@@ -445,7 +597,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "amd64" }
+                {
+                  "type": "arch.sw",
+                  "slug": "amd64"
+                }
               ]
             },
             {
@@ -457,7 +612,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "aarch64" }
+                {
+                  "type": "arch.sw",
+                  "slug": "aarch64"
+                }
               ]
             },
             {
@@ -469,7 +627,10 @@
                 }
               },
               "requires": [
-                { "type": "arch.sw", "slug": "i386" }
+                {
+                  "type": "arch.sw",
+                  "slug": "i386"
+                }
               ]
             }
           ]
