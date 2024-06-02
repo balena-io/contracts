@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.104
+## (2024-06-02)
+
+* jetson-orin-nano-seeed-j3010: Specify RAM size for the Seeed J3010 [Alexandru Costache]
+* jetson-orin-nano-seeed-j3010: add Seeed J3010 device-type [Alex Suykov]
+
 # v2.0.103
 ## (2024-04-11)
 
