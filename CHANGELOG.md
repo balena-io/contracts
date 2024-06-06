@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.105
+## (2024-06-06)
+
+* sw.os+hw.device-type: Update Jetson Orin distro configs for L4T 35.5.0 repositories [Alexandru Costache]
+
 # v2.0.104
 ## (2024-06-02)
 

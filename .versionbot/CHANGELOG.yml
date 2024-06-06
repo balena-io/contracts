@@ -1,4 +1,29 @@
 - commits:
+    - subject: "sw.os+hw.device-type: Update Jetson Orin distro configs for L4T 35.5.0
+        repositories"
+      hash: 12fb5f18b054878ded4124b555a725f7f446b902
+      body: >
+        All public Jetson Orin based device-types have just been updated to L4T
+        35.5.0,
+
+        thus we need to update the base images to use the updated L4T
+        repositories.
+
+
+        We also add the distro configs for the upcoming Orin Nano 4GB Seeed
+        J3010
+
+        device-type.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.105
+  title: ""
+  date: 2024-06-06T15:12:51.267Z
+- commits:
     - subject: "jetson-orin-nano-seeed-j3010: Specify RAM size for the Seeed J3010"
       hash: f5bb495bf4b516a86465dccf54e6d142bcf18311
       body: |
