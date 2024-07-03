@@ -15,7 +15,7 @@
     "hdmi": true,
     "led": true,
     "connectivity": {
-      "bluetooth": true,
+      "bluetooth": false,
       "wifi": true
     },
     "storage": {
