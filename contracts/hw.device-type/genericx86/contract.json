@@ -1,0 +1,40 @@
+{
+  "slug": "genericx86",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": ["genericx86"],
+  "name": "Intel 32 bit Generic",
+  "assets": {
+    "logo": {
+      "url": "./genericx86.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "i386",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "defaultBoot": "internal",
+      "altBoot": ["usb_mass_storage", "network"]
+    },
+    "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+      "Ensure there are no other USB keys are inserted.",
+      "Power on the {{name}} with a keyboard connected.",
+      "Press the F10 key while BIOS is loading to enter the boot menu.",
+      "Select the USB key from the boot menu."
+    ],
+    "flashIndicator": ["all LEDs are off"],
+    "bootDevice": ["Power up the {{name}}"]
+  }
+}
