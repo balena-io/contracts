@@ -1,4 +1,18 @@
 - commits:
+    - subject: "hw.device-type: Disable bluetooth until this feature is officially
+        supported"
+      hash: bc3746dd50d63824e3069cd0098227d47e9f22ed
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Sidd-Gupta sidd.gupta@zylum.in
+        signed-off-by: Sidd-Gupta sidd.gupta@zylum.in
+      author: delhiryder
+  version: 2.0.106
+  title: ""
+  date: 2024-07-12T09:11:52.729Z
+- commits:
     - subject: "sw.os+hw.device-type: Update Jetson Orin distro configs for L4T 35.5.0
         repositories"
       hash: 12fb5f18b054878ded4124b555a725f7f446b902

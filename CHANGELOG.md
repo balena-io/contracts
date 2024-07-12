@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.106
+## (2024-07-12)
+
+* hw.device-type: Disable bluetooth until this feature is officially supported [delhiryder]
+
 # v2.0.105
 ## (2024-06-06)
 
