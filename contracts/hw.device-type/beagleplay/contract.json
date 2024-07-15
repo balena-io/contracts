@@ -29,7 +29,7 @@
   },
   "partials": {
     "bootDeviceExternal": [
-      "Power up the {{name}} after inserting the flasher image into the SDCard Slot. The device will power down automatically after the flashing is complete. Remove the SDCard and restart the device."
+      "Insert the flasher SD CARD in the {{name}}. Press and hold the USR and RST buttons, then apply power to the device. Once power is applied, release both USR and RST buttons. The device will power down automatically after the flashing is complete. Remove the SDCard and restart the device."
     ],
     "flashIndicator": ["all LEDs are off"],
     "bootDevice": ["Remove the SDCard and re-connect power to the {{name}}"]
