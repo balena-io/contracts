@@ -1,4 +1,17 @@
 - commits:
+    - subject: "beagleplay: Fix provisioning instructions"
+      hash: 996350221bcc6ff73d83239af7ffd96653d36a2c
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru
+  version: 2.0.107
+  title: ""
+  date: 2024-07-15T10:43:40.476Z
+- commits:
     - subject: "hw.device-type: Disable bluetooth until this feature is officially
         supported"
       hash: bc3746dd50d63824e3069cd0098227d47e9f22ed
