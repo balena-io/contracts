@@ -1,0 +1,38 @@
+{
+  "slug": "iotdin-imx8p",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Compulab IOTDIN-iMX8P 2G-4G DRAM",
+  "assets": {
+    "logo": {
+      "url": "./iotdin-imx8p.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": false,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "flashProtocol": "usbMassStorage",
+    "media": {
+      "defaultBoot": "internal"
+    },
+    "is_private": false
+  },
+  "partials": {
+    "instructions": [
+      "Unpack the balenaOS image you downloaded from balena-cloud.",
+      "Make sure the device is not powered and connect the PROG port to your PC using a micro USB cable.",
+      "From a Linux-based host, use the <a href=\"https://github.com/balena-os/iotdin-imx8p-flashtools\">IOT-GATE-iMX8PLUS flashing tools</a> to write balenaOS on your device.",
+      "After flashing is completed, disconnect the micro USB cable from the PROG port, power off the device and then power it back on."
+    ]
+  }
+}
