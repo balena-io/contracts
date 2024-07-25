@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: Add new device-type Jetson AGX Orin 64GB Devkit"
+      hash: b329046af8d6427955627231ba0d332d23dc0f87
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.108
+  title: ""
+  date: 2024-07-25T08:53:00.318Z
+- commits:
     - subject: "beagleplay: Fix provisioning instructions"
       hash: 996350221bcc6ff73d83239af7ffd96653d36a2c
       body: ""

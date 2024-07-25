@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.108
+## (2024-07-25)
+
+* hw.device-type: Add new device-type Jetson AGX Orin 64GB Devkit [Alexandru Costache]
+
 # v2.0.107
 ## (2024-07-15)
 
