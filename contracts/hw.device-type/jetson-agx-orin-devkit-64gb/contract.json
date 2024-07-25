@@ -1,0 +1,40 @@
+{
+  "slug": "jetson-agx-orin-devkit-64gb",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Nvidia Jetson AGX Orin Devkit 64GB",
+  "assets": {
+    "logo": {
+      "url": "./jetson-agx-orin-devkit-64gb.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": false,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "defaultBoot": "internal",
+      "altBoot": ["usb_mass_storage"]
+    },
+    "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+        "Insert a NVME drive in the Devkit and put the device in <a href=\"https://github.com/balena-os/jetson-flash#recovery-mode\">force recovery</a> mode.",
+        "Please note that both the NVME and the eMMC will be erased during the provisioning process.",
+        "Connect the USB-C port of the Devkit to the Host PC.",
+        "RCM boot the balenaOS kernel following the <a href=\"https://github.com/balena-os/jetson-flash#agx-orin-devkit-64gb-flashing\">AGX Orin Devkit 64GB flashing steps</a>."
+    ],
+    "flashIndicator": ["power LED is off"],
+    "bootDevice": ["Power up the {{name}}"]
+  }
+}
