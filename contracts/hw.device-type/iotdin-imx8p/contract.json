@@ -31,7 +31,7 @@
     "instructions": [
       "Unpack the balenaOS image you downloaded from balena-cloud.",
       "Make sure the device is not powered and connect the PROG port to your PC using a micro USB cable.",
-      "From a Linux-based host, use the <a href=\"https://github.com/balena-os/iotdin-imx8p-flashtools\">IOT-GATE-iMX8PLUS flashing tools</a> to write balenaOS on your device.",
+      "From a Linux-based host, use the <a href=\"https://github.com/balena-os/iot-gate-imx8plus-flashtools\">IOT-GATE-iMX8PLUS flashing tools</a> to write balenaOS on your device.",
       "After flashing is completed, disconnect the micro USB cable from the PROG port, power off the device and then power it back on."
     ]
   }
