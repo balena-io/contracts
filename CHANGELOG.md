@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.109
+## (2024-08-06)
+
+* hw.device-type: Update provisioning instructions for AGX Orin 64GB [Alexandru]
+
 # v2.0.108
 ## (2024-07-25)
 
