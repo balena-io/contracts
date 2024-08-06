@@ -29,10 +29,9 @@
   },
   "partials": {
     "bootDeviceExternal": [
-        "Insert a NVME drive in the Devkit and put the device in <a href=\"https://github.com/balena-os/jetson-flash#recovery-mode\">force recovery</a> mode.",
-        "Please note that both the NVME and the eMMC will be erased during the provisioning process.",
-        "Connect the USB-C port of the Devkit to the Host PC.",
-        "RCM boot the balenaOS kernel following the <a href=\"https://github.com/balena-os/jetson-flash#agx-orin-devkit-64gb-flashing\">AGX Orin Devkit 64GB flashing steps</a>."
+        "Put the device in <a href=\"https://github.com/balena-os/jetson-flash#recovery-mode\">force recovery</a> mode.",
+        "Connect the USB-C data port of the Devkit to the Host PC.",
+        "Boot the device from the inserted USB Key by following the <a href=\"https://github.com/balena-os/jetson-flash#agx-orin-devkit-64gb-flashing\">AGX Orin Devkit 64GB flashing steps</a>."
     ],
     "flashIndicator": ["power LED is off"],
     "bootDevice": ["Power up the {{name}}"]
