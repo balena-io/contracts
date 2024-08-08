@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.111
+## (2024-08-08)
+
+* patch: Add versionList to OpenJDK [Vipul Gupta (@vipulgupta2048)]
+
 # v2.0.110
 ## (2024-08-07)
 
