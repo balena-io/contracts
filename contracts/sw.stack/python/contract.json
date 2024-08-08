@@ -293,7 +293,8 @@
                     { "type": "sw.os", "slug": "debian" , "version": "sid" },
                     { "type": "sw.os", "slug": "debian", "version": "bookworm" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "lunar" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" }
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "noble" }
                   ]
                 }
               ],
@@ -762,7 +763,8 @@
                     { "type": "sw.os", "slug": "debian" , "version": "sid" },
                     { "type": "sw.os", "slug": "debian", "version": "bookworm" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "lunar" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" }
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "noble" }
                   ]
                 }
               ],
@@ -1219,7 +1221,8 @@
                     { "type": "sw.os", "slug": "debian" , "version": "sid" },
                     { "type": "sw.os", "slug": "debian", "version": "bookworm" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "lunar" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" }
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "noble" }
                   ]
                 }
               ],
@@ -1676,7 +1679,8 @@
                     { "type": "sw.os", "slug": "debian" , "version": "sid" },
                     { "type": "sw.os", "slug": "debian", "version": "bookworm" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "lunar" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" }
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "noble" }
                   ]
                 }
               ],
@@ -2133,7 +2137,8 @@
                     { "type": "sw.os", "slug": "debian" , "version": "sid" },
                     { "type": "sw.os", "slug": "debian", "version": "bookworm" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "lunar" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" }
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" },
+                    { "type": "sw.os", "slug": "ubuntu" , "version": "noble" }
                   ]
                 }
               ],

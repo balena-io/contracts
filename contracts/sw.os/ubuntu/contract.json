@@ -4,8 +4,8 @@
   "version": "1",
   "data": {
     "libc": "glibc",
-    "latest": "jammy",
-    "versionList": "`jammy (latest)`, `focal`, `xenial`, `bionic`"
+    "latest": "noble",
+    "versionList": "`noble (latest)`, `jammy`, `focal`, `xenial`, `bionic`"
   },
   "name": "Ubuntu {{this.version}}",
   "requires": [
@@ -34,6 +34,7 @@
         }
       ],
       "variants": [
+        { "version": "noble" },
         { "version": "jammy" },
         { "version": "focal" },
         { "version": "xenial" },
@@ -54,6 +55,7 @@
         { "type": "arch.sw", "slug": "amd64" }
       ],
       "variants": [
+        { "version": "noble" },
         { "version": "jammy" },
         { "version": "focal" },
         { "version": "xenial" },
