@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add support for Ubuntu Noble
+      hash: 909a9e8fd4f81731975f4a82304947f82a2d5378
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: ruffsl <roxfoxpox@gmail.com>
+        signed-off-by: ruffsl <roxfoxpox@gmail.com>
+      author: ruffsl
+  version: 2.0.112
+  title: ""
+  date: 2024-08-19T15:53:05.491Z
+- commits:
     - subject: "patch: Add versionList to OpenJDK"
       hash: a06af4e592ce4ce552e9d055a07eb1964cbbdb2d
       body: ""

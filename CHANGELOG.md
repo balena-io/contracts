@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.112
+## (2024-08-19)
+
+* Add support for Ubuntu Noble [ruffsl]
+
 # v2.0.111
 ## (2024-08-08)
 
