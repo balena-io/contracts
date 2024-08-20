@@ -1,4 +1,19 @@
 - commits:
+    - subject: "iotdin-imx8p: Update the devices contract"
+      hash: 6ba0c6f93908f3b57742c87f86bf87716dad616a
+      body: |
+        Disable bluetooth and wifi in the devices contracts files.
+        Reason: the CompuLab Autokit came without an IFM-WB i/o module.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Valentin Raevsky <valentin@compulab.co.il>
+        signed-off-by: Valentin Raevsky <valentin@compulab.co.il>
+      author: Valentin Raevsky
+  version: 2.0.113
+  title: ""
+  date: 2024-08-20T11:19:30.688Z
+- commits:
     - subject: Add support for Ubuntu Noble
       hash: 909a9e8fd4f81731975f4a82304947f82a2d5378
       body: ""

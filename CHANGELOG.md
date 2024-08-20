@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.113
+## (2024-08-20)
+
+* iotdin-imx8p: Update the devices contract [Valentin Raevsky]
+
 # v2.0.112
 ## (2024-08-19)
 
