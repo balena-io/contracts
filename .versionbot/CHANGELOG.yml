@@ -1,4 +1,26 @@
 - commits:
+    - subject: "sw.os+hw.device-type: Update all Orin devices to r36.3 in sources.list"
+      hash: f2b34b2d9c7c6a58b74984ca5c14217effe253d0
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+    - subject: "hw.device-type: Remove superfluous instructions for beagleplay"
+      hash: 3f400e0f27d792734a2db70cc53863ffeb87907c
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru
+  version: 2.0.114
+  title: ""
+  date: 2024-10-09T13:56:48.392Z
+- commits:
     - subject: "iotdin-imx8p: Update the devices contract"
       hash: 6ba0c6f93908f3b57742c87f86bf87716dad616a
       body: |
