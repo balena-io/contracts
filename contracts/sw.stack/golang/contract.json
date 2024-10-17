@@ -40,7 +40,8 @@
                 { "type": "sw.os", "slug": "alpine" , "version": "edge" },
                 { "type": "sw.os", "slug": "alpine", "version": "3.17" },
                 { "type": "sw.os", "slug": "alpine", "version": "3.18" },
-                { "type": "sw.os", "slug": "alpine", "version": "3.19" }
+                { "type": "sw.os", "slug": "alpine", "version": "3.19" },
+                { "type": "sw.os", "slug": "alpine", "version": "3.20" }
               ]
             }
           ],
