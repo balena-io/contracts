@@ -1,4 +1,15 @@
 - commits:
+    - subject: Add alpine 3.20
+      hash: 6d47b5012c98f11c2a6e83944509aee90db099c0
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Otavio Jacobi
+  version: 2.0.116
+  title: ""
+  date: 2024-10-17T14:55:03.926Z
+- commits:
     - subject: Add alpine 3.19
       hash: a598678f0c478fe3f0f8a560d3e698ace3561e26
       body: ""
