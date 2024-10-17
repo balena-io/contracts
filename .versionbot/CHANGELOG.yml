@@ -1,4 +1,15 @@
 - commits:
+    - subject: Add alpine 3.19
+      hash: a598678f0c478fe3f0f8a560d3e698ace3561e26
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Otavio Jacobi
+  version: 2.0.115
+  title: ""
+  date: 2024-10-17T14:01:53.134Z
+- commits:
     - subject: "sw.os+hw.device-type: Update all Orin devices to r36.3 in sources.list"
       hash: f2b34b2d9c7c6a58b74984ca5c14217effe253d0
       body: ""

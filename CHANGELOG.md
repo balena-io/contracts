@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.115
+## (2024-10-17)
+
+* Add alpine 3.19 [Otavio Jacobi]
+
 # v2.0.114
 ## (2024-10-09)
 
