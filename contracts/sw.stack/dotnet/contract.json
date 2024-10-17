@@ -37,7 +37,8 @@
             { "type": "sw.os", "slug": "alpine", "version": "3.15" },
             { "type": "sw.os", "slug": "alpine", "version": "3.16" },
             { "type": "sw.os", "slug": "alpine", "version": "3.17" },
-            { "type": "sw.os", "slug": "alpine", "version": "3.18" }
+            { "type": "sw.os", "slug": "alpine", "version": "3.18" },
+            { "type": "sw.os", "slug": "alpine", "version": "3.19" }
           ],
           "variants": [
             {
@@ -97,7 +98,8 @@
             { "type": "sw.os", "slug": "alpine", "version": "3.15" },
             { "type": "sw.os", "slug": "alpine", "version": "3.16" },
             { "type": "sw.os", "slug": "alpine", "version": "3.17" },
-            { "type": "sw.os", "slug": "alpine", "version": "3.18" }
+            { "type": "sw.os", "slug": "alpine", "version": "3.18" },
+            { "type": "sw.os", "slug": "alpine", "version": "3.19" }
           ],
           "variants": [
             {
@@ -157,7 +159,8 @@
             { "type": "sw.os", "slug": "alpine", "version": "3.15" },
             { "type": "sw.os", "slug": "alpine", "version": "3.14" },
             { "type": "sw.os", "slug": "alpine", "version": "3.17" },
-            { "type": "sw.os", "slug": "alpine", "version": "3.18" }
+            { "type": "sw.os", "slug": "alpine", "version": "3.18" },
+            { "type": "sw.os", "slug": "alpine", "version": "3.19" }
           ],
           "variants": [
             {
@@ -217,7 +220,8 @@
             { "type": "sw.os", "slug": "alpine", "version": "3.15" },
             { "type": "sw.os", "slug": "alpine", "version": "3.14" },
             { "type": "sw.os", "slug": "alpine", "version": "3.17" },
-            { "type": "sw.os", "slug": "alpine", "version": "3.18" }
+            { "type": "sw.os", "slug": "alpine", "version": "3.18" },
+            { "type": "sw.os", "slug": "alpine", "version": "3.19" }
           ],
           "variants": [
             {
@@ -277,7 +281,8 @@
             { "type": "sw.os", "slug": "alpine", "version": "3.15" },
             { "type": "sw.os", "slug": "alpine", "version": "3.14" },
             { "type": "sw.os", "slug": "alpine", "version": "3.17" },
-            { "type": "sw.os", "slug": "alpine", "version": "3.18" }
+            { "type": "sw.os", "slug": "alpine", "version": "3.18" },
+            { "type": "sw.os", "slug": "alpine", "version": "3.19" }
           ],
           "variants": [
             {
@@ -353,7 +358,8 @@
             { "type": "sw.os", "slug": "alpine", "version": "3.15" },
             { "type": "sw.os", "slug": "alpine", "version": "3.14" },
             { "type": "sw.os", "slug": "alpine", "version": "3.17" },
-            { "type": "sw.os", "slug": "alpine", "version": "3.18" }
+            { "type": "sw.os", "slug": "alpine", "version": "3.18" },
+            { "type": "sw.os", "slug": "alpine", "version": "3.19" }
           ],
           "variants": [
             {
