@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Seeed reComputer J3010 4GB",
+  "name": "Seeed reComputer J3010 Jetson Orin Nano 4GB",
   "assets": {
     "logo": {
       "url": "./jetson-orin-nano-seeed-j3010.svg",
