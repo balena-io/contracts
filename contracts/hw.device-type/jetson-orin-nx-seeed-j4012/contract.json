@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Seeed reComputer J4012 16GB",
+  "name": "Seeed reComputer J4012 Jetson Orin NX 16GB",
   "assets": {
     "logo": {
       "url": "./jetson-orin-nx-seeed-j4012.svg",
