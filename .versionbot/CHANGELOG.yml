@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: Rename Seeed J3010 and J4012 to include module name"
+      hash: f803589c9885fb0d8cee7d9c674ec6bde235e7af
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.117
+  title: ""
+  date: 2024-11-25T15:38:04.848Z
+- commits:
     - subject: Add alpine 3.20
       hash: 6d47b5012c98f11c2a6e83944509aee90db099c0
       body: ""
@@ -97,11 +110,8 @@
 - commits:
     - subject: "hw.device-type: Update provisioning instructions for AGX Orin 64GB"
       hash: f8d665f044ea2e39a100fb865ffd5f8a8f4ae65f
-      body: >
-        The AGX Orin 64GB should be provisioned on the eMMC by default as per
-        the internal thread
-        https://balena.zulipchat.com/#narrow/stream/346009-aspect.2Fcustomer-success/topic/Get.20feedback.20on.20draft.20balenaOS.20with.20L4T.2036.2E3.20for.20Jetson.20Orin/near/455889690
-
+      body: |
+        The AGX Orin 64GB should be provisioned on the eMMC by default as per the internal thread https://balena.zulipchat.com/#narrow/stream/346009-aspect.2Fcustomer-success/topic/Get.20feedback.20on.20draft.20balenaOS.20with.20L4T.2036.2E3.20for.20Jetson.20Orin/near/455889690
 
         We thus update the provisioning instructions accordingly
       footer:
@@ -807,10 +817,8 @@
 - commits:
     - subject: Fix LED support for ISG-503
       hash: 8c779e12dbb16892528af17d8749cff1902146ad
-      body: >
-        The LED support was incorrectly changed in
-        https://github.com/balena-io/contracts/commit/4bb6eb1f732957e605f00e47b068199f14ff1765
-
+      body: |
+        The LED support was incorrectly changed in https://github.com/balena-io/contracts/commit/4bb6eb1f732957e605f00e47b068199f14ff1765
         Let's switch it back to unsupported. 
       footer:
         Change-type: patch
@@ -6611,12 +6619,9 @@
 - commits:
     - subject: "alpine: Handling the CVE-2019-5021 vurnerability"
 - commits:
-    - body: >-
-        Drop support for v3.5 as it is EOL, other versions were fixed upstream
-        so just need to rebuild all alpine images.
-
-        ref:
-        https://alpinelinux.org/posts/Docker-image-vulnerability-CVE-2019-5021.html
+    - body: |-
+        Drop support for v3.5 as it is EOL, other versions were fixed upstream so just need to rebuild all alpine images.
+        ref: https://alpinelinux.org/posts/Docker-image-vulnerability-CVE-2019-5021.html
 - version: 1.1.55
 - date: 2019-06-24T10:27:48.000Z
 - commits:
@@ -7920,14 +7925,9 @@
 - commits:
     - subject: "debianImages: Invoke gpg with --batch"
 - commits:
-    - body: >-
+    - body: |-
         A recent gpg update causes gpg to fail when run in an environment
-
-        without a tty
-        (https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=913614#27). To
-        mitigate this issue on Debian images, run gpg in --batch mode as
-        recommended
-        (https://github.com/docker-library/postgres/issues/526#issuecomment-438818847)
+        without a tty (https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=913614#27). To mitigate this issue on Debian images, run gpg in --batch mode as recommended (https://github.com/docker-library/postgres/issues/526#issuecomment-438818847)
 - commits:
     - hash: d7594b02289002cd26fccc37eb8d3cd3f8b06815
 - commits:
