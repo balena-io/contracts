@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.118
+## (2024-12-04)
+
+* hw.device-type: update logo for nitrogen8M Mini [Jonathan Berger]
+
 # v2.0.117
 ## (2024-11-25)
 

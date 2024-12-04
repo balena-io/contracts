@@ -1,4 +1,15 @@
 - commits:
+    - subject: "hw.device-type: update logo for nitrogen8M Mini"
+      hash: 3da872b57b5e5ff700410e0ceda9ac5bdac208e7
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Jonathan Berger
+  version: 2.0.118
+  title: ""
+  date: 2024-12-04T16:14:00.912Z
+- commits:
     - subject: "hw.device-type: Rename Seeed J3010 and J4012 to include module name"
       hash: f803589c9885fb0d8cee7d9c674ec6bde235e7af
       body: ""
