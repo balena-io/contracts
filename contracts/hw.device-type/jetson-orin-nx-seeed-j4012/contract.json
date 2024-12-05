@@ -29,7 +29,8 @@
   },
   "partials": {
      "instructions": [
-        "Ensure your device is running UEFI firmware version 36.3. Click <a href=\"https://docs.balena.io/learn/develop/jetson-orin#uefi-firmware\">here</a> for details on how to check or update your firmware version.",
+        "For balenaOS versions v6.1.16 and newer, please ensure your device is running UEFI firmware version 36.3. Click <a href=\"https://docs.balena.io/learn/develop/jetson-orin#uefi-firmware\">here</a> for details on how to check or update your firmware version.",
+        "For balenaOS versions older than v6.1.16, please refer to the <a href=\"https://github.com/balena-os/jetson-flash?tab=readme-ov-file\">{{name}} legacy flashing</a> guide.",
         "Use the form on the left to configure and download balenaOS for your new device."
     ],
     "bootDeviceExternal": [
