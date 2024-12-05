@@ -28,12 +28,16 @@
     "is_private": false
   },
   "partials": {
+    "instructions": [
+        "Ensure your device is running UEFI firmware version 36.3. Click <a href=\"https://docs.balena.io/learn/develop/jetson-orin#uefi-firmware\">here</a> for details on how to check or update your firmware version.",
+        "Connect a keyboard and a display to your {{name}}. These will be used for selecting the boot media in the UEFI firmware menu.",
+        "Use the form on the left to configure and download balenaOS for your new device."
+    ],
     "bootDeviceExternal": [
-        "Put the device in <a href=\"https://github.com/balena-os/jetson-flash#recovery-mode\">force recovery</a> mode.",
-        "Connect the USB-C data port of the Devkit to the Host PC.",
-        "Boot the device from the inserted USB Key by following the <a href=\"https://github.com/balena-os/jetson-flash#agx-orin-devkit-64gb-flashing\">AGX Orin Devkit 64GB flashing steps</a>."
+        "Power on the ${{name}} and interrupt booting by pressing the 'Esc' key when prompted by the UEFI firmware.",
+        "Enter the Boot Manager Menu of the UEFI firmware and select the attached USB key as boot media. This will trigger the provisioning process."
     ],
     "flashIndicator": ["power LED is off"],
-    "bootDevice": ["Power up the {{name}}"]
+    "bootDevice": ["Power up the {{name}}. A progress bar will show up on the display while the UEFI firmware is updated. Please do not interrupt this process by cutting power or rebooting the device."]
   }
 }
