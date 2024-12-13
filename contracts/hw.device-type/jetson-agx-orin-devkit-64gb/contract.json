@@ -29,15 +29,14 @@
   },
   "partials": {
     "instructions": [
-        "For balenaOS versions v6.1.16 and newer, please ensure your device is running UEFI firmware version 36.3. Click <a href=\"https://docs.balena.io/learn/develop/jetson-orin#uefi-firmware\">here</a> for details on how to check or update your firmware version.",
-        "For balenaOS versions older than v6.1.16, please refer to the <a href=\"https://github.com/balena-os/jetson-flash?tab=readme-ov-file\">{{name}} legacy flashing</a> guide.",
-        "Use the form on the left to configure and download balenaOS for your new device."
+        "For balenaOS versions v6.1.16 and newer, please ensure your device is running UEFI firmware version 36.3. Check and update the <a href=\"https://docs.balena.io/learn/develop/hardware/jetson-orin#provisioning-jetson-orin\">firmware version</a> before proceeding.",
+        "For balenaOS versions older than v6.1.16, please refer to the <a href=\"https://github.com/balena-os/jetson-flash?tab=readme-ov-file\">{{name}} legacy flashing</a> guide."
     ],
     "bootDeviceExternal": [
-        "NOTE: Only If your device is already flashed with a balenaOS version older than v6.1.16, power it on and interrupt booting by pressing the 'Esc' key when prompted by the UEFI firmware.",
-        "Enter the Boot Manager Menu of the UEFI firmware and select the attached USB key as boot media. This will trigger the provisioning process."
+        "Power on the {{name}}.",
+        "NOTE: Only If your device is already flashed with a balenaOS version older than v6.1.16, power it on and interrupt booting by pressing the 'Esc' key when prompted by the UEFI firmware. Enter the Boot Manager Menu of the UEFI firmware and select the attached USB key as boot media, to trigger the provisioning process."
     ],
     "flashIndicator": ["power LED is off"],
-    "bootDevice": ["Power up the {{name}}. A progress bar will show up on the display while the UEFI firmware is updated. Please do not interrupt this process by cutting power or rebooting the device."]
+    "bootDevice": ["Power up the {{name}}. A progress bar will show up on the display while the UEFI firmware is updated. Please do not interrupt this process by turning off power or rebooting the device."]
   }
 }
