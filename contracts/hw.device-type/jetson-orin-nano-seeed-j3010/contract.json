@@ -28,12 +28,14 @@
     "is_private": false
   },
   "partials": {
+    "instructions": [
+        "For balenaOS versions v6.1.16 and newer, please ensure your device is running UEFI firmware version 36.3. Check and update the <a href=\"https://docs.balena.io/learn/develop/hardware/jetson-orin#provisioning-jetson-orin\">firmware version</a> before proceeding.",
+        "For balenaOS versions older than v6.1.16, please refer to the <a href=\"https://github.com/balena-os/jetson-flash?tab=readme-ov-file\">{{name}} legacy flashing</a> guide."
+    ],
     "bootDeviceExternal": [
-        "Put the device in <a href=\"https://github.com/balena-os/jetson-flash#recovery-mode\">force recovery</a> mode.",
-        "Connect the USB-C port of the carrier board to the Host PC.",
-        "RCM boot the balenaOS kernel following the <a href=\"https://github.com/balena-os/jetson-flash#seeed-recomputer-j3010-flashing\">Seeed reComputer J3010 Flashing steps</a>."
+        "Insert a NVME drive in the Devkit and power up the {{name}}"
     ],
     "flashIndicator": ["power LED is off"],
-    "bootDevice": ["Remove recovery mode jumper and power up the {{name}}"]
+    "bootDevice": ["Power up the {{name}}. If you have a display or a debug UART cable connected to the device, a progress bar will show up while the UEFI firmware is updated. Please do not interrupt this process by turning off power or rebooting the device."]
   }
 }
