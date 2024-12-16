@@ -1,4 +1,17 @@
 - commits:
+    - subject: "contracts/hw.device-type: Update instructions for Orin flasher types"
+      hash: 79b1757276a189f0b898903f5d85658e0b5c478a
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.119
+  title: ""
+  date: 2024-12-16T04:57:49.690Z
+- commits:
     - subject: "hw.device-type: update logo for nitrogen8M Mini"
       hash: 3da872b57b5e5ff700410e0ceda9ac5bdac208e7
       body: ""

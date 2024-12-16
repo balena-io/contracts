@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.119
+## (2024-12-16)
+
+* contracts/hw.device-type: Update instructions for Orin flasher types [Alexandru Costache]
+
 # v2.0.118
 ## (2024-12-04)
 
