@@ -1,0 +1,35 @@
+{
+  "slug": "eg5120-imx8mp",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Robustel EG5120 i.MX8MP",
+  "assets": {
+    "logo": {
+      "url": "./eg5120-imx8mp.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": false,
+    "led": false,
+    "connectivity": {
+      "bluetooth": false,
+      "wifi": false
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "defaultBoot": "internal",
+      "altBoot": ["sdcard"]
+    },
+    "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": ["Connect power to the {{name}}"],
+    "flashIndicator": ["all LEDs are off"],
+    "bootDevice": ["Remove and re-connect power to the {{name}}"]
+  }
+}
