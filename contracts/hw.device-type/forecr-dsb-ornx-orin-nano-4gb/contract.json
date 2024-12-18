@@ -1,0 +1,39 @@
+{
+  "slug": "forecr-dsb-ornx-orin-nano-4gb",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Forecr",
+  "assets": {
+    "logo": {
+      "url": "./forecr-dsb-ornx-orin-nano.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": false,
+      "wifi": false
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "defaultBoot": "internal",
+      "altBoot": ["usb_mass_storage"]
+    },
+    "is_private": false
+  },
+  "partials": {
+    "bootDeviceExternal": [
+        "Put the device in <a href=\"https://github.com/balena-os/jetson-flash#recovery-mode\">force recovery</a> mode.",
+        "Connect the DEBUG USB-C port of the carrier board to the Host PC.",
+        "RCM boot the balenaOS kernel following the <a href=\"https://github.com/balena-os/jetson-flash\">Forecr DSB ORNX Flashing steps</a>."
+    ],
+    "flashIndicator": ["power LED is off"],
+    "bootDevice": ["Power up the board"]
+  }
+}
