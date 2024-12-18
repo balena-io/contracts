@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: Fix compatibility with existing sdk structure"
+      hash: e234b48207f0a7e82e56fb636d2791ba2a364a68
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.121
+  title: ""
+  date: 2024-12-18T20:31:37.211Z
+- commits:
     - subject: add eg5120-imx8mp contract
       hash: 272015edab63d911b6a716b43d3ef52f3c577153
       body: ""
