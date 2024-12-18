@@ -36,6 +36,6 @@
         "Insert a NVME drive in the Devkit and power up the {{name}}."
     ],
     "flashIndicator": ["power LED is off"],
-    "bootDevice": ["Power up the {{name}}. If you have a display or a debug UART cable connected to the device, a progress bar will show up while the UEFI firmware is updated. Please do not interrupt this process by turning off power or rebooting the device."]
+    "bootDevice": ["Power up the {{name}}. If you have a display or a debug UART cable connected to the device, a progress bar will show up while the UEFI firmware is updated. Please do not interrupt this process by turning off power or rebooting the device. Once the firmware update completes, the {{name}} will reset automatically and no other steps are necessary "]
   }
 }
