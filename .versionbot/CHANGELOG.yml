@@ -1,4 +1,17 @@
 - commits:
+    - subject: add eg5120-imx8mp contract
+      hash: 272015edab63d911b6a716b43d3ef52f3c577153
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Ryan Cooke <ryan@balena.io>
+        signed-off-by: Ryan Cooke <ryan@balena.io>
+      author: Ryan Cooke
+  version: 2.0.120
+  title: ""
+  date: 2024-12-18T12:47:37.969Z
+- commits:
     - subject: "contracts/hw.device-type: Update instructions for Orin flasher types"
       hash: 79b1757276a189f0b898903f5d85658e0b5c478a
       body: ""
