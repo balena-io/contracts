@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: add Forecr DSB ORNX entries"
+      hash: aaacf7dde8997f5291da82aab537ca902a24267e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Suykov <alex.suykov@sirinsoftware.com>
+        signed-off-by: Alex Suykov <alex.suykov@sirinsoftware.com>
+      author: Alex Suykov
+  version: 2.0.122
+  title: ""
+  date: 2024-12-23T10:57:21.261Z
+- commits:
     - subject: "hw.device-type: Fix compatibility with existing sdk structure"
       hash: e234b48207f0a7e82e56fb636d2791ba2a364a68
       body: ""
