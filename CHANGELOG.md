@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.123
+## (2025-01-02)
+
+* Forecr DSB ORNX: Update device name [Alexandru]
+
 # v2.0.122
 ## (2024-12-23)
 

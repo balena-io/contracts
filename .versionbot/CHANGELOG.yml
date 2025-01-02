@@ -1,4 +1,19 @@
 - commits:
+    - subject: "Forecr DSB ORNX: Update device name"
+      hash: 06d7cd7e8cd4864a6cb7547adb76ad698b821c4c
+      body: >
+        ... to match the carrier board more clearly. The slug stays the same as
+        the device is already present in the API.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru
+  version: 2.0.123
+  title: ""
+  date: 2025-01-02T09:27:41.615Z
+- commits:
     - subject: "hw.device-type: add Forecr DSB ORNX entries"
       hash: aaacf7dde8997f5291da82aab537ca902a24267e
       body: ""
