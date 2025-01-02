@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Forecr DSB ORNX Nano 8GB",
+  "name": "Forecr DSBOARD-ORNX-LAN Orin Nano 8GB",
   "assets": {
     "logo": {
       "url": "./forecr-dsb-ornx-orin-nano.svg",
