@@ -1,4 +1,27 @@
 - commits:
+    - subject: "sw.os+hw.device-type: Add Forecr DSB Orin Nano 8GB and Orin NX 16GB
+        distro tpl files"
+      hash: 62db64e1b73ce5b40f3d672109496ee9b6721c25
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+    - subject: "forecr-dsb-ornx-lan-orin-nx-16gb: Add new public device type"
+      hash: fa485d9a76dcbaf1d2e160889e36fe531d10fc10
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.124
+  title: ""
+  date: 2025-01-07T08:35:14.426Z
+- commits:
     - subject: "Forecr DSB ORNX: Update device name"
       hash: 06d7cd7e8cd4864a6cb7547adb76ad698b821c4c
       body: >

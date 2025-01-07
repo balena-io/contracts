@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.124
+## (2025-01-07)
+
+* sw.os+hw.device-type: Add Forecr DSB Orin Nano 8GB and Orin NX 16GB distro tpl files [Alexandru Costache]
+* forecr-dsb-ornx-lan-orin-nx-16gb: Add new public device type [Alexandru Costache]
+
 # v2.0.123
 ## (2025-01-02)
 
