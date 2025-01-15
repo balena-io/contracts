@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.125
+## (2025-01-15)
+
+* hw.device-type: Switch to using markdown for links [Alexandru Costache]
+
 # v2.0.124
 ## (2025-01-07)
 

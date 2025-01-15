@@ -1,4 +1,22 @@
 - commits:
+    - subject: "hw.device-type: Switch to using markdown for links"
+      hash: 4c648636dd05ee31ea458b74df97207fc7b8d5c7
+      body: |
+        ... as per the internal thread
+        https://balena.zulipchat.com/#narrow/channel/350505-aspect.2Fgrowth/topic/Improving.20Jetson-flash.20documentation/near/493450821
+
+        Due to recent changes in the renderer, HTML links are no
+        longer displayed.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.125
+  title: ""
+  date: 2025-01-15T09:07:30.756Z
+- commits:
     - subject: "sw.os+hw.device-type: Add Forecr DSB Orin Nano 8GB and Orin NX 16GB
         distro tpl files"
       hash: 62db64e1b73ce5b40f3d672109496ee9b6721c25
