@@ -39,7 +39,7 @@
     },
     "MacOS": {
       "flashDependencies": [
-        "You need <a href='https://www.macports.org/'>MacPorts</a> installed on your system.",
+        "You need [MacPorts](https://www.macports.org/) installed on your system.",
         "Run the following to install <code>dfu-utils</code>, <code>usbutils</code>, and <code>coreutils</code>: <code>sudo port install dfu-util usbutils coreutils && sudo port activate dfu-util</code>"
       ],
       "flashInstructions": [
@@ -49,7 +49,7 @@
     },
     "Windows": {
       "flashDependencies": [
-        "Install Windows drives for Edison from <a href='https://downloadmirror.intel.com/26993/eng/IntelEdisonDriverSetup1.2.1.exe'>here</a>"
+        "Install Windows drives for Edison from [here](https://downloadmirror.intel.com/26993/eng/IntelEdisonDriverSetup1.2.1.exe)."
       ],
       "flashInstructions": [
         "Open a terminal with administrative privileges and execute the following from the unzipped directory: <code>flashall.bat</code>"
