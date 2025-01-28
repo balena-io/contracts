@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.127
+## (2025-01-28)
+
+* Mark alpine 3.21 as the default alpine version [Thodoris Greasidis]
+
 # v2.0.126
 ## (2025-01-28)
 
