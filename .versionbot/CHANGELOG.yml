@@ -1,4 +1,15 @@
 - commits:
+    - subject: Add alpine 3.21
+      hash: 53eda7f97f29b7321862c3f057710ba0010aa463
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Felipe Lalanne
+  version: 2.0.126
+  title: ""
+  date: 2025-01-28T16:35:59.267Z
+- commits:
     - subject: "hw.device-type: Switch to using markdown for links"
       hash: 4c648636dd05ee31ea458b74df97207fc7b8d5c7
       body: |
