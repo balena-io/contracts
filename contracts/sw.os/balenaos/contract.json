@@ -13,7 +13,6 @@
         { "type": "arch.sw", "slug": "i386" },
         { "type": "arch.sw", "slug": "amd64" }
       ]
-    },
-    { "type": "sw.os-image", "slug": "balena-image" }
+    }
   ]
 }

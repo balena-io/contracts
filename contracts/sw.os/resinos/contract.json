@@ -8,10 +8,6 @@
     {
       "type": "arch.sw",
       "slug": "armv7hf"
-    },
-    {
-      "type": "sw.os-image",
-      "slug": "resinos"
     }
   ]
 }

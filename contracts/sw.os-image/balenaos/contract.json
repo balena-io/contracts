@@ -1,6 +1,0 @@
-{
-  "slug": "balena-image",
-  "name": "Balena OS raw image",
-  "type": "sw.os-image",
-  "version": "1"
-}
