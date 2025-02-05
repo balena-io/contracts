@@ -5,6 +5,12 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.128
+## (2025-02-05)
+
+* Improve testing of contracts [Felipe Lalanne]
+* Remove unused sw.os-image contracts [Felipe Lalanne]
+
 # v2.0.127
 ## (2025-01-28)
 
