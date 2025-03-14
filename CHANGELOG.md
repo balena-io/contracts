@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.129
+## (2025-03-14)
+
+* Mark Bookworm as the default version for Debian [Thodoris Greasidis]
+
 # v2.0.128
 ## (2025-02-05)
 

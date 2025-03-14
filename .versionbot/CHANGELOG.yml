@@ -1,4 +1,15 @@
 - commits:
+    - subject: Mark Bookworm as the default version for Debian
+      hash: a8bfdf9a34c4642608db6d3140fd95bbc629f477
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Thodoris Greasidis
+  version: 2.0.129
+  title: ""
+  date: 2025-03-14T13:31:13.451Z
+- commits:
     - subject: Improve testing of contracts
       hash: 072ab7219d03952ed3c42cbd78eb397afdac4e97
       body: |
