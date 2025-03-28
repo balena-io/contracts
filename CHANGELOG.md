@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.130
+## (2025-03-28)
+
+* hw.device-type: Update links to docs for UEFI version checking [Alexandru Costache]
+
 # v2.0.129
 ## (2025-03-14)
 

@@ -1,4 +1,18 @@
 - commits:
+    - subject: "hw.device-type: Update links to docs for UEFI version checking"
+      hash: cd8fa068d9e3a1a5d8aeda35829973963fc4e204
+      body: |
+        ... also include the L4T minor revision in the UEFI version
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.130
+  title: ""
+  date: 2025-03-28T11:36:03.120Z
+- commits:
     - subject: Mark Bookworm as the default version for Debian
       hash: a8bfdf9a34c4642608db6d3140fd95bbc629f477
       body: ""
