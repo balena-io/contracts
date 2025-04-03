@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.131
+## (2025-04-03)
+
+* Add EDATEC Sensing contract and logo [RayX123456]
+
 # v2.0.130
 ## (2025-03-28)
 

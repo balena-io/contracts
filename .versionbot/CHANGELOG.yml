@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add EDATEC Sensing contract and logo
+      hash: 2504d5f5bb1a11056495ce3e44f8f60f297593e4
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Ray <rxie@edatec.cn>
+        signed-off-by: Ray <rxie@edatec.cn>
+      author: RayX123456
+  version: 2.0.131
+  title: ""
+  date: 2025-04-03T09:12:05.127Z
+- commits:
     - subject: "hw.device-type: Update links to docs for UEFI version checking"
       hash: cd8fa068d9e3a1a5d8aeda35829973963fc4e204
       body: |
