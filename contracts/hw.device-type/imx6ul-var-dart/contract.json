@@ -29,11 +29,13 @@
   },
   "partials": {
     "bootDeviceExternal": [
-      "Connect power to the {{name}}.",
-      "Press and hold the SW2 button followed by the SW1 button.",
-      "Release the SW1 button followed by the SW2 button."
+      "Set the SW1 and SW2 boot switches to 00 - SD boot",
+      "Connect power to the {{name}}."
     ],
-    "flashIndicator": ["all LEDs are off"],
-    "bootDevice": ["Remove and re-connect power to the {{name}}"]
+    "flashIndicator": ["the green LED stops flashing"],
+    "bootDevice": [
+      "Set the SW1 and SW2 boot switches to 01 - eMMC boot",
+      "Remove and re-connect power to the {{name}}"
+    ]
   }
 }
