@@ -376,7 +376,6 @@
                 {
                   "or": [
                     { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                    { "type": "sw.os", "slug": "ubuntu", "version": "focal" },
                     { "type": "sw.os", "slug": "fedora" }
                   ]
                 }
@@ -448,9 +447,7 @@
               "requires": [
                 {
                   "or": [
-                    { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
+                    { "type": "sw.os", "slug": "debian" , "version": "buster" }
                   ]
                 }
               ],
@@ -856,7 +853,6 @@
                 {
                   "or": [
                     { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                    { "type": "sw.os", "slug": "ubuntu", "version": "focal" },
                     { "type": "sw.os", "slug": "fedora" }
                   ]
                 }
@@ -916,9 +912,7 @@
               "requires": [
                 {
                   "or": [
-                    { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
+                    { "type": "sw.os", "slug": "debian" , "version": "buster" }
                   ]
                 }
               ],
@@ -1324,7 +1318,6 @@
                 {
                   "or": [
                     { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                    { "type": "sw.os", "slug": "ubuntu", "version": "focal" },
                     { "type": "sw.os", "slug": "fedora" }
                   ]
                 }
@@ -1384,9 +1377,7 @@
               "requires": [
                 {
                   "or": [
-                    { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
+                    { "type": "sw.os", "slug": "debian" , "version": "buster" }
                   ]
                 }
               ],
@@ -1792,7 +1783,6 @@
                 {
                   "or": [
                     { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                    { "type": "sw.os", "slug": "ubuntu", "version": "focal" },
                     { "type": "sw.os", "slug": "fedora" }
                   ]
                 }
@@ -1852,9 +1842,7 @@
               "requires": [
                 {
                   "or": [
-                    { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
+                    { "type": "sw.os", "slug": "debian" , "version": "buster" }
                   ]
                 }
               ],
@@ -2260,7 +2248,6 @@
                 {
                   "or": [
                     { "type": "sw.os", "slug": "debian" , "version": "bullseye" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "focal" },
                     { "type": "sw.os", "slug": "fedora" }
                   ]
                 }
@@ -2308,9 +2295,7 @@
               "requires": [
                 {
                   "or": [
-                    { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
+                    { "type": "sw.os", "slug": "debian" , "version": "buster" }
                   ]
                 }
               ],

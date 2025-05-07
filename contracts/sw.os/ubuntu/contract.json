@@ -5,7 +5,7 @@
   "data": {
     "libc": "glibc",
     "latest": "noble",
-    "versionList": "`noble (latest)`, `jammy`, `focal`, `xenial`, `bionic`"
+    "versionList": "`noble (latest)`, `jammy`"
   },
   "name": "Ubuntu {{this.version}}",
   "requires": [
@@ -35,19 +35,7 @@
       ],
       "variants": [
         { "version": "noble" },
-        { "version": "jammy" },
-        { "version": "focal" },
-        { "version": "xenial" },
-        { "version": "bionic" }
-      ]
-    },
-    {
-      "requires": [
-        { "type": "arch.sw", "slug": "i386" }
-      ],
-      "variants": [
-        { "version": "xenial" },
-        { "version": "bionic" }
+        { "version": "jammy" }
       ]
     },
     {
@@ -56,10 +44,7 @@
       ],
       "variants": [
         { "version": "noble" },
-        { "version": "jammy" },
-        { "version": "focal" },
-        { "version": "xenial" },
-        { "version": "bionic" }
+        { "version": "jammy" }
       ]
     }
   ]
