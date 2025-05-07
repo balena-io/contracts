@@ -61,7 +61,6 @@
           "requires": [
             {
               "or": [
-                { "type": "sw.os", "slug": "ubuntu", "version": "focal" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "lunar" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "noble" },
@@ -123,7 +122,6 @@
           "requires": [
             {
               "or": [
-                { "type": "sw.os", "slug": "ubuntu", "version": "focal" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "lunar" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "noble" },
@@ -185,7 +183,6 @@
           "requires": [
             {
               "or": [
-                { "type": "sw.os", "slug": "ubuntu", "version": "focal" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "lunar" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "noble" },
@@ -247,7 +244,6 @@
           "requires": [
             {
               "or": [
-                { "type": "sw.os", "slug": "ubuntu", "version": "focal" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "lunar" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "noble" },
@@ -317,7 +313,6 @@
           "requires": [
             {
               "or": [
-                { "type": "sw.os", "slug": "ubuntu", "version": "focal" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "lunar" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "noble" },
@@ -395,7 +390,6 @@
           "requires": [
             {
               "or": [
-                { "type": "sw.os", "slug": "ubuntu", "version": "focal" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "lunar" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "jammy" },
                 { "type": "sw.os", "slug": "ubuntu" , "version": "noble" },
