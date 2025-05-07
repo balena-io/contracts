@@ -1,4 +1,38 @@
 - commits:
+    - subject: Remove Ubuntu Xenial from supported distros
+      hash: 85a8ac44d8b471148c248f648dfdfc0121e04384
+      body: |
+        Xenial was EOL in April 2021
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+    - subject: Remove Ubuntu Bionic from supported distros
+      hash: 5c57c75d04cccbaf8d68d09426797001ad7209ad
+      body: |
+        Bionic was EOL in May 2023
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+    - subject: Remove Ubuntu Focal from supported distros
+      hash: 3075e92e42e7d1dab622420058327a9bde8ea5cd
+      body: |
+        Focal is EOL in May 2025
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+  version: 2.0.133
+  title: ""
+  date: 2025-05-07T15:57:44.077Z
+- commits:
     - subject: "imx6ul-var-dart: Update provisioning instructions"
       hash: acd08a8d8bfdc7bd93a2c7d1196ea158406df315
       body: |
