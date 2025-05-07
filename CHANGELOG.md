@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.134
+## (2025-05-07)
+
+* Remove Ubuntu Lunar 23.04 leftovers from dotnet & python contracts [Thodoris Greasidis]
+
 # v2.0.133
 ## (2025-05-07)
 

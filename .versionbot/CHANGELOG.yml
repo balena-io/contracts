@@ -1,4 +1,15 @@
 - commits:
+    - subject: Remove Ubuntu Lunar 23.04 leftovers from dotnet & python contracts
+      hash: 8e9731d45070064181f5d067e57c8989f6bea0e0
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Thodoris Greasidis
+  version: 2.0.134
+  title: ""
+  date: 2025-05-07T16:11:10.480Z
+- commits:
     - subject: Remove Ubuntu Xenial from supported distros
       hash: 85a8ac44d8b471148c248f648dfdfc0121e04384
       body: |
