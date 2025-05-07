@@ -448,7 +448,6 @@
                 {
                   "or": [
                     { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                   ]
                 }
@@ -915,7 +914,6 @@
                 {
                   "or": [
                     { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                   ]
                 }
@@ -1382,7 +1380,6 @@
                 {
                   "or": [
                     { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                   ]
                 }
@@ -1849,7 +1846,6 @@
                 {
                   "or": [
                     { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                   ]
                 }
@@ -2304,7 +2300,6 @@
                 {
                   "or": [
                     { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "bionic" },
                     { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
                   ]
                 }
