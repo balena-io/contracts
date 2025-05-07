@@ -447,8 +447,7 @@
               "requires": [
                 {
                   "or": [
-                    { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
+                    { "type": "sw.os", "slug": "debian" , "version": "buster" }
                   ]
                 }
               ],
@@ -913,8 +912,7 @@
               "requires": [
                 {
                   "or": [
-                    { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
+                    { "type": "sw.os", "slug": "debian" , "version": "buster" }
                   ]
                 }
               ],
@@ -1379,8 +1377,7 @@
               "requires": [
                 {
                   "or": [
-                    { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
+                    { "type": "sw.os", "slug": "debian" , "version": "buster" }
                   ]
                 }
               ],
@@ -1845,8 +1842,7 @@
               "requires": [
                 {
                   "or": [
-                    { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
+                    { "type": "sw.os", "slug": "debian" , "version": "buster" }
                   ]
                 }
               ],
@@ -2299,8 +2295,7 @@
               "requires": [
                 {
                   "or": [
-                    { "type": "sw.os", "slug": "debian" , "version": "buster" },
-                    { "type": "sw.os", "slug": "ubuntu" , "version": "xenial" }
+                    { "type": "sw.os", "slug": "debian" , "version": "buster" }
                   ]
                 }
               ],
