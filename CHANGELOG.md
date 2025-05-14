@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.135
+## (2025-05-14)
+
+* patch: Add deprecation notice to balenalib readme [Vipul Gupta (@vipulgupta2048)]
+
 # v2.0.134
 ## (2025-05-07)
 

@@ -1,4 +1,15 @@
 - commits:
+    - subject: "patch: Add deprecation notice to balenalib readme"
+      hash: 2220d69439798646ed2fcbedc20187ed8b77275e
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+      author: Vipul Gupta (@vipulgupta2048)
+  version: 2.0.135
+  title: ""
+  date: 2025-05-14T14:44:30.141Z
+- commits:
     - subject: Remove Ubuntu Lunar 23.04 leftovers from dotnet & python contracts
       hash: 8e9731d45070064181f5d067e57c8989f6bea0e0
       body: ""
