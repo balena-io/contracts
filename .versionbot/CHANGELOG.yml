@@ -1,4 +1,15 @@
 - commits:
+    - subject: "patch: Add deprecation notice for balenalib base images"
+      hash: 8d980c8b7f4f014de1ccad555bd06e2fc6ad0826
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+      author: Vipul Gupta (@vipulgupta2048)
+  version: 2.0.136
+  title: ""
+  date: 2025-05-14T14:48:26.853Z
+- commits:
     - subject: "patch: Add deprecation notice to balenalib readme"
       hash: 2220d69439798646ed2fcbedc20187ed8b77275e
       body: ""
