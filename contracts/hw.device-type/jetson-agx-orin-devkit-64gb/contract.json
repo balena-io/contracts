@@ -21,9 +21,9 @@
     "storage": {
       "internal": true
     },
+    "flashProtocol": "jetsonFlashDirect",
     "media": {
-      "defaultBoot": "internal",
-      "altBoot": ["usb_mass_storage"]
+      "defaultBoot": "internal"
     },
     "is_private": false
   },
@@ -39,4 +39,5 @@
     "flashIndicator": ["power LED is off"],
     "bootDevice": ["Power up the {{name}}. A progress bar will show up on the display while the UEFI firmware is updated. Please do not interrupt this process by turning off power or rebooting the device. Once the firmware update completes, the {{name}} will reset automatically and no other steps are necessary "]
   }
+
 }
