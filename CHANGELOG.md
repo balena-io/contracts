@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.137
+## (2025-07-02)
+
+* hw.device-type: Update J4012 device type name [Alexandru]
+
 # v2.0.136
 ## (2025-05-14)
 

@@ -1,4 +1,19 @@
 - commits:
+    - subject: "hw.device-type: Update J4012 device type name"
+      hash: b28727f64f2838069caf0c7fae213d6b01f20741
+      body: |
+        ... to specify that this is the Classic revision of the carrier board,
+        which does not support the SUPER mode.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru
+  version: 2.0.137
+  title: ""
+  date: 2025-07-02T09:19:48.336Z
+- commits:
     - subject: "patch: Add deprecation notice for balenalib base images"
       hash: 8d980c8b7f4f014de1ccad555bd06e2fc6ad0826
       body: ""
