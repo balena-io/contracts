@@ -1,4 +1,17 @@
 - commits:
+    - subject: "contracts/raspberrypi5: Update device name to mention CM5 support"
+      hash: 5b3c3bb100da7a717be67e9acb168cc3d5721af3
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru
+  version: 2.0.138
+  title: ""
+  date: 2026-03-09T10:27:43.239Z
+- commits:
     - subject: "hw.device-type: Update J4012 device type name"
       hash: b28727f64f2838069caf0c7fae213d6b01f20741
       body: |
