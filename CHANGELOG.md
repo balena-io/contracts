@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.140
+## (2026-03-11)
+
+* iot-gate-imx8plus-d1d8: Enable bluetooth and wifi [Florin Sarbu]
+
 # v2.0.139
 ## (2026-03-11)
 
