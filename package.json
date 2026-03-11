@@ -1,6 +1,6 @@
 {
   "name": "contracts",
-  "version": "2.0.138",
+  "version": "2.0.139",
   "description": "Balena Base Contracts",
   "repository": {
     "type": "git",
@@ -31,6 +31,6 @@
     "typescript": "^5.7.2"
   },
   "versionist": {
-    "publishedAt": "2026-03-09T10:27:43.596Z"
+    "publishedAt": "2026-03-11T07:23:07.047Z"
   }
 }

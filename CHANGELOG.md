@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.139
+## (2026-03-11)
+
+* ucm-imx93: Set wifi and bt to false [Florin Sarbu]
+
 # v2.0.138
 ## (2026-03-09)
 

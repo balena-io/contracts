@@ -1,4 +1,21 @@
 - commits:
+    - subject: "ucm-imx93: Set wifi and bt to false"
+      hash: 56818a46726b814a475d60152dffaf56f701cdb8
+      body: >
+        The SoM we have is a Lite variant (which lacks bluetooth and wifi) so we
+        set
+
+        these to false until we get another SoM that has them.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.0.139
+  title: ""
+  date: 2026-03-11T07:23:06.723Z
+- commits:
     - subject: "contracts/raspberrypi5: Update device name to mention CM5 support"
       hash: 5b3c3bb100da7a717be67e9acb168cc3d5721af3
       body: ""
