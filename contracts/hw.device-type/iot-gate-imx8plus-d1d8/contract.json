@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Compulab IOT-GATE-iMX8PLUS 1G-8G DRAM",
+  "name": "Compulab IOT-GATE-iMX8PLUS 1GB or 8GB DRAM",
   "assets": {
     "logo": {
       "url": "./iot-gate-imx8plus.svg",

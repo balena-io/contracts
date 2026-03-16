@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Compulab IOTDIN-iMX8P 2G-4G DRAM",
+  "name": "Compulab IOTDIN-iMX8P 2GB or 4GB DRAM",
   "assets": {
     "logo": {
       "url": "./iotdin-imx8p.svg",
