@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.141
+## (2026-03-16)
+
+* iot-gate-imx8plus: replace dram size range with explicit dram sizes [Alex Gonzalez]
+
 # v2.0.140
 ## (2026-03-11)
 
