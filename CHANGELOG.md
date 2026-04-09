@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.142
+## (2026-04-09)
+
+* Update iot-gate-imx8plus-d1d8 to remove Wifi and BT [Alexandru Costache]
+
 # v2.0.141
 ## (2026-03-16)
 

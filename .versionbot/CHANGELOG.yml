@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update iot-gate-imx8plus-d1d8 to remove Wifi and BT
+      hash: caa877e50405ec4dd3c399ae12753c4a4027f372
+      body: |
+        This board does not have a wireless module
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.142
+  title: ""
+  date: 2026-04-09T12:32:15.819Z
+- commits:
     - subject: "iot-gate-imx8plus: replace dram size range with explicit dram sizes"
       hash: 1863899288374bd7ff6b5d42f80480fff11635c9
       body: |
