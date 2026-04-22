@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.143
+## (2026-04-22)
+
+* hw.device-type: Add new device-type Compulab IOT-LINK Gateway [Florin Sarbu]
+
 # v2.0.142
 ## (2026-04-09)
 

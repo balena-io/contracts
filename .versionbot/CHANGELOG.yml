@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: Add new device-type Compulab IOT-LINK Gateway"
+      hash: 9f8168327bc4393d5fe00aca5cb263003d76de7b
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.0.143
+  title: ""
+  date: 2026-04-22T07:37:35.352Z
+- commits:
     - subject: Update iot-gate-imx8plus-d1d8 to remove Wifi and BT
       hash: caa877e50405ec4dd3c399ae12753c4a4027f372
       body: |
