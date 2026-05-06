@@ -1,0 +1,41 @@
+{
+  "slug": "jetson-agx-thor-devkit",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "Nvidia Jetson AGX Thor Developer Kit",
+  "assets": {
+    "logo": {
+      "url": "./jetson-agx-thor-devkit.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": true,
+      "wifi": true
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "defaultBoot": "internal",
+      "altBoot": ["usb_mass_storage"]
+    },
+    "is_private": false
+  },
+  "partials": {
+    "instructions": [
+        "Please ensure your device is running UEFI firmware version 39.2.0. If necessary, use the Nvidia flashing tools to update the UEFI firmware."
+    ],
+    "bootDeviceExternal": [
+        "Power on the {{name}}.",
+        "NOTE: If your device firmware does not boot from newly attached USB drives by default, power on the {{name}} and interrupt booting by pressing the 'Esc' key when prompted by the UEFI firmware. Enter the Boot Manager Menu of the UEFI firmware and select the attached USB key as boot media, to trigger the provisioning process."
+    ],
+    "flashIndicator": ["power LED is off"],
+    "bootDevice": ["Power up the {{name}}. A progress bar will show up on the display while the UEFI firmware is updated. Please do not interrupt this process by turning off power or rebooting the device. Once the firmware update completes, the {{name}} will reset automatically and no other steps are necessary "]
+  }
+}
