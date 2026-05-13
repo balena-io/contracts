@@ -1,0 +1,10 @@
+{
+  "slug": "google-imx",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Google Coral i.MX",
+  "data": {
+    "manufacturedBy": "google"
+  }
+}

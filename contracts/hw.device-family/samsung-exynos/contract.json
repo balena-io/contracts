@@ -1,0 +1,10 @@
+{
+  "slug": "samsung-exynos",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Samsung Exynos",
+  "data": {
+    "manufacturedBy": "samsung"
+  }
+}

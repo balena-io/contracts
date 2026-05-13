@@ -1,0 +1,10 @@
+{
+  "slug": "unknown-imx",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Unknown i.MX",
+  "data": {
+    "manufacturedBy": "unknown"
+  }
+}

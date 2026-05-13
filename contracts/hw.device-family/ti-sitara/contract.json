@@ -1,0 +1,10 @@
+{
+  "slug": "ti-sitara",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Texas Instruments Sitara",
+  "data": {
+    "manufacturedBy": "ti"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "advantech-imx",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Advantech i.MX",
+  "data": {
+    "manufacturedBy": "advantech"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "qemu-x86",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "QEMU x86",
+  "data": {
+    "manufacturedBy": "qemu"
+  }
+}

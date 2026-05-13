@@ -12,6 +12,7 @@
   },
   "data": {
     "arch": "aarch64",
+    "family": "bluechip-allwinner",
     "hdmi": true,
     "connectivity": {
       "wifi": true

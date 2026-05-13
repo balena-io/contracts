@@ -1,0 +1,10 @@
+{
+  "slug": "hardkernel-samsung",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Hardkernel ODROID Samsung",
+  "data": {
+    "manufacturedBy": "hardkernel"
+  }
+}

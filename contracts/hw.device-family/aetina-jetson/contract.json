@@ -1,0 +1,10 @@
+{
+  "slug": "aetina-jetson",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Aetina Jetson",
+  "data": {
+    "manufacturedBy": "aetina"
+  }
+}

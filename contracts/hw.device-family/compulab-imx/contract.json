@@ -1,0 +1,10 @@
+{
+  "slug": "compulab-imx",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "CompuLab i.MX",
+  "data": {
+    "manufacturedBy": "compulab"
+  }
+}

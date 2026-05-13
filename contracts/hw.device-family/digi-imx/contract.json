@@ -1,0 +1,10 @@
+{
+  "slug": "digi-imx",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Digi i.MX",
+  "data": {
+    "manufacturedBy": "digi"
+  }
+}

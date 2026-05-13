@@ -1,0 +1,10 @@
+{
+  "slug": "unknown-rockchip",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Unknown Rockchip",
+  "data": {
+    "manufacturedBy": "unknown"
+  }
+}

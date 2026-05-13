@@ -1,0 +1,10 @@
+{
+  "slug": "firefly-imx",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Firefly i.MX",
+  "data": {
+    "manufacturedBy": "firefly"
+  }
+}

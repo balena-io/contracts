@@ -1,0 +1,10 @@
+{
+  "slug": "d3-jetson",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "D3 Jetson",
+  "data": {
+    "manufacturedBy": "d3"
+  }
+}

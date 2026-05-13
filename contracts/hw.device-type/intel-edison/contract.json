@@ -12,6 +12,7 @@
   },
   "data": {
     "arch": "i386",
+    "family": "intel-edison",
     "hdmi": false,
     "led": false,
     "connectivity": {

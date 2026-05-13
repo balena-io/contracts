@@ -1,0 +1,10 @@
+{
+  "slug": "owasys-imx",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Owasys i.MX",
+  "data": {
+    "manufacturedBy": "owasys"
+  }
+}

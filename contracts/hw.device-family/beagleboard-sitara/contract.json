@@ -1,0 +1,10 @@
+{
+  "slug": "beagleboard-sitara",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Beagle Sitara",
+  "data": {
+    "manufacturedBy": "beagleboard"
+  }
+}
