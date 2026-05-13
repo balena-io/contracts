@@ -1,0 +1,10 @@
+{
+  "slug": "microsoft-x86",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Microsoft x86",
+  "data": {
+    "manufacturedBy": "microsoft"
+  }
+}

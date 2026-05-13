@@ -1,0 +1,10 @@
+{
+  "slug": "amd-zynq",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "AMD Zynq",
+  "data": {
+    "manufacturedBy": "amd"
+  }
+}

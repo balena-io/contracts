@@ -12,6 +12,7 @@
   },
   "data": {
     "arch": "aarch64",
+    "family": "forecr-jetson",
     "hdmi": true,
     "led": false,
     "connectivity": {

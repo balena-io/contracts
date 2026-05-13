@@ -1,0 +1,10 @@
+{
+  "slug": "technologic-marvell",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Technologic Marvell",
+  "data": {
+    "manufacturedBy": "technologic"
+  }
+}

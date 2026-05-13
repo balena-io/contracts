@@ -1,0 +1,10 @@
+{
+  "slug": "sinovoip-allwinner",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "SINOVOIP Banana Pi Allwinner",
+  "data": {
+    "manufacturedBy": "sinovoip"
+  }
+}

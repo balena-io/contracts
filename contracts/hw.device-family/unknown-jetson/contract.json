@@ -1,0 +1,10 @@
+{
+  "slug": "unknown-jetson",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Unknown Jetson",
+  "data": {
+    "manufacturedBy": "unknown"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "generic-x86",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Generic AMD64",
+  "data": {
+    "manufacturedBy": "generic"
+  }
+}

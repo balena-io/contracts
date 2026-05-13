@@ -22,6 +22,7 @@
       "defaultBoot": "internal",
       "altBoot": ["sdcard"]
     },
+    "family": "bluechip-qualcomm",
     "is_private": false
   },
   "partials": {

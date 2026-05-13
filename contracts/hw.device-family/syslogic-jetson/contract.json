@@ -1,0 +1,10 @@
+{
+  "slug": "syslogic-jetson",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Syslog Jetson",
+  "data": {
+    "manufacturedBy": "syslogic"
+  }
+}

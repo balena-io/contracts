@@ -1,0 +1,10 @@
+{
+  "slug": "variscite-imx",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Variscite i.MX",
+  "data": {
+    "manufacturedBy": "variscite"
+  }
+}

@@ -12,6 +12,7 @@
   },
   "data": {
     "arch": "rpi",
+    "family": "raspberrypi-broadcom",
     "hdmi": true,
     "led": true,
     "connectivity": {

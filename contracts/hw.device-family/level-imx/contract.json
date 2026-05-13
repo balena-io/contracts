@@ -1,0 +1,10 @@
+{
+  "slug": "level-imx",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Level i.MX",
+  "data": {
+    "manufacturedBy": "level"
+  }
+}

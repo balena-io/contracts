@@ -1,0 +1,10 @@
+{
+  "slug": "rocktech-rockchip",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Rocktech Rockchip",
+  "data": {
+    "manufacturedBy": "rocktech"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "rushup-samsung",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Rushup Samsung",
+  "data": {
+    "manufacturedBy": "rushup"
+  }
+}

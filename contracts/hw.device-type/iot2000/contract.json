@@ -12,6 +12,7 @@
   },
   "data": {
     "arch": "i386-nlp",
+    "family": "siemens-edison",
     "hdmi": true,
     "led": false,
     "connectivity": {

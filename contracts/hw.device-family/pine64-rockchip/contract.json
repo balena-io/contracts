@@ -1,0 +1,10 @@
+{
+  "slug": "pine64-rockchip",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Pine64 Rockchip",
+  "data": {
+    "manufacturedBy": "pine64"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "unknown-unknown",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Unknown Unknown",
+  "data": {
+    "manufacturedBy": "unknown"
+  }
+}

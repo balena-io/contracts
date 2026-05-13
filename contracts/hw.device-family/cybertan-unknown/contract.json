@@ -1,0 +1,10 @@
+{
+  "slug": "cybertan-unknown",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Cybertan Unknown",
+  "data": {
+    "manufacturedBy": "cybertan"
+  }
+}

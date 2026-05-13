@@ -1,0 +1,10 @@
+{
+  "slug": "auvidea-jetson",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Auvidea Jetson",
+  "data": {
+    "manufacturedBy": "auvidea"
+  }
+}

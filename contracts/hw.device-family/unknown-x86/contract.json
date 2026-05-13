@@ -1,0 +1,10 @@
+{
+  "slug": "unknown-x86",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Unknown x86",
+  "data": {
+    "manufacturedBy": "unknown"
+  }
+}

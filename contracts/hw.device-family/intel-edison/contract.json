@@ -1,0 +1,10 @@
+{
+  "slug": "intel-edison",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Intel Edison",
+  "data": {
+    "manufacturedBy": "intel"
+  }
+}

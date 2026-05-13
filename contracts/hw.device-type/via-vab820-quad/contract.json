@@ -12,6 +12,7 @@
   },
   "data": {
     "arch": "armv7hf",
+    "family": "via-imx",
     "hdmi": true,
     "led": false,
     "connectivity": {

@@ -1,0 +1,10 @@
+{
+  "slug": "inhand-unknown",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Inhand Unknown",
+  "data": {
+    "manufacturedBy": "inhand"
+  }
+}

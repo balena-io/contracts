@@ -12,6 +12,7 @@
   },
   "data": {
     "arch": "aarch64",
+    "family": "compulab-imx",
     "hdmi": true,
     "led": false,
     "connectivity": {
