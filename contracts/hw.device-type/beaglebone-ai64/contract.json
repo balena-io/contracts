@@ -2,7 +2,7 @@
   "slug": "beaglebone-ai64",
   "version": "1",
   "type": "hw.device-type",
-  "aliases": [""],
+  "aliases": ["beaglebone-ai-64"],
   "name": "BeagleBone AI64",
   "assets": {
     "logo": {
