@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.144
+## (2026-05-19)
+
+* hw.device-type/beaglebone-ai64: Add the beaglebone-ai-64 alias to align with its device repo definition [Thodoris Greasidis]
+
 # v2.0.143
 ## (2026-04-22)
 

@@ -1,4 +1,18 @@
 - commits:
+    - subject: "hw.device-type/beaglebone-ai64: Add the beaglebone-ai-64 alias to
+        align with its device repo definition"
+      hash: 72cf4a59d42908cee0350bb6aa5a96e3c96fcc4f
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        See: https://balena.fibery.io/Work/Project/2470
+        see: https://balena.fibery.io/Work/Project/2470
+      author: Thodoris Greasidis
+  version: 2.0.144
+  title: ""
+  date: 2026-05-19T06:48:40.188Z
+- commits:
     - subject: "hw.device-type: Add new device-type Compulab IOT-LINK Gateway"
       hash: 9f8168327bc4393d5fe00aca5cb263003d76de7b
       body: ""
