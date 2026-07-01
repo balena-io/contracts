@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.145
+## (2026-07-01)
+
+* hw/device-type: Add Jetson AGX Thor Devkit contract [Alexandru Costache]
+
 # v2.0.144
 ## (2026-05-19)
 

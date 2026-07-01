@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw/device-type: Add Jetson AGX Thor Devkit contract"
+      hash: b4177e428fcc74bf0cf18ff0189d7a4826f7da4d
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.145
+  title: ""
+  date: 2026-07-01T09:44:52.326Z
+- commits:
     - subject: "hw.device-type/beaglebone-ai64: Add the beaglebone-ai-64 alias to
         align with its device repo definition"
       hash: 72cf4a59d42908cee0350bb6aa5a96e3c96fcc4f
