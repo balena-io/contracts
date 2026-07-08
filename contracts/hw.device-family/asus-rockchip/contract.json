@@ -1,0 +1,10 @@
+{
+  "slug": "asus-rockchip",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "ASUS Tinkerboard Rockchip",
+  "data": {
+    "manufacturedBy": "asus"
+  }
+}
