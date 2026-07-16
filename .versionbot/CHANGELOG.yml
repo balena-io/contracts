@@ -1,4 +1,17 @@
 - commits:
+    - subject: Modify existing device family and manufacturer metadata
+      hash: cd120576e7c0f021b84c1e81096c188862a144df
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Pranas Ziaukas <pranas@balena.io>
+        signed-off-by: Pranas Ziaukas <pranas@balena.io>
+      author: Pranas Ziaukas
+  version: 2.0.146
+  title: ""
+  date: 2026-07-16T13:59:26.149Z
+- commits:
     - subject: "hw/device-type: Add Jetson AGX Thor Devkit contract"
       hash: b4177e428fcc74bf0cf18ff0189d7a4826f7da4d
       body: ""
