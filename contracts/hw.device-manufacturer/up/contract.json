@@ -1,8 +1,8 @@
 {
-  "slug": "aaeon",
+  "slug": "up",
   "version": "1.0.0",
   "type": "hw.device-manufacturer",
   "aliases": [],
-  "name": "AAEON",
+  "name": "Up Board",
   "data": {}
 }
