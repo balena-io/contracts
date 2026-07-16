@@ -21,9 +21,9 @@
     "storage": {
       "internal": true
     },
+    "flashProtocol": "jetsonFlashDirect",
     "media": {
-      "defaultBoot": "internal",
-      "altBoot": ["usb_mass_storage"]
+      "defaultBoot": "internal"
     },
     "is_private": false
   },

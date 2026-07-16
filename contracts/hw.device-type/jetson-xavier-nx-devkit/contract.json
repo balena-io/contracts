@@ -21,7 +21,7 @@
     "storage": {
       "internal": false
     },
-    "flashProtocol": "jetsonFlash",
+    "flashProtocol": "jetsonFlashDirect",
     "media": {
       "defaultBoot": "sdcard"
     },
