@@ -12,6 +12,7 @@
   },
   "data": {
     "arch": "aarch64",
+    "family": "radxa-rockchip",
     "hdmi": true,
     "led": false,
     "connectivity": {

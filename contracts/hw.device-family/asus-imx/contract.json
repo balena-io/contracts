@@ -1,0 +1,10 @@
+{
+  "slug": "asus-imx",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "ASUS Tinkerboard i.MX",
+  "data": {
+    "manufacturedBy": "asus"
+  }
+}

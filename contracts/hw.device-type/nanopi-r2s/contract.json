@@ -12,6 +12,7 @@
   },
   "data": {
     "arch": "aarch64",
+    "family": "friendlyelec-rockchip",
     "hdmi": false,
     "led": true,
     "connectivity": {

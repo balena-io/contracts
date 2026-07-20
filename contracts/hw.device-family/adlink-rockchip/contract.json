@@ -1,0 +1,10 @@
+{
+  "slug": "adlink-rockchip",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Adlink Rockchip",
+  "data": {
+    "manufacturedBy": "adlink"
+  }
+}

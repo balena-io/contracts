@@ -12,6 +12,7 @@
   },
   "data": {
     "arch": "i386",
+    "family": "qemu-x86",
     "hdmi": true,
     "led": false,
     "connectivity": {

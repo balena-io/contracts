@@ -1,0 +1,10 @@
+{
+  "slug": "firefly-rockchip",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Firefly Rockchip",
+  "data": {
+    "manufacturedBy": "firefly"
+  }
+}

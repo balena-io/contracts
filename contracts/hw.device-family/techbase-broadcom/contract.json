@@ -1,0 +1,10 @@
+{
+  "slug": "techbase-broadcom",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Techbase Broadcom",
+  "data": {
+    "manufacturedBy": "techbase"
+  }
+}

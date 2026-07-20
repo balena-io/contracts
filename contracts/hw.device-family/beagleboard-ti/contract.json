@@ -1,0 +1,10 @@
+{
+  "slug": "beagleboard-ti",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Beagle TI",
+  "data": {
+    "manufacturedBy": "beagleboard"
+  }
+}

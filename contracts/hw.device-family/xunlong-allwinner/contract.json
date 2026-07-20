@@ -1,0 +1,10 @@
+{
+  "slug": "xunlong-allwinner",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Xunlong Orange Allwinner",
+  "data": {
+    "manufacturedBy": "xunlong"
+  }
+}

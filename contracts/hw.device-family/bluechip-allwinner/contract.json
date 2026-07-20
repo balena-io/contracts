@@ -1,0 +1,10 @@
+{
+  "slug": "bluechip-allwinner",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Blue Chip Allwinner",
+  "data": {
+    "manufacturedBy": "bluechip"
+  }
+}

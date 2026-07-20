@@ -12,6 +12,7 @@
   },
   "data": {
     "arch": "armv7hf",
+    "family": "beagleboard-ti",
     "led": true,
     "hdmi": false,
     "connectivity": {

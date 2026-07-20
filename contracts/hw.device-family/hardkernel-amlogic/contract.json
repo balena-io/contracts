@@ -1,0 +1,10 @@
+{
+  "slug": "hardkernel-amlogic",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Hardkernel ODROID Amlogic",
+  "data": {
+    "manufacturedBy": "hardkernel"
+  }
+}

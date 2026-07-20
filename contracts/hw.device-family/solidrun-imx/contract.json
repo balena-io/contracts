@@ -1,0 +1,10 @@
+{
+  "slug": "solidrun-imx",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Solidrun Hummingboard i.MX",
+  "data": {
+    "manufacturedBy": "solidrun"
+  }
+}

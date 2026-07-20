@@ -1,0 +1,10 @@
+{
+  "slug": "siemens-edison",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Siemens Edison",
+  "data": {
+    "manufacturedBy": "siemens"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "rocktech-broadcom",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Rocktech Broadcom",
+  "data": {
+    "manufacturedBy": "rocktech"
+  }
+}

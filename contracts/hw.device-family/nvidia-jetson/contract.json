@@ -1,0 +1,10 @@
+{
+  "slug": "nvidia-jetson",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "NVIDIA Jetson",
+  "data": {
+    "manufacturedBy": "nvidia"
+  }
+}

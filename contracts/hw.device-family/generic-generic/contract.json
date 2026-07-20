@@ -1,0 +1,10 @@
+{
+  "slug": "generic-generic",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Generic Generic",
+  "data": {
+    "manufacturedBy": "generic"
+  }
+}

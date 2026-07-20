@@ -1,0 +1,10 @@
+{
+  "slug": "ti-ti",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Texas Instruments AM571x",
+  "data": {
+    "manufacturedBy": "ti"
+  }
+}

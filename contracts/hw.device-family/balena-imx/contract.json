@@ -1,0 +1,10 @@
+{
+  "slug": "balena-imx",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Balena i.MX",
+  "data": {
+    "manufacturedBy": "balena"
+  }
+}
