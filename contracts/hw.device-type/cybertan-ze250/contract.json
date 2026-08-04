@@ -12,6 +12,7 @@
   },
   "data": {
     "arch": "i386-nlp",
+    "family": "cybertan-unknown",
     "hdmi": true,
     "led": false,
     "connectivity": {

@@ -12,6 +12,7 @@
   },
   "data": {
     "arch": "armv7hf",
+    "family": "beagleboard-sitara",
     "led": true,
     "hdmi": false,
     "connectivity": {

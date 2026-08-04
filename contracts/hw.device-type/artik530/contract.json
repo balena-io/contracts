@@ -12,6 +12,7 @@
   },
   "data": {
     "arch": "armv7hf",
+    "family": "samsung-exynos",
     "hdmi": true,
     "led": false,
     "connectivity": {

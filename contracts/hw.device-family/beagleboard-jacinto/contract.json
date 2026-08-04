@@ -1,0 +1,10 @@
+{
+  "slug": "beagleboard-jacinto",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Beagle Jacinto",
+  "data": {
+    "manufacturedBy": "beagleboard"
+  }
+}

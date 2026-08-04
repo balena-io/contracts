@@ -1,0 +1,10 @@
+{
+  "slug": "generic-armv7ahf",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Generic ARMV7AHF",
+  "data": {
+    "manufacturedBy": "generic"
+  }
+}

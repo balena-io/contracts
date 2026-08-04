@@ -1,0 +1,10 @@
+{
+  "slug": "kunbus-broadcom",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Kunbus Pi",
+  "data": {
+    "manufacturedBy": "kunbus"
+  }
+}

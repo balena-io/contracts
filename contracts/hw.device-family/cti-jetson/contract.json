@@ -1,0 +1,10 @@
+{
+  "slug": "cti-jetson",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Connect Tech (CTI) Jetson",
+  "data": {
+    "manufacturedBy": "cti"
+  }
+}

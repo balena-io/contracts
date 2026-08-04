@@ -12,6 +12,7 @@
     },
     "data": {
         "arch": "aarch64",
+        "family": "robustel-imx",
         "hdmi": false,
         "led": false,
         "connectivity": {

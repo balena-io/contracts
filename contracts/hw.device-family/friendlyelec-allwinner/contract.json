@@ -1,0 +1,10 @@
+{
+  "slug": "friendlyelec-allwinner",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "FriendlyElec Allwinner",
+  "data": {
+    "manufacturedBy": "friendlyelec"
+  }
+}

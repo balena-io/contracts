@@ -1,0 +1,10 @@
+{
+  "slug": "phytec-sitara",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "PHYTEC Sitara",
+  "data": {
+    "manufacturedBy": "phytec"
+  }
+}

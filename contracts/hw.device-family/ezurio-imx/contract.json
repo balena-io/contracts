@@ -1,0 +1,10 @@
+{
+  "slug": "ezurio-imx",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Ezurio i.MX",
+  "data": {
+    "manufacturedBy": "ezurio"
+  }
+}

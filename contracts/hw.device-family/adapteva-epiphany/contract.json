@@ -1,0 +1,10 @@
+{
+  "slug": "adapteva-epiphany",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Adapteva Epiphany",
+  "data": {
+    "manufacturedBy": "adapteva"
+  }
+}

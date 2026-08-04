@@ -1,0 +1,10 @@
+{
+  "slug": "robustel-imx",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Robustel i.MX",
+  "data": {
+    "manufacturedBy": "robustel"
+  }
+}

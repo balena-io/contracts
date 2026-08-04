@@ -12,6 +12,7 @@
   },
   "data": {
     "arch": "aarch64",
+    "family": "nxp-imx",
     "hdmi": true,
     "led": true,
     "connectivity": {

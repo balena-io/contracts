@@ -1,0 +1,10 @@
+{
+  "slug": "raspberrypi-broadcom",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Raspberry Pi",
+  "data": {
+    "manufacturedBy": "raspberrypi"
+  }
+}

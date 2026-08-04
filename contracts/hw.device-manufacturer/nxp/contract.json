@@ -1,0 +1,8 @@
+{
+  "slug": "nxp",
+  "version": "1.0.0",
+  "type": "hw.device-manufacturer",
+  "aliases": [],
+  "name": "NXP",
+  "data": {}
+}

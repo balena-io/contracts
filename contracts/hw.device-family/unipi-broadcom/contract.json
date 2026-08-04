@@ -1,0 +1,10 @@
+{
+  "slug": "unipi-broadcom",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "UniPi Broadcom",
+  "data": {
+    "manufacturedBy": "unipi"
+  }
+}

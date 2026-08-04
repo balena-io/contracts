@@ -1,0 +1,10 @@
+{
+  "slug": "radxa-rockchip",
+  "version": "1.0.0",
+  "type": "hw.device-family",
+  "aliases": [],
+  "name": "Radxa Rockchip",
+  "data": {
+    "manufacturedBy": "radxa"
+  }
+}
