@@ -30,13 +30,13 @@
   },
   "partials": {
     "instructions": [
-        "For balenaOS versions v6.1.16 and newer, please ensure your device is running UEFI firmware version 36.3. Check and update the [firmware version](https://docs.balena.io/learn/develop/hardware/jetson-orin#provisioning-jetson-orin) before proceeding.",
-        "For balenaOS versions older than v6.1.16, please refer to the [{{name}} legacy flashing](https://github.com/balena-os/jetson-flash?tab=readme-ov-file) guide."
+        "For balenaOS versions v8.0.0 and newer, please ensure your device is running UEFI firmware version 39.2.0. Check and update the [firmware version](https://docs.balena.io/learn/develop/hardware/jetson-orin#provisioning-jetson-orin) before proceeding.",
+        "For balenaOS versions lower than v8.0.0, please refer to the [{{name}} legacy flashing](https://github.com/balena-os/jetson-flash?tab=readme-ov-file) guide."
     ],
     "bootDeviceExternal": [
-        "Insert a NVME drive in the board and power up the {{name}}."
+        "Insert a NVME drive in the carrier board and power up the {{name}}."
     ],
     "flashIndicator": ["power LED is off"],
-    "bootDevice": ["Power up the {{name}}. If you have a display or a debug UART cable connected to the device, a progress bar will show up while the UEFI firmware is updated. Please do not interrupt this process by turning off power or rebooting the device. Once the firmware update completes, the {{name}} will reset automatically and no other steps are necessary "]
+    "bootDevice": ["Connect a display or debug UART cable and power up the {{name}}. A progress bar should be displayed while the UEFI firmware is updated. IMPORTANT: Please do not interrupt this process by turning off power or rebooting the device. Do not ship any devices without ensuring the UEFI firmware has been updated during balenaOS provisioning. Once the firmware update completes, the {{name}} will reset automatically and no other steps are necessary "]
   }
 }

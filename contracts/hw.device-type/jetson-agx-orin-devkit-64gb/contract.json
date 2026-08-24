@@ -30,14 +30,14 @@
   },
   "partials": {
     "instructions": [
-        "For balenaOS versions v6.1.16 and newer, please ensure your device is running UEFI firmware version 36.3.0. Check and update the [firmware version](https://docs.balena.io/learn/develop/hardware/jetson-orin/jetson-agx-orin-devkit-64gb/#checking-your-jetson-orins-uefi-firmware-version) before proceeding.",
-        "For balenaOS versions older than v6.1.16, please refer to the [{{name}} legacy flashing](https://github.com/balena-os/jetson-flash?tab=readme-ov-file) guide."
+        "For balenaOS versions v8.0.0 and newer, please ensure your device is running UEFI firmware version 39.2.0. Check and update the [firmware version](https://docs.balena.io/learn/develop/hardware/jetson-orin/jetson-agx-orin-devkit-64gb/#checking-your-jetson-orins-uefi-firmware-version) before proceeding.",
+        "For balenaOS versions lower than v8.0.0, please refer to the [{{name}} legacy flashing](https://github.com/balena-os/jetson-flash?tab=readme-ov-file) guide."
     ],
     "bootDeviceExternal": [
         "Power on the {{name}}.",
-        "NOTE: Only If your device is already flashed with a balenaOS version older than v6.1.16, power it on and interrupt booting by pressing the 'Esc' key when prompted by the UEFI firmware. Enter the Boot Manager Menu of the UEFI firmware and select the attached USB key as boot media, to trigger the provisioning process."
+        "NOTE: Only if your device is already flashed with a balenaOS version lower than v8.0.0, it may be necessary to power it on and interrupt booting by pressing the 'Esc' key when prompted by the UEFI firmware. Then enter the Boot Manager Menu of the UEFI firmware and select the attached USB key as boot media, to trigger the provisioning process."
     ],
     "flashIndicator": ["power LED is off"],
-    "bootDevice": ["Power up the {{name}}. A progress bar will show up on the display while the UEFI firmware is updated. Please do not interrupt this process by turning off power or rebooting the device. Once the firmware update completes, the {{name}} will reset automatically and no other steps are necessary "]
+    "bootDevice": ["Connect a display or debug UART cable and power up the {{name}}. A progress bar should be displayed while the UEFI firmware is updated. IMPORTANT: Please do not interrupt this process by turning off power or rebooting the device. Do not ship any devices without ensuring the UEFI firmware has been updated during balenaOS provisioning. Once the firmware update completes, the {{name}} will reset automatically and no other steps are necessary. "]
   }
 }
