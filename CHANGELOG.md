@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v2.0.148
+## (2026-08-24)
+
+* hw.device-type: Update Orin boards L4T version to 39.2.0 [Alexandru Costache]
+
 # v2.0.147
 ## (2026-08-04)
 

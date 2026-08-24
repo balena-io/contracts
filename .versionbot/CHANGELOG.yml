@@ -1,4 +1,17 @@
 - commits:
+    - subject: "hw.device-type: Update Orin boards L4T version to 39.2.0"
+      hash: ebae4da834d1e4efe16b41718189ae26005af527
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.148
+  title: ""
+  date: 2026-08-24T18:52:54.835Z
+- commits:
     - subject: Add device family and manufacturer metadata
       hash: a74ddb06557df9e0c19f8201d095be10828ef47a
       body: ""
