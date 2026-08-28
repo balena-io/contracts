@@ -1,4 +1,20 @@
 - commits:
+    - subject: "revpi-connect-4: remove led"
+      hash: a6cc5e7131ccc62e886d95f16001d98a59ad3303
+      body: |
+        This device type has no LED.
+      footer:
+        Relates-to: https://balena.zulipchat.com/#narrow/channel/345889-balena-io.2Fos/topic/raspberrypi.20pipeline/near/619759972
+        relates-to: https://balena.zulipchat.com/#narrow/channel/345889-balena-io.2Fos/topic/raspberrypi.20pipeline/near/619759972
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+  version: 2.0.149
+  title: ""
+  date: 2026-08-28T11:23:48.697Z
+- commits:
     - subject: "hw.device-type: Update Orin boards L4T version to 39.2.0"
       hash: ebae4da834d1e4efe16b41718189ae26005af527
       body: ""
