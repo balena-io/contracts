@@ -14,7 +14,7 @@
     "arch": "aarch64",
     "family": "kunbus-broadcom",
     "hdmi": true,
-    "led": true,
+    "led": false,
     "connectivity": {
       "bluetooth": true,
       "wifi": true
