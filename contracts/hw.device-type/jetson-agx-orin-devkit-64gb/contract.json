@@ -22,9 +22,9 @@
     "storage": {
       "internal": true
     },
+    "flashProtocol": "jetsonFlashDirect",
     "media": {
-      "defaultBoot": "internal",
-      "altBoot": ["usb_mass_storage"]
+      "defaultBoot": "internal"
     },
     "is_private": false
   },
@@ -40,4 +40,5 @@
     "flashIndicator": ["power LED is off"],
     "bootDevice": ["Connect a display or debug UART cable and power up the {{name}}. A progress bar should be displayed while the UEFI firmware is updated. IMPORTANT: Please do not interrupt this process by turning off power or rebooting the device. Do not ship any devices without ensuring the UEFI firmware has been updated during balenaOS provisioning. Once the firmware update completes, the {{name}} will reset automatically and no other steps are necessary. "]
   }
+
 }
