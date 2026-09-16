@@ -1,4 +1,27 @@
 - commits:
+    - subject: "edgeai-orn-nx: Add contract for new public device-type"
+      hash: 2893c63d4cdee4ddadcc286baa67c6a33aa79d82
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+    - subject: "hw.device-type: Re-word provisioning instructions for Orin and Thor
+        boards"
+      hash: f6dae1c2e78acb448749e187c7b8f697847c0e4e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.150
+  title: ""
+  date: 2026-09-16T08:08:52.752Z
+- commits:
     - subject: "revpi-connect-4: remove led"
       hash: a6cc5e7131ccc62e886d95f16001d98a59ad3303
       body: |
