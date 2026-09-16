@@ -1,0 +1,41 @@
+{
+  "slug": "edgeai-orn-nx",
+  "version": "1",
+  "type": "hw.device-type",
+  "aliases": [],
+  "name": "CompuLab EdgeAI-ORN NX 16GB",
+  "assets": {
+    "logo": {
+      "url": "./edgeai-orn-nx.svg",
+      "name": "logo"
+    }
+  },
+  "data": {
+    "arch": "aarch64",
+    "family": "nvidia-jetson",
+    "hdmi": true,
+    "led": false,
+    "connectivity": {
+      "bluetooth": false,
+      "wifi": false
+    },
+    "storage": {
+      "internal": true
+    },
+    "media": {
+      "defaultBoot": "internal",
+      "altBoot": ["usb_mass_storage"]
+    },
+    "is_private": false
+  },
+  "partials": {
+    "instructions": [
+        "Please ensure your device is running UEFI firmware version 39.2.0. Check and update the [firmware version](https://docs.balena.io/learn/develop/hardware/jetson-orin/jetson-orin-nx-xavier-nx-devkit) before proceeding."
+    ],
+    "bootDeviceExternal": [
+        "Ensure a NVME drive is inserted in the device and power up the {{name}}."
+    ],
+    "flashIndicator": ["power LED is off"],
+    "bootDevice": ["Connect a display or debug UART cable and power up the {{name}}. A progress bar should be displayed while the UEFI firmware is updated. IMPORTANT: Please do not interrupt this process by turning off power or rebooting the device. Do not ship any devices without ensuring the UEFI firmware has been updated during balenaOS provisioning. Once the firmware update completes, the {{name}} will reset automatically and no other steps are necessary "]
+  }
+}
