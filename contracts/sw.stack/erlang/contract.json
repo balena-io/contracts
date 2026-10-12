@@ -1,0 +1,502 @@
+{
+  "slug": "erlang",
+  "type": "sw.stack",
+  "name": "Erlang/OTP $ERLANG_VERSION",
+  "version": "1",
+  "data": {
+    "latest": "22.0.7",
+    "versionList": "`22.0.7 (latest)`, `21.3.8.6`, `20.3.8.22`",
+    "introduction": "Erlang is a programming language used to build massively scalable soft real-time systems with requirements on high availability. Some of its uses are in telecoms, banking, e-commerce, computer telephony and instant messaging. Erlang's runtime system has built-in support for concurrency, distribution and fault tolerance.",
+    "logo": "https://raw.githubusercontent.com/docker-library/docs/4144083772e02655d41aa10d6467aaf1e99fa77b/erlang/logo.png"
+
+  },
+  "assets": {
+    "rebar3": {
+      "version": "3.12.0"
+    }
+  },
+  "requires": [
+    {
+      "or": [
+        { "type": "sw.stack-variant", "slug": "build" },
+        { "type": "sw.stack-variant", "slug": "run" }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "version": "22.0.7",
+      "variants": [
+        {
+          "data": { "libc": "musl-libc" },
+          "requires": [
+            { "type": "sw.os", "slug": "alpine" }
+          ],
+          "variants": [
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "2fa612424e6abeb21a9e042b35f3fd1910a046029dc35b853ff466de7ac5de38",
+                  "name": "erlang$ERLANG_VERSION.linux-alpine-armv6hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                  
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "rpi" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "b19c342bdd24dec2196253dd34f9b485db01b68967619b901263c3d37554736b",
+                  "name": "erlang$ERLANG_VERSION.linux-alpine-amd64.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "amd64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "044ba2857a6f984374520e47f76dfb489935fc19b524b403a981d85088350f17",
+                  "name": "erlang$ERLANG_VERSION.linux-alpine-i386.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "i386" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "3b91f7d284c16bac77b7558715c4b9b134e2bf9721a1a7d338303ad98937d866",
+                  "name": "erlang$ERLANG_VERSION.linux-alpine-aarch64.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "aarch64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "a7c9a26f7b7ef181afe8a295f49498d0d547fda236f516948b41f7ba0b902926",
+                  "name": "erlang$ERLANG_VERSION.linux-alpine-armv7hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "armv7hf" }
+              ]
+            }
+          ]
+        },
+        {
+          "data": { "libc": "glibc" },
+          "requires": [
+            {
+              "or": [
+                { "type": "sw.os", "slug": "debian" }
+              ]
+            }
+          ],
+          "variants": [
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "fcef4b0c74d8b466e03be8f5f92d55142b4718b8acc51fed77a4c011d2a4e2df",
+                  "name": "erlang$ERLANG_VERSION.linux-armv6hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "rpi" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "5451003d6926d04d0ebe16c1463546057d730214138cd60283881faae2498362",
+                  "name": "erlang$ERLANG_VERSION.linux-armv7hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "armv7hf" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "c9ade73d57b5f2df25bc733e1075ea05ef46a57495a549bb62d4f60552414854",
+                  "name": "erlang$ERLANG_VERSION.linux-amd64.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "amd64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "7f7d4d5f24ab4b0f2d0df8e58806c33be4d57e782191b850cea878bdce83418b",
+                  "name": "erlang$ERLANG_VERSION.linux-aarch64.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "aarch64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "56a45725b0da3b343f93ce9b0d39e1cdf9bdbe1c01a5dd54fa746399ee08fc5f",
+                  "name": "erlang$ERLANG_VERSION.linux-i386.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "i386" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "ec67e80c259316d1070d03c152319fdfa0112cbc69a0dca3f03b51f411807bd8",
+                  "name": "erlang$ERLANG_VERSION.linux-i386-nlp.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "i386-nlp" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "21.3.8.6",
+      "variants": [
+        {
+          "data": { "libc": "musl-libc" },
+          "requires": [
+            { "type": "sw.os", "slug": "alpine" }
+          ],
+          "variants": [
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "05a8d7f819d4110531c88d21e0cdc1fd630d780ddc072514ff830a2a3236b573",
+                  "name": "erlang$ERLANG_VERSION.linux-alpine-armv6hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                  
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "rpi" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "53fea72ed6ea7da9067ddd613dc2462a13efa4971974be6fae47b1cbea2cb133",
+                  "name": "erlang$ERLANG_VERSION.linux-alpine-amd64.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "amd64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "db8ad186fb7e717775000f42585ac79984ccfecfaf1c916a3583727a9121190f",
+                  "name": "erlang$ERLANG_VERSION.linux-alpine-i386.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "i386" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "096f26a21e6f3bf8d0bf742244688ddb7854aafd62ab86afa0586d07ca72c03b",
+                  "name": "erlang$ERLANG_VERSION.linux-alpine-aarch64.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "aarch64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "bf97da59f213b2fc24eeca318015bf67a5995bf1aff27a51ddcf8bac2ba1ff34",
+                  "name": "erlang$ERLANG_VERSION.linux-alpine-armv7hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "armv7hf" }
+              ]
+            }
+          ]
+        },
+        {
+          "data": { "libc": "glibc" },
+          "requires": [
+            {
+              "or": [
+                { "type": "sw.os", "slug": "debian" }
+              ]
+            }
+          ],
+          "variants": [
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "1b89ef347a6d8ee4d6340a9b4fb41e61fc85eb65262ddf49069c8fd19ae28826",
+                  "name": "erlang$ERLANG_VERSION.linux-armv6hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "rpi" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "54239ed67494db4270ad3034e71c5c3189a9b94118c3a0497dd4426fb7f76d7c",
+                  "name": "erlang$ERLANG_VERSION.linux-armv7hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "armv7hf" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "75d920ac53b3347c04d8de72e9546ac097e6d7a6e331cea60c441a884d928055",
+                  "name": "erlang$ERLANG_VERSION.linux-amd64.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "amd64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "a20fe7d87dabf4de9cb35fbefec512fd68e2c7cdb8bc19f09ba6112c3029fdec",
+                  "name": "erlang$ERLANG_VERSION.linux-aarch64.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "aarch64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "00cd3748060f1ddc3ea4c3f183787e5b953d57c99bace5e52cb6b41d1a711e48",
+                  "name": "erlang$ERLANG_VERSION.linux-i386.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "i386" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "97c61ec850a1f7c2ed42c3612abe9222c08d753519b4adf2df3aa9667ce65738",
+                  "name": "erlang$ERLANG_VERSION.linux-i386-nlp.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "i386-nlp" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "20.3.8.22",
+      "variants": [
+        {
+          "data": { "libc": "musl-libc" },
+          "requires": [
+            { "type": "sw.os", "slug": "alpine" }
+          ],
+          "variants": [
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "ed0018e754d71b95410b4c39b7fd0b501f0f1f1715c7b1d7a8f6af26bf5e5b2c",
+                  "name": "erlang$ERLANG_VERSION.linux-alpine-armv6hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                  
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "rpi" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "c4858a04285cb5173eb7acd4809e078503d5fbbcc9bcbfe846dbd554650d7240",
+                  "name": "erlang$ERLANG_VERSION.linux-alpine-amd64.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "amd64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "15496597ff4448861e257a95d2c2b6ffa1c9b4e7aca95cf41fa46ca31d141653",
+                  "name": "erlang$ERLANG_VERSION.linux-alpine-i386.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "i386" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "1f62f2bfa281af8ecc640bad96ed3eb06b7255fc8efe43ed53db9f87e1d56c3f",
+                  "name": "erlang$ERLANG_VERSION.linux-alpine-aarch64.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "aarch64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "c26b267199eeb5a2bd61efc122b93c5e858741354c21e8d55f364e24de5ed954",
+                  "name": "erlang$ERLANG_VERSION.linux-alpine-armv7hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "armv7hf" }
+              ]
+            }
+          ]
+        },
+        {
+          "data": { "libc": "glibc" },
+          "requires": [
+            {
+              "or": [
+                { "type": "sw.os", "slug": "debian" }
+              ]
+            }
+          ],
+          "variants": [
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "7e13d7ee173efbc7a6a410999e62a0d6cfd9667de8d8b23a3d853a0f9502a30b",
+                  "name": "erlang$ERLANG_VERSION.linux-armv6hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "rpi" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "bda01df4abad9eccdae4304248efa4763b10d15fb27c2ef9328de408d3bb426c",
+                  "name": "erlang$ERLANG_VERSION.linux-armv7hf.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "armv7hf" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "337d8d52d6f4e85684c5e645687b90eb243c11d425106b7714e7673c3976ba10",
+                  "name": "erlang$ERLANG_VERSION.linux-amd64.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "amd64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "c63136c42c098e5b712a2b022251aa77d61788294f96cd4cfbd156693caf2fd8",
+                  "name": "erlang$ERLANG_VERSION.linux-aarch64.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "aarch64" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "c052008527c6a92777985cd7864af939e7c4f6442fa3581f8e97224f8ed670ca",
+                  "name": "erlang$ERLANG_VERSION.linux-i386.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "i386" }
+              ]
+            },
+            {
+              "assets": {
+                "bin": {
+                  "checksum": "c290f6a393326e4656975b19fb447b39f40f5e54df1760ccf7d4baa2aa8b1565",
+                  "name": "erlang$ERLANG_VERSION.linux-i386-nlp.tar.gz",
+                  "url": "http://resin-packages.s3.amazonaws.com/erlang/{{this.assets.bin.name}}"
+                }
+              },
+              "requires": [
+                { "type": "arch.sw", "slug": "i386-nlp" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
