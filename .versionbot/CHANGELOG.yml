@@ -1,4 +1,18 @@
 - commits:
+    - subject: "hw.device-type: Add new device-type - Compulab IOT-GATE-RPI5"
+      hash: 654d03f81ec00d71588a2a023ba0d8b454d8e40e
+      body: |
+        ... and improve instructions in RaspberryPi4 CM4 IOBoard contract.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.0.151
+  title: ""
+  date: 2026-11-03T07:53:38.332Z
+- commits:
     - subject: "edgeai-orn-nx: Add contract for new public device-type"
       hash: 2893c63d4cdee4ddadcc286baa67c6a33aa79d82
       body: ""
