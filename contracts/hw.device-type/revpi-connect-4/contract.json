@@ -3,7 +3,7 @@
   "version": "1",
   "type": "hw.device-type",
   "aliases": [],
-  "name": "Revolution Pi Connect 4",
+  "name": "RevPi Connect 4 (legacy)",
   "assets": {
     "logo": {
       "url": "./revpi-connect-4.svg",
