@@ -1,4 +1,20 @@
 - commits:
+    - subject: Mark revpi-connect-4 and revpi-connect-s as legacy
+      hash: f88d15f5128228e7247c48d6bfcbf5ebbbb9c4b9
+      body: |
+        New RevPi devices will be supported by a single device type based on
+        meta-revolutionpi. Signal that these are not meant for new deployments.
+        The Connect S device type covers the Connect SE as well.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Nicolai Buchwitz <n.buchwitz@kunbus.com>
+        signed-off-by: Nicolai Buchwitz <n.buchwitz@kunbus.com>
+      author: Nicolai Buchwitz
+  version: 2.0.152
+  title: ""
+  date: 2026-11-17T09:08:39.748Z
+- commits:
     - subject: "hw.device-type: Add new device-type - Compulab IOT-GATE-RPI5"
       hash: 654d03f81ec00d71588a2a023ba0d8b454d8e40e
       body: |
