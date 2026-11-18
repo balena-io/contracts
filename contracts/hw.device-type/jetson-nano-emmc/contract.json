@@ -22,7 +22,7 @@
     "storage": {
       "internal": true
     },
-    "flashProtocol": "jetsonFlash",
+    "flashProtocol": "jetsonFlashDirect",
     "media": {
       "defaultBoot": "internal"
     },
